@@ -13,22 +13,22 @@ Carrying just one camera can evoke a sense of duality, presenting both limitatio
 
 This streamlined approach can also liberate the creative process. When I walk around without the distraction of interchangeable gear, I am able to immerse myself fully in the moment, directing my focus (nice pun) towards composition and storytelling. The simplicity of carrying one camera encourages me to be more spontaneous. For the egret (or is it a heron?) photo above, I would have loved a big telephoto to zoom in… but I survived, and the resultant photo is thus composed with overall framing in mind when pressing the shutter, rather than looking at the bird directly.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+![photo](/assets/images/DSC7473-2_DSC-RX1_Japan_Summer.png)
 
-![photo](/assets/images/DSC7470-2_DSC-RX1_Japan_Summer.png)
+It’s challenging to convey the intensity of the heat in these photos, but the foliage provided much relief.
 
-Jekyll also offers powerful support for code snippets:
+![photo](/assets/images/DSC7475-2_DSC-RX1_Japan_Summer.png)
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+The out-of-focus (OOF) building in the centre of the image above is the NTT DoCoMo Yoyogi Building, which is in Shibuya and is visible throughout west Tokyo.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+The NTT Docomo Yoyogi Building (NTTドコモ代々木ビル, Enu Tī Tī Dokomo Yoyogi Biru) is a skyscraper located in the Sendagaya district of Shibuya, Tokyo, Japan. At 240 meters (790 ft) tall, it is the fifth tallest building in Tokyo.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+The NTT Docomo Yoyogi Building is owned by the NTT Docomo group. Despite the building's name, it is not the head office for the company, whose headquarters are located in the top floors of the Sannō Park Tower. The building houses some offices, but is mainly used to house technical equipment (switching equipment, etc.) for the company's cellular telephone service.
+
+Solar energy is partially used to power the building. A garbage separation system employed within the tower helps to reduce waste and increase the recycling rate. The waste water is recycled for reuse, and rainwater is reused for the building's toilets.
+
+![photo](/assets/images/DSC7482-2_DSC-RX1_Japan_Summer.png)
+
+I'll continue this thought another time—because I am a big-time prime shooter and not a stereotypical fan of zoom lenses, but my latest acquisition is the Sony 20-70 f/4 lens. The ideal walk-around lens? I would have liked it for the bird photo, but for the remaining photos... I dont think a zoom would have helped me here and in fact may have been a hinderance. For the final photo (above), would I have had this exact framing? It's impossible to know, truly.
+
+What I do know, is that shooting with primes is certainly my favourite way to take pictures. The next trip to Japan is for pure vacation, though. I expect to carry with me a few primes and my new zoom. Let's see. Stay tuned, and thanks as always, dear reader.

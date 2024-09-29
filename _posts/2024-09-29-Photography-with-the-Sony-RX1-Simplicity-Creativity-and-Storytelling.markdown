@@ -5,7 +5,7 @@ cover: /assets/images/DSC7470-2_DSC-RX1_Japan_Summer.png
 date:   2024-09-29 14:34:07 +0000
 categories: blog
 ---
-![photo](assets/images/DSC7470-2_DSC-RX1_Japan_Summer.png)
+![photo](/assets/images/DSC7470-2_DSC-RX1_Japan_Summer.png)
 
 I have had this camera 10 years now. There are better cameras on the market (and I want to buy one), but I brought with me the Sony RX1 for its simplicity and size.
 

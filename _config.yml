@@ -16,9 +16,11 @@
 title: MARTIN IRWIN PHOTOGRAPHY
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to my little corner of the internet. 
+  I've been taking photographs and writing things for more or less 15 years now. 
+  Sometimes there are more photos than words, sometimes it's words only. 
+
+  if you enjoy the blog, I would love to hear from you.
 baseurl: /github-pages-with-docker # the subpath of your site, e.g. /blog
 url: "https://segacollection.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: segacollection

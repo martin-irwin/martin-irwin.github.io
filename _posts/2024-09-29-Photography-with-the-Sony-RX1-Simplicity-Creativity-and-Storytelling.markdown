@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Photography with the Sony RX1: Simplicity, Creativity, and Storytelling"
-cover: /assets/images/DSC7470-2_DSC-RX1_Japan_Summer.png
+#cover: /assets/images/DSC7470-2_DSC-RX1_Japan_Summer.png
 date:   2024-09-29 14:34:07 +0000
 categories: blog
 ---
@@ -14,6 +14,8 @@ Carrying just one camera can evoke a sense of duality, presenting both limitatio
 This streamlined approach can also liberate the creative process. When I walk around without the distraction of interchangeable gear, I am able to immerse myself fully in the moment, directing my focus (nice pun) towards composition and storytelling. The simplicity of carrying one camera encourages me to be more spontaneous. For the egret (or is it a heron?) photo above, I would have loved a big telephoto to zoom in… but I survived, and the resultant photo is thus composed with overall framing in mind when pressing the shutter, rather than looking at the bird directly.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+![photo](/assets/images/DSC7470-2_DSC-RX1_Japan_Summer.png)
 
 Jekyll also offers powerful support for code snippets:
 

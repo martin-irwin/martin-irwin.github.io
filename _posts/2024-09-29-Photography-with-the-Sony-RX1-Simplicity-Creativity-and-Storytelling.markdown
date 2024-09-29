@@ -20,7 +20,7 @@ It’s challenging to convey the intensity of the heat in these photos, but the 
 
 The out-of-focus (OOF) building in the centre of the image above is the NTT DoCoMo Yoyogi Building, which is in Shibuya and is visible throughout west Tokyo.
 
-**from Wikipedia**
+_**from Wikipedia**_
 >The NTT Docomo Yoyogi Building (NTTドコモ代々木ビル, Enu Tī Tī Dokomo Yoyogi Biru) is a skyscraper located in the Sendagaya district of Shibuya, Tokyo, Japan. At 240 meters (790 ft) tall, it is the fifth tallest building in Tokyo.
 >
 >The NTT Docomo Yoyogi Building is owned by the NTT Docomo group. Despite the building's name, it is not the head office for the company, whose headquarters are located in the top floors of the Sannō Park Tower. The building houses some offices, but is mainly used to house technical equipment (switching equipment, etc.) for the company's cellular telephone service.

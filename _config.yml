@@ -23,6 +23,7 @@ baseurl: /github-pages-with-docker # the subpath of your site, e.g. /blog
 url: "https://segacollection.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: segacollection
 github_username: segacollection
+image-path: /assets/images
 
 # Build settings
 markdown: kramdown

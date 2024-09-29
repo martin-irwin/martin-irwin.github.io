@@ -3,13 +3,11 @@ layout: post
 title:  "Photography with the Sony RX1: Simplicity, Creativity, and Storytelling"
 cover: /assets/images/DSC7470-2_DSC-RX1_Japan_Summer.png
 date:   2024-09-29 14:34:07 +0000
-categories: images
+categories: blog
 ---
 ![photo](/assets/images/DSC7470-2_DSC-RX1_Japan_Summer.png)
 
-<img src="/assets/images/DSC7470-2_DSC-RX1_Japan_Summer.png" alt="chicken">
-
-I have had this camera 10 years now. There are better cameras on the market (and I want to buy one), but I brought with me the Sony RX1 for its simplicity and size. 
+I have had this camera 10 years now. There are better cameras on the market (and I want to buy one), but I brought with me the Sony RX1 for its simplicity and size.
 
 Carrying just one camera can evoke a sense of duality, presenting both limitations and freedoms for a photographer. On one hand, the restriction of using a single camera forces the individual to concentrate on mastering the equipment. This limitation cultivates a deeper understanding of its capabilities and nuances, ultimately enhancing the photographer’s skill set. The photographer learns to be resourceful and innovative, adapting to varying conditions with a singular tool. 
 

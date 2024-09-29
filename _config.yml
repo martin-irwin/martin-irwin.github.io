@@ -19,8 +19,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my little corner of the internet. 
   I've been taking photographs and writing things for more or less 15 years now.  
   Sometimes there are more photos than words, sometimes it's words only.  
+
   if you enjoy the blog, I would love to hear from you.
-site.baseurl: /github-pages-with-docker # the subpath of your site, e.g. /blog
+baseurl: /myblog # the subpath of your site, e.g. /blog
 url: "https://segacollection.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: segacollection
 github_username: segacollection

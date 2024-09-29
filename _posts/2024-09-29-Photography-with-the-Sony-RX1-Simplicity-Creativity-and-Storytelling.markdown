@@ -3,7 +3,7 @@ layout: post
 title:  "Photography with the Sony RX1: Simplicity, Creativity, and Storytelling"
 cover: /assets/images/DSC7470-2_DSC-RX1_Japan_Summer.png
 date:   2024-09-29 14:34:07 +0000
-categories: etst
+categories: images
 ---
 ![photo](/assets/images/DSC7470-2_DSC-RX1_Japan_Summer.png)
 

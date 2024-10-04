@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: MARTIN IRWIN PHOTOGRAPHY
-email: your-email@example.com
+email: martin@martinirwinphotography.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my little corner of the internet. 
   I've been taking photographs and writing things for more or less 15 years now.  
@@ -22,9 +22,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 
   if you enjoy the blog, I would love to hear from you.
 baseurl: /myblog # the subpath of your site, e.g. /blog
-url: "https://segacollection.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: segacollection
-github_username: segacollection
+url: "https://martin-irwin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: twitter
+github_username: martin-irwin
 #image-path: assets/images
 
 assets:

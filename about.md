@@ -9,14 +9,21 @@ Welcome to my little corner of the internet. I've been taking photographs and wr
 
 if you enjoy the blog, I would love to hear from you.
 
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+---
 
 
-[jekyll-organization]: https://github.com/jekyll
+小さなインターネットの片隅へようこそ。私は約１５年間、写真を撮ったり文章を書いたりしています。時には写真が言葉よりも多く、時には言葉だけのこともあります。
+
+ブログを楽しんでいただけたら、ぜひお知らせください。
+
+---
+
+Willkommen in meiner kleinen Ecke des Internets. Ich mache seit ungefähr 15 Jahren Fotos und schreibe Texte. Manchmal gibt es mehr Fotos als Worte, manchmal nur Worte.
+
+Wenn dir der Blog gefällt, würde ich mich freuen, von dir zu hören.
+
+<!--<h1>My CV</h1>
+
+<iframe src="{{ '/assets/pdfs/cv.pdf' | relative_url }}" width="100%" height="600px">
+</iframe-->
+

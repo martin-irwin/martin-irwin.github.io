@@ -2,16 +2,29 @@
 layout: default
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+<!-- Photo of the day banner image -->
+<div class="banner" style="text-align: center;">
+  <figure>
+      <img src="{{ '/assets/images/banner.jpg' | relative_url }}" alt="Banner Image" style="width: 100%; height: auto; border-radius: 8px;"> <!-- Added border-radius -->
+      <figcaption style="font-size: 0.8em; color: #666; margin-top: 5px;">
+       Photo of the day — view from <a href="https://alpen-paesse.ch/de/alpenpaesse/klausenpass/" target="_blank" style="color: #666; text-decoration: underline;">Klausenpass</a>
+      </figcaption>
+    </figure>
+</div>
 
+<div class="home" style="text-align: center;"> <!-- Centered everything inside home -->
+  
+  <!-- The below will call the page heading
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}-->
+  
+<h1  >Recent Posts</h1>
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
-    <ul class="post-list">
+    <ul class="post-list" style="list-style-type: none; padding: 0;"> <!-- Remove list bullets -->
       {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -19,9 +32,7 @@ layout: default
 
           {% assign words = post.content | number_of_words %}
           {% assign readtime = words | divided_by: 180 %}
-          <span class="reading-time"> / {{ readtime | ceil }} minute read</span>
-          
-
+          <span class="reading-time"> ~{{ readtime | ceil }} minute read</span>
         </span>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
@@ -29,15 +40,16 @@ layout: default
           </a>
         </h3>
         
-        
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
       </li>
       {%- endfor -%}
     </ul>
-
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <hr>
+    <br>
+    <p class="rss-subscribe" style="text-align: center;"> <!-- Center the RSS subscribe text -->
+      Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a> or have posts delivered directly to your inbox below
+    </p>
   {%- endif -%}
-
 </div>

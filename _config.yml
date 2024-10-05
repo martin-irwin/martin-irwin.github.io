@@ -27,6 +27,9 @@ twitter_username: martiniphoto
 github_username: martin-irwin
 #image-path: assets/images
 
+imagesurl: "assets/portfolio/"
+thumbsurl: "/assets/thumbs/"
+
 assets:
     sources:
         - assets/images          

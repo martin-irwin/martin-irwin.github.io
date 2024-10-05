@@ -4,7 +4,8 @@ layout: page
 permalink: /portfolio/
 ---
 
-Welcom+
+Some images
 
-dsadsa
+{% include my-gallery.html folder="portfolio" %}
 
+ありがとう。

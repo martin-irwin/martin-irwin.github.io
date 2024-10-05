@@ -219,6 +219,7 @@ table td { border: 1px solid #e8e8e8; }
   transform: scale(1);
   transition: all 0.35s ease-in-out;
   display: block; /* Ensure images are block elements */
+  border-radius: 8px; /* Add rounded corners */
 }
 
 .img-gallery:hover {
@@ -254,3 +255,9 @@ table td { border: 1px solid #e8e8e8; }
       margin: 10px 0; /* Adjust margin for stacked columns */
   }
 }
+
+.reading-time {
+  font-size: 1em;
+  color: #01656c;
+  margin-bottom: 1em;
+  }

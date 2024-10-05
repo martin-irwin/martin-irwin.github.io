@@ -9,6 +9,7 @@ Welcome to my little corner of the internet. I've been taking photographs and wr
 
 if you enjoy the blog, I would love to hear from you.
 
+
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
 [minima](https://github.com/jekyll/minima)

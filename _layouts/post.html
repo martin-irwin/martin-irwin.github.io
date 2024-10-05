@@ -10,6 +10,9 @@ layout: default
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
+      — {% assign words = page.content | number_of_words %}
+      {% assign readtime = words | divided_by: 180 %}
+      <span class="reading-time">{{ readtime | ceil }} minute read</span>
       {%- if page.author -%}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}</p>

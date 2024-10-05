@@ -47,8 +47,10 @@ include:
 # Build settings
 markdown: kramdown
 theme: minima
+
 plugins:
   - jekyll-feed
+  - jekyll-read-time
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

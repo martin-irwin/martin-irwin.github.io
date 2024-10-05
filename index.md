@@ -4,4 +4,4 @@
 
 layout: home
 ---
-[Portfolio](/portfolio)
+[.](/portfolio)

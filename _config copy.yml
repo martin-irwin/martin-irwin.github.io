@@ -27,12 +27,6 @@ twitter_username: martiniphoto
 github_username: martin-irwin
 #image-path: assets/images
 
-assets:
-    sources:
-        - assets/images          
-        - assets/stylesheets          
-        - assets/images/slides
-
 header_pages:
     - portfolio.md
     - blog.md
@@ -41,11 +35,6 @@ header_pages:
 include:
    - "images"
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -1,13 +1,11 @@
 ---
 layout: page
-title: About
-permalink: /about/
-order: 2
+title: Blog
+permalink: /
+order: 1
 ---
 
-Welcome to my little corner of the internet. I've been taking photographs and writing things for more or less 15 years now. Sometimes there are more photos than words, sometimes it's words only. 
-
-if you enjoy the blog, I would love to hear from you.
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /

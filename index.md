@@ -4,4 +4,4 @@
 
 layout: home
 ---
-Hello friend. 
+[Portfolio](/portfolio)

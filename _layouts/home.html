@@ -2,15 +2,85 @@
 layout: default
 ---
 
-<!-- Photo of the day banner image -->
-<div class="banner" style="text-align: center;">
-  <figure>
-      <img src="{{ '/assets/images/banner.jpg' | relative_url }}" alt="Banner Image" style="width: 100%; height: auto; border-radius: 8px;"> <!-- Added border-radius -->
-      <figcaption style="font-size: 0.8em; color: #666; margin-top: 5px;">
-       Photo of the day — view from <a href="https://alpen-paesse.ch/de/alpenpaesse/klausenpass/" target="_blank" style="color: #666; text-decoration: underline;">Klausenpass</a>
-      </figcaption>
-    </figure>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Flickr Image</title>
+  <style>
+    /* Center the figure and image */
+    figure {
+      margin: 20px auto;
+      text-align: center;
+      max-width: 1200px;
+    }
+    .flickr-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    /* Center the caption and style it */
+    figcaption {
+      font-size: 0.8em;
+      color: #666;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Container for the image and caption -->
+<figure>
+  <img id="randomFlickrImage" class="flickr-image" alt="Random image from Flickr">
+  <figcaption id="photoTitle">Photo of the day</figcaption> <!-- Added ID for dynamic title -->
+</figure>
+
+<!-- JavaScript to Fetch and Display the Random Image -->
+<script>
+  const apiKey = "247f64bef58f06087094850c9639cb44"; // Your Flickr API key
+  const userId = "53911191@N03"; // Replace with the correct user ID
+
+  async function fetchFlickrPhotos() {
+    const url = `https://www.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=${apiKey}&user_id=${userId}&format=json&nojsoncallback=1`;
+    
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      console.log(data); // Check the API response in the browser console
+      if (data.stat === 'ok') {
+        displayRandomPhoto(data.photos.photo);
+      } else {
+        console.error('Error fetching photos from Flickr:', data.message);
+      }
+    } catch (error) {
+      console.error('Failed to fetch from Flickr API:', error);
+    }
+  }
+
+  function displayRandomPhoto(photos) {
+    if (photos.length === 0) {
+      console.error('No photos available from the Flickr account.');
+      return;
+    }
+
+    const randomIndex = Math.floor(Math.random() * photos.length);
+    const photo = photos[randomIndex];
+    const photoUrl = `https://live.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_b.jpg`;
+    const photoTitle = photo.title; // Get the photo title
+    console.log("Displaying image:", photoUrl); // Log the image URL to debug
+
+    // Set the image source and caption title
+    document.getElementById('randomFlickrImage').src = photoUrl;
+    document.getElementById('photoTitle').innerText = `Your random photo: ${photoTitle}`; // Set the caption text
+  }
+
+  // Fetch the photos when the page loads
+  window.onload = fetchFlickrPhotos;
+</script>
+
+</body>
+</html>
 
 <div class="home" style="text-align: center;"> <!-- Centered everything inside home -->
   

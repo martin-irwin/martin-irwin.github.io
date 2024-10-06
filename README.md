@@ -1,10 +1,13 @@
+# self-hosting photo site
+
+After years of paying for CMS that I never felt I used, and after having long been interested in code, I "discovered" Github's ability to host your own website. And voila.
+I am using the minima theme; the standard Readme is below. Enjoy.
+
 # minima
 
 *Minima is a one-size-fits-all Jekyll theme for writers*. It's Jekyll's default (and first) theme. It's what you get when you run `jekyll new`.
 
 [Theme preview](https://jekyll.github.io/minima/)
-
-![minima theme preview](/screenshot.png)
 
 ## Installation
 

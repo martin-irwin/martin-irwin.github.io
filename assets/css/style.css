@@ -261,3 +261,19 @@ table td { border: 1px solid #e8e8e8; }
   color: #01656c;
   margin-bottom: 1em;
   }
+
+Basic styling for the tag cloud
+.tag-cloud a {
+  display: inline-block;
+  margin: 1px;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.3rem; /* Base font size is reduced */
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect to increase the font size */
+.tag-cloud a:hover {
+  font-size: 1.2rem; /* Increase the font size when hovering */
+  color: #007bff;    /* Change color on hover (optional) */
+}

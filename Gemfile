@@ -44,3 +44,4 @@ gem "github-pages", "= 228", :group => :jekyll_plugins
 
 gem "webrick", "~> 1.8"
 gem "jekyll-read-time"
+gem "jekyll-lunr-js-search"

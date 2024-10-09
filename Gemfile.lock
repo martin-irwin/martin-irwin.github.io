@@ -145,6 +145,10 @@ GEM
       octokit (~> 4.0, != 4.4.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-lunr-js-search (3.3.0)
+      execjs (~> 2.7)
+      json (~> 2.0)
+      nokogiri (~> 1.7)
     jekyll-mentions (1.6.0)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
@@ -304,6 +308,7 @@ DEPENDENCIES
   http_parser.rb (~> 0.6.0)
   jekyll (~> 3.9.3)
   jekyll-feed (~> 0.6)
+  jekyll-lunr-js-search
   jekyll-read-time
   kramdown-parser-gfm
   minima (~> 2.0)

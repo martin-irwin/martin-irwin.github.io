@@ -64,6 +64,20 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Pagination configuration
-paginate: 10          # Number of posts per page
-paginate_path: "/page/:num/"  # URL format for paginated pages
+# # Pagination configuration
+# paginate: 10          # Number of posts per page
+# paginate_path: "/blog/page/:num/"  # URL format for paginated pages
+
+# plugins:
+#   - jekyll-lunr-js-search
+
+# lunr_search:
+#   language: en
+#   js_dir: jekyll-lunr-js-search/js
+#   search_path: _posts
+#   exclude: ['index.html', 'feed.xml', 'sitemap.xml'] # Any files to exclude from search index
+#   fields: 
+#     title: 10 
+#     tags: 20
+#     content: 5
+#   stopwords: /path/to/stopwords.txt # Optional stopwords file

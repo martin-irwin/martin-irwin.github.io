@@ -44,6 +44,18 @@ gem "github-pages", "= 228", :group => :jekyll_plugins
 
 gem "webrick", "~> 1.8"
 gem "jekyll-read-time"
-
-# gem 'jekyll-lunr-js-search', require: false
+gem 'jekyll-lunr-js-search', require: false
 # gem 'mini_racer' # Use mini_racer instead of therubyracer
+
+# gem "jekyll", "~> 3.9.3"
+# gem "minima", "~> 2.0"
+
+# group :jekyll_plugins do
+#   gem "jekyll-feed", "~> 0.6"
+#   gem "jekyll-lunr-js-search", require: false
+# end
+
+# gem "webrick", "~> 1.8"
+# gem "jekyll-read-time"
+
+# gem "github-pages", "= 228", :group => :jekyll_plugins

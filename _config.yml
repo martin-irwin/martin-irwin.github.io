@@ -63,3 +63,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Pagination configuration
+paginate: 10          # Number of posts per page
+paginate_path: "/page/:num/"  # URL format for paginated pages

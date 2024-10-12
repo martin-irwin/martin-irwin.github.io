@@ -13,27 +13,7 @@ tags:
   - "tokyo"
 ---
 
-<figure>
-
-View fullsize
-
-![Ready for launch | RX1 | 1/125s f/5.6 ISO1000 35mm](/assets/images/d12f7-dsc0503.jpg)
-
-<figcaption>
-
-
-
-Ready for launch | RX1 | 1/125s f/5.6 ISO1000 35mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
+![image](/assets/images/d12f7-dsc0503.jpg)
 
 I was distracted from my work for a few minutes by a couple of pigeons on the railings outside my office. When I first heard the tweets, I was expecting a sparrow or something. I gently pried apart the blinds to reveal a pair of pigeons (probably) discussing the best way to exit the atrium. One of them was clearly a squab, and was mainly responsible for the bulk of the commotion. 
 

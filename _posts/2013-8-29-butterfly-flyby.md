@@ -12,27 +12,7 @@ tags:
   - "tamron"
 ---
 
-<figure>
-
-View fullsize
-
-![Flyby | NEX-7 &amp; Tamron SP 90mm F2.8 Macro | 1/1000s f/2.8 ISO100 90mm](/assets/images/99a3b-20130828_nex-7_dsc07091.jpg)
-
-<figcaption>
-
-
-
-Flyby | NEX-7 & Tamron SP 90mm F2.8 Macro | 1/1000s f/2.8 ISO100 90mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
+![](/assets/images/99a3b-20130828_nex-7_dsc07091.jpg)
 
 I don't think I ever imagined taking a photo like this. I spent around 5 minutes during my lunch break, waiting for this butterfly to settle down somewhere so I could get a nice close-up photo with my new-old, manual focus, macro lens.  In the end, I gave up, as the little critter was practically circling me.
 

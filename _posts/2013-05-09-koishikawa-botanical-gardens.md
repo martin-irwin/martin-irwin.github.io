@@ -13,12 +13,10 @@ tags:
   - "tsutsuji"
 ---
 
-<figure>
-![](/assets/images/e513b-meadow.jpg)
+![meadow.jpg](/assets/images/e513b-meadow.jpg)
 <figcaption>
 Like a meadow | NEX-7 & SEL24F18Z | 24mm, 1/160, f/4.5, ISO100, RAW
 </figcaption> 
-</figure>
 
 The _Koishikawa Botanical Gardens_(小石川植物園) are [botanical gardens](http://en.wikipedia.org/wiki/Botanical_garden) operated by the University of Tokyo, Graduate School of Science (coincidentally, where I work).
 

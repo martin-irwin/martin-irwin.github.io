@@ -21,6 +21,7 @@ It’s been [over 10 years](https://martin-irwin.github.io/blog/2013/05/09/koish
 >In 1877, after the Meiji Restoration, the gardens became a part of Tokyo Imperial University and was the birthplace of Japanese botanical research. Today research activities are focused on the evolution, phylogenetic systematics, and physiology of higher plants. The garden's collections contain some 4,000 plant species, including 1,400 hardy woody species, 1,500 hardy herbaceous species, and 1,100 tropical and subtropical species. Notable outdoor collections include camellias, cherries, maples, Japanese primroses, bonsai trees, and alpine plants. A particular strength are the wild-collected species from Japan, Korea, Taiwan, and China.
 
 ![Heron I](/assets/images/DSC00024_ILCE-7CR_Japan_Summer.jpeg)
+
 ![Heron II](/assets/images/DSC00053_ILCE-7CR_Japan_Summer.jpeg)
 
 This post marks the first of 2025 on the blog. This will be a year of change. It’s the year of the dragon, and I will be breathing fire into the website - publishing lots of photos and writing lots of content. I have some new tools and strategies to do so. It’s not that 2024 is to be forgotten, far from it. However, I learned an awful lot about myself in that year, mostly for things I wish to not repeat. Rather than looking back with any sadness or resentment, I look forwards, as someone who has grown and wants to continue growing. More on that topic another time perhaps.

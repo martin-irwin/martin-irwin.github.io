@@ -2,15 +2,16 @@
 title: "Koishikawa Botanical Gardens II"
 date: "2025-01-02"
 categories: 
-  - "blog"
+- "blog"
 tags: 
-  - "botanical-gardens"
-  - "flowers"
-  - "gardens"
-  - "japan"
-  - "park"
-  - "tokyo"
-  ---
+- "botanical-gardens"
+- "flowers"
+- "gardens"
+- "japan"
+- "park"
+- "tokyo"
+---
+
 ![Lily Pads](/assets/images/DSC00013_ILCE-7CR_Japan_Summer.jpeg)
 
 It’s been [over 10 years](https://martin-irwin.github.io/blog/2013/05/09/koishikawa-botanical-gardens.html) since I was last in Koishikawa Botanical Gardens, and so much has changed in my life. I am not sure the same can be said from the perspective of the garden. The garden was opened by the Tokugawa Shogunate in 1684. The last 150 years since the Last Samurai walked around Tokyo will have seen huge changes to the surrounding landscape, but far less to the garden itself. Contrast that with the last 10 years, which has seen a global pandemic come and go, and a nuclear power station failing following the earthquake… it put things into a different perspective.

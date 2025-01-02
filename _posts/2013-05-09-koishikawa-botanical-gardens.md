@@ -15,18 +15,10 @@ tags:
 
 <figure>
 
-![Like a meadow | NEX-7 &amp; SEL24F18Z | 24mm, 1/160, f/4.5, ISO100, RAW](/assets/images/e513b-meadow.jpg)
+![](/assets/images/e513b-meadow.jpg)
 
 <figcaption>
-
-
-
-_Like a meadow | NEX-7 & SEL24F18Z | 24mm, 1/160, f/4.5, ISO100, RAW_
-
-
-
-
-
+Like a meadow | NEX-7 & SEL24F18Z | 24mm, 1/160, f/4.5, ISO100, RAW
 </figcaption>
 
 

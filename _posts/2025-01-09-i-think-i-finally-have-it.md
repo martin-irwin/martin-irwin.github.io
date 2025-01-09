@@ -1,7 +1,7 @@
 ---
 title: I think I finally have it
 excerpt: 
-tags: Test
+tags: Test, complete
 layout: post
 image: /assets/images/IMG_0487.png
 hidden: true

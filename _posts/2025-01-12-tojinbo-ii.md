@@ -1,13 +1,11 @@
 ---
-title: Tōjinbō II
-date: 2025-01-10
+title: "Tōjinbō II"
+date: "2025-01-10"
 categories: 
 - "blog"
-excerpt: A few photos from this familiar rock formation at the Sea of Japan, and some notes on the new website.
 tags: Tojinbo,japan,sea of japan,travel,Fukui,rocks,landscape,blog
-layout: post
+excerpt: "A few photos from this familiar rock formation at the Sea of Japan, and some notes on the new website."
 image: /assets/images/DSC00143.png
-hidden: false
 ---
 
 ![photo](/assets/images/DSC00143.png)

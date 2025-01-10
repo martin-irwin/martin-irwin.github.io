@@ -4,7 +4,7 @@ excerpt: A few photos from this familiar rock formation at the Sea of Japan, and
 tags: Tojinbo,japan,sea of japan,travel,Fukui,rocks,landscape,blog
 layout: post
 image: /assets/images/DSC00143.png
-hidden: true
+hidden: false
 ---
 
 ![photo](/assets/images/DSC00143.png)

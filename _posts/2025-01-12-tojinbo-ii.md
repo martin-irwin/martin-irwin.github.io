@@ -2,9 +2,11 @@
 title: "Tōjinbō II"
 date: "2025-01-10"
 categories: 
-- "blog"
+- blog
+- photography
 tags: Tojinbo,japan,sea of japan,travel,Fukui,rocks,landscape,blog
 excerpt: "A few photos from this familiar rock formation at the Sea of Japan, and some notes on the new website."
+summary: "Discover Tōjinbō, the iconic cliffs on Japan’s Sea of Japan, in this photo-rich travelogue exploring the timeless beauty of these volcanic rock formations in Fukui Prefecture. Reflecting on the changes in Japan over a decade, the author delves into themes of nostalgia, tourism, and the evolution of travel habits in a post-pandemic world. This post also marks a significant shift in blogging workflow, transitioning from Squarespace to GitHub, with insights on using tools like Bear, Working Copy, and iPad Pro for seamless content creation. Join the journey through stunning landscapes, cultural observations, and tech explorations."
 image: /assets/images/DSC00143.png
 ---
 

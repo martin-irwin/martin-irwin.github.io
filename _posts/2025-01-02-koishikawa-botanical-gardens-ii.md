@@ -2,7 +2,8 @@
 title: "Koishikawa Botanical Gardens II"
 date: "2025-01-02"
 categories: 
-- "blog"
+- blog
+- photography
 tags: 
 - "botanical-gardens"
 - "flowers"

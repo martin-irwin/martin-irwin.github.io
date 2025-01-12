@@ -16,11 +16,7 @@
 title: MARTIN IRWIN PHOTOGRAPHY
 email: martin@martinirwinphotography.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my little corner of the internet. 
-  I've been taking photographs and writing things for more or less 15 years now.  
-  Sometimes there are more photos than words, sometimes it's words only.  
-
-  if you enjoy the blog, I would love to hear from you.
+Photography and ramblings.
 baseurl: # the subpath of your site, e.g. /blog
 url: "https://martin-irwin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: martiniphoto

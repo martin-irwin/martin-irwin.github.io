@@ -23,6 +23,18 @@ ul, ol { margin-left: 30px; }
 
 li > ul, li > ol { margin-bottom: 0; }
 
+/* Use serif font for the body and headings
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Times New Roman", Times, serif;
+} */
+
+/* Always underline all hyperlinks with a slightly lower underline */
+a {
+  text-decoration: underline !important;
+  text-decoration-thickness: 1.5px; /* Adjust the thickness of the underline */
+  text-decoration-offset: 100px; /* Adjust the distance of the underline from the text */
+}
+
 /** Headings */
 h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 

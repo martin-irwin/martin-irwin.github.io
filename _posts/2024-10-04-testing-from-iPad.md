@@ -3,7 +3,6 @@ title:  "Testing writing a blog post from the iPad"
 date:   2024-10-04 23:55:07 +0000
 categories: 
 - blog
-- photography
 ---
 
 I am testing out what it is like to write with the iPad if I were travelling and had some photo editing to do.

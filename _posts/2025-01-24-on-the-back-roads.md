@@ -5,8 +5,7 @@ excerpt: Taking the back road towards Hiroshima
 tags: Tsuruga,japan,tour,countryside
 layout: post
 image: /assets/images/_DSC7509.png
-category: "blog"
-hidden: true
+categories: "blog"
 ---
 
 We had a plan to get to Hiroshima 広島 in about 5 or 6 days, and had booked some accommodation in the middle of nowhere between Kyoto and Hiroshima, in Hyogo prefecture. In the morning we visited the aforementioned Tojinbo, weather the storm, and drove our little keicar along the *Sea of Japan* coast road, *Route 305*. We were driving past Tsuruga as we continued onwards through the local roads, and came across this absolutely magnificent factory which looked decades old. Rusted, weathered, and an enchanting green hue. The evening light was helping everything, and gave a stunning ambience. Thing is, this is a currently in-use factory, namely the Tsuruga Cement Works. 

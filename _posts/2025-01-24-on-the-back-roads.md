@@ -1,7 +1,7 @@
 ---
 title: On the back roads
 excerpt: Taking the back road towards Hiroshima
-tags: Tsuruga,japan,tour
+tags: Tsuruga,japan,tour,countryside
 layout: post
 image: /assets/images/_DSC7509.png
 category: "blog"

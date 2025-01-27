@@ -59,3 +59,5 @@ gem 'jekyll-lunr-js-search', require: false
 # gem "jekyll-read-time"
 
 # gem "github-pages", "= 228", :group => :jekyll_plugins
+
+gem 'jekyll-paginate'

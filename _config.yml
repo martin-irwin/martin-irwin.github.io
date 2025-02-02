@@ -18,12 +18,13 @@ email: martin@martinirwinphotography.com
 description: >- # this means to ignore newlines until "baseurl:"
   Photos and ramblings 
 baseurl: # the subpath of your site, e.g. /blog
-url: "https://martin-irwin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://martinirwinphotography.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: martiniphoto
 github_username: martin-irwin
 #image-path: assets/images
 author: Martin
-disqus.shortname: martiniphoto
+disqus:
+    shortname: martiniphoto
 
 imagesurl: "assets/portfolio/"
 thumbsurl: "/assets/thumbs/"

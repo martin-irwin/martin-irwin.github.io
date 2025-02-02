@@ -68,8 +68,8 @@ feed:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-paginate: 10
-paginate_path: "/page:num/"
+# paginate: 10
+# paginate_path: "/page:num/"
 
 # Pagination configuration
 # paginate: 10          # Number of posts per page

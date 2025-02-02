@@ -60,4 +60,4 @@ gem 'jekyll-lunr-js-search', require: false
 
 # gem "github-pages", "= 228", :group => :jekyll_plugins
 
-gem 'jekyll-paginate'
+# gem 'jekyll-paginate'

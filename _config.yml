@@ -23,8 +23,7 @@ twitter_username: martiniphoto
 github_username: martin-irwin
 #image-path: assets/images
 author: Martin
-disqus:
-  shortname: martiniphoto
+disqus.shortname: martiniphoto
 
 imagesurl: "assets/portfolio/"
 thumbsurl: "/assets/thumbs/"

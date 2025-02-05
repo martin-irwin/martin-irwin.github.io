@@ -18,6 +18,7 @@ There are three other reasons I have abandoned Squarespace:
 2. **The mobile apps are terrible.** I have the luxury of presently writing this post on the 13” iPad Pro M4. It’s technically the most powerful computer I own, even though it is somewhat crippled by iOS. Writing posts on the app is even more frustrating than writing them on my computer through a web interface. The app is clunky and crashes, and everything just takes ages to do. If you know absolutely nothing about code or computers, it might be passable—if you have ever used WordPress, it will feel like a downgrade. The App Store reviews “speak for themselves,” although somehow it has 4.6/5, yet a cursory glance at the reviews themselves reveals the true story.
 
    ![photo](/assets/images/1308d465e471abe22290ccbf3d700b2c014e308d.png)
+   working?
 
 3. **Price.** When I first started the site, it was around $80 USD per year for hosting, and the site had fantastic uptime. My plan stayed exactly the same (they added features I neither wanted nor needed, like e-commerce), yet the price ballooned to $198/year. This is quite a chunk, taking the total cost of the site to over $20/month when I include the domain name license. Considering I didn’t use the site much in the last couple of years, this grated a little too much, and I decided to call it a day. I exported the site and disabled auto-renew.
 

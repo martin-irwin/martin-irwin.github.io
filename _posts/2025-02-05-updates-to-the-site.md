@@ -22,7 +22,7 @@ There are three other reasons I have abandoned Squarespace:
 3. **Price.** When I first started the site, it was around $80 USD per year for hosting, and the site had fantastic uptime. My plan stayed exactly the same (they added features I neither wanted nor needed, like e-commerce), yet the price ballooned to $198/year. This is quite a chunk, taking the total cost of the site to over $20/month when I include the domain name license. Considering I didn’t use the site much in the last couple of years, this grated a little too much, and I decided to call it a day. I exported the site and disabled auto-renew.
 
    ![photo](/assets/images/PastedGraphic0123.png)
-   _.
+   
    ![photo](/assets/images/image.png)
 
 I spent a while looking for alternatives and discovered that websites can be natively hosted on GitHub if you’re prepared to do the work. This fits me much better, as I love to play around with computer code and basic web stuff like HTML and CSS. I won’t write about how I did all of this here, as plenty of expert guides exist, but this is what I did:
@@ -58,8 +58,16 @@ Let me know if you would like a copy of the workflow.
 
 The photo above was taken last year near Yoyogi Park in Tokyo—some unnamed beautiful building on the edge of the huge park. 
 
-Below, is a photo of my current mobile phone, the Fujitsu F-03L, next to my "digital typewriter" from Japan (Pomera DM250). They come together to create a very "disconnected" way of using digital technologies, some even call this digital minimalism. I have always liked to have tools specific to a job, rather than tools which are trying to do everything, leaving you unsatisfied. I take the smartphone as a prime example. Dedicated GPS is better, dedicated computers are better, dedicated moile phones are better, dedicated music playing devices are better... the list goes on. However only this one device manages to do all of these things, and more. And it does them well... but at what cost? The constant tracking, advertising, and doomscrolling. As I said earlier, I remember a version of the internet that was more utility than it is today, and now for many people, they struggle to go a single day completely offline. The digital typewriter is just that. It's a word processor that saves text files. It does nothing else. The battery lasts days, when in use, and in standby will keep charge for weeks. It's remarkable. I can sit down with it and write for hours and hours... without pop up notifcations or temptations to research things or jump down an information rabbit-hole. It's perfect for drafting things, or just generall writing things down. More on that device, and the mobile phone thing, later on.
+Below is a photo of my current mobile phone, the **Fujitsu F-03L**, alongside my *digital typewriter* from Japan—the **Pomera DM250**. Together, they create a uniquely **disconnected** approach to digital technology, often described as *digital minimalism*.  
 
 ![photo](/assets/images/IMG_0975.png)
+
+I've always preferred tools designed for a specific purpose rather than all-in-one devices that try to do everything but ultimately leave you unsatisfied. The smartphone is a prime example. A **dedicated GPS** is better, a **dedicated computer** is better, a **dedicated mobile phone** is better, a **dedicated music player** is better—the list goes on. Yet, the smartphone consolidates all these functions into a single device and does them well... **but at what cost?**  
+
+Constant tracking, advertising, and endless doomscrolling have reshaped how we engage with technology. I remember an internet that felt more like a tool than a distraction, but today, many people struggle to go even a single day completely offline.  
+
+That’s where the **digital typewriter** comes in. It does one thing—word processing—and nothing else. It saves text files, has a battery that lasts for days (or even weeks on standby), and allows me to write for hours without pop-up notifications, distractions, or the temptation to fall down an internet rabbit hole. It’s perfect for drafting ideas or simply getting thoughts down.  
+
+I'll share more about this device—and my views on mobile phones—later.  
 
 That’s it for this word-heavy post—see you soon! またね！

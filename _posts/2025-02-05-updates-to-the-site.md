@@ -9,7 +9,7 @@ categories: blog
 
 ![photo](/assets/images/IMG_0829.png)
 
-You can spend hours creating a great theme, then go to post, and it takes literally 10× longer than it should because there’s nothing other than the GUI approach to posting. In theory, this is OK, but image blocks have to be manually inserted before images can be threaded into the main body. This means I cannot simply write text and drag and drop an image into it. I have to write a specific *block* of text, insert an image block, upload the image into the block, and then get writing again. It’s not a disaster, but it just became too frustrating to use. You can insert blocks into walls of text, but it’s clunky and unpredictable. If the site crashes or reloads while you’re doing this, you lose the post entirely. That forces you to write a draft somewhere else first, and if you include images in that draft, then the Squarespace workflow really becomes a burden.
+You can spend hours creating a great theme, but when it comes time to post, the process takes far longer than it should due to the lack of a streamlined, non-GUI-based approach. In theory, this is fine, but in practice, it’s cumbersome—image blocks must be manually inserted before images can be embedded into the main body. This means I can’t simply write text, drop an image in, and move on. I have to write a specific *block* of text, insert an image block, upload the image into the block, and then get writing again. It’s not a disaster, but it just became too frustrating to use. You can insert blocks into walls of text, but it’s clunky and unpredictable. If the site crashes or reloads while you’re doing this, you lose the post entirely. That forces you to write a draft somewhere else first, and if you include images in that draft, then the Squarespace workflow really becomes a burden.
 
 There are three other reasons I have abandoned Squarespace:
 
@@ -19,7 +19,7 @@ There are three other reasons I have abandoned Squarespace:
 
    ![photo](/assets/images/1308d465e471abe22290ccbf3d700b2c014e308d.png)
 
-3. **Price.** When I first started the site, it was around $80 USD per year for hosting, and the site had fantastic uptime. My plan remained exactly the same in terms of services (they added features I did not want, such as e-commerce), but the price ballooned up to $198/year. This is quite a chunk, taking the total cost of the site to over $20/month when I include the domain name license. Considering I didn’t use the site much in the last couple of years, this grated a little too much, and I decided to call it a day. I exported the site and disabled auto-renew.
+3. **Price.** When I first started the site, it was around $80 USD per year for hosting, and the site had fantastic uptime. My plan stayed exactly the same (they added features I neither wanted nor needed, like e-commerce), yet the price ballooned to $198/year. This is quite a chunk, taking the total cost of the site to over $20/month when I include the domain name license. Considering I didn’t use the site much in the last couple of years, this grated a little too much, and I decided to call it a day. I exported the site and disabled auto-renew.
 
    ![photo](/assets/images/PastedGraphic0123.png)
    ![photo](/assets/images/image.png)
@@ -31,7 +31,7 @@ I spent a while looking for alternatives and discovered that websites can be nat
 - Exported from WordPress into markdown format
 - Rebuilt the whole site using Jekyll and redeployed all my old blog posts going back to 2013, images included
 
-So now, I have all the images locally, and in fact, backed up to GitHub. GitHub is likely to be around for a while, and even if they started charging, no big problem as I have everything in a more “open-source” format from which I can deploy my website anywhere.
+So now, I have all the images locally, and in fact, backed up to GitHub. GitHub is a long-term solution, and even if they ever start charging, it’s no big deal—everything is now in a truly portable, open-source format that I can deploy anywhere.
 
 Most recently, I added comments back to the site, so feel free to comment using the Disqus format. I have some regular readers who do comment, and for me, it’s worth hearing from them at the expense of managing spam. Speaking of spam, another reason I want to blog like it’s 2013 is because I am real and not a bot; I help to counter the *Dead Internet Theory*.
 
@@ -39,7 +39,7 @@ Most recently, I added comments back to the site, so feel free to comment using 
 
 ![photo](/assets/images/IMG_0711.png)
 
-On a related note, I am playing *Cyberpunk 2077* at present and find it to be one of the best games I’ve ever played. I am around 35% complete according to PlayStation, but I don’t even want the main missions to end! It’s so immersive, and the script and overall premise are right up my street. It’s *Ghost in the Shell* meets *Terminator*, *Robocop*, and *Blade Runner*. You can read all about it elsewhere, but I mention it here because, in that future, mega corporations (*corps*) such as Arasaka 荒坂, Militech, Kang Tao, and others rule the world. Its dystopia is turned up to 11, and the “old internet” was destroyed in an event known as the *DataKrash*.
+On a related note, I am playing *Cyberpunk 2077* at present and find it to be one of the best games I’ve ever played. I am around 35% complete according to PlayStation, but I don’t even want the main missions to end! It’s so immersive, and the script and overall premise are right up my street. It’s *Ghost in the Shell* meets *Terminator*, *Robocop*, and *Blade Runner*—a mix of tech-noir, cybernetic dystopia, and corporate overreach gone wild. You can read all about it elsewhere, but I mention it here because, in that future, mega corporations (*corps*) such as Arasaka 荒坂, Militech, Kang Tao, and others rule the world. Its dystopia is turned up to 11, and the “old internet” was destroyed in an event known as the *DataKrash*.
 
    ![photo](/assets/images/F009DC56-BF6C-4746-9E0F-DC36F29AC68F.png)
 
@@ -47,13 +47,13 @@ The Old Net (our internet) became unusable. The world was forced to create a new
 
 ## Blogging Now
 
-So my blog workflow, literally a workflow using the Shortcuts app on iOS, is to write the blog in Bear, drag and drop the images where I want them, hit “Share” *et voilà*, the post is published (well, actually it is pushed to the fantastic [Working Copy Git client](https://workingcopy.app) and from there committed and pushed). This is nearly the exact opposite in feeling compared to the Squarespace way of doing things (not a workflow at all), so I’m really pleased I’ve put this together.
+My blogging workflow—which I’ve automated via iOS Shortcuts—is simple: write in Bear, drop images exactly where I want them, hit “Share,” and voilà, the post is published. (Well, technically, it’s first pushed to the excellent [Working Copy Git client](https://workingcopy.app), then committed and uploaded). This is nearly the exact opposite in feeling compared to the Squarespace way of doing things (not a workflow at all), so I’m really pleased I’ve put this together. 
 
-Squarespace requires an internet connection to write a blog post. I could draft it elsewhere, of course, but that’s all a bit too convoluted. The iPad even has a 5G eSIM connection, but if there’s a patchy net connection, you lose the whole post. Far too frustrating. So instead, I work essentially offline, then press publish when I’m done.
+Squarespace demands an internet connection just to write a blog post. Sure, I could draft it elsewhere, but that’s just an unnecessary extra step. The iPad even has a 5G eSIM connection, but if there’s a patchy net connection, you lose the whole post. Far too frustrating. So instead, I work essentially offline, then press publish when I’m done.
 
 Let me know if you would like a copy of the workflow.
 
 ![photo](/assets/images/DSC00476.png)
 ![photo](/assets/images/IMG_0975.png)
 
-That sums up this word-heavy post. See you soon!
+That’s it for this word-heavy post—see you soon!

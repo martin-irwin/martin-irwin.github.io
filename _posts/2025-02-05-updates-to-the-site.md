@@ -55,6 +55,11 @@ Squarespace demands an internet connection just to write a blog post. Sure, I co
 Let me know if you would like a copy of the workflow.
 
 ![photo](/assets/images/DSC00476.png)
+
+The photo above was taken last year near Yoyogi Park in Tokyo—some unnamed beautiful building on the edge of the huge park. 
+
+Below, is a photo of my current mobile phone, the Fujitsu F-03L, next to my "digital typewriter" from Japan (Pomera DM250). They come together to create a very "disconnected" way of using digital technologies, some even call this digital minimalism. I have always liked to have tools specific to a job, rather than tools which are trying to do everything, leaving you unsatisfied. I take the smartphone as a prime example. Dedicated GPS is better, dedicated computers are better, dedicated moile phones are better, dedicated music playing devices are better... the list goes on. However only this one device manages to do all of these things, and more. And it does them well... but at what cost? The constant tracking, advertising, and doomscrolling. As I said earlier, I remember a version of the internet that was more utility than it is today, and now for many people, they struggle to go a single day completely offline. The digital typewriter is just that. It's a word processor that saves text files. It does nothing else. The battery lasts days, when in use, and in standby will keep charge for weeks. It's remarkable. I can sit down with it and write for hours and hours... without pop up notifcations or temptations to research things or jump down an information rabbit-hole. It's perfect for drafting things, or just generall writing things down. More on that device, and the mobile phone thing, later on.
+
 ![photo](/assets/images/IMG_0975.png)
 
 That’s it for this word-heavy post—see you soon! またね！

@@ -18,11 +18,11 @@ There are three other reasons I have abandoned Squarespace:
 2. **The mobile apps are terrible.** I have the luxury of presently writing this post on the 13” iPad Pro M4. It’s technically the most powerful computer I own, even though it is somewhat crippled by iOS. Writing posts on the app is even more frustrating than writing them on my computer through a web interface. The app is clunky and crashes, and everything just takes ages to do. If you know absolutely nothing about code or computers, it might be passable—if you have ever used WordPress, it will feel like a downgrade. The App Store reviews “speak for themselves,” although somehow it has 4.6/5, yet a cursory glance at the reviews themselves reveals the true story.
 
    ![photo](/assets/images/1308d465e471abe22290ccbf3d700b2c014e308d.png)
-   working?
 
 3. **Price.** When I first started the site, it was around $80 USD per year for hosting, and the site had fantastic uptime. My plan stayed exactly the same (they added features I neither wanted nor needed, like e-commerce), yet the price ballooned to $198/year. This is quite a chunk, taking the total cost of the site to over $20/month when I include the domain name license. Considering I didn’t use the site much in the last couple of years, this grated a little too much, and I decided to call it a day. I exported the site and disabled auto-renew.
 
    ![photo](/assets/images/PastedGraphic0123.png)
+   _.
    ![photo](/assets/images/image.png)
 
 I spent a while looking for alternatives and discovered that websites can be natively hosted on GitHub if you’re prepared to do the work. This fits me much better, as I love to play around with computer code and basic web stuff like HTML and CSS. I won’t write about how I did all of this here, as plenty of expert guides exist, but this is what I did:
@@ -34,7 +34,7 @@ I spent a while looking for alternatives and discovered that websites can be nat
 
 So now, I have all the images locally, and in fact, backed up to GitHub. GitHub is a long-term solution, and even if they ever start charging, it’s no big deal—everything is now in a truly portable, open-source format that I can deploy anywhere.
 
-Most recently, I added comments back to the site, so feel free to comment using the Disqus format. I have some regular readers who do comment, and for me, it’s worth hearing from them at the expense of managing spam. Speaking of spam, another reason I want to blog like it’s 2013 is because I am real and not a bot; I help to counter the *Dead Internet Theory*.
+Most recently, I added comments back to the site, so feel free to comment using the Disqus format. I have some regular readers who do comment, and for me, it’s worth hearing from them at the expense of managing spam. Speaking of spam, another reason I want to blog like it’s 2012 is because I am real and not a bot; I help to counter the *Dead Internet Theory*.
 
 ### Cyberpunk
 
@@ -57,4 +57,4 @@ Let me know if you would like a copy of the workflow.
 ![photo](/assets/images/DSC00476.png)
 ![photo](/assets/images/IMG_0975.png)
 
-That’s it for this word-heavy post—see you soon!
+That’s it for this word-heavy post—see you soon! またね！

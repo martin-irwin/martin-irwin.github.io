@@ -17,7 +17,7 @@ There are three other reasons I have abandoned Squarespace:
 ![photo](/assets/images/1308d465e471abe22290ccbf3d700b2c014e308d.heic)
 3) Price. When I first started the site, it was around $80 USD for the year of hosting, and the site has fantastic uptime. My plan remained exactly the same in terms of services (they added features I did not want, such as e-commerce), but ballooned up to $198/year. This is quite a chunk, taking the total cost of the site to over $20/month when I include the domain name license. Considering I didn’t use the site much in the last couple of years, this grated a little too much and I decided to call it a day. I exported the site, and disabled auto-renew.
 
-![photo](/assets/images/Pasted%20Graphic.png)
+![photo](/assets/images/PastedGraphic0123.png)
 
 ![photo](/assets/images/image.png)
 
@@ -53,7 +53,7 @@ Squarespace requires an internet connection in order to be writing a blog post. 
 
 Let me know if you would like a copy of the workflow.
 
-![photo](/assets/images/DSC00476%202.png)
+![photo](/assets/images/DSC00476.png)
 
 ![photo](/assets/images/IMG_0975.png)
 

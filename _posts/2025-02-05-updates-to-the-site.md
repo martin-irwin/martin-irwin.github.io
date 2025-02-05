@@ -7,6 +7,14 @@ image: /assets/images/IMG_0975.png
 categories: blog
 ---
 
+# Migrating from Squarespace to GitHub Pages  
+
+Over the past few months, I’ve moved my site from Squarespace to GitHub Pages. It wasn’t because I disliked Squarespace—it served me well for over a decade. But as time went on, I realized it wasn’t the right fit anymore. Squarespace has increasingly pivoted toward small businesses and e-commerce, which makes sense for them, but not for me.  
+
+When I originally switched from WordPress, it was because I loved Squarespace’s themes, and to be fair, many of them *are* fantastic. But working within a tightly controlled platform comes with its own frustrations, and over time, I found the experience more restrictive than convenient—especially for something as simple as creating blog posts with images.  
+
+So, it was time for a change. 
+
 ![photo](/assets/images/IMG_0829.png)
 
 You can spend hours creating a great theme, but when it comes time to post, the process takes far longer than it should due to the lack of a streamlined, non-GUI-based approach. In theory, this is fine, but in practice, it’s cumbersome—image blocks must be manually inserted before images can be embedded into the main body. This means I can’t simply write text, drop an image in, and move on. I have to write a specific *block* of text, insert an image block, upload the image into the block, and then get writing again. It’s not a disaster, but it just became too frustrating to use. You can insert blocks into walls of text, but it’s clunky and unpredictable. If the site crashes or reloads while you’re doing this, you lose the post entirely. That forces you to write a draft somewhere else first, and if you include images in that draft, then the Squarespace workflow really becomes a burden.
@@ -36,7 +44,7 @@ So now, I have all the images locally, and in fact, backed up to GitHub. GitHub 
 
 Most recently, I added comments back to the site, so feel free to comment using the Disqus format. I have some regular readers who do comment, and for me, it’s worth hearing from them at the expense of managing spam. Speaking of spam, another reason I want to blog like it’s 2012 is because I am real and not a bot; I help to counter the *Dead Internet Theory*.
 
-### Cyberpunk
+## Cyberpunk
 
 ![photo](/assets/images/IMG_0711.png)
 

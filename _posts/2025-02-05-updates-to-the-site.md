@@ -29,7 +29,7 @@ I spent a while looking for alternatives and discovered that websites can be nat
 - Exported Squarespace site in WordPress format
 - Uploaded site into WordPress
 - Exported from WordPress into markdown format
-- Rebuilt the whole site using Jekyll and redeployed all my old blog posts going back to 2013, images included
+- Rebuilt the whole site using Jekyll and redeployed all my old blog posts going back to 2012(!), images included
 
 So now, I have all the images locally, and in fact, backed up to GitHub. GitHub is a long-term solution, and even if they ever start charging, it’s no big deal—everything is now in a truly portable, open-source format that I can deploy anywhere.
 

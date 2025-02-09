@@ -19,4 +19,4 @@ I'll keep it short, as we're about to cook dinner, and let the images speak for 
 
 Until soon :)
 
-![photo](/assets/images/7CR00665.png)
+![photo](/assets/images/7CR00665.jpg)

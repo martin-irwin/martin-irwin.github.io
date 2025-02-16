@@ -18,3 +18,5 @@ I'll keep it short, as we're about to cook dinner, and let the images speak for 
 ![photo](/assets/images/7CR00670.png)
 
 Until soon :)
+
+![photo](/assets/images/7CR00665.jpg)

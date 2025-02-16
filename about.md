@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-order: 2
+order: 3
 ---
 
 ![photo](/assets/images/IMG_0680.png)

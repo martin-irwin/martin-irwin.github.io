@@ -7,6 +7,9 @@ image: /assets/images/DSC00224.jpeg
 categories: "blog"
 ---
 
+![photo](/assets/images/DSC00232.jpeg)
+
+On the voyage to Hiroshima, we wanted to stay in a traditional Japanese inn, known as a *Ryokan*. It’s much easier to find one online than even a few years ago, but I was thinking that it was probably even easier 500 years ago. Back then, mind you, you’d have 1 horsepower and the journey would take a lot longer. We had a whole 58 horsepower in our Daihatsu Move (a little *kei-car* with a mid-size motorbike engine), and were making light work of crossing central Japan.
 
 ![photo](/assets/images/IMG_8586.jpeg)
 
@@ -36,8 +39,6 @@ This is what it feels like to be really disconnected from the so-called problems
 ![photo](/assets/images/DSC00230.jpeg)
 
 ![photo](/assets/images/DSC00231.jpeg)
-
-![photo](/assets/images/DSC00232.jpeg)
 
 The grounds of [Kiyomizu Temple in Yasugi](https://www.kankou-shimane.com/en/destinations/9337) are vast and historical, going back centuries. Hardly, anything has changed here over the centuries, and all of the electricity installations and “modern” conveniences are very clearly classical *Showa* era (1926–1989) and not from this millennium. Much of Japan is like this, with Tokyo being something of an exception. The economy of Japan grew with no signs of slowing down from 1945 until 1989, hence the strong influences in *Blade Runner* and *Alien* and other sci-fi from the 1970s, where it looked as if Japan would be the dominant global economy by the year 2000.
 

@@ -1,14 +1,11 @@
 ---
 title: Kiyomizu Temple, Yasugi
 excerpt: Staying within the serene grounds of **Kiyomizu Temple in Yasugi** was an experience unlike any other. The paper-thin walls and wooden architecture offered just enough shelter, allowing the sounds of nature to seep in—wind through the trees, distant temple bells. Days passed slowly as we explored the historic grounds, untouched by modernity beyond *Showa-era* conveniences. Every meal, a beautifully presented vegetarian feast, reflected the temple’s simplicity and harmony. Disconnected from the outside world, this was peace in its purest form—an escape not just from noise, but from the rush of time itself.  
-tags: Yasugi,Buddhist,zen,temple,japan,travel
-layout: post
-image: /assets/images/DSC00224.jpeg
+tags: Yasugi Buddhist zen temple japan travel
+header:
+    image: /assets/images/DSC00232_header.jpeg
 categories: "blog"
 ---
-
-![photo](/assets/images/DSC00232.jpeg)
-
 On the voyage to Hiroshima, we wanted to stay in a traditional Japanese inn, known as a *Ryokan*. It’s much easier to find one online than even a few years ago, but I was thinking that it was probably even easier 500 years ago. Back then, mind you, you’d have 1 horsepower and the journey would take a lot longer. We had a whole 58 horsepower in our Daihatsu Move (a little *kei-car* with a mid-size motorbike engine), and were making light work of crossing central Japan.
 
 ![photo](/assets/images/IMG_8586.jpeg)
@@ -44,4 +41,7 @@ The grounds of [Kiyomizu Temple in Yasugi](https://www.kankou-shimane.com/en/des
 
 ![photo](/assets/images/DSC00239.jpeg)
 
+![photo](/assets/images/DSC00232.jpeg)
+
 Once we’d had the most relaxing 2 nights possible, we hopped back into our little car and drove north to see the sea, and some sand… 
+

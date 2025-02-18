@@ -1,7 +1,7 @@
 ---
 title: Search
 permalink: /search/
-layout: page
+layout: default
 order: 4
 ---
 

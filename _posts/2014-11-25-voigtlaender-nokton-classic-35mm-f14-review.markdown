@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Voigtländer Nokton Classic 35mm F1.4 Review"
 date:   2014-11-25 14:34:07 +0000
 categories: blog

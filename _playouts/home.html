@@ -1,0 +1,156 @@
+---
+layout: default
+---
+
+<!-- text below here is for the images on the blog -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Image Rotation</title>
+  <style>
+    /* Center the figure and image */
+    figure {
+      margin: 20px auto;
+      text-align: center;
+      max-width: 1200px;
+    }
+    .rotating-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    /* Center the caption and style it */
+    figcaption {
+      font-size: 0.8em;
+      color: #666;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Container for the image and caption -->
+<figure>
+  <img id="randomImage" class="rotating-image" alt="Random image">
+  <figcaption id="photoTitle">Random Image</figcaption>
+</figure>
+
+<!-- JavaScript to Fetch and Display the Random Image -->
+<script>
+  const apiKey = "247f64bef58f06087094850c9639cb44"; // Your Flickr API key
+  const userId = "53911191@N03"; // Replace with the correct user ID
+
+  // Dynamically generated list of local images using Jekyll
+  const localImages = [
+    {% for file in site.static_files %}
+      {% if file.path contains 'assets/images/' and file.extname == '.jpg' %}
+        "{{ file.path }}",
+      {% endif %}
+    {% endfor %}
+  ]; 
+
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+
+  async function fetchFlickrPhotos() {
+    const url = `https://www.flickr.com/services/rest/?method=flickr.people.getPublicPhotos&api_key=${apiKey}&user_id=${userId}&format=json&nojsoncallback=1`;
+    
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+      if (data.stat === 'ok') {
+        displayRandomFlickrPhoto(data.photos.photo);
+      } else {
+        console.error('Error fetching photos from Flickr:', data.message);
+      }
+    } catch (error) {
+      console.error('Failed to fetch from Flickr API:', error);
+    }
+  }
+
+  function displayRandomFlickrPhoto(photos) {
+    if (photos.length === 0) {
+      console.error('No photos available from the Flickr account.');
+      return;
+    }
+
+    const randomIndex = getRandomInt(photos.length);
+    const photo = photos[randomIndex];
+    const photoUrl = `https://live.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_b.jpg`;
+    const photoTitle = photo.title || "Untitled"; // Get the photo title
+
+    // Set the image source and caption title
+    document.getElementById('randomImage').src = photoUrl;
+    document.getElementById('photoTitle').innerText = `Random photo: ${photoTitle}`;
+  }
+
+  function displayRandomLocalImage() {
+    const randomIndex = getRandomInt(localImages.length);
+    const randomLocalImage = localImages[randomIndex];
+    document.getElementById('randomImage').src = randomLocalImage;
+    document.getElementById('photoTitle').innerText = `Random photo: ${randomLocalImage.split('/').pop()}`; // Display image filename
+  }
+
+  function displayRandomImage() {
+    // Randomly decide to show either a Flickr photo or a local image (50/50 chance)
+    if (Math.random() > 0.5) {
+      fetchFlickrPhotos();
+    } else {
+      displayRandomLocalImage();
+    }
+  }
+
+  // Fetch the random image (either from Flickr or local folder) when the page loads
+  window.onload = displayRandomImage;
+</script>
+
+</body>
+</html>
+
+<!-- text above here is for the images on blog -->
+
+<div class="home" style="text-align: center;"> <!-- Centered everything inside home -->
+  
+  <!-- The below will call the page heading
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}-->
+  
+<!-- {%- include tag_cloud.html -%} -->
+  
+<h1  >Recent Posts</h1>
+  {{ content }}
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
+    <ul class="post-list" style="list-style-type: none; padding: 0;"> <!-- Remove list bullets -->
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}
+          {% assign words = post.content | number_of_words %}
+          {% assign readtime = words | divided_by: 180 %}
+          <span class="reading-time"> ~{{ readtime | ceil }} minute read</span>
+        </span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+    <hr>
+    <br>
+    <p class="rss-subscribe" style="text-align: center;"> <!-- Center the RSS subscribe text -->
+      Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a> or have posts delivered directly to your inbox below
+    </p>
+  {%- endif -%}
+</div>

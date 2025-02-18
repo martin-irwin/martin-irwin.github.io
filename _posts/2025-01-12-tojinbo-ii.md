@@ -1,15 +1,21 @@
 ---
 title: "Tōjinbō II"
-date: "2025-01-10"
 categories: 
 - blog
-tags: Tojinbo,japan,sea of japan,travel,Fukui,rocks,landscape,blog
+tags: 
+  - Tojinbo
+  - Japan
+  - Sea of Japan
+  - Travel
+  - Fukui
+  - Rocks
+  - Landscape
+  - Blog
 excerpt: "A few photos from this familiar rock formation at the Sea of Japan, and some notes on the new website."
 summary: "Discover Tōjinbō, the iconic cliffs on Japan’s Sea of Japan, in this photo-rich travelogue exploring the timeless beauty of these volcanic rock formations in Fukui Prefecture. Reflecting on the changes in Japan over a decade, the author delves into themes of nostalgia, tourism, and the evolution of travel habits in a post-pandemic world. This post also marks a significant shift in blogging workflow, transitioning from Squarespace to GitHub, with insights on using tools like Bear, Working Copy, and iPad Pro for seamless content creation. Join the journey through stunning landscapes, cultural observations, and tech explorations."
-image: /assets/images/DSC00143.png
+header:
+    image: /assets/images/DSC00143.png
 ---
-
-![photo](/assets/images/DSC00143.png)
 
 Following on from my last post, it struck me that one can either return to a location and see all of the changes, not help but make comparisons to how things were (for good or for worse), or the location remains exactly how you left it. It’s usually the manmade world that will change the most in a period of 10 years, though natural disasters and erosion can also drastically impact the natural world, of course. 
 

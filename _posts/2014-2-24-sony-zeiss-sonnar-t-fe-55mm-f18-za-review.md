@@ -1,6 +1,5 @@
 ---
 title: "Sony Zeiss Sonnar T* FE 55mm F1.8 ZA Review"
-date: "2019-08-17"
 categories: 
   - "review"
 tags: 
@@ -10,6 +9,8 @@ tags:
   - "sel55f18z"
   - "sonnar"
   - "zeiss"
+toc: true
+toc_sticky: true
 ---
 
 ![20140322-DSC00060-ILCE-7R.jpg](/assets/images/5df39-20140322-dsc00060-ilce-7r.jpg)

@@ -3,6 +3,7 @@ layout: single
 author_profile: true
 classes: wide
 permalink: /potd/
+comments: false
 ---
 <figure>
   <h3 id="photoTitle">Photo of the day:</h3>

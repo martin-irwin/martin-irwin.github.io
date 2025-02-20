@@ -8,6 +8,9 @@ tags:
   - "review"
   - "headphones"
   - "mdr-1r"
+toc: true
+toc_sticky: true
+category: "review"
 ---
 # Sony MDR-1R Review
 

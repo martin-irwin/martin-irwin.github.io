@@ -5,6 +5,9 @@ tags:
   - "minidisc"
   - "products"
   - "review"
+toc: true
+toc_sticky: true
+category: "review"
 ---
 
 <figure>

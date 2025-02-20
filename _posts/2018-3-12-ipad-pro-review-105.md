@@ -8,6 +8,9 @@ tags:
   - "products"
   - "review"
   - "reviews"
+toc: true
+toc_sticky: true
+category: "review"
 ---
 
 <figure>

@@ -1,8 +1,9 @@
 ---
 title: "Triumph Speed Triple CAFE RACER"
 date: "2019-08-20"
-categories: 
-  - "blog"
+toc: true
+toc_sticky: true
+category: "review"
 tags: 
   - "cafe-racer"
   - "motorbike"

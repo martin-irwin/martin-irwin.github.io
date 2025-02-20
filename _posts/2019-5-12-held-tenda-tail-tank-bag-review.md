@@ -10,6 +10,7 @@ tags:
   - "review"
   - "tank-bag"
   - "tour"
+category: review
 ---
 
 ![20190512-IMG_20190512_145023-VOG-L29.jpg](/assets/images/d286a-20190512-img_20190512_145023-vog-l29.jpg)

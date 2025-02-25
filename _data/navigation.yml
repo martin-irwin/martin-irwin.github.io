@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "Blog"
+    url: /
+  - title: "Reviews"
+    url: /reviews/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "POTD"
+    url: /potd/
+  - title: "About"
+    url: /about/
+   # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

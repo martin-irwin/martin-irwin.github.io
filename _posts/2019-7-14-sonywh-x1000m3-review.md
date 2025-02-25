@@ -4,6 +4,9 @@ date: "2019-07-16"
 tags: 
   - "headphones"
   - "review"
+toc: true
+toc_sticky: true
+category: review
 ---
 
 ![img_20190714_173810.jpeg](/assets/images/31876-img_20190714_173810.jpeg)

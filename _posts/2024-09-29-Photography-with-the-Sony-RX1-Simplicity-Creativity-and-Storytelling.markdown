@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Photography with the Sony RX1: Simplicity, Creativity, and Storytelling"
 date:   2024-09-29 14:34:07 +0000
 categories: 

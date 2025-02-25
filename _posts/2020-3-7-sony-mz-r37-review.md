@@ -6,6 +6,9 @@ tags:
   - "review"
   - "reviews"
   - "sony"
+toc: true
+toc_sticky: true
+category: "review"
 ---
 
 There are others on the internet doing a better job of objectively reviewing… everything, but I’m going to stick to my subjective review style. I do appreciate objective reviews, and everything they have to offer, but the crux of the matter is that I do not buy or even use anything based on its specs. I never have done. Purchasing for me is an emotive experience, one where heart comes before head. My car, motorbike, watch(es), games consoles, audio equipment, cameras, lenses, are not purchased because they are the **best.** They’re purchased because there’s something about them that evokes at least a modicum of an emotive response. I like how it looks, sounds, the quirks, the drawbacks, the imperfections, the attempt, how it _feels in the hand_.

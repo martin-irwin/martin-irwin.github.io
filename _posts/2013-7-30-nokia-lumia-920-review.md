@@ -1,8 +1,9 @@
 ---
 title: "Nokia Lumia 920 Review"
 date: "2013-07-30"
-categories: 
-  - "review"
+toc: true
+toc_sticky: true
+category: "review"
 tags: 
   - "920"
   - "nokia"

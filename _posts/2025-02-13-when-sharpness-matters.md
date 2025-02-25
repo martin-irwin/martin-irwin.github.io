@@ -1,13 +1,17 @@
 ---
 title: When sharpness matters
 excerpt: In the world of high-resolution photography, sharpness and megapixels often take centre stage. However, as I reflect on my experience with Sony’s powerful A7CR and its impressive 61 MP sensor, I realise that sometimes, it’s not the technical specs that matter most. For this image, shot with my sharpest lens, the SEL55F18ZA, it’s the atmosphere, the moment, and the feeling that take precedence. Gear is just a tool — the art of photography lies in the story we capture, not in the megapixels we use to do so.
-tags: Zug,Switzerland,hiking
-layout: post
+tags: Zug, Switzerland, hiking
 image: /assets/images/7CR00651_20250208.png
 categories: "blog"
+header:
+    image: /assets/images/7CR00651_20250208.png
+toc: true
+toc_sticky: true
 ---
 
-# When sharpness doesn't matter
+## Or, when sharpness doesn't matter
+
 Taking this photo with a 61 megapixel full-frame camera, using arguably my sharpest lens (the venerable SEL55F18ZA)... it can be funny how none of this comes together as being remotely important in this type of image:
 
 ![photo](/assets/images/7CR00651_20250208.png)
@@ -65,5 +69,5 @@ A great photo is not made from the equipment. This becomes more and more evident
 
 It’s one of Sony’s sharpest lenses and a favourite among photographers who want high-quality optics in a small package.
 
->Read my [review of the lens here](https://www.martinirwinphotography.com/review/2019/08/17/sony-zeiss-sonnar-t-fe-55mm-f18-za-review.html)
+>Read my [review of the lens here](/review/sony-zeiss-sonnar-t-fe-55mm-f18-za-review)
 

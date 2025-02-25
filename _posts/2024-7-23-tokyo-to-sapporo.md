@@ -1,6 +1,5 @@
 ---
 title: "Tokyo to Sapporo"
-date: "2024-07-23"
 categories: 
   - "blog"
 tags: 

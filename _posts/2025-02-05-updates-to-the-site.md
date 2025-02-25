@@ -2,7 +2,8 @@
 title: Updates to the Site
 excerpt: "After years of using Squarespace, I finally made the switch to Jekyll and GitHub Pages. The reasons? Clunky editing, restrictive workflows, poor mobile apps, and rising costs. Now, my site is fully in my control, backed up locally and on GitHub, with a seamless blogging workflow. I’ve also restored comments and embraced a more open, personal web—something that feels increasingly rare in today’s internet. Oh, and I’m playing Cyberpunk 2077, which ties into all this more than you’d think…"
 tags: Updates Cyberpunk PM250
-image: /assets/images/IMG_0975.png
+header:
+   teaser: /assets/images/IMG_0975.png
 categories: "blog"
 ---
 

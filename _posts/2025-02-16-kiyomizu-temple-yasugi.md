@@ -4,6 +4,7 @@ excerpt: Staying within the serene grounds of **Kiyomizu Temple in Yasugi** was 
 tags: Yasugi Buddhist zen temple japan travel
 header:
     image: /assets/images/DSC00232_header.jpeg
+    teaser: /assets/images/DSC00232_header.jpeg
 categories: "blog"
 ---
 On the voyage to Hiroshima, we wanted to stay in a traditional Japanese inn, known as a *Ryokan*. It’s much easier to find one online than even a few years ago, but I was thinking that it was probably even easier 500 years ago. Back then, mind you, you’d have 1 horsepower and the journey would take a lot longer. We had a whole 58 horsepower in our Daihatsu Move (a little *kei-car* with a mid-size motorbike engine), and were making light work of crossing central Japan.

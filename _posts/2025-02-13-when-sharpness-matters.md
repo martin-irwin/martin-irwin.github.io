@@ -6,6 +6,7 @@ image: /assets/images/7CR00651_20250208.png
 categories: "blog"
 header:
     image: /assets/images/7CR00651_20250208.png
+    teaser: /assets/images/7CR00651_20250208.png
 toc: true
 toc_sticky: true
 ---

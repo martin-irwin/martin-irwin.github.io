@@ -2,107 +2,123 @@
 <html>
 <head>
     <title>Business Week & Quarter Info</title>
+    <style>
+        /* Style for clock container */
+        .clock-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        /* Analog clock styles */
+        .clock {
+            width: 100px;
+            height: 100px;
+            border: 4px solid black;
+            border-radius: 50%;
+            position: relative;
+            background: white;
+        }
+
+        .hand {
+            position: absolute;
+            width: 50%;
+            height: 2px;
+            background: black;
+            top: 50%;
+            left: 50%;
+            transform-origin: left center;
+            transform: rotate(0deg);
+        }
+
+        .hour-hand { width: 35%; height: 3px; }
+        .minute-hand { width: 45%; }
+        .second-hand { width: 50%; height: 1px; background: red; }
+
+        /* Digital time styles */
+        .time-label {
+            text-align: center;
+            margin-top: 5px;
+            font-weight: bold;
+        }
+    </style>
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const today = new Date();
-
-            // Display user's local date and time
-            function updateTime() {
-                const now = new Date();
-                document.getElementById("local-time").innerHTML = `<b>${now.toLocaleString()}</b>`;
-                
-                // Time zones for New York, London, and Tokyo
-                document.getElementById("ny-time").innerHTML = `<b>${new Date().toLocaleString("en-US", { timeZone: "America/New_York" })}</b>`;
-                document.getElementById("london-time").innerHTML = `<b>${new Date().toLocaleString("en-GB", { timeZone: "Europe/London" })}</b>`;
-                document.getElementById("tokyo-time").innerHTML = `<b>${new Date().toLocaleString("ja-JP", { timeZone: "Asia/Tokyo" })}</b>`;
-            }
-            updateTime();
-            setInterval(updateTime, 1000); // Update every second
-
-            // Get ISO Week Number
-            function getISOWeek(date) {
-                const tempDate = new Date(date.getTime());
-                tempDate.setUTCHours(0, 0, 0, 0);
-                tempDate.setDate(tempDate.getDate() + 3 - (tempDate.getDay() || 7));
-                const firstThursday = new Date(tempDate.getFullYear(), 0, 4);
-                firstThursday.setDate(firstThursday.getDate() + 3 - (firstThursday.getDay() || 7));
-                return Math.round(((tempDate.getTime() - firstThursday.getTime()) / 86400000 + 1) / 7);
-            }
-
-            const weekNumber = getISOWeek(today);
-
-            // Define quarters
-            const quarters = [
-                { name: "Q1", start: new Date(2025, 0, 1), end: new Date(2025, 2, 31) },
-                { name: "Q2", start: new Date(2025, 3, 1), end: new Date(2025, 5, 30) },
-                { name: "Q3", start: new Date(2025, 6, 1), end: new Date(2025, 8, 30) },
-                { name: "Q4", start: new Date(2025, 9, 1), end: new Date(2025, 11, 31) }
+        function updateClocks() {
+            const timeZones = [
+                { id: "local", tz: Intl.DateTimeFormat().resolvedOptions().timeZone },
+                { id: "ny", tz: "America/New_York" },
+                { id: "london", tz: "Europe/London" },
+                { id: "tokyo", tz: "Asia/Tokyo" }
             ];
 
-            let currentQuarter, quarterEnd;
-            for (const q of quarters) {
-                if (today >= q.start && today <= q.end) {
-                    currentQuarter = q;
-                    quarterEnd = q.end;
-                    break;
-                }
-            }
+            timeZones.forEach(zone => {
+                const now = new Date(new Date().toLocaleString("en-US", { timeZone: zone.tz }));
+                const hours = now.getHours();
+                const minutes = now.getMinutes();
+                const seconds = now.getSeconds();
 
-            // Business days until the end of the quarter
-            function getBusinessDays(startDate, endDate) {
-                let count = 0;
-                let current = new Date(startDate);
-                while (current <= endDate) {
-                    if (current.getDay() !== 0 && current.getDay() !== 6) {
-                        count++;
-                    }
-                    current.setDate(current.getDate() + 1);
-                }
-                return count;
-            }
+                // Rotate clock hands
+                document.getElementById(`${zone.id}-hour`).style.transform = `rotate(${(hours % 12) * 30 + minutes * 0.5}deg)`;
+                document.getElementById(`${zone.id}-minute`).style.transform = `rotate(${minutes * 6}deg)`;
+                document.getElementById(`${zone.id}-second`).style.transform = `rotate(${seconds * 6}deg)`;
 
-            const businessDaysRemaining = getBusinessDays(today, quarterEnd);
+                // Update digital time
+                document.getElementById(`${zone.id}-time`).innerHTML = `<b>${now.toLocaleTimeString()}</b>`;
+            });
+        }
 
-            // Quarter progress
-            const quarterStart = currentQuarter.start;
-            const quarterDaysTotal = getBusinessDays(quarterStart, quarterEnd);
-            const quarterDaysElapsed = getBusinessDays(quarterStart, today);
-            const quarterCompletion = ((quarterDaysElapsed / quarterDaysTotal) * 100).toFixed(2);
-
-            // Year progress
-            const startOfYear = new Date(2025, 0, 1);
-            const endOfYear = new Date(2025, 11, 31);
-            const yearDaysTotal = getBusinessDays(startOfYear, endOfYear);
-            const yearDaysElapsed = getBusinessDays(startOfYear, today);
-            const yearRemaining = (100 - ((yearDaysElapsed / yearDaysTotal) * 100)).toFixed(2);
-
-            // Output to HTML
-            document.getElementById("week-number").innerHTML = `<b>${weekNumber}</b>`;
-            document.getElementById("quarter-end").innerHTML = `<b>${quarterEnd.toDateString()}</b>`;
-            document.getElementById("business-days-left").innerHTML = `<b>${businessDaysRemaining}</b>`;
-            document.getElementById("quarter-list").innerHTML = quarters.map(q => `<li><b>${q.name}</b>: ${q.start.toDateString()} - ${q.end.toDateString()}</li>`).join('');
-            document.getElementById("quarter-progress").innerHTML = `<b>${quarterCompletion}%</b>`;
-            document.getElementById("year-remaining").innerHTML = `<b>${yearRemaining}%</b>`;
+        document.addEventListener("DOMContentLoaded", function () {
+            updateClocks();
+            setInterval(updateClocks, 1000); // Update every second
         });
     </script>
 </head>
 <body>
     <h2>Business Week & Quarter Info</h2>
-    
+
     <h3>Current Date & Time</h3>
-    <p>Local Time: <span id="local-time"></span></p>
-    <p>New York: <span id="ny-time"></span></p>
-    <p>London: <span id="london-time"></span></p>
-    <p>Tokyo: <span id="tokyo-time"></span></p>
+    <div class="clock-container">
+        <!-- Local Time -->
+        <div>
+            <div class="clock">
+                <div class="hand hour-hand" id="local-hour"></div>
+                <div class="hand minute-hand" id="local-minute"></div>
+                <div class="hand second-hand" id="local-second"></div>
+            </div>
+            <div class="time-label">Local Time<br><span id="local-time"></span></div>
+        </div>
 
-    <h3>Business Calendar</h3>
-    <p>It is week <span id="week-number"></span>.</p>
-    <p>The quarter ends <span id="quarter-end"></span>.</p>
-    <p>There are <span id="business-days-left"></span> business days until the end of the quarter.</p>
+        <!-- New York -->
+        <div>
+            <div class="clock">
+                <div class="hand hour-hand" id="ny-hour"></div>
+                <div class="hand minute-hand" id="ny-minute"></div>
+                <div class="hand second-hand" id="ny-second"></div>
+            </div>
+            <div class="time-label">New York<br><span id="ny-time"></span></div>
+        </div>
 
-    <h3>The quarters for 2025 are:</h3>
-    <ul id="quarter-list"></ul>
+        <!-- London -->
+        <div>
+            <div class="clock">
+                <div class="hand hour-hand" id="london-hour"></div>
+                <div class="hand minute-hand" id="london-minute"></div>
+                <div class="hand second-hand" id="london-second"></div>
+            </div>
+            <div class="time-label">London<br><span id="london-time"></span></div>
+        </div>
 
-    <p>The quarter is <span id="quarter-progress"></span> complete and <span id="year-remaining"></span> of the year is remaining.</p>
+        <!-- Tokyo -->
+        <div>
+            <div class="clock">
+                <div class="hand hour-hand" id="tokyo-hour"></div>
+                <div class="hand minute-hand" id="tokyo-minute"></div>
+                <div class="hand second-hand" id="tokyo-second"></div>
+            </div>
+            <div class="time-label">Tokyo<br><span id="tokyo-time"></span></div>
+        </div>
+    </div>
 </body>
 </html>

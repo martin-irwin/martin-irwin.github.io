@@ -1,14 +1,16 @@
 ---
-title: My Tottori, My Dune
-excerpt: Explore the unique Tottori Sand Dunes, a hidden gem just 300km from Hiroshima City. Discover Japan’s least populated prefectural capital, featuring impressive dunes, considerate tourists, and local coffee culture. A refreshing departure from typical Japanese destinations, Tottori offers a remarkable desert landscape within the San’in Kaigan Geopark.
-tags: 	“Tottori”
-		“Japan”
-		“Sand”
-		“Travel”
+title: “My Tottori, My Dune”
+excerpt: “Explore the unique Tottori Sand Dunes, a hidden gem just 300km from Hiroshima City. Discover Japan’s least populated prefectural capital, featuring impressive dunes, considerate tourists, and local coffee culture. A refreshing departure from typical Japanese destinations, Tottori offers a remarkable desert landscape within the San’in Kaigan Geopark.”
+tags: 
+  - 	“Tottori”
+  - “Japan”
+  - “Sand”
+  - “Travel”
 header:
 	image: /assets/images/sand-dunes.jpeg
 	teaser: /assets/images/DSC00258.jpeg
-categories: "blog"
+categories:
+  - "blog" 
 toc: false
 toc_sticky: false
 ---

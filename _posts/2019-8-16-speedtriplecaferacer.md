@@ -1,5 +1,5 @@
 ---
-title: "Triumph Speed Triple CAFE RACER"
+title: "Triumph Speed Triple *CAFE RACER*"
 date: "2019-08-20"
 toc: true
 toc_sticky: true
@@ -69,11 +69,64 @@ The bike is perfect stock. My customisations are simply “to my taste”, and a
 
 The high-riser handlebars on the Speed Triple are basically perfectly positioned for street riding. They are extremely comfortable, but also lend themselves to wheelie assistance. The mirrors end up with you seeing quite a lot of your own shoulder, mind you. So, first, I got some bar-end mirrors.
 
-[![Screenshot 2019-08-20 at 18.36.42.png](/assets/images/eba89-screenshot2019-08-20at18.36.42.png)](/assets/images/eba89-screenshot2019-08-20at18.36.42.png)
-[![Screenshot 2019-08-20 at 18.36.58.png](/assets/images/7b732-screenshot2019-08-20at18.36.58.png)](/assets/images/7b732-screenshot2019-08-20at18.36.58.png)
+![Screenshot 2019-08-20 at 18.36.42.png](/assets/images/eba89-screenshot2019-08-20at18.36.42.png)
+
+![Screenshot 2019-08-20 at 18.36.58.png](/assets/images/7b732-screenshot2019-08-20at18.36.58.png)
 
 I purchased a pair of 52mm (fork diameter) clip ons, and removed the standard bar. I had to drill holes for the control mounts, and fitted some bar-end mirrors. Now, the handlebars are lower than the tank, so I am leant over quite drastically. It’s not the most comfortable position for 4 hours’ riding, but it is much, much nicer to corner with. The bike is so easy to turn in with clip ons; it really feels like a naked sports bike in this config.
 
-[![Screenshot 2019-08-20 at 18.42.56.png](/assets/images/99183-screenshot2019-08-20at18.42.56.png)](/assets/images/99183-screenshot2019-08-20at18.42.56.png)
-[![Screenshot 2019-08-20 at 18.43.11.png](/assets/images/73829-screenshot2019-08-20at18.43.11.png)](/assets/images/73829-screenshot2019-08-20at18.43.11.png)
-[![Screenshot 2019-08-20 at 18.43.26.png](/assets/images/64689-screenshot2019-08-20at18.43.26.png)](/assets/images/64689-screenshot2019-
+View fullsize
+
+![Screenshot 2019-08-20 at 18.42.56.png](/assets/images/99183-screenshot2019-08-20at18.42.56.png)
+
+![Screenshot 2019-08-20 at 18.43.11.png](/assets/images/73829-screenshot2019-08-20at18.43.11.png)
+
+![Screenshot 2019-08-20 at 18.43.26.png](/assets/images/64689-screenshot2019-08-20at18.43.26.png)
+
+The bike came with Pazzo Racing levers and a Rizoma brake fluid reservoir.
+
+Then, I updated the bar-end mirrors to some circular ones:
+
+![FA28F81F-94AB-4A93-9EA7-1D2922A7766A.JPG](/assets/images/b73dc-fa28f81f-94ab-4a93-9ea7-1d2922a7766a.jpg)
+
+## EXHAUST
+
+The stock exhaust is iconic, and sounds great. The triple engine has an almost supercharger whine, and the exhaust has a good throaty roar. However, this is a load of metal high above the rear wheel. To be clear, it’s 9.5 kgs of metal. That’s a fair amount. My Zard slip on weighs just 1.5 kgs and it’s almost all below the wheel. That’s an 8 kilo saving.
+
+![Screenshot 2019-08-20 at 18.43.43.png](/assets/images/35130-screenshot2019-08-20at18.43.43.png)
+
+It has the added benefit of sounding a little different to stock, and really carries the sound nicely. I’d recommend it to any Speed Triple owners out there. There are loads of options, but I needed an EU-approved exhaust. Or at least, I’m going to use one… for now!
+
+![Screenshot 2019-08-20 at 18.43.59.png](/assets/images/aaa8c-screenshot2019-08-20at18.43.59.png)
+
+I’ve also removed the large passenger foot pegs, and installed GSXR pegs which are much sleeker.
+
+![Screenshot 2019-08-20 at 18.44.33.png](/assets/images/096ef-screenshot2019-08-20at18.44.33.png)
+
+## SEAT
+
+I had my seat re-upholstered locally, at a family-owner reupholstering garage. My original seat had a tear at the tank-join, so I decided to get the whole thing repaired (main reason being that it retained water, resulting in a wet crotch). I chose a style in keeping with the rest of the bike, and scotch guarded the whole thing.
+
+![dsznoL4 - Imgur.jpg](/assets/images/57a91-dsznol4-imgur.jpg)
+
+## TAIL TIDY
+
+I have the [Anmo-parts tail tidy.](https://www.anmoparts.de/en-gb/home) Looks great.
+
+![Screenshot 2019-08-20 at 18.46.01.png](/assets/images/ed5ba-screenshot2019-08-20at18.46.01.png)
+
+# CURRENT STATUS
+
+As it stands the bike looks as shown above. I don’t think I will make any further modifications to the bike, as it’s pretty much how I want it right now. There’s almost nothing I would change really, except for the sake of change, at this point. There’s not much more to remove, which is what the cafe racer was all about (cutting out weight to make a faster bike), and the bike takes corners extremely well with lots of confidence. Next on the shopping list is a new rear tyre and rear brakes… which are actually essential unlike the rest of this cosmetic makeover.
+
+And just to be clear, this post is to document the cosmetic changes to my bike. I use the bike more than mod it, have only cleaned it once, and have done around 10,000 km in the year I’ve had it. Earlier this month I took an ADAC safety training course for advanced riders, which was amazing fun.
+
+I really like how my bike looks, but I enjoy _riding it_ more. The clip ons help with turn in and tucking, and cornering is so much fun. The exhaust removed a bit of weight and sounds cool, and changes the look a little.
+
+I can’t wait to get back on the bike!
+
+![IMG_20190622_115818_661.jpg](/assets/images/c4f1f-img_20190622_115818_661.jpg)
+
+![Screenshot 2019-08-20 at 19.03.27.png](/assets/images/11a6a-screenshot2019-08-20at19.03.27.png)
+
+![Screenshot 2019-08-20 at 18.45.10.png](/assets/images/aa55d-screenshot2019-08-20at18.45.10.png)

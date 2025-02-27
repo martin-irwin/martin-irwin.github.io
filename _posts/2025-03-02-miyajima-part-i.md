@@ -1,5 +1,6 @@
 ---
 title: Miyajima, Part I
+date: 2025-03-02
 excerpt: Visiting Miyajima (Itsukushima), the famous “shrine island” near Hiroshima, is like stepping into a piece of Japan’s spiritual and scenic history. Home to the iconic floating torii gate and the ancient Itsukushima Shrine, this sacred island has been a revered pilgrimage site for centuries. Today, it remains a top destination, offering breathtaking views, historic temples, and encounters with its friendly wild deer. Whether exploring during the bustling daytime or enjoying the island’s peaceful charm at night, Miyajima is a must-visit for history lovers, photographers, and anyone seeking a truly unique experience in Japan.
 tags: Miyajima japan itsukushima hiroshima shrine island travel Buddhism
 header:

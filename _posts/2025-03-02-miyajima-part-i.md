@@ -1,6 +1,6 @@
 ---
 title: Miyajima, Part I
-date: 2025-03-02
+date: 2025-03-02 03:00:00 +0100
 excerpt: Visiting Miyajima (Itsukushima), the famous “shrine island” near Hiroshima, is like stepping into a piece of Japan’s spiritual and scenic history. Home to the iconic floating torii gate and the ancient Itsukushima Shrine, this sacred island has been a revered pilgrimage site for centuries. Today, it remains a top destination, offering breathtaking views, historic temples, and encounters with its friendly wild deer. Whether exploring during the bustling daytime or enjoying the island’s peaceful charm at night, Miyajima is a must-visit for history lovers, photographers, and anyone seeking a truly unique experience in Japan.
 tags: Miyajima japan itsukushima hiroshima shrine island travel Buddhism
 header:
@@ -9,7 +9,7 @@ header:
 categories: "blog"
 ---
 
-We arrived in Hiroshima, and the next day took a trip to the famous and picture-postcard island of Itsukushima. The island is more commonly known as Miyajima, ~[Japanese](https://www.japan-guide.com/e/e621.html)~ for "shrine island." This name reflects the island's close connection to its principal shrine, ~[Itsukushima Shrine](https://www.japan-guide.com/e/e3450.html)~. Similar to the torii gate, the shrine's main buildings are constructed over water.
+We arrived in Hiroshima, and the next day took a trip to the famous and picture-postcard island of Itsukushima. Those of you with the blog since the early days, will note I was here [around 12 years ago](/blog/itsukushima-shrinemiyajima-hiroshima-pt-3/). The island is more commonly known as Miyajima, ~[Japanese](https://www.japan-guide.com/e/e621.html)~ for "shrine island." This name reflects the island's close connection to its principal shrine, ~[Itsukushima Shrine](https://www.japan-guide.com/e/e3450.html)~. Similar to the torii gate, the shrine's main buildings are constructed over water.
 
 Miyajima (宮島) is a small island less than an hour outside the city of ~[Hiroshima](https://www.japan-guide.com/e/e2160.html)~. It is most famous for its giant ~[torii gate](https://www.japan-guide.com/e/e2059.html)~, which at high tide appears to float on the water. This sight is ranked as one of Japan's ~[three best views](https://www.japan-guide.com/e/e2250.html)~.
 

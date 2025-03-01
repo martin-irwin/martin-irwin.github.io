@@ -14,10 +14,11 @@ gallery_images:
     alt: "Orchid"
     title: "Orchid" 
 
-  - url: /assets/portfolio/Bamboo+Forest.png
-    image_path: /assets/portfolio/Bamboo+Forest.png
-    alt: "Bamboo Forest"
-    title: "Bamboo Forest"
+
+  - url: /assets/portfolio/horses_18127918309_o.jpg
+    image_path: /assets/portfolio/horses_18127918309_o.jpg
+    alt: "Horses"
+    title: "Horses"
 
   - url: /assets/portfolio/mr-blue-sky_17069826081_o.jpg
     image_path: /assets/portfolio/mr-blue-sky_17069826081_o.jpg
@@ -74,13 +75,14 @@ gallery_images:
     alt: "Butterfly Flyby"
     title: "Butterfly Flyby"
 
-  - url: /assets/portfolio/horses_18127918309_o.jpg
-    image_path: /assets/portfolio/horses_18127918309_o.jpg
-    alt: "Horses"
-    title: "Horses"
+  - url: /assets/portfolio/Bamboo+Forest.png
+    image_path: /assets/portfolio/Bamboo+Forest.png
+    alt: "Bamboo Forest"
+    title: "Bamboo Forest"
+
 ---
 
-<p style="text-align: center; padding-left: 30%; padding-right: 30%;">I don't use Flickr as much these days, but you can find over 15 years' worth of photos <a href="https://www.flickr.com/photos/martindesu/albums">using this link</a>.</p>
+<p style="text-align: center; padding-left: 22%; padding-right: 22%;">I don't use Flickr as much these days, but you can find over 15 years' worth of photos <a href="https://www.flickr.com/photos/martindesu/albums">using this link</a>.</p>
 
 <p style="text-align: center; padding-left: 20%; padding-right: 20%;">Click an image for a larger version.</p>
 

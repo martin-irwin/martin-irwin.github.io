@@ -1,0 +1,45 @@
+/* Ensure gallery fills available space above footer */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Ensures max 3 images per row */
+    gap: 0; /* No padding between images */
+    width: 100vw; /* Full viewport width */
+    height: 100%; /* Full available height above footer */
+    object-fit: cover;
+    margin: 0;
+    padding-left: 10%; /* 10% padding on the left */
+    padding-right: 10%; /* 10% padding on the right */
+}
+
+.gallery a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures images fill their grid cells */
+    border-radius: 0; /* No rounded corners */
+    transition: transform 0.5s ease-in-out;
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
+}
+
+/* Footer styling to keep it at the bottom */
+footer {
+    margin-top: auto; /* Pushes footer to the bottom of the screen */
+    padding: 10px; /* Add padding as needed */
+    text-align: center;
+    background-color: #000; /* Adjust to match your design */
+    color: #fff; /* Text color for footer */
+}

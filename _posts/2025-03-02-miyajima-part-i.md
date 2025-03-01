@@ -6,6 +6,7 @@ tags: Miyajima japan itsukushima hiroshima shrine island travel Buddhism
 header:
  image: /assets/images/DSC00272.jpeg
  teaser: /assets/images/DSC00275.jpeg
+ og_image: /assets/images/DSC00275.jpeg
 categories: "blog"
 ---
 

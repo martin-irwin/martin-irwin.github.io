@@ -5,16 +5,18 @@ permalink: /about/
 author_profile: true
 classes: wide
 ---
+{% assign current_year = site.time | date: '%Y' %}
+{% assign years = current_year | minus: 2010 %}
 
 ![photo](/assets/images/IMG_0680.png)
 
-Welcome to my little corner of the internet. I've been taking photographs and writing things for more or less 15 years now. Sometimes there are more photos than words, sometimes it's words only. 
+Welcome to my little corner of the internet. I've been taking photographs and writing things for more or less {{ years }} years now. Sometimes there are more photos than words, sometimes it's words only.
 
-if you enjoy the blog, I would love to hear from you.
+If you enjoy the blog, I would love to [hear from you.](mailto:martin@martinirwinphotography.com)
 
 ---
 
-小さなインターネットの片隅へようこそ。私は約１５年間、写真を撮ったり文章を書いたりしています。時には写真が言葉よりも多く、時には言葉だけのこともあります。
+小さなインターネットの片隅へようこそ。私は約{{ years }}年間、写真を撮ったり文章を書いたりしています。時には写真が言葉よりも多く、時には言葉だけのこともあります。
 
 ブログを楽しんでいただけたら、ぜひお知らせください。
 

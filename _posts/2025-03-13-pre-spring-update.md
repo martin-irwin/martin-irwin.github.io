@@ -11,24 +11,24 @@ categories: "blog"
 gallery:
   - url: /assets/images/7CR00698.jpg
     image_path: /assets/images/7CR00698.jpg
-    alt: "7CR00698 preview"
-    title: "7CR00698 title caption"
+    alt: "Avocet"
+    title: "Avocet"
   - url: /assets/images/7CR00700.jpg
     image_path: /assets/images/7CR00700.jpg
-    alt: "7CR00700 preview"
-    title: "7CR00700 title caption"
+    alt: "Mandarin Duck"
+    title: "Mandarin Duck"
   - url: /assets/images/7CR00704.jpg
     image_path: /assets/images/7CR00704.jpg
-    alt: "7CR00704 preview"
-    title: "7CR00704 title caption"
+    alt: "Mute Swan"
+    title: "Mute Swan"
   - url: /assets/images/7CR00713.jpg
     image_path: /assets/images/7CR00713.jpg
-    alt: "7CR00713 preview"
-    title: "7CR00713 title caption"
+    alt: "Coot"
+    title: "Coot"
   - url: /assets/images/7CR00727.jpg
     image_path: /assets/images/7CR00727.jpg
-    alt: "7CR00727 preview"
-    title: "7CR00727 title caption"
+    alt: "Starlings"
+    title: "Starlings"
 ---
 
 It's already March 2025, though that doesn't come as much of a shock, now I have the gregorian calendar understood for the most part. Weeks tick by, months pass, but what can erally catch you out are the years. I notice this most when powering up some old electronics (of which I have many), and I'll set the time, day, month, and then... oh... I have to cycle through 20+ ticks to get to 2025. This most recently happened when I resurrected my original iPod (cleverly named miPod) and scrolled from 2000 to 2025. The PSP was a similar affair. Funnier still, is when writing the date I am reminded of my time in school, where all throughout the first two weeks of January I'd had to continually correct myself or rub-out the year. I write much less frequently now than I did in school, of course, so there's a bit of lag.

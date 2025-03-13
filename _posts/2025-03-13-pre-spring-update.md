@@ -44,8 +44,6 @@ I write this post on a very underpowered and nearly-decade old laptop, the MacBo
 
 So which is better? Depends what you want to do, I suppose. There are a million reviews on YouTube and online, but the short story is that iPadOS is full of frustrations, and MacOS (or rather the hardware) only lacks eSIM support and touchscreen or pen input. How important are they? Not very. The only time that you want to use the pencil is for notes, which is fun. I was thinking to get a paper-like screen for the iPad to improve the writing feel, but I've not done it yet. I want to continue my German studies and Japanese studies, but I'm not yet feeling it on the iPad for some reason. It's good for Lightroom, where I have a few months of subscription left, so I will keep editing photos on there for sure. 
 
-![photo](/assets/images/7CR00695.jpg)
-
 But at the time of writing, I think a MacBook Air M4 will become my primary machine, and I'll do away with the Lightroom subscription. I would also then probably prefer either the 11" iPad or try something new with an iPad mini (which I've never had). Something of a bigger pain in the arse is that I went to the effort of writing a Apple Shortcut to allow me to use the "Bear" app to write blog posts on the iPad with in-line Lightroom images to streamline the blog flow, but in the end I am not sure what it gives me over jsut using a Mac for all this and stop trying to make other devices to other things.
 
 Until soon.

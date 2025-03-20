@@ -331,3 +331,8 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # RSS
+  - scope:
+      path: "rss.xml"
+    values:
+      layout: null

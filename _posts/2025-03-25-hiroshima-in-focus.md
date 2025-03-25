@@ -8,6 +8,7 @@ header:
   image: /assets/images/DSC00338.jpeg
   teaser: /assets/images/DSC00338.jpeg
 categories: "blog"
+Hidden: false
 toc: true
 toc_sticky: true
 ---

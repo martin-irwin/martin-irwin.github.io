@@ -1,5 +1,5 @@
 ---
-title:  *Hiroshima in Focus: From Feudal Castle Town to a Symbol of Peace*
+title: Hiroshima in Focus: From Feudal Castle Town to a Symbol of Peace
 excerpt: Before 1945, Hiroshima was a thriving castle town, a key economic hub, and a centre of samurai culture under the Asano clan. Today, it is best known as the site of the first atomic bombing, a history preserved in the Atomic Bomb Dome and Hiroshima Peace Memorial Park. Yet, beyond its tragic past, Hiroshima is a vibrant city, rich in history, culture, and cuisine. Discover its feudal roots, the story of Sadako and the thousand paper cranes, and why Hiroshima remains a must-visit destination in Japan.
 date: 2025-03-25
 tags: Hiroshima travel japan “bomb dome” oysters
@@ -14,7 +14,7 @@ toc_sticky: true
 ---
 Hiroshima has been world-famous for **~nearly 80 years~**. Before 1945, the city was an important strategic location in central Japan. 
 
-#Hiroshima History#
+# Hiroshima History
 
 During the **Tokugawa shogunate (1603–1868)**, Hiroshima was an important **castle town** and the political, economic, and cultural centre of the Hiroshima Domain (**Hiroshima-han**), ruled by the **Asano clan**.
 
@@ -42,8 +42,8 @@ During the **Tokugawa shogunate (1603–1868)**, Hiroshima was an important **ca
 
 During the Tokugawa era, Hiroshima was a **flourishing feudal city** known for its **castle, economic prosperity, and cultural development**. It remained an important regional power until the Meiji Restoration in 1868, when the feudal system was abolished.
 
-#Hiroshima Today#
-##The Bomb Dome##
+# Hiroshima Today
+## The Bomb Dome
 
 Today, it’s famous for one thing. The site of the first atomic bombing of humans. The mind cannot comprehend the scale of the devastation unleashed by an atomic weapon. TV, film, video games, can leave us with a sense of awe, but only when you walk across a city that was completely flattened, and see the images and videos of that actual moment, can you begin to appreciate the sheer magnitude. The museum has pictures and videos, as well as stories from survivors. I do not mean to trivialise it in any way, but if you’re having a bad day and remember that people were also having a similar bad day when a nuclear warhead nicknamed “Little Boy” was detonated 600m above what is now the **Atomic Bomb Dome** (*Genbaku Dōmu*, 原爆ドーム).
 The “dome” is the preserved ruins of the **Hiroshima Prefectural Industrial Promotion Hall**, one of the few structures that remained partially standing after the atomic bombing on **6 August 1945**.
@@ -75,7 +75,7 @@ Thing is, Japan is a second home for me. When I am there, it feels like home. My
 
 Hiroshima today is a vibrant town, and is well worth the visit. There are fantastic cafes, shops, restaurants, and cultural activities. Try out the okonomiyaki (お好み焼き) or Japanese pancake, and the grilled oysters (牡蠣焼き).
 
-##Hiroshima Castle##
+## Hiroshima Castle
 I’ll finish this post on Hiroshima with a photo and description of Hiroshima Castle.
 
 ![photo](/assets/images/DSC00345.jpeg)

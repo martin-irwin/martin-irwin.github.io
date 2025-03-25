@@ -1,9 +1,9 @@
 ---
-title: Hiroshima in Focus: From Feudal Castle Town to a Symbol of Peace
+title: Hiroshima in Focus
 excerpt: Before 1945, Hiroshima was a thriving castle town, a key economic hub, and a centre of samurai culture under the Asano clan. Today, it is best known as the site of the first atomic bombing, a history preserved in the Atomic Bomb Dome and Hiroshima Peace Memorial Park. Yet, beyond its tragic past, Hiroshima is a vibrant city, rich in history, culture, and cuisine. Discover its feudal roots, the story of Sadako and the thousand paper cranes, and why Hiroshima remains a must-visit destination in Japan.
 date: 2025-03-25
-tags: Hiroshima travel japan “bomb dome” oysters
-Image: /assets/images/DSC00340.jpg
+tags: Hiroshima travel japan
+image: /assets/images/DSC00340.jpg
 header:
   image: /assets/images/DSC00338.jpeg
   teaser: /assets/images/DSC00338.jpeg
@@ -12,9 +12,10 @@ Hidden: false
 toc: true
 toc_sticky: true
 ---
-Hiroshima has been world-famous for **~nearly 80 years~**. Before 1945, the city was an important strategic location in central Japan. 
 
-# Hiroshima History
+# Hiroshima in Focus From Feudal Castle Town to a Symbol of Peace
+
+Hiroshima has been world-famous for **~nearly 80 years~**. Before 1945, the city was an important strategic location in central Japan. 
 
 During the **Tokugawa shogunate (1603–1868)**, Hiroshima was an important **castle town** and the political, economic, and cultural centre of the Hiroshima Domain (**Hiroshima-han**), ruled by the **Asano clan**.
 

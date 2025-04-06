@@ -3,7 +3,7 @@ title: Hiroshima in Focus
 excerpt: Before 1945, Hiroshima was a thriving castle town, a key economic hub, and a centre of samurai culture under the Asano clan. Today, it is best known as the site of the first atomic bombing, a history preserved in the Atomic Bomb Dome and Hiroshima Peace Memorial Park. Yet, beyond its tragic past, Hiroshima is a vibrant city, rich in history, culture, and cuisine. Discover its feudal roots, the story of Sadako and the thousand paper cranes, and why Hiroshima remains a must-visit destination in Japan.
 date: 2025-03-25
 tags: Hiroshima travel japan
-image: /assets/images/DSC00340.jpg
+image: /assets/images/DSC00340_th.jpeg
 header:
   image: /assets/images/DSC00338.jpeg
   teaser: /assets/images/DSC00338.jpeg
@@ -20,24 +20,16 @@ Hiroshima has been world-famous for **~nearly 80 years~**. Before 1945, the city
 During the **Tokugawa shogunate (1603–1868)**, Hiroshima was an important **castle town** and the political, economic, and cultural centre of the Hiroshima Domain (**Hiroshima-han**), ruled by the **Asano clan**.
 
 ## Hiroshima Castle & the Asano Clan
-* **Hiroshima Castle** was built in **1589** by **Mōri Terumoto**, one of Toyotomi Hideyoshi’s top generals.
-* After the **Battle of Sekigahara (1600)**, the Mōri were forced to move to Hagi, and the Tokugawa shogunate granted Hiroshima to the **Fukushima clan**.
-* In **1619**, **Asano Nagaakira** became the new **daimyō (feudal lord)**, and the **Asano family** ruled Hiroshima for over 250 years.
+**Hiroshima Castle** was built in **1589** by **Mōri Terumoto**, one of Toyotomi Hideyoshi’s top generals. After the **Battle of Sekigahara (1600)**, the Mōri were forced to move to Hagi, and the Tokugawa shogunate granted Hiroshima to the **Fukushima clan**. In **1619**, **Asano Nagaakira** became the new **daimyō (feudal lord)**, and the **Asano family** ruled Hiroshima for over 250 years.
 
 ## Economic & Trade Hub
-* Hiroshima was a **key centre for rice production and trade**, with a port that connected it to Osaka and Edo (Tokyo).
-* The city had a **thriving merchant class** involved in textile production, sake brewing, and salt production.
-* It was part of the **Seto Inland Sea trade network**, which made it a strategic location for commerce.
+Hiroshima was a **key centre for rice production and trade**, with a port that connected it to Osaka and Edo (Tokyo). The city had a **thriving merchant class** involved in textile production, sake brewing, and salt production. It was part of the **Seto Inland Sea trade network**, which made it a strategic location for commerce.
 
 ## Cultural & Architectural Growth
-* The Asano clan invested in **castle town development**, leading to organized streets, merchant districts, and samurai residences.
-* Temples and shrines flourished, including **Mitaki-dera** and **Gokoku Shrine**.
-* Hiroshima developed a unique cultural identity, influenced by **Edo-period arts, poetry, and performance traditions** like **kagura** (Shinto dance-drama).
+The Asano clan invested in **castle town development**, leading to organized streets, merchant districts, and samurai residences. Temples and shrines flourished, including **Mitaki-dera** and **Gokoku Shrine**. Hiroshima developed a unique cultural identity, influenced by **Edo-period arts, poetry, and performance traditions** like **kagura** (Shinto dance-drama).
 
 ### Role in the Tokugawa System
-* As a **fudai (hereditary) domain**, Hiroshima had close ties to the Tokugawa but was still semi-autonomous.
-* It maintained a **military force** of samurai but was more focused on administration and trade.
-* The Asano family’s rule was **stable and peaceful**, avoiding the conflicts seen in other domains.
+As a **fudai (hereditary) domain**, Hiroshima had close ties to the Tokugawa but was still semi-autonomous. It maintained a **military force** of samurai but was more focused on administration and trade. The Asano family’s rule was **stable and peaceful**, avoiding the conflicts seen in other domains.
 
 ## Hiroshima’s Status in the Edo Period
 

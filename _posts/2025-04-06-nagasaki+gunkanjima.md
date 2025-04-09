@@ -7,7 +7,8 @@ header:
   image: /assets/images/DSC00424.jpeg
   teaser: /assets/images/DSC00425.jpeg
   og_image: /assets/images/DSC00425.jpeg
-categories: blog
+categories:
+  - blog
 hidden: false
 toc: false
 toc_sticky: false

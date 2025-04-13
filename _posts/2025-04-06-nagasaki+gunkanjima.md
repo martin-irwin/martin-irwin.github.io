@@ -10,7 +10,7 @@ header:
 categories:
   - blog
 hidden: false
-toc: false
+toc: true
 toc_sticky: false
 --- 
  
@@ -45,23 +45,23 @@ It’s smaller than Hiroshima, and has some interesting areas (rebuilt after the
 ## Gunkanjima
 ![photo](/assets/images/DSC00425.jpeg)
 
-Putting the area back onto the map in 2012, the James Bond film Skyfall has a memorable scene where Bond meets the villian in his lair. This bizzare location of industrial decay and delapidation is 羽島島　Hashima Island, better known as 軍艦島 Gunkanjima, or Battle Ship Island, so called due to its resemblance to the Battleship Yamato when viewed from the shore.
+Put back on the map in 2012 by the James Bond film Skyfall, Gunkanjima has a memorable cameo as the villain’s lair—a bizarre, decaying industrial island. The real location is 羽島島 Hashima Island, better known as 軍艦島 Gunkanjima, or Battleship Island, so named for its resemblance to the Battleship Yamato when viewed from the shore.
 
-*Gunkanjima* was a key site for undersea coal mining in Japan from the late 19th century until its closure in 1974. Purchased by Mitsubishi in 1890, the island became a hub of industrial activity, with its coal fueling Japan’s rapid modernisation and wartime expansion. To accommodate the growing workforce, the island was densely developed with concrete apartment blocks, making it one of the most densely populated places on Earth at its peak in the 1950s. Life on the island was harsh, especially for forced labourers brought from Korea and China during World War II under brutal conditions. After petroleum replaced coal as Japan’s primary energy source, the mine closed, and the island was abandoned, leaving behind a hauntingly preserved ruin of industrial ambition. 
+Gunkanjima was a major undersea coal mining site from the late 19th century until 1974. Purchased by Mitsubishi in 1890, it became a hub of industrial activity, fuelling Japan’s rapid modernisation and wartime expansion. To house the workforce, the island was packed with concrete apartment blocks, making it one of the most densely populated places on Earth at its peak in the 1950s. Life there was tough—especially for the forced labourers from Korea and China during World War II, who endured brutal conditions.
 
 ![photo](/assets/images/DSC00411.jpeg)
 
-Gunkanjima was later reopened to tourists and gained UNESCO World Heritage status in 2015, though not without controversy due to its wartime history. Gunkanjima, officially known as Hashima Island, was a key site for undersea coal mining in Japan from the late 19th century until its closure in 1974. Purchased by Mitsubishi in 1890, the island became a hub of industrial activity, with its coal fueling Japan’s rapid modernisation and wartime expansion. To accommodate the growing workforce, the island was densely developed with concrete apartment blocks, making it one of the most densely populated places on Earth at its peak in the 1950s. 
+As petroleum overtook coal as Japan’s primary energy source, the mine shut down and the island was abandoned. What remains is a haunting snapshot of industrial ambition left to decay.
+
+Gunkanjima was later reopened to tourists and granted UNESCO World Heritage status in 2015—though not without controversy, due to its wartime past.
 
 ![photo](/assets/images/DSC00436.jpeg)
-
-Life on the island was harsh, especially for forced labourers brought from Korea and China during World War II under brutal conditions. After petroleum replaced coal as Japan’s primary energy source, the mine closed, and the island was abandoned, leaving behind a hauntingly preserved ruin of industrial ambition. Gunkanjima was later reopened to tourists and gained UNESCO World Heritage status in 2015, though not without controversy due to its wartime history.
 
 ![photo](/assets/images/DSC00409.jpeg)
 
 ## Return East
-Following our time in the West of Japan, it was time to return to the East. This was done with a series of bullet trains totalling around 8 hours of travel time in total. I think that I spent a lot of the journey editing photos, but also recall watching YouTube.
+Following our time in the west of Japan, it was time to return east. A series of bullet trains took us back—about eight hours in total. I spent much of the journey editing photos, and also recall watching some YouTube.
 
 ![photo](/assets/images/IMG_8834.jpeg)
 
-We had several days planned in Tokyo, before we returned back to Europe. A few more photos from Japan to follow, and then I’ll get back to a more timely update regarding life at present.
+We had several days planned in Tokyo before heading back to Europe. A few more photos from Japan to come, and then I’ll return to a more timely update on present-day life.

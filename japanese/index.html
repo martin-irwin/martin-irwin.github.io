@@ -1,17 +1,11 @@
 ---
-layout: default
+layout: single
 title: Current Kanji Status
 permalink: /japanese/
 ---
 
-<h1>{{ page.title }}</h1>
 <ul>
-  {% assign files = site.static_files | where_exp: "file", "file.relative_path contains '/japanese/' and file.extname == '.html'" %}
-  {% assign sorted_files = files | sort: "basename" | reverse %}
-
-  {% for file in sorted_files %}
-    {% assign filename = file.name %}
-    {% assign date_part = filename | slice: 0, 10 %}
-    <li><a href="{{ file.relative_path | relative_url }}">{{ date_part }}</a></li>
-  {% endfor %}
+  <li><a href="{{ '/japanese/2025-05-31-121926.html' | relative_url }}">2025年05月31日</a></li>
+  <li><a href="{{ '/japanese/2025-05-28-145718.html' | relative_url }}">2025年05月28日</a></li>
+  <!-- Add more manually -->
 </ul>

@@ -4,16 +4,14 @@ title: Current Kanji Status
 permalink: /japanese/
 ---
 
-Documenting my Japanese Kanji study.
-
 <h1>{{ page.title }}</h1>
 <ul>
-  {% assign files = site.static_files | where_exp: "file", "file.relative_path contains '/japanese/' and file.extname == '.html' " %}
-  {% assign sorted_files = files | sort: "name" | reverse %}
+  {% assign files = site.static_files | where_exp: "file", "file.relative_path contains '/japanese/' and file.extname == '.html'" %}
+  {% assign sorted_files = files | sort: "basename" | reverse %}
 
   {% for file in sorted_files %}
     {% assign filename = file.name %}
     {% assign date_part = filename | slice: 0, 10 %}
-    <li><a href="{{ file.relative_path }}">{{ date_part }}</a></li>
+    <li><a href="{{ file.relative_path | relative_url }}">{{ date_part }}</a></li>
   {% endfor %}
 </ul>

@@ -21,4 +21,6 @@ I had a couple of comments that my last B&W shot was appreciated, so here's anot
 
 Have a great weekend!
 
-![Mt. Rigi & Lake Zug](/assets/images/IMG_3042_20250524.jpg)
+P.S. Click the image to see it larger!
+
+[![](/assets/images/IMG_3042_20250524.jpg)](/assets/images/IMG_3042_20250524.jpg)

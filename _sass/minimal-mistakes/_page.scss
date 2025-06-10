@@ -556,24 +556,23 @@ body {
    ========================================================================== */
 
 .wide {
-  .page,
-  .page__related {
+  .page {
     @include breakpoint($large) {
-      padding-left: 0;
       padding-right: 0;
-      margin-left: 0;
-      margin-right: 0;
-      max-width: 100%;
-      width: 100%;
     }
 
     @include breakpoint($x-large) {
-      padding-left: 0;
       padding-right: 0;
-      margin-left: 0;
-      margin-right: 0;
-      max-width: 100%;
-      width: 100%;
+    }
+  }
+
+  .page__related {
+    @include breakpoint($large) {
+      padding-right: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-right: 0;
     }
   }
 }

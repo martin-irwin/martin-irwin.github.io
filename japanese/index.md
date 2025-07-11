@@ -14,11 +14,11 @@ Here's an example of the writing of new kanji:
 I do this on an e-ink tablet which has great battery life and is easier on the eyes than using an iPad. Originally, I thought I would be using the iPad for this task, but the e-ink is really great. It's also fun to write kanji down on pieces of paper, which I do sometimes to spice things up.
 
 # Kanji progress 
-(updated 03/06/25)
+(updated 11/07/25)
 
-Total target: 2146  
-Learned so far: 1020  
-Remaining: **1126**
+Total target: 2300  
+Learned so far: 1620  
+Remaining: **680**
 
 I created this archive to track my progress. Click on a link, and you'll see the kanji I knew by that date, coloured by how well I know them. Click the kanji to go to a dictionary and see its meaning. 
 
@@ -27,6 +27,7 @@ Wish me luck!
 # Archive
 
 <ul>
+  <li><a href="{{ '/japanese/2025-07-11-190409.html' | relative_url }}">2025年07月11日 - 1620 漢字</a></li>
   <li><a href="{{ '/japanese/2025-06-06-161700.html' | relative_url }}">2025年06月03日 - 1020 漢字</a></li>
   <li><a href="{{ '/japanese/2025-06-03-110622.html' | relative_url }}">2025年06月03日 - 949 漢字</a></li>
   <li><a href="{{ '/japanese/2025-05-31-121926.html' | relative_url }}">2025年05月31日 - 869 漢字</a></li>

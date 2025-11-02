@@ -2,7 +2,7 @@
 title: 24mm as a boring wide angle
 excerpt: "The 24mm is often dismissed as too normal—too close to what a phone can do. But with the right lens, it’s anything but boring."
 date: 2025-11-02
-tags: 
+tags: 24mm lens japan iriomote ishigaki okinawa tokyo
 header:
   image: /assets/images/7CR09004_ILCE-7CR_Japan_Summer-banner.jpg
   teaser: /assets/images/7CR09004_ILCE-7CR_Japan_Summer-banner.jpg

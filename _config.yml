@@ -114,9 +114,9 @@ analytics:
 author:
   name             : "Martin Irwin"
   avatar           : "/assets/thumbs/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Come with me on my photographic journey, where I aim to improve my photography with each shot, and my view of the world therein."
+  bio              : "Take a picture, it'll last longer"
   location         : "Switzerland"
-  email            :
+  email            : martin"at"martinirwinphotograhy.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

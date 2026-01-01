@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ebdaf02e65a3fdd4",
+        "id": "0bc5c10e108bb279",
         "type": "tabs",
         "children": [
           {
-            "id": "884506f92336b093",
+            "id": "6e87d505278741e7",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -49,12 +49,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#tokyo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabeticalReverse"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -70,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -91,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2025-11-10-The Slow Death of the Free Internet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 2025-11-10-The Slow Death of the Free Internet"
             }
           },
           {
@@ -145,12 +145,12 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 876.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,16 +162,40 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "884506f92336b093",
+  "active": "e65a2d88fccba2af",
   "lastOpenFiles": [
+    "_posts/2025-11-10-The Slow Death of the Free Internet.md",
+    "_posts/2025-11-02-24mm-as-a-boring-wide-angle.md",
+    "_posts/2012-09-19-spotlight.md",
+    "_posts/2018-12-13-subscription-services-are-costing-you-money.md",
+    "copilot/copilot-conversations/given_my_tone_of_voice_and_writing_style,_help_me@20251102_151522.md",
+    "copilot/copilot-conversations",
+    "_posts/2014-1-19-uptown.md",
+    "_posts/2014-4-14-under-construction.md",
+    "_posts/2021-7-11-week-27.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
     "_posts/2012-10-15-kosagi.md",
     "_posts/2012-11-09-hometime.md",
     "_posts/2025-07-11-july-2025.md",
     "_posts/2015-3-4-orchid.md",
-    "_posts/2025-02-13-when-sharpness-matters.md",
-    "_posts/2012-09-19-spotlight.md"
+    "_posts/2025-02-13-when-sharpness-matters.md"
   ]
 }

@@ -1,7 +1,7 @@
 ---
 title: "Another One Bites the Dust: The Slow Death of the Free Internet"
 excerpt: "Once a vibrant, free community for photographers, Flickr's shift to a subscription model is a symptom of a larger disease: the slow death of the free internet."
-date: 2025-11-10
+date: 2026-01-01
 tags: flickr internet rant subscription community monetization
 header:
   image: /assets/images/DSC7577.jpg
@@ -29,5 +29,7 @@ The worst part? There are no real competitors left in photo hosting. Where do yo
 It’s the same reason I eventually moved this website over to GitHub. Is it a pain in the arse to maintain? Absolutely. But at least it’s mine. I’m not beholden to a company* that could triple its prices or change its terms on a whim just because their shareholders demand it. It’s a small act of defiance. A way of carving out a corner of the web that still feels like my own.
 
 In the end, we pays our money and we makes our choice. It just feels like there are fewer and fewer choices to make.
+
+All photos from Castle Lichtenstein near Stuttgart.
 
 _*github is an american company and could indeed screw over the community at any moment_

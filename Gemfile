@@ -44,8 +44,8 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.8"
 gem "jekyll-read-time"
-gem 'jekyll-lunr-js-search', require: false
-# gem 'mini_racer' # Use mini_racer instead of therubyracer
+gem 'jekyll-lunr-js-search', git: 'https://github.com/slashdotdash/jekyll-lunr-js-search.git'
+gem 'mini_racer'
 
 # gem "jekyll", "~> 3.9.3"
 # gem "minima", "~> 2.0"

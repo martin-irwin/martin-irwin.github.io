@@ -1,0 +1,82 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+<style>
+    /* ... (Keeping your exact CSS from above) ... */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { overflow-y: scroll; }
+    body {
+        font: 0.8rem/1.4 "JetBrains Mono", monospace;
+        background: #f2f2f2;
+        color: #000;
+        padding: 16vh 0 10vh; 
+        display: grid;
+        grid-template-columns: minmax(auto, 600px); 
+        justify-content: center;
+        letter-spacing: -0.03em;
+        -webkit-font-smoothing: antialiased;
+    }
+    main { width: 100%; padding: 0 2em; }
+    .header-group { margin-bottom: 1.4rem; }
+    h1 { font-weight: 300; font-size: 0.8rem; line-height: 1.4; }
+    .dash { display: block; line-height: 1.4; margin-top: 1.4rem; }
+    img { width: 100%; max-width: 100%; height: auto; display: block; margin: 2.8rem 0; cursor: zoom-in; transition: opacity 0.2s ease; }
+    img:hover { opacity: 0.8; }
+    .featured-image img { margin-top: 0 !important; }
+    main a:has(img) { border: none !important; }
+    p { margin-bottom: 1.4rem; }
+    a { color: inherit; text-decoration: none; border-bottom: 1px dotted #000; }
+    a:hover { border-bottom-style: solid; }
+    time { display: block; margin-top: 2.8rem; color: #000; }
+    .entry-item { display: flex; align-items: baseline; margin-bottom: 6px; }
+    .entry-number { width: 45px; flex-shrink: 0; }
+    .v-link { margin-top: 2rem; display: inline-block; font-size: 0.8rem; }
+</style>
+</head>
+<body>
+    <main>
+        <div class="header-group">
+          <h1>{{ page.title }}</h1>
+          <span class="dash">—</span>
+        </div>
+
+        {% if page.header.image %}
+        <div class="featured-image">
+          <a href="{{ page.header.image | relative_url }}">
+            <img src="{{ page.header.image | relative_url }}" alt="{{ page.title }}">
+          </a>
+        </div>
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.date %}
+        <time datetime="{{ page.date | date_to_xmlschema }}">
+          {{ page.date | date: "%Y-%m-%d" }}
+        </time>
+        {% endif %}
+
+        {% unless page.url == "/" %}
+        <nav style="margin-top: 3.4rem;">
+            <a href="{{ '/' | relative_url }}" class="v-link">../</a>
+        </nav>
+        {% endunless %}
+    </main>
+
+    <script>
+      document.querySelectorAll('main img').forEach(img => {
+        if (!img.closest('a')) {
+          const link = document.createElement('a');
+          link.href = img.src;
+          img.parentNode.insertBefore(link, img);
+          link.appendChild(img);
+        }
+      });
+    </script>
+</body>
+</html>

@@ -1,9 +1,88 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
-search: false
 ---
+/* Standalone Clinical Reset - No theme dependencies */
 
-@charset "utf-8";
+@font-face {
+  /* Ensure JetBrains Mono is loaded or fallback to system mono */
+  font-family: 'JetBrains Mono';
+  src: local('JetBrains Mono'), local('Menlo'), monospace;
+}
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+html { 
+  overflow-y: scroll; 
+  background-color: #f2f2f2;
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  letter-spacing: -0.03em;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  padding: 16vh 0 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main { 
+  width: 90%; 
+  max-width: 600px; 
+}
+
+/* Typography */
+h1, h2, h3 { 
+  font-weight: 300; 
+  font-size: 0.8rem; 
+  margin-bottom: 1.4rem; 
+}
+
+p { margin-bottom: 1.4rem; }
+
+/* Links - The Dotted Aesthetic */
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+  transition: border-bottom-style 0.1s;
+}
+
+a:hover {
+  border-bottom-style: solid;
+}
+
+/* Image Handling */
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 2.8rem 0;
+}
+
+/* Special Layout Classes */
+.header-group {
+  margin-bottom: 2.8rem;
+}
+
+.dash {
+  display: block;
+  margin-top: 1.4rem;
+}
+
+time {
+  display: block;
+  margin-top: 2.8rem;
+  opacity: 0.6;
+}
+
+.v-link {
+  display: table;
+  margin-top: 1.4rem;
+}

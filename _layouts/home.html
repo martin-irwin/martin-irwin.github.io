@@ -1,4 +1,32 @@
 ---
+layout: pure
+---
+
+{{ content }}
+
+<div class="header-group">
+  <h2 class="archive__subtitle">Martin Irwin</h2>
+  <span class="header-dash">—</span>
+</div>
+
+<div class="entries-list-minimal">
+  {% assign total_posts = site.posts.size %}
+  {% assign current_num = total_posts %}
+
+  {% for post in site.posts limit:10 %}
+    <article class="entry-item">
+      <span class="entry-number">{{ current_num | prepend: '000' | slice: -3, 3 }}.</span>
+      <a href="{{ post.url | relative_url }}" class="entry-title">{{ post.title | lowercase }}</a>
+    </article>
+    {% assign current_num = current_num | minus: 1 %}
+  {% endfor %}
+
+  <div class="reveal-trigger-container">
+    <a href="{{ '/posts/' | relative_url }}" class="reveal-label">v</a>
+  </div>
+</div>
+
+<!-- ---
 layout: archive
 ---
 
@@ -12,11 +40,27 @@ layout: archive
   {% assign posts = site.posts %}
 {% endif %}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
+<div class="entries-list-minimal">
+  {% comment %} Calculate the starting number based on total posts and current page {% endcomment %}
+  {% if paginator %}
+    {% assign total_posts = paginator.total_posts %}
+    {% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
+    {% assign current_num = total_posts | minus: offset %}
+  {% else %}
+    {% assign current_num = site.posts.size %}
+  {% endif %}
+
   {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
+    <article class="entry-item">
+      {% comment %} 
+        Prepending '000' and slicing -3 ensures 
+        numbers like 1 become 001, 10 become 010, and 100 stays 100.
+      {% endcomment %}
+      <span class="entry-number">{{ current_num | prepend: '000' | slice: -3, 3 }}</span>
+      <a href="{{ post.url | relative_url }}" class="entry-title">{{ post.title | lowercase }}</a>
+    </article>
+    {% assign current_num = current_num | minus: 1 %}
   {% endfor %}
 </div>
 
-{% include paginator.html %}
+{% include paginator.html %} -->

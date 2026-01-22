@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: pure
 title: Random Code
 permalink: /code/
 --- 

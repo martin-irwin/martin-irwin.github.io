@@ -1,23 +1,18 @@
 ---
 layout: pure
-title: Martin Irwin
+permalink: /posts/
+title: Posts
 ---
 
 <div class="entries-list-minimal">
   {% assign total_posts = site.posts.size %}
   {% assign current_num = total_posts %}
 
-  {% for post in site.posts limit:10 %}
+  {% for post in site.posts %}
     <article class="entry-item">
       <span class="entry-number">{{ current_num | prepend: '000' | slice: -3, 3 }}.</span>
       <a href="{{ post.url | relative_url }}">{{ post.title | lowercase }}</a>
     </article>
     {% assign current_num = current_num | minus: 1 %}
   {% endfor %}
-
-  <a href="{{ '/posts/' | relative_url }}" class="v-link">v</a>
 </div>
-
-<footer style="margin-top: 16vh; padding-bottom: 8vh;">
-  <p><a href="{{ '/info/' | relative_url }}" class="v-link">Info</a></p>
-</footer>

@@ -1,18 +1,17 @@
 ---
-layout: single
-author_profile: true
-classes: wide
+layout: pure
 permalink: /potd/
-comments: false
+title: Photo of the day
 ---
-<figure>
-  <h3 id="photoTitle">Photo of the day:</h3>
-  <img id="randomImage" class="rotating-image" alt="Random image">
+
+<figure style="margin-top: 1.4rem;">
+  <div id="photoMeta" style="font-size: 0.7rem; margin-bottom: 0.7rem; opacity: 0.5;">loading...</div>
+  <img id="randomImage" class="rotating-image" alt="potd">
 </figure>
 
 <script>
-  const apiKey = "247f64bef58f06087094850c9639cb44"; // Your Flickr API key
-  const userId = "53911191@N03"; // Replace with the correct user ID
+  const apiKey = "247f64bef58f06087094850c9639cb44"; 
+  const userId = "53911191@N03"; 
 
   const localImages = [
     {% for file in site.static_files %}
@@ -35,7 +34,7 @@ comments: false
       if (data.stat === 'ok') {
         displayRandomFlickrPhoto(data.photos.photo);
       } else {
-        console.error('Error fetching photos from Flickr:', data.message);
+        document.getElementById('photoMeta').innerText = "error: flickr_api_failure";
       }
     } catch (error) {
       console.error('Failed to fetch from Flickr API:', error);
@@ -43,25 +42,27 @@ comments: false
   }
 
   function displayRandomFlickrPhoto(photos) {
-    if (photos.length === 0) {
-      console.error('No photos available from the Flickr account.');
-      return;
-    }
+    if (photos.length === 0) return;
 
     const randomIndex = getRandomInt(photos.length);
     const photo = photos[randomIndex];
     const photoUrl = `https://live.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}_b.jpg`;
 
     document.getElementById('randomImage').src = photoUrl;
-    document.getElementById('photoTitle').innerText = "Photo of the day:";
+    // Show the Flickr title in lowercase for that codey feel
+    document.getElementById('photoMeta').innerText = `src: flickr/${photo.title.toLowerCase() || 'untitled'}`;
   }
 
   function displayRandomLocalImage() {
+    if (localImages.length === 0) return;
     const randomIndex = getRandomInt(localImages.length);
     const randomLocalImage = localImages[randomIndex];
     
+    // Extract filename from path for the label
+    const filename = randomLocalImage.split('/').pop().toLowerCase();
+    
     document.getElementById('randomImage').src = randomLocalImage;
-    document.getElementById('photoTitle').innerText = "Photo of the day:";
+    document.getElementById('photoMeta').innerText = `src: local/${filename}`;
   }
 
   function displayRandomImage() {

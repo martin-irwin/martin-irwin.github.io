@@ -1,8 +1,7 @@
 ---
-layout: single
-title: Reviews
+layout: pure
 permalink: /reviews/
-classes: wide
+title: Reviews
 ---
 
 <ul>

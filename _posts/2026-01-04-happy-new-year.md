@@ -3,10 +3,6 @@ title: Happy New Year
 excerpt: "A quiet start to 2026, new hardware on the desk, and the last frames from a summer trip to Iriomote-jima and Ishigaki-jima, shot with a new 90mm lens."
 date: 2026-01-04
 tags: [90mm, iriomote]
-header:
-  image: /assets/images/7CR08873_ILCE-7CR_Japan_Summer.jpg
-  teaser: /assets/images/7CR08873_ILCE-7CR_Japan_Summer.jpg
-  og_image: /assets/images/7CR08873_ILCE-7CR_Japan_Summer.jpg
 categories:
   - blog
 published: true

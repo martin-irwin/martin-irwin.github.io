@@ -1,16 +1,14 @@
 # Site Settings
 theme: null
 remote_theme: null
-
-# Site Settings
-locale                   : "en-GB"
-title                    : "Martin Irwin Photography"
-title_separator          : "-"
-name                     : "Martin Irwin"
-description              : "Tech, photos, and ramblings"
-url                      : "https://martinirwinphotography.com"
-baseurl                  : ""
-repository               : "martin-irwin/martin-irwin"
+locale: "en-GB"
+title: "Martin Irwin Photography"
+title_separator: "-"
+name: "Martin Irwin"
+description: "Tech, photos, and ramblings"
+url: "https://martinirwinphotography.com"
+baseurl: ""
+repository: "martin-irwin/martin-irwin"
 
 # Analytics
 analytics:
@@ -30,6 +28,7 @@ exclude:
   - vendor
   - .sass-cache
   - .jekyll-cache
+  - .github
 
 # Conversion
 markdown: kramdown
@@ -46,10 +45,11 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# Plugins (jekyll-paginate removed)
+# Plugins (Matched exactly to your Gemfile)
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-include-cache
 
 # Defaults
 defaults:

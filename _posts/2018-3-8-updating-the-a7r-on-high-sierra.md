@@ -1,36 +1,14 @@
 ---
-title: "Updating the A7R on High Sierra"
-date: "2018-03-09"
+titleUpdating the A7R on High Sierra
+date2018-03-09
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "a7r"
-  - "coffee"
-  - "firware"
-  - "switzerland"
+  - "a7r
+  - "coffee
+  - "firware
+  - "switzerland
 ---
-
-<figure>
-
-View fullsize
-
-![A7R &amp; CV 21/1.8 - I love this lens. One of my favourites, if a little heavy...](/assets/images/cee78-20180308-dsc05578-ilce-7r.jpg)
-
-<figcaption>
-
-
-
-_A7R & CV 21/1.8 - I love this lens. One of my favourites, if a little heavy..._
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 So, I finally figured out how to update my A7R with the latest firmware. I didn't realise, but it's been years since I have updated the firmware, and we are now on version 3.20... my camera is 1.02!!!
 
@@ -41,8 +19,6 @@ So, head over to [this page](https://support.d-imaging.sony.co.jp/mac/driver/101
 ![Screen Shot 2018-03-08 at 14.36.55.png](/assets/images/29b90-screenshot2018-03-08at14.36.55.png)
 
 You'll want to go and make a coffee...
-
-View fullsize
 
 ![IMG_0083.PNG](/assets/images/cb03f-img_0083.png)
 

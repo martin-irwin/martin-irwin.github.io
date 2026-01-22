@@ -1,36 +1,14 @@
 ---
-title: "Where's my wallet?"
-date: "2013-12-31"
+titleWhere's my wallet?
+date2013-12-31
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "japan"
-  - "shinjuku"
-  - "street-photography"
-  - "tokyo"
+  - "japan
+  - "shinjuku
+  - "street-photography
+  - "tokyo
 ---
-
-<figure>
-
-View fullsize
-
-![NEX-7 &amp; Voigtländer Nokton Classic 35mm F1.4 | f/4 1/60s ISO400 35mm](/assets/images/0edb7-20131228-dsc08544.jpg)
-
-<figcaption>
-
-
-
-NEX-7 & Voigtländer Nokton Classic 35mm F1.4 | f/4 1/60s ISO400 35mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 It's fashionable in Japan to keep one's wallet in one's back pocket - something my father told me never to do under any circumstances. I suppose that's the difference between Japan (even in a massive city such as Tokyo), and the West - street crime is so low here. I notice open bags, wallets half out of jeans, and handbags used to reserve tables in coffee shops, on an almost daily occurrence.
 

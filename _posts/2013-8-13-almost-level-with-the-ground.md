@@ -1,66 +1,21 @@
 ---
-title: "Almost level with the ground"
-date: "2013-08-13"
+titleAlmost level with the ground
+date2013-08-13
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "apartments"
-  - "housing"
-  - "japan"
-  - "land"
-  - "mansion"
-  - "rental"
-  - "tokyo"
+  - "apartments
+  - "housing
+  - "japan
+  - "land
+  - "mansion
+  - "rental
+  - "tokyo
 ---
-
-<figure>
-
-View fullsize
-
-![Heavy Machinery | RX1 | 1/80s f/4.0 ISO160 35mm](/assets/images/388af-20130811-_dsc0388.jpg)
-
-<figcaption>
-
-
-
-Heavy Machinery | RX1 | 1/80s f/4.0 ISO160 35mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 It's surprising to learn that the Japanese think of their islands as a small island cluster with limited land and resources. Of course, such sweeping statements cannot be applied to _all_ Japanese people; no doubt there would be some debate over this rhetoric. Anyway, it's _commonly accepted_ that there is little space in Japan, and that resources are limited. Both claims are, of course, subjective. Japan is a huge country. Japan's forest land area is 25.1 million hectares (approximately 70 percent of its entire surface area - _[source](http://www.stat.go.jp/english/data/handbook/c05cont.htm)_). 70% is trees, eh? England is [only 7%](http://uk.chm-cbd.net/default.aspx?page=7637) forest! That's an order of magnitude more! Japan is three times larger (surface area) than England, but has only 2.5 times its population. I could spin all of these figures around to make it seem as though the Japanese were living incredibly inefficiently within their national boundaries, of course.
 
 The fact of the matter is that Japan is far a more volatile place than England. I've simply chosen England as I am English. There are few countries in the world more _comfortable_ to live in than England. Let's ignore politics, and focus on the natural and unbiased side of life. England doesn't have much in the way of mountains (more sweeping hills), and doesn't have volcanoes, _tsunami,_ or large-scale earthquakes. Summer temperatures don't reach _[41°C in the shade](http://www.martinirwinphotography.com/myblog/2013/8/11/41c-in-the-shade)_, and winter is wet (possibly snowy, [with a day off work](http://www.bbc.co.uk/news/business-11886185)). Japan is volatile. If it weren't so nice here most of the time, no-one would live here. The odd natural disaster could be worth risking, for the chance to experience the beauty in between.
-
-<figure>
-
-View fullsize
-
-![Nearly there | Nokia Lumia 920 |&nbsp;0.3s f/2.0 ISO100 &nbsp;&nbsp;](/assets/images/df8fa-1-wp_20130725_007-001.jpg)
-
-<figcaption>
-
-
-
-Nearly there | Nokia Lumia 920 | 0.3s f/2.0 ISO100  
- 
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 Anyway, I've been sidetracked. The point is, that Japan _feels_ small.  I went to the dentist last week and had an x-ray, in the smallest room I have ever been inside. I have larger coats. I am almost not joking, it was that small. Buildings go up, everywhere has a basement (my dental practice is underground), and everything is about 3/4 of the right size for me (I'm not complaining, just saying). This sense of smallness is compounded further by the minuscule gaps between buildings. What's most impressive, is that these apartment blocks (a _mansion_, in Japanese) are torn down and rebuild at an alarming rate. There are many reasons for this, but a key aspect is that the building is seen as a temporary thing that will need to be replaced periodically. The **value of the land** is much more important. It's pretty common for rental companies to completely tear down and rebuild their _mansions_ every 20-30 years. This also happens in private property. For instance, if someone inherits the house their parents lived in, they tear it down and rebuild something on the land that's to their own liking more often than not (there are strong feelings about death in Japan).
 

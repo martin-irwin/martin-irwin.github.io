@@ -1,43 +1,21 @@
 ---
-title: "Rikugien at Night"
-date: "2012-12-02"
+titleRikugien at Night
+date2012-12-02
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "18mm"
-  - "garden"
-  - "japan"
-  - "landscape"
-  - "low-light"
-  - "night"
-  - "park"
-  - "rikugien"
-  - "sel18200le"
-  - "stabilisation"
-  - "zoom"
+  - "18mm
+  - "garden
+  - "japan
+  - "landscape
+  - "low-light
+  - "night
+  - "park
+  - "rikugien
+  - "sel18200le
+  - "stabilisation
+  - "zoom
 ---
-
-<figure>
-
-View fullsize
-
-![Rikugien at Night │&nbsp;NEX-7 &amp; SEL18200LE&nbsp;│ 18mm, 1/4,&nbsp;ISO 6400, f/3.5, Lightroom 4](/assets/images/6ef8f-dsc01809.jpg)
-
-<figcaption>
-
-
-
-Rikugien at Night │ NEX-7 & SEL18200LE │ 18mm, 1/4, ISO 6400, f/3.5, Lightroom 4
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 I've been to [Rikugien Gardens](/martin-irwin-photography/2012/10/15/kosagi "Kosagi") before, but never at night. Sunset is before 6pm now, so we won't be leaving the work in sunlight for another 6 months, most likely. Sunrise in Tokyo is still relatively early, compared to winter in the UK, however.  
 

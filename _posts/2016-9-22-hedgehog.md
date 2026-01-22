@@ -1,16 +1,16 @@
 ---
-title: "Hedgehog"
-date: "2016-09-30"
+titleHedgehog
+date2016-09-30
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "35mm"
-  - "a7r"
-  - "animal"
-  - "england"
-  - "hedgehog"
-  - "night"
-  - "voigtlander"
+  - "35mm
+  - "a7r
+  - "animal
+  - "england
+  - "hedgehog
+  - "night
+  - "voigtlander
 ---
 
 Finally, I used my camera again! In fairness, I have been using my camera on-and-off all summer, but either haven't had the time to publish things to the web (not ideal, but I do still want to keep the site going, as it does motivate me somewhat), or post-process. I can see why mobile photography is only going to get more and more popular as time goes on. The instant gratification is appealing. Upload and share photos within moments, never having to worry about formatting etc etc.
@@ -19,24 +19,3 @@ I'm one step closer in that I can actually completely write and edit blog posts 
 
 Anyway, last night I went outside to get something from the car and noticed a big ball of shadow on the shingle driveway. I guessed it was a hedgehog, and went inside to get my camera. Once I'd chosen a decent lens (needed to have f/2 or faster), I went outside to photograph my new friend. But he'd gone! I had a look around, and then thought; "where would I hide if I were a hedgehog"—yes, under my car!
 
-<figure>
-
-View fullsize
-
-![Hedgehog | A7R &amp; Voigtländer Nokton Classic 35mm F1.4 &nbsp;| 35mm F2.8 0.6s ISO160&nbsp;](/assets/images/fdadd-image-asset.jpeg)
-
-<figcaption>
-
-
-
-Hedgehog | A7R & Voigtländer Nokton Classic 35mm F1.4  | 35mm F2.8 0.6s ISO160 
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>

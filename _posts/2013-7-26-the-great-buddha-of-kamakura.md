@@ -1,16 +1,16 @@
 ---
-title: "The Great Buddha of Kamakura"
-date: "2013-07-26"
+titleThe Great Buddha of Kamakura
+date2013-07-26
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "asia"
-  - "buddha"
-  - "japan"
-  - "kamakura"
-  - "sel18200le"
-  - "tokyo"
-  - "travel"
+  - "asia
+  - "buddha
+  - "japan
+  - "kamakura
+  - "sel18200le
+  - "tokyo
+  - "travel
 ---
 
 ## Kamakura Pt. 3 - Kōtoku-in
@@ -18,26 +18,6 @@ tags:
 ![20130719-DSC06428.jpg](/assets/images/2d167-20130719-dsc06428.jpg)
 
 Continuing our cycle trip through the city of Kamakura (links to [part 1](http://www.martinirwinphotography.com/myblog/2013/7/22/cant-see-the-wood-for-the-trees) and [part 2](http://www.martinirwinphotography.com/myblog/2013/7/23/guardian-of-warriors)) , we visited the ancient "Great Buddha" or _Daibutsu_.
-
-<figure>
-
-![The enormous Daibutsu](/assets/images/c0b27-20130719-dsc06440.jpg)
-
-<figcaption>
-
-
-
-The enormous _Daibutsu_
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 > _The Great Buddha of Kamakura_ is a monumental outdoor [bronze](https://en.wikipedia.org/wiki/Bronze) [statue](https://en.wikipedia.org/wiki/Statue) of [Amitābha](https://en.wikipedia.org/wiki/Amit%C4%81bha) Buddha located at the Kōtoku-in Temple in [Kamakura](https://en.wikipedia.org/wiki/Kamakura,_Kanagawa), [Kanagawa Prefecture](https://en.wikipedia.org/wiki/Kanagawa_prefecture), [Japan](https://en.wikipedia.org/wiki/Japan). The bronze statue probably dates from 1252, in the [Kamakura period](https://en.wikipedia.org/wiki/Kamakura_period), according to temple records. It was preceded by a giant wooden Buddha, which was completed in 1243 after ten years of continuous labor, the funds having been raised by Lady Inada (_Inada-no-Tsubone_) and the Buddhist priest Jōkō of Tōtōmi. That wooden statue was damaged by a storm in 1248, and the hall containing it was destroyed, so Jōkō suggested making another statue of bronze, and the huge amount of money necessary for this and for a new hall was raised for the project. The bronze image was probably cast by Ōno Gorōemon or Tanji Hisatomo, both leading casters of the time. At one time, the statue was [gilded](https://en.wikipedia.org/wiki/Gilding). There are still traces of gold leaf near the statue's ears. It is unclear, however, whether the statue constructed in 1252 is the same statue as the present statue.
 
@@ -55,28 +35,6 @@ Some stats on this humongous statue:
 - Circumference of thumb; 0.85 m (2.8 ft)
 
 ![20130719-DSC06491.jpg](/assets/images/32b56-20130719-dsc06491.jpg)
-
-<figure>
-
-View fullsize
-
-![A fellow NEX-7 user using his SEL18200](/assets/images/0e5d0-m26dine98e8ce58089-52.jpg)
-
-<figcaption>
-
-
-
-A fellow NEX-7 user using his SEL18200
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 The grounds surrounding the Buddha are very well kept, and relatively peaceful. As 99% of people are drawn to the enormous statue (and rightly so), there are some decent photographic, or simply relaxing, moments to be had in the grounds.
 

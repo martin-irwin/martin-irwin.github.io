@@ -1,17 +1,17 @@
 ---
-title: "An afternoon in Jiyugaoka"
-date: "2013-06-08"
+titleAn afternoon in Jiyugaoka
+date2013-06-08
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "coffee"
-  - "coffee-beans"
-  - "japan"
-  - "jiyugaoka"
-  - "street"
-  - "street-photography"
-  - "tokyo"
-  - "walking"
+  - "coffee
+  - "coffee-beans
+  - "japan
+  - "jiyugaoka
+  - "street
+  - "street-photography
+  - "tokyo
+  - "walking
 ---
 
  
@@ -36,28 +36,6 @@ If you can manage it, I recommend going to the very front carriage, as there are
 
  
 
-<figure>
-
-View fullsize
-
-![Driving &nbsp;| NEX-7 &amp; SEL24F18Z | 1/30s f/1.8 ISO100 24mm](/assets/images/41700-20130608-dsc05500.jpg)
-
-<figcaption>
-
-
-
-Driving  | NEX-7 & SEL24F18Z | 1/30s f/1.8 ISO100 24mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
-
  
 
 I like to find new and interesting coffee shops when I'm out and about in Tokyo. Japan's the world's third largest coffee bean importer, and it's evident. There are both chain and independent coffee shops within a few metres of every train station. Sometimes, there are even two or three shops next to each other. You'd never see that in the UK. I remember people dissing Starbucks in the UK for destroying the independent coffee shops... yet I never remember seeing anywhere decent in the UK. Most "coffee shops" were just _[greasy spoons](http://en.wikipedia.org/wiki/Greasy_spoon)_, and I never wanted to go into one. I'd pay for a good coffee, in a good coffee shop in the UK. Maybe I'll cut to the chase and just open a shop one day.
@@ -66,75 +44,9 @@ Anyway, I walked past an old fellow separating out the "good beans from the bad"
 
  
 
-<figure>
-
-View fullsize
-
-![Mr. Bean | NEX-7 &amp; Canon nFD 50mm F1.4 | 1/1250s f/2.0 ISO100 50mm](/assets/images/94a02-20130608-dsc05521.jpg)
-
-<figcaption>
-
-
-
-Mr. Bean | NEX-7 & Canon nFD 50mm F1.4 | 1/1250s f/2.0 ISO100 50mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
-
-<figure>
-
-View fullsize
-
-![Espresso Blend | NEX-7 &amp; SEL24F18Z | 1/60s f/1.8 ISO320 24mm](/assets/images/5e2db-20130608-dsc05520.jpg)
-
-<figcaption>
-
-
-
-Espresso Blend | NEX-7 & SEL24F18Z | 1/60s f/1.8 ISO320 24mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
-
 Energised, I went back to the streets. I'd waited until the afternoon to avoid the strong midday sun, and to catch the favourable low-angled light. 
 
 I wanted to practice [what I preached](http://www.martinirwinphotography.com/myblog/2013/6/2/roadside), so I slowly drifted away from the busiest shopping areas and headed down the backstreets, passing more and more residential areas, and independent shops.
-
-<figure>
-
-View fullsize
-
-![Yellow underbelly | NEX-7 &amp; SEL24F18Z | 1/30s f/8.0 ISO100 24mm](/assets/images/27d1c-20130608-dsc05550.jpg)
-
-<figcaption>
-
-
-
-Yellow underbelly | NEX-7 & SEL24F18Z | 1/30s f/8.0 ISO100 24mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
  
 
@@ -142,77 +54,11 @@ Jiyugaoka is consistently listed as being the most popular residential area in a
 
  
 
-<figure>
-
-View fullsize
-
-![Apartment | NEX-7 &amp; SEL24F18Z | 1/1000s f/1.8 ISO100 24mm](/assets/images/a2f96-20130608-dsc05544.jpg)
-
-<figcaption>
-
-
-
-Apartment | NEX-7 & SEL24F18Z | 1/1000s f/1.8 ISO100 24mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
-
-<figure>
-
-View fullsize
-
-![Bridge | NEX-7 &amp; SEL24F18Z | 1/160s f/2.5 ISO100 24mm](/assets/images/bd2bf-20130608-dsc05551.jpg)
-
-<figcaption>
-
-
-
-Bridge | NEX-7 & SEL24F18Z | 1/160s f/2.5 ISO100 24mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
-
  
 
 Rain was actually predicted today, as Japan has started its rainy season. Thankfully though, there was none. Not only that, but the forecast for tomorrow is favourable. Rain will come on monday and last for a few days. 
 
  
-
-<figure>
-
-View fullsize
-
-![Green man | NEX-7 &amp; SEL24F18Z | 1/160s f/1.8 ISO100 24mm&nbsp;](/assets/images/aba97-20130608-dsc05566.jpg)
-
-<figcaption>
-
-
-
-Green man | NEX-7 & SEL24F18Z | 1/160s f/1.8 ISO100 24mm 
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
  
 

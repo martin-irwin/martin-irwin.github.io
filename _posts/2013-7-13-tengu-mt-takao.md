@@ -1,17 +1,15 @@
 ---
-title: "Tengu &amp; Mt. Takao"
-date: "2013-07-13"
+titleTengu & Mt. Takao
+date2013-07-13
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "canon"
-  - "mt-takao"
-  - "sony"
-  - "sunset"
-  - "takao"
+  - "canon
+  - "mt-takao
+  - "sony
+  - "sunset
+  - "takao
 ---
-
-View fullsize
 
 ![Tengu](/assets/images/5bb2f-20130712-dsc06016.jpg)
 
@@ -25,53 +23,9 @@ I last visited Takao in [October last year](http://www.martinirwinphotography.c
 
 ![20130712-DSC06015.jpg](/assets/images/251bb-20130712-dsc06015.jpg)
 
-View fullsize
-
 ![20130712-DSC06030.jpg](/assets/images/eff4f-20130712-dsc06030.jpg)
 
-<figure>
-
-![My brother at the shrine](/assets/images/8b73e-20130712-dsc06032.jpg)
-
-<figcaption>
-
-
-
-My brother at the shrine
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
-
 It was a very hot day, but the trees provided welcome shading from the intense heat of the sun. 
-
-<figure>
-
-View fullsize
-
-![Suspension bridge across the valley](/assets/images/9a789-20130712-dsc06068.jpg)
-
-<figcaption>
-
-
-
-Suspension bridge across the valley
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 [View fullsize ![20130712-DSC06053.jpg](/assets/images/157c0-20130712-dsc06053.jpg)![20130712-DSC06053.jpg](/assets/images/157c0-20130712-dsc06053.jpg)](https://exportforscript.wordpress.com/wp-content/uploads/2013/07/157c0-20130712-dsc06053.jpg) 
 
@@ -79,13 +33,9 @@ Suspension bridge across the valley
 
 #block-1f6ee5261767678a35fb .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -0px; } #block-1f6ee5261767678a35fb .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 0px; margin-bottom: 0px; }
 
-View fullsize
-
 ![20130712-DSC05990.jpg](/assets/images/33ac9-20130712-dsc05990.jpg)
 
 We finished off our 3-hour hike with a "2-hour-all-you-can-drink & all-you-can-eat" buffet near the summit. In typical Japanese fashion, no-one was taking advantage of the facilities, or being disorderly. I suppose I'm a bit of a cynic, but I can't see an all-you-can-drink/eat buffet lasting very long in the UK before it was shut down due to health and safety concerns, or drunk people destroying it. 
-
-View fullsize
 
 ![20130712-DSC05994.jpg](/assets/images/6de01-20130712-dsc05994.jpg)
 

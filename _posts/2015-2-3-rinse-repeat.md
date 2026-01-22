@@ -1,44 +1,16 @@
 ---
-title: "Rinse, Repeat"
-date: "2015-02-03"
+titleRinse, Repeat
+date2015-02-03
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "15mm"
-  - "abstract"
-  - "black-and-white"
-  - "heliar"
-  - "voigtlander"
-  - "washing-machine"
+  - "15mm
+  - "abstract
+  - "black-and-white
+  - "heliar
+  - "voigtlander
+  - "washing-machine
 ---
-
-<figure>
-
-[
-
-![I suppose this is my version of "helping with the washing"? | A7R &amp; Voigtländer Super Wide Heliar 15mm F4.5 |&nbsp;30s f/11.0 ISO100 15mm](/assets/images/17631-image-asset.jpeg)
-
-
-
-
-
-](https://www.flickr.com/photos/martindesu/16411210466/)
-
-<figcaption>
-
-
-
-I suppose this is my version of "helping with the washing"? | A7R & Voigtländer Super Wide Heliar 15mm F4.5 | 30s f/11.0 ISO100 15mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 There's a cyclic nature to the journey many people interested in photography will take, related to their gear. Artists with a vision, might be able to purchase a camera which realises their vision, and then go about producing images and art. Some photographers will manage this, but I think it's a small fraction, due to simple human nature.
 

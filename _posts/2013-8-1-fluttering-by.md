@@ -1,39 +1,17 @@
 ---
-title: "Fluttering by"
-date: "2013-08-01"
+titleFluttering by
+date2013-08-01
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "animal"
-  - "butterfly"
-  - "insect"
-  - "japan"
-  - "rx1"
-  - "tokyo"
-  - "university"
+  - "animal
+  - "butterfly
+  - "insect
+  - "japan
+  - "rx1
+  - "tokyo
+  - "university
 ---
-
-<figure>
-
-View fullsize
-
-![Fluttering By | RX1 | 1/80s f/8.0 ISO100 35mm](/assets/images/dc366-20130801-_dsc0046.jpg)
-
-<figcaption>
-
-
-
-Fluttering By | RX1 | 1/80s f/8.0 ISO100 35mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 I noticed the briefest moment of sunshine during my lunch break, and took the opportunity to get to know my camera a little more. I took a number of photos in the vicinity of my workplace, including the above butterfly photograph. As I baked in the sun like a komodo dragon waiting for prey, this little guy fluttered by. At no more than 2cm long, I thought I'd test the native macro capabilities of the RX1. Deftly turning the focussing element until the 0,2m - 0,35m (it's got German Zeiss markings, thus a comma represents a decimal), I held the camera out at arms length and took the above snapshot. Below are two 95% crops. I'm simple astounded by the performance of this camera. The difference from the NEX-7 and SEL24F18Z is night and day.
 

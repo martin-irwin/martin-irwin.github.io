@@ -1,37 +1,15 @@
 ---
-title: "Bullet Train to Tokyo"
-date: "2014-05-26"
+titleBullet Train to Tokyo
+date2014-05-26
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "bullet-train"
-  - "japan"
-  - "shinkansen"
-  - "tokaido"
-  - "trains"
+  - "bullet-train
+  - "japan
+  - "shinkansen
+  - "tokaido
+  - "trains
 ---
-
-<figure>
-
-View fullsize
-
-![A7R &amp; SEL35F28Z | &nbsp;1/3200s f/2.8 ISO100 35mm](/assets/images/11271-image-asset.jpeg)
-
-<figcaption>
-
-
-
-A7R & SEL35F28Z |  1/3200s f/2.8 ISO100 35mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 Though I was fortunate enough to play with a model railway in my formative years, it wasn't until I first visited Japan that I really understood the appeal of "train spotting". Back in the UK, it's seen as a pastime for people with perhaps not the best social skills, often wearing anoraks, photographing trains and discussing subtle differences in locomotive design with each other, rather than participating in "normal" conversation.
 
@@ -41,24 +19,3 @@ Anyway, the "bullet train", or _shinkansen_, is something that any visitor to Ja
 
 My second tip, is to try to get a seat on the **right** hand side if going **towards Kyoto**, and on the **left** if going **towards Tokyo**. This way, you'll have a fighting chance of catching Mt. Fuji, in between the never-ending sprawl of housing, factories, and power lines.
 
-<figure>
-
-View fullsize
-
-![A7R &amp; SEL35F28Z | 1/400s f/8.0 ISO100 35mm](/assets/images/3419c-image-asset.jpeg)
-
-<figcaption>
-
-
-
-A7R & SEL35F28Z | 1/400s f/8.0 ISO100 35mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>

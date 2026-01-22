@@ -1,38 +1,18 @@
 ---
-title: "Bubby's Pie &amp; Coffee"
-date: "2013-05-20"
+titleBubby's Pie & Coffee
+date2013-05-20
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "bubbys"
-  - "coffee"
-  - "food"
-  - "japan"
-  - "nex-7"
-  - "pie"
-  - "tokyo"
-  - "yokohama"
+  - "bubbys
+  - "coffee
+  - "food
+  - "japan
+  - "nex-7
+  - "pie
+  - "tokyo
+  - "yokohama
 ---
-
-<figure>
-
-![Bubby's | NEX-7 &amp; Canon nFD 50mm F1.4| 50mm, f/4, 1/60, ISO250, RAW](/assets/images/image-asset.jpeg)
-
-<figcaption>
-
-
-
-_Bubby's | NEX-7 & Canon nFD 50mm F1.4| 50mm, f/4, 1/60, ISO250, RAW_
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 Firstly, I'd like to apologise to anyone receiving a huge amount of emails from my site over the last week. I've had a problem with Wordpress plugins, which resulted in my site's server actually being _shut down_ numerous times. Totally suspended without any access; I'm currently looking at my options to avoid this in the future. Part of my plan involves changing server, and completely changing the look of the site to a more modern theme. Stay tuned!  
 

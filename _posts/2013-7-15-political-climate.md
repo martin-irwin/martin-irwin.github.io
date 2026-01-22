@@ -1,35 +1,15 @@
 ---
-title: "Political climate"
-date: "2013-07-16"
+titlePolitical climate
+date2013-07-16
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "clouds"
-  - "japan"
-  - "politics"
-  - "poster"
-  - "street"
+  - "clouds
+  - "japan
+  - "politics
+  - "poster
+  - "street
 ---
-
-<figure>
-
-![Current Japanese Prime Minister, Shinzō Abe, looking up to the heavens](/assets/images/5e01f-20130714-dsc06135.jpg)
-
-<figcaption>
-
-
-
-Current Japanese Prime Minister, Shinzō Abe, looking up to the heavens
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 There's politics in the air. Local elections are taking place all over Tokyo, which means that there are numerous posters and political campaigners with loudspeakers (more on that another time).
 

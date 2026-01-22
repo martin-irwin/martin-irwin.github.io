@@ -1,40 +1,18 @@
 ---
-title: "Green and Yellow"
-date: "2013-06-11"
+titleGreen and Yellow
+date2013-06-11
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "green"
-  - "japan"
-  - "jiyugaoka"
-  - "street"
-  - "street-photography"
-  - "taxi"
-  - "tokyo"
-  - "yellow"
+  - "green
+  - "japan
+  - "jiyugaoka
+  - "street
+  - "street-photography
+  - "taxi
+  - "tokyo
+  - "yellow
 ---
-
-<figure>
-
-View fullsize
-
-![Green and Yellow | NEX-7 &amp; SEL24F18Z | 1/320s f/1.8 ISO100 24mm](/assets/images/ff690-20130608-dsc05531.jpg)
-
-<figcaption>
-
-
-
-Green and Yellow | NEX-7 & SEL24F18Z | 1/320s f/1.8 ISO100 24mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
  
 

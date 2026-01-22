@@ -1,40 +1,17 @@
 ---
-title: "Long summer evenings"
-date: "2013-08-18"
+titleLong summer evenings
+date2013-08-18
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "35mm"
-  - "government-building"
-  - "japan"
-  - "shinjuku"
-  - "tocho"
-  - "tokyo"
-  - "voigtlander"
+  - "35mm
+  - "government-building
+  - "japan
+  - "shinjuku
+  - "tocho
+  - "tokyo
+  - "voigtlander
 ---
-
-<figure>
-
-View fullsize
-
-![Long Summer Evenings | NEX-7 &amp; Voigtlander Nokton Classic 35mm F1.4 |&nbsp;1/80s ISO100 F4 &nbsp;&nbsp;](/assets/images/951a6-20130818-dsc06810.jpg)
-
-<figcaption>
-
-
-
-Long Summer Evenings | NEX-7 & Voigtlander Nokton Classic 35mm F1.4 | 1/80s ISO100 F4  
-  
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 I fancied a change today. I blew the dust off my NEX-7 and took the excellent Cosina Voigtländer Nokton Classic 35mm F1.4 out for a spin. A change of focal length & camera is like changing your route to work; unfamiliar and rewarding.
 

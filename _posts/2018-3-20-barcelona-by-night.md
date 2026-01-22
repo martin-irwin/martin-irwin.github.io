@@ -1,15 +1,15 @@
 ---
-title: "Barcelona by night"
-date: "2018-03-24"
+titleBarcelona by night
+date2018-03-24
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "21mm"
-  - "barcelona"
-  - "night"
-  - "nokton"
-  - "spain"
-  - "voigtlander"
+  - "21mm
+  - "barcelona
+  - "night
+  - "nokton
+  - "spain
+  - "voigtlander
 ---
 
 ![IMG_3258.JPG](/assets/images/0e01a-img_3258.jpg)
@@ -27,26 +27,6 @@ I went for tapas in a nice little restaurant suggested by my hotel, called “la
 ![IMG_3248.JPG](/assets/images/66028-img_3248.jpg)
 
 I took photos of a lot of the food, but not in the normal “instagram” food way. Perhaps it was the wine, I don’t know? It was sublime, and reasonably priced. Would recommend. 
-
-<figure>
-
-![Purple fringing due to the 21mm Voigtlander being made for M-mount, but I left it in here for character. And laziness.&nbsp;](/assets/images/5c00e-img_3247.jpg)
-
-<figcaption>
-
-
-
-_Purple fringing due to the 21mm Voigtlander being made for M-mount, but I left it in here for character. And laziness._ 
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 Food shots below...
 

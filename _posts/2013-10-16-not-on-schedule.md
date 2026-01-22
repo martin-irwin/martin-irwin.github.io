@@ -1,39 +1,17 @@
 ---
-title: "Not on schedule"
-date: "2013-10-16"
+titleNot on schedule
+date2013-10-16
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "a7"
-  - "a7r"
-  - "delay"
-  - "rx1"
-  - "tokyo"
-  - "trains"
-  - "typhoon"
+  - "a7
+  - "a7r
+  - "delay
+  - "rx1
+  - "tokyo
+  - "trains
+  - "typhoon
 ---
-
-<figure>
-
-View fullsize
-
-![Not on schedule | DSC-RX1 | 1/25s f/4.0 ISO100 35mm](/assets/images/d5b6b-20131016-untitled-1486.jpg)
-
-<figcaption>
-
-
-
-Not on schedule | DSC-RX1 | 1/25s f/4.0 ISO100 35mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 After a large typhoon [hit Tokyo](http://www.bbc.co.uk/news/world-asia-24531140) last night, the trains are uncharacteristically _not on schedule_. That usually means that trains are running, but they may be between 1-5 minutes behind their allotted time - but if you were to just stand on a platform you'd be waiting no more than 5 minutes at any rate.
 

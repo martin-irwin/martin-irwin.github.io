@@ -1,84 +1,18 @@
 ---
-title: "Back in Okinawa"
-date: "2013-11-26"
+titleBack in Okinawa
+date2013-11-26
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "butterfly"
-  - "hedomisaki"
-  - "insects"
-  - "okinawa"
-  - "ryukyu-islands"
-  - "work"
+  - "butterfly
+  - "hedomisaki
+  - "insects
+  - "okinawa
+  - "ryukyu-islands
+  - "work
 ---
 
-<figure>
-
-View fullsize
-
-![Spot the butterfly?](/assets/images/7256f-20131126-dsc08090.jpg)
-
-<figcaption>
-
-
-
-Spot the butterfly?
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
-
 I'm back in Okinawa - this time for work - but rather than post uninspiring and dull photos of work (plus, this site is my hobby - to escape work!), I have a few photos from my lunch break at the very northern tip of Okinawa's main island. I spent a few minutes with my NEX-7 and manual lens chasing the amazing butterfly in the shot above...
-
-<figure>
-
-View fullsize
-
-![Hanging on](/assets/images/7a0d5-20131126-dsc08055.jpg)
-
-<figcaption>
-
-
-
-Hanging on
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
-
-<figure>
-
-View fullsize
-
-![Messy work](/assets/images/67b9a-20131126-dsc08085.jpg)
-
-<figcaption>
-
-
-
-Messy work
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 It's quite odd being surrounded by such lushness and wildlife, when Christmas music is playing in convenience stores, in their full christmas decor. 
 

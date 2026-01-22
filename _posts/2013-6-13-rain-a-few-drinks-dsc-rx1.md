@@ -1,38 +1,18 @@
 ---
-title: "Rain, a few drinks, DSC-RX1"
-date: "2013-06-12"
+titleRain, a few drinks, DSC-RX1
+date2013-06-12
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "bokeh"
-  - "camera"
-  - "dsc-rx1"
-  - "lens"
-  - "nex-7"
-  - "rx1"
-  - "sony"
-  - "tokyo"
+  - "bokeh
+  - "camera
+  - "dsc-rx1
+  - "lens
+  - "nex-7
+  - "rx1
+  - "sony
+  - "tokyo
 ---
-
-<figure>
-
-![Rainy Season | NEX-7 &amp; SEL24F18Z | 1/60s f/2.2 ISO1250 24mm](/assets/images/69f57-20130612-dsc05595.jpg)
-
-<figcaption>
-
-
-
-Rainy Season | NEX-7 & SEL24F18Z | 1/60s f/2.2 ISO1250 24mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 Rainy season is truly upon us. It's been raining solid since the weekend, with barely a break. The relentless humidity renders everything moist. Condensation pours down almost everything, made all the more noticeable with a nice cold beer.
 
@@ -45,8 +25,6 @@ I had the pleasure of meeting up with a friend after work this evening, who happ
 ![20130612-DSC05589.jpg](/assets/images/b7a87-20130612-dsc05589.jpg)![20130612-DSC05589.jpg](/assets/images/b7a87-20130612-dsc05589.jpg)
 
 Please excuse the changing perspective; I'd had a couple of beers by this point. For a more in-depth review, please visit dpreview.com or something. There's not really much in it, to be honest. The NEX-7 holds up at 1600 in my experience, but not for pixel peeping. I tend not to bother pixel peeping unless I'm very bored, anyway. The RX1 is arguably just as good at ISO 3200, possibly higher. There's also noticeably more bokeh with the RX1, which is to be expected "wide open" due to its full frame sensor. The bokeh on both is extremely pleasing, and though I still want an RX1, I wholeheartedly recommend the SEL24F18Z to anyone sitting on the fence. Get it. It's great. The new Touits are sure to impress too... photos by the end of the week, I promise!
-
-View fullsize
 
 ![Slightly cropped](/assets/images/26e68-20130612-_dsc5583.jpg)
 

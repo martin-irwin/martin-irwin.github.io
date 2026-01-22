@@ -1,15 +1,15 @@
 ---
-title: "About Time"
-date: "2018-04-12"
+titleAbout Time
+date2018-04-12
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "35mm"
-  - "a7r"
-  - "street"
-  - "switzerland"
-  - "waffle"
-  - "zurich"
+  - "35mm
+  - "a7r
+  - "street
+  - "switzerland
+  - "waffle
+  - "zurich
 ---
 
 ![20180408-DSC05811-ILCE-7R.jpg](/assets/images/75ec0-20180408-dsc05811-ilce-7r.jpg)
@@ -20,51 +20,11 @@ What is consciousness? Are you conscious? Are animals conscious? Furniture? As h
 
 _Man kann immer Zeit finden._  
 
-<figure>
-
-![Spring has predictably sprung. ](/assets/images/c0537-img_3358.jpg)
-
-<figcaption>
-
-
-
-_Spring has predictably sprung._ 
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
-
 Whether consciousness even exists or not is an argument I love to have, so I won’t show my hand here, but it’s always enjoyable to talk about the universe and our very existence sometimes. It doesn’t stop me from talking about cars, watches, TV programmes I’ve binged watched (go and watch Stranger Things _right now_), and the weather (hell, I am British). But the bigger question always remains - what the hell am I doing here? Who am I?
 
 ![IMG_3353.JPG](/assets/images/a75ac-img_3353.jpg)
 
 This waffle perhaps might seem rather obtuse—in which case I hope the photos are at least worth looking at. 
-
-<figure>
-
-![Blick am Abend ](/assets/images/7d192-img_3349.jpg)
-
-<figcaption>
-
-
-
-_Blick am Abend_ 
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 The photos from today’s post are shot at 35mm; my favourite focal length by far. I don’t know why, really. It's strange when we don't understand ourselves. It’s quite nice to have a favourite focal length, I suppose. It makes you feel at home. It does mean that I feel less comfortable at say 50mm than most would, which is funny, as 50mm is the default go-to focal length when you buy a “proper camera”. If you have a cute micro 4/3rds camera like the Olympus OMD range then you’ll have a 25mm lens for the same view. I find 35mm much more fun to work with. Photos have more context, are arguably harder to frame due to the extra field of view (so it’s a fun challenge), and there’s just something that looks “normal” to me. 50mm is too tight. 35mm is just how I see the world, photographically speaking.
 

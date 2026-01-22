@@ -1,11 +1,11 @@
 ---
-title: "The camera you have with you..."
-date: "2016-07-02"
+titleThe camera you have with you...
+date2016-07-02
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "iphone"
-  - "mobile-phone"
+  - "iphone
+  - "mobile-phone
 ---
 
 ![image.jpg](/assets/images/9a22c-image.jpg)
@@ -33,26 +33,6 @@ There's no message here, other than don't worry too much about not having your "
 ![image.jpg](/assets/images/b1fd0-image.jpg)
 
 _**Or, often even better, simply don't take any photo at all and just enjoy the moment.**_
-
-<figure>
-
-![Zurich](/assets/images/58299-image.jpg)
-
-<figcaption>
-
-
-
-Zurich
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 * * *
 

@@ -1,16 +1,16 @@
 ---
-title: "Fly along with me, I can’t quite make it alone"
-date: "2013-08-22"
+titleFly along with me, I can’t quite make it alone
+date2013-08-22
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "animal"
-  - "bird"
-  - "building"
-  - "fly"
-  - "pigeon"
-  - "rx1"
-  - "tokyo"
+  - "animal
+  - "bird
+  - "building
+  - "fly
+  - "pigeon
+  - "rx1
+  - "tokyo
 ---
 
 ![image](/assets/images/d12f7-dsc0503.jpg)
@@ -24,28 +24,6 @@ I was distracted from my work for a few minutes by a couple of pigeons on the ra
 #block-8e29be0b280f91dbb604 .sqs-gallery-block-grid .sqs-gallery-design-grid { margin-right: -0px; } #block-8e29be0b280f91dbb604 .sqs-gallery-block-grid .sqs-gallery-design-grid-slide .margin-wrapper { margin-right: 0px; margin-bottom: 0px; }
 
 The image on the right is a 100% crop from the image on the left. Impressive stuff!
-
-<figure>
-
-View fullsize
-
-![You're doing it wrong](/assets/images/d6a07-dsc0504.jpg)
-
-<figcaption>
-
-
-
-You're doing it wrong
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 Mother (I know nothing of pigeon parental rights) was trying to nudge her offspring off the railing. That's what the fuss was about. The squabbling squab, clearly annoyed at mum, tried to call her bluff by pretending to fly into the balcony instead. After much heated debate, they were off.
 

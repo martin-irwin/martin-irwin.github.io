@@ -1,14 +1,14 @@
 ---
-title: "Baden Baden"
-date: "2019-05-24"
+titleBaden Baden
+date2019-05-24
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "a73"
-  - "a7iii"
-  - "baden-baden"
-  - "black-forest"
-  - "germany"
+  - "a73
+  - "a7iii
+  - "baden-baden
+  - "black-forest
+  - "germany
 ---
 
 I haven’t used my new camera enough yet, as life has been in the way. I do notice the pixel difference to the A7R (36 vs 24), but of course, none to the RX1. The RX1 is possibly overall softer, but the lens is so good that really, we’re splitting hairs at this point. Also, I now use a 4K display, so 1:1 isn’t as “zoomed” as it used to be.
@@ -24,26 +24,6 @@ I will say this, though. I’ve always wanted to consciously “be in the moment
 ![20190422-DSC00496-ILCE-7M3.jpg](/assets/images/d7859-20190422-dsc00496-ilce-7m3.jpg)
 
 This is where I think the motorbike comes in, at least to my life. I absolutely love the disconnect. It’s me and the bike, me and the bike and the corner. Sure, I attach a GoPro for fun sometimes, make a little video, but to just get on the bike and ride off to explore a new place is so relaxing. On my last trip, I took the A73 with the Helios 44-2 (55/2) lens, FE 35/2.8 and new 28/2 Sony FE lens. I also had my new mobile, the P30 Pro. They all shoot differently, and I use them for different purposes. The phone has a great camera, but those photos are useful for, at best, this blog. Unless I am very unlucky and without my real camera at a location, generating a print from the phone camera just wouldn’t satisfy me. It’s good, very good, but my real camera is so much better. It would be entirely possible to travel with only the phone, post to social media, and hell, even print at the good old standard size… but I have a lot of lenses to use!
-
-<figure>
-
-![35/2.8](/assets/images/b5797-20190501-dsc00512-ilce-7m3.jpg)
-
-<figcaption>
-
-
-
-35/2.8
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 35mm is really still my favourite focal length. I enjoy 50mm and higher for a certain look that can be achieved, but 28mm is also a great focal length (your phone frames photos at around this focal length). My favourite photos are consistently architecture shots with a tight aperture (so everything is in focus) and high shutter speed to really create a clear image. The above shot is an example of that.
 

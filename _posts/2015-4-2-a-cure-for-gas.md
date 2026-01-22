@@ -1,37 +1,15 @@
 ---
-title: "A cure for GAS"
-date: "2015-04-02"
+titleA cure for GAS
+date2015-04-02
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "bags"
-  - "camera"
-  - "gas"
-  - "gear"
-  - "travel"
+  - "bags
+  - "camera
+  - "gas
+  - "gear
+  - "travel
 ---
-
-<figure>
-
-View fullsize
-
-![Travelling Light | RX100 |&nbsp;1/40s f/2.8 ISO3200 14.57mm (35mm eq:39mm)&nbsp;](/assets/images/640df-image-asset.jpeg)
-
-<figcaption>
-
-
-
-Travelling Light | RX100 | 1/40s f/2.8 ISO3200 14.57mm (35mm eq:39mm) 
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 I've written about gear acquisition syndrome (GAS) [before](http://www.martinirwinphotography.com/myblog/2015/2/3/rinse-repeat), and I'm going to go one step further with this post. It's been a while since I've written a post, and that's for a few reasons. I've been busy with work, the weather has been mostly horrible (severe winds, lots of rain, and generally uninspiring), and busy weekends have left very little time to go anywhere and take photos. Yes, one can take photos at home, but the [orchid](http://www.martinirwinphotography.com/myblog/2015/3/4/orchid) has died.
 

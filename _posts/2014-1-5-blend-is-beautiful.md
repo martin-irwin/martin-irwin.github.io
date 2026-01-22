@@ -1,58 +1,18 @@
 ---
-title: "Blend is Beautiful"
-date: "2014-01-05"
+titleBlend is Beautiful
+date2014-01-05
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "50mm"
-  - "canon"
-  - "comparison"
-  - "lens"
-  - "lenses"
-  - "sel55f18z"
+  - "50mm
+  - "canon
+  - "comparison
+  - "lens
+  - "lenses
+  - "sel55f18z
 ---
 
-<figure>
-
-![NEX-7 &amp; SEL55F18Z |&nbsp;1/100s f/1.8 ISO250 55mm](/assets/images/db84b-20140105_6.jpg)
-
-<figcaption>
-
-
-
-NEX-7 & SEL55F18Z | 1/100s f/1.8 ISO250 55mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
-
 I agree with the above coffee advert - _blend is beautiful_. This sentiment is valid for certain aspects of photography, too. Often, it is desirable to have a very smooth blend of background blur, or _bokeh_ (the Japanese word for blur). 
-
-<figure>
-
-![Making sure that the building site isn't too loud](/assets/images/8888d-20140105_5.jpg)
-
-<figcaption>
-
-
-
-Making sure that the building site isn't too loud
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 In the pursuit of the perfect blend, I've acquired Sony's latest FE-mount lens, the SEL55F18Z. As pointed out by friend and fellow photoblographer Björn Utpott ([his blog](http://bmupix.com/) is a source of daily inspiration), I have a lens with a similar focal length and aperture already - the Canon nFD 50mm F1.4.
 

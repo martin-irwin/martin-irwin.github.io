@@ -1,57 +1,31 @@
 ---
-title: "Golden rayed lily of Japan"
-date: "2013-07-29"
+titleGolden rayed lily of Japan
+date2013-07-29
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "flower"
-  - "japan"
-  - "lilies"
-  - "lily"
-  - "nature"
-  - "sel24f18z"
-  - "tokyo"
-  - "wildlife"
-  - "zeiss"
+  - "flower
+  - "japan
+  - "lilies
+  - "lily
+  - "nature
+  - "sel24f18z
+  - "tokyo
+  - "wildlife
+  - "zeiss
 ---
 
 This isn't the first time I've taken pictures of lilies, and it won't be the last. Usually, if I post [photos of lilies](http://www.martinirwinphotography.com/myblog/?tag=lilies), they'll be ones I've bought for Charlotte. Every now and then, we see wild lilies growing here in Japan, but we've never seen anything like this.
 
-Ladies and Gentlemen, I give you the " **Golden rayed lily of Japan**"
-
-<figure>
-
-View fullsize
-
-![山百合 [Yamayuri] | NEX-7 &amp; SEL24F18Z | 1/1600s f/2.0 ISO100 24mm](/assets/images/42231-20130727-dsc06628.jpg)
-
-<figcaption>
-
-
-
-山百合 \[_Yamayuri_\] | NEX-7 & SEL24F18Z | 1/1600s f/2.0 ISO100 24mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
+Ladies and Gentlemen, I give you the " **Golden rayed lily of Japan**
 
 From Wikipedia: 
 
 > The flower colour is typically white with gold radial markings and orange spots, but variations in flower colour and markings are known. For example the variety _platyphyllum,_ which bears a gold stripe along the tepals but lacks spots. The strongly scented flowers are the largest of any lily species and the largest plants, which can reach 2.5 metres (8 ft), can carry up to twenty of these.
 
-View fullsize
-
 ![20130727-DSC06660.jpg](/assets/images/518c1-20130727-dsc06660.jpg)
 
 The plant itself was well over 2m long, from ground to tip. Weighed down by its sheer size, and successfully attempting to leave the shadow of the canopy above, the plant pointed perpendicular to the ground, creating an amazing eye-level bouquet.
-
-View fullsize
 
 ![20130727-DSC06670.jpg](/assets/images/88dba-20130727-dsc06670.jpg)
 

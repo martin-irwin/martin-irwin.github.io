@@ -1,40 +1,16 @@
 ---
-title: "41°C in the shade"
-date: "2013-08-11"
+title41°C in the shade
+date2013-08-11
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "japan"
-  - "lightning"
-  - "storms"
-  - "thunder"
-  - "tokyo"
-  - "weather"
+  - "japan
+  - "lightning
+  - "storms
+  - "thunder
+  - "tokyo
+  - "weather
 ---
-
-<figure>
-
-View fullsize
-
-![Inazumi | RX1 |&nbsp;0.6s f/22.0 ISO50 35mm](/assets/images/2e197-20130811-_dsc0324.jpg)
-
-<figcaption>
-
-
-
-Inazumi | RX1 | 0.6s f/22.0 ISO50 35mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
-
-View fullsize
 
 ![Screen Shot 2013-08-11 at 14.27.58.png](/assets/images/b9c45-screenshot2013-08-11at14.27.58.png)
 

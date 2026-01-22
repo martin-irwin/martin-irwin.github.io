@@ -1,41 +1,19 @@
 ---
-title: "The River of Heaven"
-date: "2013-09-23"
+titleThe River of Heaven
+date2013-09-23
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "dark"
-  - "dsc-rx1"
-  - "light"
-  - "long-exposure"
-  - "milky-way"
-  - "okinawa"
-  - "rx1"
-  - "space"
-  - "stars"
+  - "dark
+  - "dsc-rx1
+  - "light
+  - "long-exposure
+  - "milky-way
+  - "okinawa
+  - "rx1
+  - "space
+  - "stars
 ---
-
-<figure>
-
-View fullsize
-
-![天の川 | RX1 | 10s f/2.0 ISO1600 35mm](/assets/images/751f1-20130907-_dsc1197-milkyway.jpg)
-
-<figcaption>
-
-
-
-天の川 | RX1 | 10s f/2.0 ISO1600 35mm
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 It's essentially impossible to see the _Milky Way_ from Tokyo, due to the huge levels of light pollution.  Only when we venture far from our man-made distractions of flashing lights can we really appreciate how insignificant we are in the contexts of the universe.
 

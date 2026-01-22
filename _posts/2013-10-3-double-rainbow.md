@@ -1,39 +1,17 @@
 ---
-title: "Double Rainbow"
-date: "2013-10-03"
+titleDouble Rainbow
+date2013-10-03
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "japan"
-  - "landscape"
-  - "panorama"
-  - "rainbow"
-  - "rx1"
-  - "skyline"
-  - "skytree"
+  - "japan
+  - "landscape
+  - "panorama
+  - "rainbow
+  - "rx1
+  - "skyline
+  - "skytree
 ---
-
-<figure>
-
-View fullsize
-
-![Nijū no niji | DSC-RX1 | 1/250s f/11.0 ISO100 35mm&nbsp;](/assets/images/85b19-dsc1418-edit.jpg)
-
-<figcaption>
-
-
-
-Nijū no niji | DSC-RX1 | 1/250s f/11.0 ISO100 35mm 
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 _(click the photo for full-screen)_
 

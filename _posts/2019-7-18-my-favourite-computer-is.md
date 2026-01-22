@@ -1,11 +1,11 @@
 ---
-title: "My favourite computer is..."
-date: "2019-07-22"
+titleMy favourite computer is...
+date2019-07-22
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "ipad"
-  - "technology"
+  - "ipad
+  - "technology
 ---
 
 Weirdly, my iPad Pro. I would like the newer version, for the smaller bezels, FaceID, and the USB-C port. The new pencil has a couple of nice refinements, also. But this iPad should really last quite a while as it is. It’s extremely powerful, has a great screen, and the battery life is ridiculously good.
@@ -19,26 +19,6 @@ The other day, I was involved in a 3 hour long Webex teleconference (don’t env
 ![public.jpeg](/assets/images/08da6-public.jpeg)
 
 The MacBook Pro can also get rather hot and fans rather loud at times. Though the iPad can also get quite hot, especially in the sun, it does not have any fans, so it’s completely silent. I prefer this, and it’s what I liked about my 12” MacBook. I ended up selling that though, as the iPad was getting more use.
-
-<figure>
-
-![I spoke too soon regarding temperature…!](/assets/images/58f3c-img_0486.png)
-
-<figcaption>
-
-
-
-I spoke too soon regarding temperature…!
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 ![img_20190622_115818_661.jpeg](/assets/images/32ba0-img_20190622_115818_661.jpeg)
 

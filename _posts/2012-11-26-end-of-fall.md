@@ -1,37 +1,15 @@
 ---
-title: "End of Fall"
-date: "2012-11-26"
+titleEnd of Fall
+date2012-11-26
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "japan"
-  - "landscape"
-  - "manual-focus"
-  - "nex-7"
-  - "tokyo"
+  - "japan
+  - "landscape
+  - "manual-focus
+  - "nex-7
+  - "tokyo
 ---
-
-<figure>
-
-View fullsize
-
-![End of Fall │&nbsp;NEX-7 &amp; Voigtländer Nokton 35/F1.4&nbsp;│ 35mm, 1/60,&nbsp;ISO 250, f/2, Lightroom 4.2](/assets/images/bcfb1-dsc01731.jpg)
-
-<figcaption>
-
-
-
-End of Fall │ NEX-7 & Voigtländer Nokton 35/F1.4 │ 35mm, 1/60, ISO 250, f/2, Lightroom 4.2
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 The weather in Tokyo has taken a sharp turn and become rather cold. Just two weeks ago, I didn't need a jacket, but now there's a crispness in the air signifying the upcoming winter.  
 

@@ -1,40 +1,18 @@
 ---
-title: "Mixing it up"
-date: "2013-06-01"
+titleMixing it up
+date2013-06-01
 categories: 
-  - "blog"
+  - "blog
 tags: 
-  - "alcohol"
-  - "data"
-  - "drinks"
-  - "heat"
-  - "ice-hockey"
-  - "nhl"
-  - "pimms"
-  - "wordpress"
+  - "alcohol
+  - "data
+  - "drinks
+  - "heat
+  - "ice-hockey
+  - "nhl
+  - "pimms
+  - "wordpress
 ---
-
-<figure>
-
-View fullsize
-
-![​Pimms &amp; NHL | Sony NEX-C3 &amp; Canon nFD 50mm F1.4| 50mm f/2 1/10s f/1.0 ISO200 RAW](/assets/images/76c93-dsc00072.jpg)
-
-<figcaption>
-
-
-
-​Pimms & NHL | Sony NEX-C3 & Canon nFD 50mm F1.4| 50mm f/2 1/10s f/1.0 ISO200 RAW
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 Ice hockey is an unusual sport for the British to follow, as there's basically zero-interest across the country. A few cities have teams, which are certainly worth checking out, but ice hockey has very little support compared to other European countries, and Northern America.
 
@@ -48,36 +26,13 @@ And it's great. It's a n extremely fast full-contact sport, full of action. The 
 
 This _summer cocktail_ is a British drink called Pimms No. 1 cup, which we've mixed with lemon, fresh strawberries, and crushed ice. Extremely refreshing.
 
-> "Pimm's No. 1 Cup is based on gin and can be served both on ice or in cocktails. It has a dark-tea colour with a reddish tint, and tastes subtly of spice and citrus fruit. It is often taken with "English-style" (clear and carbonated) lemonade, as well as various chopped fresh ingredients, particularly apples, cucumber, oranges, lemons, strawberry, and borage, though nowadays most substitute mint. Ginger ale is a common substitute for lemonade. Pimm's can also be mixed with Champagne (or a sparkling white wine), called a "Pimm's Royal Cup". Its base as bottled is 25% alcohol by volume."
+> "Pimm's No. 1 Cup is based on gin and can be served both on ice or in cocktails. It has a dark-tea colour with a reddish tint, and tastes subtly of spice and citrus fruit. It is often taken with "English-style" (clear and carbonated) lemonade, as well as various chopped fresh ingredients, particularly apples, cucumber, oranges, lemons, strawberry, and borage, though nowadays most substitute mint. Ginger ale is a common substitute for lemonade. Pimm's can also be mixed with Champagne (or a sparkling white wine), called a "Pimm's Royal Cup". Its base as bottled is 25% alcohol by volume.
 
 ​- Wikipedia
 
 > ​
 
 Regular readers will have noticed subtle changes to the site. ​I wont' bore you with the details. OK, maybe I will. I'd been using Wordpress on a freehosting account to keep costs down, which has served me well over the last 8 months or so. I wanted a more minimalist site, and so I started looking for Wordpress themes, of which there must be thousands. And, they're all rather good. I found a few I liked, but those required a purchase. Fair enough. _You pay for what you get_. Therein lies the real problem. I wasn't paying for hosting, and therefore, my site backend was a mess. Regularly down, http redirects, PHP memory limits... the list goes on.
-
-<figure>
-
-View fullsize
-
-![One should probably avoid free hosting...​](/assets/images/3d189-wordpressand000webhost.jpg)
-
-<figcaption>
-
-
-
-One should probably avoid free hosting...​  
-
-
-
-
-
-
-</figcaption>
-
-
-
-</figure>
 
 ​Maintaining the website had turned from a fun hobby into a complete chore. I wasn't posting anywhere near enough photos... because I wasn't really taking any! Due to the site's issues, I'd seen the taking of photos as a hassle, and not fun. Something had to change. I decided that as I don't partake in any sports other than _sofa-based_ ice-hockey, paying for my photography hobby would allow me to have good service (i.e. as a _customer_), and get back to taking photos, which is something I enjoy immensely. 
 

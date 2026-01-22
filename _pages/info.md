@@ -32,11 +32,11 @@ Website up for {{ years }} years.
   </div>
 </div>
 
-  <span style="display: block; margin: 1.4rem 0; opacity: 0.5;">–</span>
-
-  <div class="nav-group">
-    <a href="{{ '/feed.xml' | relative_url }}" class="v-link" style="display: table;">> RSS</a>
-  </div>
+<div id="mc_embed_signup">
+  <form action="http://martinirwinphotography.us7.list-manage.com/subscribe/post?u=218687a2bf62059de717cae02&amp;id=d06fc34288" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe">
+  </form>
 </div>
 
 <style>
@@ -69,10 +69,3 @@ Website up for {{ years }} years.
     color: #f2f2f2;
   }
 </style>
-
-<div id="mc_embed_signup">
-  <form action="http://martinirwinphotography.us7.list-manage.com/subscribe/post?u=218687a2bf62059de717cae02&amp;id=d06fc34288" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <input type="submit" value="subscribe" name="subscribe" id="mc-embedded-subscribe">
-  </form>
-</div>

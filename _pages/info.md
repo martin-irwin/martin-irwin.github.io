@@ -6,7 +6,6 @@ layout: pure
 
 {% assign current_year = site.time | date: '%Y' %}
 {% assign years = current_year | minus: 2010 %}
-
 <div style="white-space: pre-line; margin-bottom: 1.4rem;">
 Physicist with a camera and an interest in design.
 Exploring intentional technology use.

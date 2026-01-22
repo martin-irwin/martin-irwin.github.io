@@ -1,5 +1,6 @@
-theme: jekyll-theme-minimal # Or any tiny theme to override the primer one
-remote_theme: [] # Explicitly tell GitHub NOT to use a remote theme
+# Site Settings
+theme: null
+remote_theme: null
 
 # Site Settings
 locale                   : "en-GB"

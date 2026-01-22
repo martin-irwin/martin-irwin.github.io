@@ -1,16 +1,16 @@
 ---
-titleWalking in a Winter Wonderland
-date2013-12-25
+title: "Walking in a Winter Wonderland"
+date: 2013-12-25
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "japan
-  - "monkey
-  - "nagano
-  - "snow
-  - "snow-monkey
-  - "wildlife
-  - "winter
+  - "japan"
+  - "monkey"
+  - "nagano"
+  - "snow"
+  - "snow-monkey"
+  - "wildlife"
+  - "winter"
 ---
 
 We returned last night from an impromptu trip to the Japanese Alps. There's no snow in Tokyo, but there was no shortage of snow here. I hope you enjoy the photos - there are more than normal! _(as usual, click on a photo to fill the window)_

@@ -1,13 +1,13 @@
 ---
-titleHibiscus
-date2013-09-22
+title: "Hibiscus"
+date: 2013-09-22
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "flower
-  - "hibiscus
-  - "okinawa
-  - "yaeyama
+  - "flower"
+  - "hibiscus"
+  - "okinawa"
+  - "yaeyama"
 ---
 
 ![20130903-_DSC0972-hibiscus.jpg](/assets/images/66c9f-20130903-_dsc0972-hibiscus.jpg)

@@ -1,6 +1,6 @@
 ---
 title: "Old Stomping Grounds"
-date: "2015-07-01"
+date: 2015-07-01
 categories: 
   - "blog"
 tags: 

@@ -1,13 +1,13 @@
 ---
-titleTravelling without moving
-date2015-05-31
+title: "Travelling without moving"
+date: 2015-05-31
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "28mm
-  - "a7r
-  - "distagon
-  - "vienna
+  - "28mm"
+  - "a7r"
+  - "distagon"
+  - "vienna"
 ---
 
 Travel is great, but one thing it does is eat up time. I've been fortunate enough to travel quite a bit in the last few weeks, which has provided some very interesting scenes for my photography and general interest. However, going to work immediately after returning from any trip, and then embarking on another the following weekend, has meant that I have something of a backlog of photos. I could post a photo per day, but I like to waffle, and so fewer posts with more photos allows me time to think about what I want to say. The issue with such a process is that when time is short, I cannot easily publish posts. I could change the format, or just upload the photos themselves without the waffle. I'm not sure yet. Either way, dear reader, please know that I am taking photos most of the time. I have lenses yet to review, some to sell, and others on my shopping list, so stay tuned.

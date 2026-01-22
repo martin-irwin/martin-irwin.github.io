@@ -1,14 +1,14 @@
 ---
-titleThawing Out
-date2014-02-22
+title: "Thawing Out"
+date: 2014-02-22
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "bunkyo
-  - "japan
-  - "plum
-  - "tokyo
-  - "walking
+  - "bunkyo"
+  - "japan"
+  - "plum"
+  - "tokyo"
+  - "walking"
 ---
 
 It's the first Saturday in weeks that we've not been submerged in snow. No blizzard today, just very clear skies. In fact, the huge mounds of snow dotted around the streets now appear out of place.

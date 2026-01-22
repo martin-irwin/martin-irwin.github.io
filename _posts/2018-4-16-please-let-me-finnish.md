@@ -1,13 +1,13 @@
 ---
-titlePlease let me Finnish
-date2018-04-16
+title: "Please let me Finnish"
+date: 2018-04-16
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "europe
-  - "finland
-  - "rx1
-  - "travel
+  - "europe"
+  - "finland"
+  - "rx1"
+  - "travel"
 ---
 
 Finland is a funny place. There's a population of 5 million (that's Manchester and Birmingham combined), and a language that is like no other.

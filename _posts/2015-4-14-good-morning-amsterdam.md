@@ -1,6 +1,6 @@
 ---
 title: "Good Morning Amsterdam"
-date: "2015-04-14"
+date: 2015-04-14
 categories: 
   - "blog"
 tags: 

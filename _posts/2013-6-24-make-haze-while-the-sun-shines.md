@@ -1,19 +1,19 @@
 ---
-titleMake haze while the sun shines
-date2013-06-24
+title: "Make haze while the sun shines"
+date: 2013-06-24
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "air-quality
-  - "beijing
-  - "china
-  - "climate
-  - "haze
-  - "particles
-  - "pm10
-  - "pm2-5
-  - "pollution
-  - "smog
+  - "air-quality"
+  - "beijing"
+  - "china"
+  - "climate"
+  - "haze"
+  - "particles"
+  - "pm10"
+  - "pm2-5"
+  - "pollution"
+  - "smog"
 ---
 
 # China

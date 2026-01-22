@@ -1,14 +1,14 @@
 ---
-titleA cure for GAS
-date2015-04-02
+title: "A cure for GAS"
+date: 2015-04-02
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "bags
-  - "camera
-  - "gas
-  - "gear
-  - "travel
+  - "bags"
+  - "camera"
+  - "gas"
+  - "gear"
+  - "travel"
 ---
 
 I've written about gear acquisition syndrome (GAS) [before](http://www.martinirwinphotography.com/myblog/2015/2/3/rinse-repeat), and I'm going to go one step further with this post. It's been a while since I've written a post, and that's for a few reasons. I've been busy with work, the weather has been mostly horrible (severe winds, lots of rain, and generally uninspiring), and busy weekends have left very little time to go anywhere and take photos. Yes, one can take photos at home, but the [orchid](http://www.martinirwinphotography.com/myblog/2015/3/4/orchid) has died.

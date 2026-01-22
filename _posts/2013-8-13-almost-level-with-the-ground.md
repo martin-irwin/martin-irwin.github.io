@@ -1,16 +1,16 @@
 ---
-titleAlmost level with the ground
-date2013-08-13
+title: "Almost level with the ground"
+date: 2013-08-13
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "apartments
-  - "housing
-  - "japan
-  - "land
-  - "mansion
-  - "rental
-  - "tokyo
+  - "apartments"
+  - "housing"
+  - "japan"
+  - "land"
+  - "mansion"
+  - "rental"
+  - "tokyo"
 ---
 
 It's surprising to learn that the Japanese think of their islands as a small island cluster with limited land and resources. Of course, such sweeping statements cannot be applied to _all_ Japanese people; no doubt there would be some debate over this rhetoric. Anyway, it's _commonly accepted_ that there is little space in Japan, and that resources are limited. Both claims are, of course, subjective. Japan is a huge country. Japan's forest land area is 25.1 million hectares (approximately 70 percent of its entire surface area - _[source](http://www.stat.go.jp/english/data/handbook/c05cont.htm)_). 70% is trees, eh? England is [only 7%](http://uk.chm-cbd.net/default.aspx?page=7637) forest! That's an order of magnitude more! Japan is three times larger (surface area) than England, but has only 2.5 times its population. I could spin all of these figures around to make it seem as though the Japanese were living incredibly inefficiently within their national boundaries, of course.

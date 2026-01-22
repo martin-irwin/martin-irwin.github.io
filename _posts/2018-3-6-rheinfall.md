@@ -1,6 +1,6 @@
 ---
 title: "Rheinfall"
-date: "2018-03-06"
+date: 2018-03-06
 categories: 
   - "blog"
 tags: 

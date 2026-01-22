@@ -1,16 +1,16 @@
 ---
-titleAround ACV with the Zeiss C/Y Distagon 28mm F2.8 - Vienna Pt2
-date2015-04-30
+title: "Around ACV with the Zeiss C/Y Distagon 28mm F2.8 - Vienna Pt2"
+date: 2015-04-30
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "architecture
-  - "buildings
-  - "conference
-  - "egu
-  - "vienna
-  - "yellow
-  - "zeiss
+  - "architecture"
+  - "buildings"
+  - "conference"
+  - "egu"
+  - "vienna"
+  - "yellow"
+  - "zeiss"
 ---
 
 Being at a conference 8—7 does mean that there is typically not much time to take a lot of photos. I took photos from inside the venue, for work, but I wanted to photograph around the _"Austria Center Vienna"_ itself. Luckily, the weather was fantastic, and each lunchtime I ventured outside with my camera to take a snap of something new.

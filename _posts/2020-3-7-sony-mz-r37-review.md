@@ -1,6 +1,6 @@
 ---
 title: "Sony MZ-R37 Review - Minidisc Recorder"
-date: "2020-03-07"
+date: 2020-03-07
 tags: 
   - "minidisc"
   - "review"

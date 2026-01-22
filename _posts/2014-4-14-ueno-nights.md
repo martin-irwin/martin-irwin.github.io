@@ -1,13 +1,13 @@
 ---
-titleUeno Nights
-date2014-04-15
+title: "Ueno Nights"
+date: 2014-04-15
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "black-and-white
-  - "night
-  - "street
-  - "ueno
+  - "black-and-white"
+  - "night"
+  - "street"
+  - "ueno"
 ---
 
 Ueno is an interesting little district in central Tokyo. Famous for its zoo, park, museums, and _shitamachi_ 「下町 」– _lit._ the "low city".

@@ -1,11 +1,11 @@
 ---
-titleLand of the Setting Sun
-date2014-07-27
+title: "Land of the Setting Sun"
+date: 2014-07-27
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "england
-  - "sunset
+  - "england"
+  - "sunset"
 ---
 
 ![](/assets/images/20c3e-image-asset.jpeg)

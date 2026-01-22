@@ -1,6 +1,6 @@
 ---
 title: "Let down by Sony"
-date: "2013-02-21"
+date: 2013-02-21
 categories: 
   - "blog"
 tags: 

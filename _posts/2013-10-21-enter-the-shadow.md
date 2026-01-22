@@ -1,13 +1,13 @@
 ---
-titleEnter the shadow
-date2013-10-21
+title: "Enter the shadow"
+date: 2013-10-21
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "japan
-  - "language
-  - "shadows
-  - "temple
+  - "japan"
+  - "language"
+  - "shadows"
+  - "temple"
 ---
 
 ![20131013-DSC07758.jpg](/assets/images/fc6ad-20131013-dsc07758.jpg)

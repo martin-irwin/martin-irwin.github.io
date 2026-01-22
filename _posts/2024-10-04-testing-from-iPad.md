@@ -1,5 +1,5 @@
 ---
-title:  "Testing writing a blog post from the iPad"
+title: "Testing writing a blog post from the iPad"
 categories: 
 - blog
 ---

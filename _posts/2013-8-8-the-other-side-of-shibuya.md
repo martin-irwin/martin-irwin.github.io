@@ -1,18 +1,18 @@
 ---
-titleThe other side of Shibuya
-date2013-08-08
+title: "The other side of Shibuya"
+date: 2013-08-08
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "bisection
-  - "bus-station
-  - "city
-  - "half
-  - "japan
-  - "rx1
-  - "shibuya
-  - "tokyo
-  - "urban
+  - "bisection"
+  - "bus-station"
+  - "city"
+  - "half"
+  - "japan"
+  - "rx1"
+  - "shibuya"
+  - "tokyo"
+  - "urban"
 ---
 
 Shibuya is a multi-layered behemoth of a district. There are roads above train lines above roads above tunnels. I wanted a photo showing another layer, the _other side_ of Shibuya.

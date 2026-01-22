@@ -1,18 +1,18 @@
 ---
-titleGolden rayed lily of Japan
-date2013-07-29
+title: "Golden rayed lily of Japan"
+date: 2013-07-29
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "flower
-  - "japan
-  - "lilies
-  - "lily
-  - "nature
-  - "sel24f18z
-  - "tokyo
-  - "wildlife
-  - "zeiss
+  - "flower"
+  - "japan"
+  - "lilies"
+  - "lily"
+  - "nature"
+  - "sel24f18z"
+  - "tokyo"
+  - "wildlife"
+  - "zeiss"
 ---
 
 This isn't the first time I've taken pictures of lilies, and it won't be the last. Usually, if I post [photos of lilies](http://www.martinirwinphotography.com/myblog/?tag=lilies), they'll be ones I've bought for Charlotte. Every now and then, we see wild lilies growing here in Japan, but we've never seen anything like this.

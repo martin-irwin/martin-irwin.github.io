@@ -1,6 +1,6 @@
 ---
 title: "NYC // The Final Few Hours"
-date: "2019-02-10"
+date: 2019-02-10
 categories: 
   - "blog"
 tags: 

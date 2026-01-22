@@ -1,16 +1,16 @@
 ---
-titleWatching Over You
-date2014-02-25
+title: "Watching Over You"
+date: 2014-02-25
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "akb
-  - "akihabara
-  - "japan
-  - "night
-  - "street
-  - "street-photography
-  - "tokyo
+  - "akb"
+  - "akihabara"
+  - "japan"
+  - "night"
+  - "street"
+  - "street-photography"
+  - "tokyo"
 ---
 
 I shared the photo below with a friend back in the UK tonight, who commented "how is it even remotely legal to have such a heavily tinted rear screen?

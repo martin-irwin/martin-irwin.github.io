@@ -1,17 +1,17 @@
 ---
-titleWith A Whisky #5
-date2015-01-30
+title: "With A Whisky #5"
+date: 2015-01-30
 categories: 
-  - "blog
-  - "with-a-whisky
+  - "blog"
+  - "with-a-whisky"
 tags: 
-  - "drink
-  - "flower
-  - "leica
-  - "macro
-  - "orchid
-  - "rx1
-  - "whisky
+  - "drink"
+  - "flower"
+  - "leica"
+  - "macro"
+  - "orchid"
+  - "rx1"
+  - "whisky"
 ---
 
 **_Written whilst enjoying a single malt, "With a Whisky" brings you the latest ramblings from my side of the world. I can't promise prominent prose, or impressive imagery, but I'll do my best to keep you entertained._**

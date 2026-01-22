@@ -1,6 +1,6 @@
 ---
 title: "Bullet-train in Tokyo"
-date: "2012-10-21"
+date: 2012-10-21
 categories: 
   - "blog"
 tags: 

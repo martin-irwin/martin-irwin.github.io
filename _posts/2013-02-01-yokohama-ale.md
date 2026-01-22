@@ -1,6 +1,6 @@
 ---
 title: "Yokohama Ale"
-date: "2013-02-01"
+date: 2013-02-01
 categories: 
   - "blog"
 tags: 

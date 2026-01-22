@@ -1,16 +1,16 @@
 ---
-titleHaidian District
-date2013-06-25
+title: "Haidian District"
+date: 2013-06-25
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "beijing
-  - "china
-  - "science
-  - "travel
-  - "tsinghua
-  - "university
-  - "work
+  - "beijing"
+  - "china"
+  - "science"
+  - "travel"
+  - "tsinghua"
+  - "university"
+  - "work"
 ---
 
 # China

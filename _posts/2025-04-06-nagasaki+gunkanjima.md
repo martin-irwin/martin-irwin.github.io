@@ -1,5 +1,5 @@
 ---
-title: Nagasaki & Gunkanjima
+title: "Nagasaki & Gunkanjima"
 excerpt: Nagasaki, a city steeped in global history and quiet charm, was my first destination in Japan back in 2006. Known as the site of the second atomic bomb, it also served as Japan’s only port open to foreign trade during the isolationist Shogunate era. From nostalgic reflections on film photography to testing out my new Sony A7CR, this visit blended the old and new. Highlights include the hauntingly iconic Gunkanjima (Battleship Island), featured in the James Bond film *Skyfall*, and the unique Western architecture that tells stories of merchants and diplomacy.
 date: 2025-04-06
 tags: Nagasaki Gunkanjima hashima

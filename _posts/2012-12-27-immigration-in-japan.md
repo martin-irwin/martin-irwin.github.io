@@ -1,13 +1,13 @@
 ---
-titleImmigration in Japan
-date2012-12-27
+title: "Immigration in Japan"
+date: 2012-12-27
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "ex-pat
-  - "immigrants
-  - "immigration
-  - "japan
+  - "ex-pat"
+  - "immigrants"
+  - "immigration"
+  - "japan"
 ---
 
 ![DSC01969-1-1.jpg](/assets/images/0101d-dsc01969-1-1.jpg)

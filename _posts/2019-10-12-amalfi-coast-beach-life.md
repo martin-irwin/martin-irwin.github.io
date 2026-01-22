@@ -1,6 +1,6 @@
 ---
 title: "Amalfi Coast // Beach Life"
-date: "2019-10-12"
+date: 2019-10-12
 categories: 
   - "blog"
 tags: 

@@ -1,6 +1,6 @@
 ---
 title: "Snow in Tokyo"
-date: "2014-02-04"
+date: 2014-02-04
 categories: 
   - "blog"
 tags: 

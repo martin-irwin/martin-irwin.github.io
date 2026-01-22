@@ -1,6 +1,6 @@
 ---
 title: "The grass is always greener"
-date: "2013-10-05"
+date: 2013-10-05
 categories: 
   - "blog"
 tags: 

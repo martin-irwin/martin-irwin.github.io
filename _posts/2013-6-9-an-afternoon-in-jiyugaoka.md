@@ -1,17 +1,17 @@
 ---
-titleAn afternoon in Jiyugaoka
-date2013-06-08
+title: "An afternoon in Jiyugaoka"
+date: 2013-06-08
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "coffee
-  - "coffee-beans
-  - "japan
-  - "jiyugaoka
-  - "street
-  - "street-photography
-  - "tokyo
-  - "walking
+  - "coffee"
+  - "coffee-beans"
+  - "japan"
+  - "jiyugaoka"
+  - "street"
+  - "street-photography"
+  - "tokyo"
+  - "walking"
 ---
 
  

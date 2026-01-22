@@ -1,6 +1,6 @@
 ---
 title: "Sony MDR-1R Review"
-date: "2013-06-01"
+date: 2013-06-01
 categories: 
   - "review"
 tags: 

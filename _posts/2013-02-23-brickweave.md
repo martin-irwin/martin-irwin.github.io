@@ -1,6 +1,6 @@
 ---
 title: "Brickweave"
-date: "2013-02-23"
+date: 2013-02-23
 categories: 
   - "blog"
 tags: 

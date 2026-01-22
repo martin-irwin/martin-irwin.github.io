@@ -1,15 +1,15 @@
 ---
-titleRepresenting your area
-date2014-01-14
+title: "Representing your area"
+date: 2014-01-14
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "derelict
-  - "japan
-  - "politics
-  - "street-photography
-  - "tokyo
-  - "yoyogi
+  - "derelict"
+  - "japan"
+  - "politics"
+  - "street-photography"
+  - "tokyo"
+  - "yoyogi"
 ---
 
 These political posters end up in the most unflattering of places.

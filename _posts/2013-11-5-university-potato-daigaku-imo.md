@@ -1,6 +1,6 @@
 ---
 title: "University Potato / Daigaku-imo / 大学芋"
-date: "2013-11-06"
+date: 2013-11-06
 categories: 
   - "blog"
 tags: 

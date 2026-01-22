@@ -1,6 +1,6 @@
 ---
 title: "Late Summer"
-date: "2016-09-22"
+date: 2016-09-22
 categories: 
   - "blog"
 tags: 

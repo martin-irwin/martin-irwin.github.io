@@ -1,6 +1,6 @@
 ---
 title: "Hong Kong II"
-date: "2019-06-22"
+date: 2019-06-22
 categories: 
   - "blog"
 tags: 

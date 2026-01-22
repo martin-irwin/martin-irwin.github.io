@@ -1,13 +1,13 @@
 ---
-titleWhat else is a macro lens good for?
-date2015-12-03
+title: "What else is a macro lens good for?"
+date: 2015-12-03
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "60mm
-  - "a7r
-  - "leica
-  - "macro
+  - "60mm"
+  - "a7r"
+  - "leica"
+  - "macro"
 ---
 
 A proper macro lens must reproduce objects on the sensor at 2:1 or better—1:1 is often referred to as a "proper" macro lens, and anything beyond 2:1 reproduction is really just a standard lens. I have two proper macro lenses, one is 1:1 and the other 2:1.  They have focal lengths of 90mm and 60mm respectively. I rarely use the 90mm these days, as it's too long for indoor use and unless there's a lot of light, the f/2.8 aperture doesn't let a whole lot of light down the barrel. It is, however, a great lens. It's the lens I used to take [this photo of a snow monkey](http://www.martinirwinphotography.com/snow-monkeys/1fzksox5104s0uvn4263nywjhl7lcj). 

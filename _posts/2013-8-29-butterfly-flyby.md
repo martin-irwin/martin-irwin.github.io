@@ -1,6 +1,6 @@
 ---
 title: "Butterfly flyby"
-date: "2013-08-31"
+date: 2013-08-31
 categories: 
   - "blog"
 tags: 

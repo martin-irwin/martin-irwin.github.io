@@ -1,15 +1,15 @@
 ---
-titleAir Quality in Beijing
-date2013-06-27
+title: "Air Quality in Beijing"
+date: 2013-06-27
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "air-quality
-  - "beijing
-  - "china
-  - "climate
-  - "pollution
-  - "science
+  - "air-quality"
+  - "beijing"
+  - "china"
+  - "climate"
+  - "pollution"
+  - "science"
 ---
 
 # China

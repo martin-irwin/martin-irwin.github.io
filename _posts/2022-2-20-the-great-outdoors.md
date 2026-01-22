@@ -1,6 +1,6 @@
 ---
 title: "The Great Outdoors"
-date: "2022-02-20"
+date: 2022-02-20
 categories: 
   - "blog"
 tags: 

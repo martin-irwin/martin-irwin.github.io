@@ -1,6 +1,6 @@
 ---
 title: "A New Suit // Savile Row"
-date: "2016-02-17"
+date: 2016-02-17
 categories: 
   - "blog"
 tags: 

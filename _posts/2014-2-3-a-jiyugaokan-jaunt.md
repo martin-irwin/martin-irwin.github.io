@@ -1,12 +1,12 @@
 ---
-titleA Jiyugaokan Jaunt
-date2014-02-03
+title: "A Jiyugaokan Jaunt"
+date: 2014-02-03
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "jiyugaoka
-  - "street
-  - "tokyo
+  - "jiyugaoka"
+  - "street"
+  - "tokyo"
 ---
 
 I've shown photos from _Jiyugaoka_ [numerous times](http://www.martinirwinphotography.com/myblog/?tag=jiyugaoka). It's a lovely place in central Tokyo, and is definitely worth a visit.

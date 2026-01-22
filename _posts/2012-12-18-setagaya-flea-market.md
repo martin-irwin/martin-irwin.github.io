@@ -1,6 +1,6 @@
 ---
 title: "Setagaya Flea Market"
-date: "2012-12-18"
+date: 2012-12-18
 categories: 
   - "blog"
 tags: 

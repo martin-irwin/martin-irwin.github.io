@@ -1,15 +1,15 @@
 ---
-titleWider-Eyes
-date2014-04-29
+title: "Wider-Eyes"
+date: 2014-04-29
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "15mm
-  - "heliar
-  - "tokyo
-  - "university
-  - "university-of-tokyo
-  - "voigtlander
+  - "15mm"
+  - "heliar"
+  - "tokyo"
+  - "university"
+  - "university-of-tokyo"
+  - "voigtlander"
 ---
 
 As I mentioned in my last post, last week was rather busy. The weather was essentially perfect – not too cold, bright sun, and not windy at all. Though I often have lunch at my desk, I still need to go and buy it, and I decided to take my camera with me and take a few snaps around my building.

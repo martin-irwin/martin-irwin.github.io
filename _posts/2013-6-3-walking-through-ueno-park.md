@@ -1,17 +1,17 @@
 ---
-titleWalking through Ueno Park
-date2013-06-03
+title: "Walking through Ueno Park"
+date: 2013-06-03
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "gates
-  - "green
-  - "japan
-  - "street
-  - "tokyo
-  - "tori
-  - "ueno
-  - "walking
+  - "gates"
+  - "green"
+  - "japan"
+  - "street"
+  - "tokyo"
+  - "tori"
+  - "ueno"
+  - "walking"
 ---
 
 I ventured out from my air-conditioned office around noon to meet a work associate from Taiwan, at the nearby Ueno station in central Tokyo. I rarely leave the immediate area surrounding my workplace, so I took it as an opportunity to take a few photos during the 15-minute walk.

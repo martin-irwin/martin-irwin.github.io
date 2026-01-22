@@ -1,14 +1,14 @@
 ---
-titleWandering [what to do?]
-date2014-01-28
+title: "Wandering [what to do?]"
+date: 2014-01-28
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "akihabara
-  - "japan
-  - "tokyo
-  - "ueno
-  - "walking
+  - "akihabara"
+  - "japan"
+  - "tokyo"
+  - "ueno"
+  - "walking"
 ---
 
 Though my destination is usually the same each night (same train line, same final stop), I try to walk through different backstreets to increase my chances for inspiration.

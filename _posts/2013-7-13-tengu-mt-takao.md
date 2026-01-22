@@ -1,14 +1,14 @@
 ---
-titleTengu & Mt. Takao
-date2013-07-13
+title: "Tengu & Mt. Takao"
+date: 2013-07-13
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "canon
-  - "mt-takao
-  - "sony
-  - "sunset
-  - "takao
+  - "canon"
+  - "mt-takao"
+  - "sony"
+  - "sunset"
+  - "takao"
 ---
 
 ![Tengu](/assets/images/5bb2f-20130712-dsc06016.jpg)

@@ -1,15 +1,15 @@
 ---
-titleFresh as a daisy
-date2014-04-16
+title: "Fresh as a daisy"
+date: 2014-04-16
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "caterpillar
-  - "daisy
-  - "flowers
-  - "japan
-  - "street
-  - "tokyo
+  - "caterpillar"
+  - "daisy"
+  - "flowers"
+  - "japan"
+  - "street"
+  - "tokyo"
 ---
 
 Things have returned to "normal" here in Tokyo now that the cherry blossom blossoms have blossomed. Random little parks and patches of greenery are no longer super-crowded, which is always nice. Unfortunately, more flowers are _springing_ up, so if you don't like flowers, see you next time!

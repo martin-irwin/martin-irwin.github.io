@@ -1,13 +1,13 @@
 ---
-titleAfternoon (de)Light
-date2014-03-04
+title: "Afternoon (de)Light"
+date: 2014-03-04
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "akihabara
-  - "tokyo
-  - "university
-  - "university-of-tokyo
+  - "akihabara"
+  - "tokyo"
+  - "university"
+  - "university-of-tokyo"
 ---
 
 ![20140304-_DSC2760.jpg](/assets/images/da1f8-20140304-_dsc2760.jpg)

@@ -1,6 +1,6 @@
 ---
 title: "21st Century Museum of Contemporary Art, Kanazawa"
-date: "2015-08-10"
+date: 2015-08-10
 categories: 
   - "blog"
 tags: 

@@ -1,16 +1,16 @@
 ---
-titleFood in Hiroshima [Hiroshima Pt. 2]
-date2013-04-24
+title: "Food in Hiroshima [Hiroshima Pt. 2]"
+date: 2013-04-24
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "cuisine
-  - "food
-  - "hiroshima
-  - "japan
-  - "okonomiyaki
-  - "sony
-  - "zeiss
+  - "cuisine"
+  - "food"
+  - "hiroshima"
+  - "japan"
+  - "okonomiyaki"
+  - "sony"
+  - "zeiss"
 ---
 
 ![DSC047421.jpg](/assets/images/ad670-dsc047421.jpg)

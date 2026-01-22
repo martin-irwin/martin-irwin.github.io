@@ -1,15 +1,15 @@
 ---
-title41°C in the shade
-date2013-08-11
+title: "41°C in the shade"
+date: 2013-08-11
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "japan
-  - "lightning
-  - "storms
-  - "thunder
-  - "tokyo
-  - "weather
+  - "japan"
+  - "lightning"
+  - "storms"
+  - "thunder"
+  - "tokyo"
+  - "weather"
 ---
 
 ![Screen Shot 2013-08-11 at 14.27.58.png](/assets/images/b9c45-screenshot2013-08-11at14.27.58.png)

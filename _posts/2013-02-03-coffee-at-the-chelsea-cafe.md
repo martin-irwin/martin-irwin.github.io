@@ -1,6 +1,6 @@
 ---
 title: "Coffee at the Chelsea Café"
-date: "2013-02-03"
+date: 2013-02-03
 categories: 
   - "blog"
 tags: 

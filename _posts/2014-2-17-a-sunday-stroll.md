@@ -1,15 +1,15 @@
 ---
-titleA Sunday Stroll
-date2014-02-16
+title: "A Sunday Stroll"
+date: 2014-02-16
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "life-in-tokyo
-  - "setagaya
-  - "street
-  - "tokyo
-  - "walking
-  - "website
+  - "life-in-tokyo"
+  - "setagaya"
+  - "street"
+  - "tokyo"
+  - "walking"
+  - "website"
 ---
 
 Well, it's stopped snowing (for now). Very strong winds persisted all night through to this morning, leaving very clear skies, and very cold vegetables.

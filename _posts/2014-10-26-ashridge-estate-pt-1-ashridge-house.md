@@ -1,15 +1,15 @@
 ---
-titleAshridge Estate - Pt. 1 - Ashridge House
-date2014-10-26
+title: "Ashridge Estate - Pt. 1 - Ashridge House"
+date: 2014-10-26
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "ashridge
-  - "buckinghamshire
-  - "countryside
-  - "england
-  - "hertfordshire
-  - "zeiss
+  - "ashridge"
+  - "buckinghamshire"
+  - "countryside"
+  - "england"
+  - "hertfordshire"
+  - "zeiss"
 ---
 
 Someone (mentioning no names; a passive-aggressive trait I've inherited from my father) accidentally drowned their car keys, and so we ventured to St. Albans to pick up a new set. As the weather was nice, we thought "why not make a day of it", and took a short drive to [Ashridge Estate](http://www.nationaltrust.org.uk/ashridge-estate/things-to-see-and-do/) on the Buckinghamshire/Hertfordshire border.

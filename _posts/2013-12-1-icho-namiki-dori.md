@@ -1,6 +1,6 @@
 ---
 title: "Icho Namiki Dori"
-date: "2013-12-01"
+date: 2013-12-01
 categories: 
   - "blog"
 tags: 

@@ -1,16 +1,16 @@
 ---
-titleTo and From Work
-date2013-08-08
+title: "To and From Work"
+date: 2013-08-08
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "commute
-  - "japan
-  - "life
-  - "life-in-tokyo
-  - "rx1
-  - "tokyo
-  - "work
+  - "commute"
+  - "japan"
+  - "life"
+  - "life-in-tokyo"
+  - "rx1"
+  - "tokyo"
+  - "work"
 ---
 
 I don't drive for my daily commute, but some in Tokyo do. I spotted these cars as I was leaving work and heading to the train station to catch a ride home. I, like most people in Tokyo, take a train on Tokyo's extensive rail network. With my camera in hand, I set off from the office and snapped these black and white photos on my way home. I hope you enjoy the ride.

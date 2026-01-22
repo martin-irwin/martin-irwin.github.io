@@ -1,5 +1,5 @@
 ---
-title: Miyajima Part II – hike up Mt. Misen
+title: "Miyajima Part II – hike up Mt. Misen"
 excerpt: Scaling Mount Misen via the Daisho-in Route was an adventure—3km, 2,000 stone steps, and a race against the setting sun. Dressed more for a city stroll than a hike, we navigated slippery stone steps and clinging trousers, earning a laugh and a compliment from fellow hikers. Along the way, we met a curious Ryukyu Land Crab before reaching the summit just in time for a breathtaking sunset. The descent in darkness, guided by iPhone torches, capped off an unforgettable climb before our journey continued westward through Hiroshima, Fukuoka, and Nagasaki.
 date: 2025-03-20
 tags: Miyajima japan Hiroshima hiking

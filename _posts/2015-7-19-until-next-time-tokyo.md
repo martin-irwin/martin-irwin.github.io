@@ -1,6 +1,6 @@
 ---
 title: "Until next time, Tokyo"
-date: "2015-07-19"
+date: 2015-07-19
 categories: 
   - "blog"
 tags: 

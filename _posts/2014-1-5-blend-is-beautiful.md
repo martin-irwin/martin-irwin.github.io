@@ -1,15 +1,15 @@
 ---
-titleBlend is Beautiful
-date2014-01-05
+title: "Blend is Beautiful"
+date: 2014-01-05
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "50mm
-  - "canon
-  - "comparison
-  - "lens
-  - "lenses
-  - "sel55f18z
+  - "50mm"
+  - "canon"
+  - "comparison"
+  - "lens"
+  - "lenses"
+  - "sel55f18z"
 ---
 
 I agree with the above coffee advert - _blend is beautiful_. This sentiment is valid for certain aspects of photography, too. Often, it is desirable to have a very smooth blend of background blur, or _bokeh_ (the Japanese word for blur). 

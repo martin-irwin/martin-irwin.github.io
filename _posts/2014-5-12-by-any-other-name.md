@@ -1,14 +1,14 @@
 ---
-titleBy Any Other Name
-date2014-05-12
+title: "By Any Other Name"
+date: 2014-05-12
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "abstract
-  - "black-and-white
-  - "colours
-  - "flowers
-  - "macro
+  - "abstract"
+  - "black-and-white"
+  - "colours"
+  - "flowers"
+  - "macro"
 ---
 
 We set out on Sunday afternoon, cameras in hand, with no real purpose other than to enjoy a good walk. I decided I'd muscle-up, and carry the A7R with Tamron 90mm macro lens, as I've not used this combo much at all. The field of view offered my a 90mm lens is noticeably tighter than lenses around 50mm. Shutter speed plays an ever important role. Furthermore, in order to freeze motion/not blur the shot, one's hands must be steady. I decided to stick on the vertical grip (VG-C1EM) to further assist me in stability with some additional weight, and also to allow me to shoot vertically more comfortably.

@@ -1,6 +1,6 @@
 ---
 title: "Every cloud..."
-date: "2013-04-07"
+date: 2013-04-07
 categories: 
   - "blog"
 tags: 

@@ -1,19 +1,19 @@
 ---
-titleLike a Leica
-date2014-06-13
+title: "Like a Leica"
+date: 2014-06-13
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "a7r
-  - "akb
-  - "akihabara
-  - "food
-  - "japan
-  - "leica
-  - "noodles
-  - "rx1
-  - "tantanmen
-  - "tokyo
+  - "a7r"
+  - "akb"
+  - "akihabara"
+  - "food"
+  - "japan"
+  - "leica"
+  - "noodles"
+  - "rx1"
+  - "tantanmen"
+  - "tokyo"
 ---
 
 This photo pretty much sums up rainy season in Japan. When it's not raining, it's about to. A very localised storm headed our way this morning; I was alerted to its presence by a deep, rumbling thunder. Though I am no longer a child, it's still exciting to see hail falling from the sky, especially when it's 28ºC outside.

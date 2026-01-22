@@ -1,13 +1,13 @@
 ---
-titleVertical Correction
-date2015-04-07
+title: "Vertical Correction"
+date: 2015-04-07
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "amsterdam
-  - "europe
-  - "holiday
-  - "rx1
+  - "amsterdam"
+  - "europe"
+  - "holiday"
+  - "rx1"
 ---
 
 Those of you in the know, who spend time processing photos in your digital darkroom, probably know that it is possible to "correct" images for some types of distortion, including vertical corrections (for which a tilt lens is usually required). With careful thought, and a bit of luck, it is possible to avoid corrections altogether and position yourself (and the camera) in such a way as to ensure that vertical lines appear vertical, and buildings do not look like they are falling over.

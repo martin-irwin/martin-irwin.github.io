@@ -1,17 +1,17 @@
 ---
-titleBlue Skies
-date2015-02-25
+title: "Blue Skies"
+date: 2015-02-25
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "28mm
-  - "50mm
-  - "a7r
-  - "blue
-  - "england
-  - "hampstead
-  - "london
-  - "zeiss
+  - "28mm"
+  - "50mm"
+  - "a7r"
+  - "blue"
+  - "england"
+  - "hampstead"
+  - "london"
+  - "zeiss"
 ---
 
 I am just about "done" with winter. I appreciate my car's heated seat, warm clothes, and hot cups of coffee, but I am one of those people who prefers the warmer months. We've been unlucky with weather over the last few weeks. Though it's been relatively dry, there has been a lot of cloud. I find overcast skies of water-laden clouds can get depressing after a while, and really did hope that the sun would pop out later in the day, as forecast.

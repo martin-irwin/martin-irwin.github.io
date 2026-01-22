@@ -1,6 +1,6 @@
 ---
 title: "That familiar feeling"
-date: "2016-06-05"
+date: 2016-06-05
 categories: 
   - "blog"
 tags: 

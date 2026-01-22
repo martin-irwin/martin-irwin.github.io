@@ -1,5 +1,5 @@
 ---
-title: A Pre-Spring Update
+title: "A Pre-Spring Update"
 date: 2025-03-13 03:00:00 +0100
 excerpt: As March 2025 rolls in, I find myself reflecting on the passage of time, especially when resurrecting old electronics like my original iPod (miPod) and scrolling through years. Technology has evolved, yet some devices remain a delightful throwback. Apple’s recent release of the MacBook Air with the M4 chip has caught my eye, especially considering the limitations of my current devices, like the iPad Pro with its weight and iPadOS restrictions. While the iPad Pro offers great performance for photo editing, the experience still feels limiting, and I’m contemplating transitioning back to a MacBook Air as my primary machine. The conundrum of device weight and functionality continues, but change feels inevitable.
 tags: spring zug mountain pilatus ipad macos macbook

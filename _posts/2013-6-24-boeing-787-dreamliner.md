@@ -1,16 +1,16 @@
 ---
-titleBoeing 787 Dreamliner
-date2013-06-29
+title: "Boeing 787 Dreamliner"
+date: 2013-06-29
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "787
-  - "ana
-  - "boeing
-  - "dreamliner
-  - "flight
-  - "haneda
-  - "japan
+  - "787"
+  - "ana"
+  - "boeing"
+  - "dreamliner"
+  - "flight"
+  - "haneda"
+  - "japan"
 ---
 
 Japanese airlines ANA and JAL ordered the planes _en masse_. I recall seeing huge adverts around Tokyo (above). However, the Boeing 787 Dreamliner got off to rather a bad start. On January 16, 2013, ANA Flight NH-692, en route from [Ube](https://en.wikipedia.org/wiki/Ube) to [Tokyo Haneda](https://en.wikipedia.org/wiki/Tokyo_Haneda), had a battery problem warning followed by a burning smell. The aircraft diverted to Takamatsu and was evacuated via the slides; passengers suffered one sprained wrist and two other minor injuries during the evacuation. Inspection revealed a battery fire. A similar incident in a parked JAL 787 at Boston'sLogan International Airport within the same week led the FAA to ground all Boeing 787s.

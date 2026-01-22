@@ -1,6 +1,6 @@
 ---
 title: "Focussing on falling rain"
-date: "2013-08-07"
+date: 2013-08-07
 categories: 
   - "blog"
 tags: 

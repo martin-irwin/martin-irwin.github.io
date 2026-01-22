@@ -1,6 +1,6 @@
 ---
 title: "Hike to Ägerisee"
-date: "2023-02-15"
+date: 2023-02-15
 categories: 
   - "blog"
 tags: 

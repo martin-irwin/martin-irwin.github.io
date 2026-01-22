@@ -1,14 +1,14 @@
 ---
-titleSunny Sunrise
-date2013-11-05
+title: "Sunny Sunrise"
+date: 2013-11-05
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "autumn
-  - "japan
-  - "morning
-  - "sunrise
-  - "tokyo
+  - "autumn"
+  - "japan"
+  - "morning"
+  - "sunrise"
+  - "tokyo"
 ---
 
 It seems that I'm forever saying that the weather will improve, only for the weekend to be a wash-out. This last weekend was, again, a damp and dreary affair. We're wanting to go on the long walks we so enjoy this time of year, but the weather just doesn't want to cooperate.

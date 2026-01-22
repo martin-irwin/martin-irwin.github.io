@@ -1,13 +1,13 @@
 ---
-titleFushimi Inari - 伏見稲荷
-date2014-05-21
+title: "Fushimi Inari - 伏見稲荷"
+date: 2014-05-21
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "japan
-  - "kyoto
-  - "red
-  - "tori
+  - "japan"
+  - "kyoto"
+  - "red"
+  - "tori"
 ---
 
 If you were to think of "Japan", there's a high chance that you'd conjure up images of "red gates" in mountains, after you've thought about sushi, cartoon characters, neon lights, underwear vending machines, men in suits, business cards, bowing, sumo, blowfish... you get the idea. The red gates are in there somewhere.

@@ -1,14 +1,14 @@
 ---
-titleBlack And White
-date2014-04-20
+title: "Black And White"
+date: 2014-04-20
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "black-and-white
-  - "japan
-  - "rcast
-  - "tokyo
-  - "train
+  - "black-and-white"
+  - "japan"
+  - "rcast"
+  - "tokyo"
+  - "train"
 ---
 
 Things aren't always _black and white_ (even if they are black and white). Do not fear, the driver hasn't abandoned the train – I was in fact in the **last** car, facing backwards. I was rather pleased with the resultant image, as I managed to avoid significant blur\* from the slow 0.3 second shutter speed (even more so when considering that the lens _doesn't_ have optical stabilisation), handheld.

@@ -1,15 +1,15 @@
 ---
-titleCan't see the wood for the trees
-date2013-07-21
+title: "Can't see the wood for the trees"
+date: 2013-07-21
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "japan
-  - "kamakura
-  - "nex-7
-  - "sel16f28
-  - "sel24f18z
-  - "travel
+  - "japan"
+  - "kamakura"
+  - "nex-7"
+  - "sel16f28"
+  - "sel24f18z"
+  - "travel"
 ---
 
 ## Kamakura Pt. 1 - Hokokuji

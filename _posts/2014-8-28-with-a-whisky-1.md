@@ -1,20 +1,20 @@
 ---
-titleWith a Whisky #1
-date2014-08-28
+title: "With a Whisky #1"
+date: 2014-08-28
 categories: 
-  - "blog
-  - "with-a-whisky
+  - "blog"
+  - "with-a-whisky"
 tags: 
-  - "80mm
-  - "bokeh
-  - "england
-  - "jupiter-3
-  - "pancolar
-  - "random
-  - "sonnar
-  - "uk
-  - "voigtlander
-  - "zeiss
+  - "80mm"
+  - "bokeh"
+  - "england"
+  - "jupiter-3"
+  - "pancolar"
+  - "random"
+  - "sonnar"
+  - "uk"
+  - "voigtlander"
+  - "zeiss"
 ---
 
 **_Written whilst enjoying a single malt, "With a Whisky" brings you the latest ramblings from my side of the world. I can't promise prominent prose, or impressive imagery, but I'll do my best to keep you entertained._**

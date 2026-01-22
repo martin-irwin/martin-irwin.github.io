@@ -1,6 +1,6 @@
 ---
 title: "Leica Elmarit-R 60mm F2.8"
-date: "2018-08-12"
+date: 2018-08-12
 categories: 
   - "blog"
 tags: 

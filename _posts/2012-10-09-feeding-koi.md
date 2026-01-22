@@ -1,6 +1,6 @@
 ---
 title: "Feeding Koi"
-date: "2012-10-09"
+date: 2012-10-09
 categories: 
   - "blog"
 tags: 

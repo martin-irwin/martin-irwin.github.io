@@ -1,6 +1,6 @@
 ---
 title: "Narrowly missed the rain..."
-date: "2013-08-06"
+date: 2013-08-06
 categories: 
   - "blog"
 tags: 

@@ -1,17 +1,17 @@
 ---
-titleFuerteventura
-date2018-07-22
+title: "Fuerteventura"
+date: 2018-07-22
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "a7r
-  - "crow
-  - "fuerteventura
-  - "holiday
-  - "landscape
-  - "rx1
-  - "sea
-  - "solo
+  - "a7r"
+  - "crow"
+  - "fuerteventura"
+  - "holiday"
+  - "landscape"
+  - "rx1"
+  - "sea"
+  - "solo"
 ---
 
 I have always appreciated a good landscape. In part, I think it's because I grew up in a very pretty but very flat part of the world—the horizon was the limit. This meant that I would often take in the vast and wide landscapes limited only by buildings, trees, or simply the limit of the horizon (somewhere between 3 and 10 miles).

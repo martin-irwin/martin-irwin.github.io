@@ -1,16 +1,16 @@
 ---
-titleThe Great Buddha of Kamakura
-date2013-07-26
+title: "The Great Buddha of Kamakura"
+date: 2013-07-26
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "asia
-  - "buddha
-  - "japan
-  - "kamakura
-  - "sel18200le
-  - "tokyo
-  - "travel
+  - "asia"
+  - "buddha"
+  - "japan"
+  - "kamakura"
+  - "sel18200le"
+  - "tokyo"
+  - "travel"
 ---
 
 ## Kamakura Pt. 3 - Kōtoku-in

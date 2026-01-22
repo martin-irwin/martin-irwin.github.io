@@ -1,6 +1,6 @@
 ---
 title: "Spring has sprung"
-date: "2022-03-12"
+date: 2022-03-12
 categories: 
   - "blog"
 tags: 

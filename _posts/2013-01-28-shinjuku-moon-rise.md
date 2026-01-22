@@ -1,6 +1,6 @@
 ---
 title: "Shinjuku Moon-rise"
-date: "2013-01-28"
+date: 2013-01-28
 categories: 
   - "blog"
 tags: 

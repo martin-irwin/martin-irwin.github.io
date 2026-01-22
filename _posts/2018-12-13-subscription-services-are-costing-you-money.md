@@ -1,6 +1,6 @@
 ---
 title: "Subscription-based services are costing you money"
-date: "2020-02-04"
+date: 2020-02-04
 categories:
   - "blog"
 tags:

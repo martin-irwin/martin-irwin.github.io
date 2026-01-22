@@ -1,16 +1,16 @@
 ---
-titleFinding our bearings
-date2014-12-07
+title: "Finding our bearings"
+date: 2014-12-07
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "24mm
-  - "a7r
-  - "countryside
-  - "england
-  - "pancolar
-  - "vivtar
-  - "zeiss
+  - "24mm"
+  - "a7r"
+  - "countryside"
+  - "england"
+  - "pancolar"
+  - "vivtar"
+  - "zeiss"
 ---
 
 The weather forecast for Sunday wasn't good, so we hopped into the car and hit the road. We don't really know the area well at all, such is the life of a commuter in the UK. After driving around a little, we parked the car, and continued on foot.

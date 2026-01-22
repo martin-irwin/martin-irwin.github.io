@@ -1,13 +1,13 @@
 ---
-titleA Different Point of View
-date2014-10-19
+title: "A Different Point of View"
+date: 2014-10-19
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "autumn
-  - "rx100
-  - "town
-  - "uk
+  - "autumn"
+  - "rx100"
+  - "town"
+  - "uk"
 ---
 
 After taking my phone out with me last weekend, I thought I'd go a little larger and use the RX100 this weekend. I wanted to see how I would get on with just a compact camera. I set the ring to control the zoom, which gives a nice indication of the 35mm equivalent focal length (28mm in the case of the above photo). 28mm is a popular focal length, but not one I've explored in much detail—It's a similar field-of-view to 19mm on APS-C (of which I have the excellent sigma 19mm lens, but I've not used it much at all).

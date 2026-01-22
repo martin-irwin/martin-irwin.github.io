@@ -1,5 +1,5 @@
 ---
-title: Prime Time
+title: "Prime Time"
 excerpt: Exploring the breathtaking Swiss Alps on motorbikes, we captured stunning landscape photos of mountain passes and vistas. This post shares highlights from our alpine adventure, plus musings on camera gear choices for my upcoming Japan trip, including versatile lenses and prime options for travel photography.
 date: 2025-07-20
 tags: Switzerland Furka Grimsel Susten Mountainpass

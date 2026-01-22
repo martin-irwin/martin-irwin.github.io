@@ -1,17 +1,17 @@
 ---
-titleSakura Season!
-date2013-03-21
+title: "Sakura Season!"
+date: 2013-03-21
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "blossom
-  - "cherry-blossom
-  - "flowers
-  - "japan
-  - "plants
-  - "sakura-2013
-  - "sakura-season
-  - "wafu
+  - "blossom"
+  - "cherry-blossom"
+  - "flowers"
+  - "japan"
+  - "plants"
+  - "sakura-2013"
+  - "sakura-season"
+  - "wafu"
 ---
 
 ![DSC03859.jpg](/assets/images/9201e-dsc03859.jpg)

@@ -1,17 +1,17 @@
 ---
-titleGuardian of Warriors
-date2013-07-22
+title: "Guardian of Warriors"
+date: 2013-07-22
 categories: 
 tags: 
-  - "asia
-  - "east-japan
-  - "hachiman
-  - "japan
-  - "kamakura
-  - "sel18200le
-  - "shinto
-  - "shrine
-  - "temple
+  - "asia"
+  - "east-japan"
+  - "hachiman"
+  - "japan"
+  - "kamakura"
+  - "sel18200le"
+  - "shinto"
+  - "shrine"
+  - "temple"
 ---
 
 ## Kamakura Pt. 2 - Tsurugaoka Hachiman-gū

@@ -1,5 +1,5 @@
 ---
-title: Around Zug
+title: "Around Zug"
 excerpt: A weekend digital detox with a visiting friend meant hiking, sightseeing, and minimal screen timeâ€”just enough to view and share some photos. Letting the images speak for themselves!
 tags: Zug Switzerland hiking
 image: /assets/images/7CR00652.png

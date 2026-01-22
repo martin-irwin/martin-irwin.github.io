@@ -1,17 +1,17 @@
 ---
-titleRain, a few drinks, DSC-RX1
-date2013-06-12
+title: "Rain, a few drinks, DSC-RX1"
+date: 2013-06-12
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "bokeh
-  - "camera
-  - "dsc-rx1
-  - "lens
-  - "nex-7
-  - "rx1
-  - "sony
-  - "tokyo
+  - "bokeh"
+  - "camera"
+  - "dsc-rx1"
+  - "lens"
+  - "nex-7"
+  - "rx1"
+  - "sony"
+  - "tokyo"
 ---
 
 Rainy season is truly upon us. It's been raining solid since the weekend, with barely a break. The relentless humidity renders everything moist. Condensation pours down almost everything, made all the more noticeable with a nice cold beer.

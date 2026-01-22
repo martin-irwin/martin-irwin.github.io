@@ -1,6 +1,6 @@
 ---
 title: "Room with a view"
-date: "2015-06-24"
+date: 2015-06-24
 categories: 
   - "blog"
 tags: 

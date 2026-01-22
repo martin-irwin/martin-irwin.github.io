@@ -1,17 +1,17 @@
 ---
-titleLondon at 20mm
-date2015-01-28
+title: "London at 20mm"
+date: 2015-01-28
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "20mm
-  - "a7r
-  - "london
-  - "reviews
-  - "super-wide
-  - "uk
-  - "voigtlander
-  - "wide-angle
+  - "20mm"
+  - "a7r"
+  - "london"
+  - "reviews"
+  - "super-wide"
+  - "uk"
+  - "voigtlander"
+  - "wide-angle"
 ---
 
 ...or

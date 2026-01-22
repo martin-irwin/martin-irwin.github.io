@@ -1,6 +1,6 @@
 ---
 title: "Barcelona by day"
-date: "2018-03-18"
+date: 2018-03-18
 categories: 
   - "blog"
 tags: 

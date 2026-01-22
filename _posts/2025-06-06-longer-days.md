@@ -1,5 +1,5 @@
 ---
-title: Longer days
+title: "Longer days"
 excerpt: Discover my journey learning Japanese kanji with Anki, aiming to master over 2000 characters to improve my reading abilities. Plus, a quick update on new camera gear and a black and white photo.
 date: 2025-06-06
 tags: japanese website blackandwhite

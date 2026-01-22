@@ -1,12 +1,12 @@
 ---
-titleStretching My Legs
-date2014-01-07
+title: "Stretching My Legs"
+date: 2014-01-07
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "tokyo
-  - "toudai
-  - "university
+  - "tokyo"
+  - "toudai"
+  - "university"
 ---
 
 ![20140107-DSC08664.jpg](/assets/images/94c30-20140107-dsc08664.jpg)

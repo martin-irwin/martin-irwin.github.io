@@ -1,6 +1,6 @@
 ---
 title: "What a difference a day makes..."
-date: "2013-01-14"
+date: 2013-01-14
 categories: 
   - "blog"
 tags: 

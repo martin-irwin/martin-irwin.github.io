@@ -1,17 +1,17 @@
 ---
-titleMixing it up
-date2013-06-01
+title: "Mixing it up"
+date: 2013-06-01
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "alcohol
-  - "data
-  - "drinks
-  - "heat
-  - "ice-hockey
-  - "nhl
-  - "pimms
-  - "wordpress
+  - "alcohol"
+  - "data"
+  - "drinks"
+  - "heat"
+  - "ice-hockey"
+  - "nhl"
+  - "pimms"
+  - "wordpress"
 ---
 
 Ice hockey is an unusual sport for the British to follow, as there's basically zero-interest across the country. A few cities have teams, which are certainly worth checking out, but ice hockey has very little support compared to other European countries, and Northern America.

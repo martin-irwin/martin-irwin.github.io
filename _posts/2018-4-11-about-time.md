@@ -1,15 +1,15 @@
 ---
-titleAbout Time
-date2018-04-12
+title: "About Time"
+date: 2018-04-12
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "35mm
-  - "a7r
-  - "street
-  - "switzerland
-  - "waffle
-  - "zurich
+  - "35mm"
+  - "a7r"
+  - "street"
+  - "switzerland"
+  - "waffle"
+  - "zurich"
 ---
 
 ![20180408-DSC05811-ILCE-7R.jpg](/assets/images/75ec0-20180408-dsc05811-ilce-7r.jpg)

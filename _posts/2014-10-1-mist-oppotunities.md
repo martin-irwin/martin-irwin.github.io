@@ -1,13 +1,13 @@
 ---
-titleMist opportunities
-date2014-10-01
+title: "Mist opportunities"
+date: 2014-10-01
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "car
-  - "driving
-  - "mist
-  - "rx1
+  - "car"
+  - "driving"
+  - "mist"
+  - "rx1"
 ---
 
 Here's one nice thing about driving into work, rather than taking a cramped commuter train in Tokyo—the view.

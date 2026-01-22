@@ -1,14 +1,14 @@
 ---
-titleSurface Tension
-date2013-11-12
+title: "Surface Tension"
+date: 2013-11-12
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "animals
-  - "earthquake
-  - "insect
-  - "insects
-  - "japan
+  - "animals"
+  - "earthquake"
+  - "insect"
+  - "insects"
+  - "japan"
 ---
 
 I've always been fascinated by pond-skaters.  They seem to defy the laws of physics, though they are perhaps merely ambassadors. The overcast skies made for an almost liquid-metal backdrop for this photo. Was this photo easy to take? No. He was up there with [the butterfly shot](http://www.martinirwinphotography.com/myblog/2013/8/29/butterfly-flyby) in terms of difficulty.

@@ -1,6 +1,6 @@
 ---
 title: "Tokyo Motor Show [2013]"
-date: "2013-11-24"
+date: 2013-11-24
 categories: 
   - "blog"
 tags: 

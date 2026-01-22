@@ -1,16 +1,16 @@
 ---
-titleHedgehog
-date2016-09-30
+title: "Hedgehog"
+date: 2016-09-30
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "35mm
-  - "a7r
-  - "animal
-  - "england
-  - "hedgehog
-  - "night
-  - "voigtlander
+  - "35mm"
+  - "a7r"
+  - "animal"
+  - "england"
+  - "hedgehog"
+  - "night"
+  - "voigtlander"
 ---
 
 Finally, I used my camera again! In fairness, I have been using my camera on-and-off all summer, but either haven't had the time to publish things to the web (not ideal, but I do still want to keep the site going, as it does motivate me somewhat), or post-process. I can see why mobile photography is only going to get more and more popular as time goes on. The instant gratification is appealing. Upload and share photos within moments, never having to worry about formatting etc etc.

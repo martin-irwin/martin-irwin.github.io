@@ -1,13 +1,13 @@
 ---
-titleWith a Whisky #3
-date2014-12-03
+title: "With a Whisky #3"
+date: 2014-12-03
 categories: 
-  - "with-a-whisky
+  - "with-a-whisky"
 tags: 
-  - "discussion
-  - "gas
-  - "lens
-  - "random
+  - "discussion"
+  - "gas"
+  - "lens"
+  - "random"
 ---
 
 **_Written whilst enjoying a single malt Lemsip, "With a Whisky" brings you the latest ramblings from my side of the world. I can't promise prominent prose, or impressive imagery, but I'll do my best to keep you entertained._**

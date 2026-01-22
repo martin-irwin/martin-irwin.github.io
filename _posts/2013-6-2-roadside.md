@@ -1,14 +1,14 @@
 ---
-titleRoadside
-date2013-06-02
+title: "Roadside"
+date: 2013-06-02
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "afternoon
-  - "flowers
-  - "street
-  - "tokyo
-  - "walking
+  - "afternoon"
+  - "flowers"
+  - "street"
+  - "tokyo"
+  - "walking"
 ---
 
 After spending much of the weekend inside, looking at various computer screens, we decided to get out of the apartment and make the most of some lovely weather. Living in Tokyo means that we're able to not only visit major tourist attractions and iconic areas, but also find quiet little corners and local backstreets in abundance.

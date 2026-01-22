@@ -1,6 +1,6 @@
 ---
 title: "Brace yourself"
-date: "2014-01-29"
+date: 2014-01-29
 categories: 
   - "blog"
 tags: 

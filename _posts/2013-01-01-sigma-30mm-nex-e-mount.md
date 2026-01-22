@@ -1,6 +1,6 @@
 ---
 title: "Sigma 30mm NEX E-Mount"
-date: "2013-01-01"
+date: 2013-01-01
 categories: 
   - "blog"
 tags: 

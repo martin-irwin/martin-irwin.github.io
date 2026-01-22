@@ -1,17 +1,17 @@
 ---
-titleFour Seasons in a Day
-date2014-01-26
+title: "Four Seasons in a Day"
+date: 2014-01-26
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "echizen
-  - "fukui
-  - "japan
-  - "precipitation
-  - "seasons
-  - "snow
-  - "travel
-  - "work
+  - "echizen"
+  - "fukui"
+  - "japan"
+  - "precipitation"
+  - "seasons"
+  - "snow"
+  - "travel"
+  - "work"
 ---
 
 ![20140122-_DSC2379.jpg](/assets/images/cabb6-20140122-_dsc2379.jpg)

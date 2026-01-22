@@ -1,14 +1,14 @@
 ---
-titleBullet Train to Tokyo
-date2014-05-26
+title: "Bullet Train to Tokyo"
+date: 2014-05-26
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "bullet-train
-  - "japan
-  - "shinkansen
-  - "tokaido
-  - "trains
+  - "bullet-train"
+  - "japan"
+  - "shinkansen"
+  - "tokaido"
+  - "trains"
 ---
 
 Though I was fortunate enough to play with a model railway in my formative years, it wasn't until I first visited Japan that I really understood the appeal of "train spotting". Back in the UK, it's seen as a pastime for people with perhaps not the best social skills, often wearing anoraks, photographing trains and discussing subtle differences in locomotive design with each other, rather than participating in "normal" conversation.

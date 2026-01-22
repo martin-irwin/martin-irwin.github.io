@@ -1,6 +1,6 @@
 ---
 title: "With a Whisky #7"
-date: "2015-07-14"
+date: 2015-07-14
 categories: 
   - "with-a-whisky"
 tags: 

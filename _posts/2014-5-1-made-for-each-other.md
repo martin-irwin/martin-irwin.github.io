@@ -1,18 +1,18 @@
 ---
-titleMade for each other
-date2014-05-03
+title: "Made for each other"
+date: 2014-05-03
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "a7r
-  - "jiyugaoka
-  - "lenses
-  - "sel35f28z
-  - "sel55f18z
-  - "sony
-  - "tokyo
-  - "walking
-  - "zeiss
+  - "a7r"
+  - "jiyugaoka"
+  - "lenses"
+  - "sel35f28z"
+  - "sel55f18z"
+  - "sony"
+  - "tokyo"
+  - "walking"
+  - "zeiss"
 ---
 
 As one leaves the Yamanote loop, one very quickly finds that going east-west across Tokyo is far easier a task than traversing north-to-south. Today's photo set is taken as we made the relatively short, but somewhat indirect trip southwards through the suburbs of Tokyo. 

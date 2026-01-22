@@ -1,15 +1,15 @@
 ---
-titleRinse, Repeat
-date2015-02-03
+title: "Rinse, Repeat"
+date: 2015-02-03
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "15mm
-  - "abstract
-  - "black-and-white
-  - "heliar
-  - "voigtlander
-  - "washing-machine
+  - "15mm"
+  - "abstract"
+  - "black-and-white"
+  - "heliar"
+  - "voigtlander"
+  - "washing-machine"
 ---
 
 There's a cyclic nature to the journey many people interested in photography will take, related to their gear. Artists with a vision, might be able to purchase a camera which realises their vision, and then go about producing images and art. Some photographers will manage this, but I think it's a small fraction, due to simple human nature.

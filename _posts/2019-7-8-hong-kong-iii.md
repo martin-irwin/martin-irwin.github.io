@@ -1,6 +1,6 @@
 ---
 title: "Hong Kong III"
-date: "2019-07-08"
+date: 2019-07-08
 categories: 
   - "blog"
 tags: 

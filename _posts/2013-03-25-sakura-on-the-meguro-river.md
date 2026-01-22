@@ -1,18 +1,18 @@
 ---
-titleSakura on the Meguro River
-date2013-03-25
+title: "Sakura on the Meguro River"
+date: 2013-03-25
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "blossom
-  - "cherry-blossom
-  - "flower
-  - "hanami
-  - "meguro
-  - "nakameguro
-  - "sakura
-  - "sakura-2013
-  - "tokyo
+  - "blossom"
+  - "cherry-blossom"
+  - "flower"
+  - "hanami"
+  - "meguro"
+  - "nakameguro"
+  - "sakura"
+  - "sakura-2013"
+  - "tokyo"
 ---
 
 This could only really be Japan...

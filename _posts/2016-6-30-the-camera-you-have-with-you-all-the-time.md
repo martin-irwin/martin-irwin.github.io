@@ -1,11 +1,11 @@
 ---
-titleThe camera you have with you...
-date2016-07-02
+title: "The camera you have with you..."
+date: 2016-07-02
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "iphone
-  - "mobile-phone
+  - "iphone"
+  - "mobile-phone"
 ---
 
 ![image.jpg](/assets/images/9a22c-image.jpg)

@@ -1,16 +1,16 @@
 ---
-titleHints of Spring
-date2015-03-02
+title: "Hints of Spring"
+date: 2015-03-02
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "50mm
-  - "bamboo
-  - "botanical-gardens
-  - "cambridge
-  - "flowers
-  - "ultron
-  - "zeiss
+  - "50mm"
+  - "bamboo"
+  - "botanical-gardens"
+  - "cambridge"
+  - "flowers"
+  - "ultron"
+  - "zeiss"
 ---
 
 It's slowly getting warmer. The days are getting longer. The sun was out, and so at lunchtime a visit to the Cambridge Botanical Gardens was in order ([again](http://www.martinirwinphotography.com/myblog/2015/2/10/cambridge-botanical-gardens)), and see how things have changed. I imagine visiting the CBG will become something of a common activity. There are many flowers and trees, and it's generally a very nice place to walk around during lunchtime.

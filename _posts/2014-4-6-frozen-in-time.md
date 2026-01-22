@@ -1,14 +1,14 @@
 ---
-titleFrozen in Time
-date2014-04-06
+title: "Frozen in Time"
+date: 2014-04-06
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "hanami
-  - "japan
-  - "sakura
-  - "sakura-2014
-  - "tokyo
+  - "hanami"
+  - "japan"
+  - "sakura"
+  - "sakura-2014"
+  - "tokyo"
 ---
 
 It's widely accepted that us humans are different to "the animals" in many ways; with one key aspect being our "understanding" of _time_. We have the ability to recall previous events, and plan future ones. In fact, it's arguable there is no present at all. These words you read are in the past, and the words further down the page are in the future, if you scroll down. 

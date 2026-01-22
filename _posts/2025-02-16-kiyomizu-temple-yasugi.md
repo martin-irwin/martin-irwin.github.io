@@ -1,5 +1,5 @@
 ---
-title: Kiyomizu Temple, Yasugi
+title: "Kiyomizu Temple, Yasugi"
 excerpt: Staying within the serene grounds of **Kiyomizu Temple in Yasugi** was an experience unlike any other. The paper-thin walls and wooden architecture offered just enough shelter, allowing the sounds of nature to seep in—wind through the trees, distant temple bells. Days passed slowly as we explored the historic grounds, untouched by modernity beyond *Showa-era* conveniences. Every meal, a beautifully presented vegetarian feast, reflected the temple’s simplicity and harmony. Disconnected from the outside world, this was peace in its purest form—an escape not just from noise, but from the rush of time itself.  
 tags: Yasugi Buddhist zen temple japan travel
 header:

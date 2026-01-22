@@ -1,6 +1,6 @@
 ---
 title: "Happy White Day!"
-date: "2013-03-14"
+date: 2013-03-14
 categories: 
   - "blog"
 tags: 

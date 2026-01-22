@@ -1,15 +1,15 @@
 ---
-titleDas Pancolar - Vienna Pt3
-date2015-05-14
+title: "Das Pancolar - Vienna Pt3"
+date: 2015-05-14
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "80mm
-  - "carl-zeiss
-  - "pancolar
-  - "vienna
-  - "yellow
-  - "zeiss
+  - "80mm"
+  - "carl-zeiss"
+  - "pancolar"
+  - "vienna"
+  - "yellow"
+  - "zeiss"
 ---
 
 This post has been a long time coming. I'm currently in Japan for a week, on business, and haven't had time to look at photos or really take many at all. I planned on finishing up some lens reviews and the Vienna photos, but then some plonker drove into my car and I've had to deal with insurance and other stresses. Throw moving house into the equation and a blog post was the last thing on my mind!

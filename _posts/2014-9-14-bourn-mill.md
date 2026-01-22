@@ -1,14 +1,14 @@
 ---
-titleBourn Mill
-date2014-09-14
+title: "Bourn Mill"
+date: 2014-09-14
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "bourn
-  - "cambridgeshire
-  - "countryside
-  - "mill
-  - "uk
+  - "bourn"
+  - "cambridgeshire"
+  - "countryside"
+  - "mill"
+  - "uk"
 ---
 
 [Bourn Mill](http://www.cambridgeppf.org/places/bourn-mill/) is one of the oldest surviving mills in the UK. The earliest records show its use in 1636, but it is likely that this actual mill dates back to the 13th Century (though of course, many pieces have been replaced through maintenance).

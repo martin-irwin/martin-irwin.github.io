@@ -1,18 +1,18 @@
 ---
-titleLet there be Light
-date2015-01-06
+title: "Let there be Light"
+date: 2015-01-06
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "60mm
-  - "adobe
-  - "black-and-white
-  - "editing
-  - "leica
-  - "lightroom
-  - "photography
-  - "post-processing
-  - "raw
+  - "60mm"
+  - "adobe"
+  - "black-and-white"
+  - "editing"
+  - "leica"
+  - "lightroom"
+  - "photography"
+  - "post-processing"
+  - "raw"
 ---
 
 To take a photograph, to capture an image, is to freeze time. More specifically it is to capture _light_. Space and time are [intrinsically linked](http://en.wikipedia.org/wiki/Spacetime), but theories of relativity are [logically independent of any properties of light](http://arxiv.org/pdf/0806.1234v1.pdf), unlike photography. To record an image using a digital camera, reflected photons must fall onto a sensor, where they are recorded at a pixel-level. The more photons there are per pixel, the higher the signal:noise ratio, and the cleaner the picture. A 16MP camera might have JPEG options for 4MP, 8MP, 16MP and RAW + JPEG. Which is best? The numbered JPEGs are picture files which have already been processed by the camera itself. They are good to go, are small in size, and contain limited information (i.e. little more than you can see). The best option, in terms of image information, is to shoot RAW + JPEG. That way, you have a decent JPEG you can email, upload to FaceBook, Google+, but also a relatively huge RAW file containing oodles of information about that instant in time you just captured.

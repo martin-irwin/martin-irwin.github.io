@@ -1,6 +1,6 @@
 ---
 title: "大阪城"
-date: "2023-12-10"
+date: 2023-12-10
 categories: 
   - "blog"
 tags: 

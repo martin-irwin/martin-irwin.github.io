@@ -1,6 +1,6 @@
 ---
 title: "Sony WH-X1000M3 REVIEW"
-date: "2019-07-16"
+date: 2019-07-16
 tags: 
   - "headphones"
   - "review"

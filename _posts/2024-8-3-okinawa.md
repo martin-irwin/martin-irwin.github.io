@@ -1,6 +1,6 @@
 ---
 title: "Okinawa - Ishigaki to Taketomi"
-date: "2024-08-03"
+date: 2024-08-03
 categories: 
   - "blog"
 tags: 

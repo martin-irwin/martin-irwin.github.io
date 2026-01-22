@@ -1,5 +1,5 @@
 ---
-title: When sharpness matters
+title: "When sharpness matters"
 excerpt: In the world of high-resolution photography, sharpness and megapixels often take centre stage. However, as I reflect on my experience with Sony’s powerful A7CR and its impressive 61 MP sensor, I realise that sometimes, it’s not the technical specs that matter most. For this image, shot with my sharpest lens, the SEL55F18ZA, it’s the atmosphere, the moment, and the feeling that take precedence. Gear is just a tool — the art of photography lies in the story we capture, not in the megapixels we use to do so.
 tags:
   - zug

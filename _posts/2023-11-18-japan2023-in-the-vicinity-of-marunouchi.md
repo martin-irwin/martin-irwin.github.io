@@ -1,6 +1,6 @@
 ---
 title: "丸の内の辺"
-date: "2023-11-18"
+date: 2023-11-18
 categories: 
   - "blog"
 tags: 

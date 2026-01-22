@@ -1,17 +1,17 @@
 ---
-titleTaketomi-jima - 竹富島
-date2013-09-18
+title: "Taketomi-jima - 竹富島"
+date: 2013-09-18
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "holiday
-  - "japan
-  - "okinawa
-  - "ryukyu
-  - "ryukyu-islands
-  - "tourism
-  - "tourist
-  - "yaeyama
+  - "holiday"
+  - "japan"
+  - "okinawa"
+  - "ryukyu"
+  - "ryukyu-islands"
+  - "tourism"
+  - "tourist"
+  - "yaeyama"
 ---
 
 Sometimes the stars align in such a way, that one is convinced of fate. Staying on Taketomi-jima (_jima_ means _island_ in Japanese), was one of those moments. We've looked into visiting here long ago, but ruled it out when we decided to keep the budget low and just visit [Okinawa's main island](http://www.martinirwinphotography.com/myblog/2013/9/16/okinawa-honto-main-island-). The problem is, that on the main island, a hire car is pretty much a necessity. This means that it worked out cheaper to use ANA airmiles for a flight to nearby Ishigaki (more on that island later), and a 15 minute ferry trip to _Taketomi_ \- an island like no other in Japan (or the world, for that matter).

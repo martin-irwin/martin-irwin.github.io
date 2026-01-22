@@ -1,15 +1,15 @@
 ---
-titleBarcelona by night
-date2018-03-24
+title: "Barcelona by night"
+date: 2018-03-24
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "21mm
-  - "barcelona
-  - "night
-  - "nokton
-  - "spain
-  - "voigtlander
+  - "21mm"
+  - "barcelona"
+  - "night"
+  - "nokton"
+  - "spain"
+  - "voigtlander"
 ---
 
 ![IMG_3258.JPG](/assets/images/0e01a-img_3258.jpg)

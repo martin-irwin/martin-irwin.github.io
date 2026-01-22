@@ -1,15 +1,15 @@
 ---
-titleAutumnal Aroma
-date2013-10-18
+title: "Autumnal Aroma"
+date: 2013-10-18
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "flower
-  - "kinmokusei
-  - "nature
-  - "osmanthus
-  - "rx1
-  - "tree
+  - "flower"
+  - "kinmokusei"
+  - "nature"
+  - "osmanthus"
+  - "rx1"
+  - "tree"
 ---
 
 What's that smell? Oh, it's _kinmokusei,_ otherwise known as "G_olden Sweet Osmanthus"_ (also called the _sweet olive_)_._ This shrub is found all throughout Japan, and blossoms in Autumn, giving off a very sweet and pleasing aroma.

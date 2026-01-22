@@ -1,6 +1,6 @@
 ---
 title: "Botanic Garden Hokkaidō University 北海道大学植物園"
-date: "2024-07-24"
+date: 2024-07-24
 categories: 
   - "blog"
 tags: 

@@ -1,16 +1,16 @@
 ---
-titleDouble Rainbow
-date2013-10-03
+title: "Double Rainbow"
+date: 2013-10-03
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "japan
-  - "landscape
-  - "panorama
-  - "rainbow
-  - "rx1
-  - "skyline
-  - "skytree
+  - "japan"
+  - "landscape"
+  - "panorama"
+  - "rainbow"
+  - "rx1"
+  - "skyline"
+  - "skytree"
 ---
 
 _(click the photo for full-screen)_

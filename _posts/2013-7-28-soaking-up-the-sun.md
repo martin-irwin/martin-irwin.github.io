@@ -1,16 +1,16 @@
 ---
-titleSoaking up the sun
-date2013-07-28
+title: "Soaking up the sun"
+date: 2013-07-28
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "flowers
-  - "japan
-  - "sel24f18z
-  - "sunflower
-  - "sunflowers
-  - "tokyo
-  - "zeiss
+  - "flowers"
+  - "japan"
+  - "sel24f18z"
+  - "sunflower"
+  - "sunflowers"
+  - "tokyo"
+  - "zeiss"
 ---
 
 Yesterday saw the \[temporary\] return of fair weather after a week of drizzle. The temperature was around 35°C again, and the flowers seemed to appreciate the strong sunlight, after all that juicy rain.

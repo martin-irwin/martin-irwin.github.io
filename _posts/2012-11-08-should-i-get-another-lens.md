@@ -1,6 +1,6 @@
 ---
 title: "Should I get another lens?"
-date: "2012-11-08"
+date: 2012-11-08
 categories: 
   - "blog"
 tags: 

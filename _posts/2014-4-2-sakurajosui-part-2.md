@@ -1,14 +1,14 @@
 ---
-titleSakurajosui - 桜上水 - Part 2
-date2014-04-02
+title: "Sakurajosui - 桜上水 - Part 2"
+date: 2014-04-02
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "cherry-blossom
-  - "hanami
-  - "sakura-2014
-  - "sakurajosui
-  - "tokyo
+  - "cherry-blossom"
+  - "hanami"
+  - "sakura-2014"
+  - "sakurajosui"
+  - "tokyo"
 ---
 
 ![](/assets/images/619cb-image-asset.jpeg)

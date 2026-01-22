@@ -1,5 +1,5 @@
 ---
-title: Hiroshima in Focus
+title: "Hiroshima in Focus"
 excerpt: Before 1945, Hiroshima was a thriving castle town, a key economic hub, and a centre of samurai culture under the Asano clan. Today, it is best known as the site of the first atomic bombing, a history preserved in the Atomic Bomb Dome and Hiroshima Peace Memorial Park. Yet, beyond its tragic past, Hiroshima is a vibrant city, rich in history, culture, and cuisine. Discover its feudal roots, the story of Sadako and the thousand paper cranes, and why Hiroshima remains a must-visit destination in Japan.
 date: 2025-03-25
 tags: Hiroshima travel japan

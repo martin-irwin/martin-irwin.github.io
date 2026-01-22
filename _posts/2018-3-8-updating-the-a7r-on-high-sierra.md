@@ -1,13 +1,13 @@
 ---
-titleUpdating the A7R on High Sierra
-date2018-03-09
+title: "Updating the A7R on High Sierra"
+date: 2018-03-09
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "a7r
-  - "coffee
-  - "firware
-  - "switzerland
+  - "a7r"
+  - "coffee"
+  - "firware"
+  - "switzerland"
 ---
 
 So, I finally figured out how to update my A7R with the latest firmware. I didn't realise, but it's been years since I have updated the firmware, and we are now on version 3.20... my camera is 1.02!!!

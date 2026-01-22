@@ -1,14 +1,14 @@
 ---
-titleManchester in Black and White
-date2014-11-25
+title: "Manchester in Black and White"
+date: 2014-11-25
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "24mm
-  - "a7r
-  - "black-and-white
-  - "manchester
-  - "vivitar
+  - "24mm"
+  - "a7r"
+  - "black-and-white"
+  - "manchester"
+  - "vivitar"
 ---
 
 Sometimes the weather is just against you, no matter what. I lived in Manchester for a number of years, and basically lived by that phrase. There's just nothing you can do; it's overcast, or raining, yet you have to get on with things. Luckily, there was a break in the rain, so I took my camera with me on my way to see [_Interstellar_](http://www.imdb.com/title/tt0816692/) at the IMAX.

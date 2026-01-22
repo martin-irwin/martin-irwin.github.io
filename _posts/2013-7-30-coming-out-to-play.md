@@ -1,19 +1,19 @@
 ---
-titleComing out to play
-date2013-07-30
+title: "Coming out to play"
+date: 2013-07-30
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "cicada
-  - "exuvia
-  - "insect
-  - "japan
-  - "rx1
-  - "sony
-  - "summer
-  - "todai
-  - "tokyo
-  - "university
+  - "cicada"
+  - "exuvia"
+  - "insect"
+  - "japan"
+  - "rx1"
+  - "sony"
+  - "summer"
+  - "todai"
+  - "tokyo"
+  - "university"
 ---
 
 Over 40% of my photolibrary this year was captured using the Zeiss 24/1.8 for Sony E-mount (which translates to a focal length of 35mm on a camera with a "full-frame" sensor). Personally, I felt that figure should have been more like 95% - but if I look back at "keepers" rather than total shots, the figure is closer to 80%.

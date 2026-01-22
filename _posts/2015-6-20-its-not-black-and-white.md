@@ -1,16 +1,16 @@
 ---
-titleIt's not Black and White
-date2015-06-21
+title: "It's not Black and White"
+date: 2015-06-21
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "a7r
-  - "black-and-white
-  - "camera
-  - "mangrove
-  - "okinawa
-  - "ryukyu
-  - "yaeyama
+  - "a7r"
+  - "black-and-white"
+  - "camera"
+  - "mangrove"
+  - "okinawa"
+  - "ryukyu"
+  - "yaeyama"
 ---
 
 It's that time of year when Sony release a new A7 body. We have the A7, A7S, A7R, A7II, and now, the **A7RII**! First thing's first, they are all very capable cameras. Buy one, and you can take fantastic images. Whether you enjoy using one or not really comes down to personal preference. They are no Leica, they aren't a big "pro" DSLR... they are a new type of camera carving out a niche in the clustered world of interchangeable lens cameras.

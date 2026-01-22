@@ -1,14 +1,14 @@
 ---
-titleGoing Native
-date2014-09-07
+title: "Going Native"
+date: 2014-09-07
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "50mm
-  - "a7r
-  - "england
-  - "sel55f18z
-  - "uk
+  - "50mm"
+  - "a7r"
+  - "england"
+  - "sel55f18z"
+  - "uk"
 ---
 
 I decided to take my A7R out with its native 55mm lens; SEL55F18Z. This lens is possibly the E-mount's best lens in terms of measurable, objective, optical performance. It also exhibits rather pleasing (if a little bland) subjective qualities such as _bokeh_, colour, and contrast.

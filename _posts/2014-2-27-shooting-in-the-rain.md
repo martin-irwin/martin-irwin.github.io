@@ -1,15 +1,15 @@
 ---
-titleShooting in the rain
-date2014-02-27
+title: "Shooting in the rain"
+date: 2014-02-27
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "bladerunner
-  - "japan
-  - "shinjuku
-  - "street
-  - "street-photography
-  - "tokyo
+  - "bladerunner"
+  - "japan"
+  - "shinjuku"
+  - "street"
+  - "street-photography"
+  - "tokyo"
 ---
 
 When it's raining like this in central Tokyo, I can't help but think of [_Blade Runner_](http://bladerunnerthemovie.warnerbros.com/)...

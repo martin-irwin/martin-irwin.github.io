@@ -1,5 +1,5 @@
 ---
-title: August Update
+title: "August Update"
 excerpt: "Visited the Zoo. Learned 2300 Kanji in under 6 months."
 date: 2025-08-21
 tags: Switzerland Zoo animals lake kanji

@@ -1,16 +1,16 @@
 ---
-titleAtomic Bomb Dome [Hiroshima Pt. 1]
-date2013-04-22
+title: "Atomic Bomb Dome [Hiroshima Pt. 1]"
+date: 2013-04-22
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "bomb-dome
-  - "genbaku
-  - "genbaku-dome
-  - "hiroshima
-  - "japan
-  - "tourism
-  - "travel
+  - "bomb-dome"
+  - "genbaku"
+  - "genbaku-dome"
+  - "hiroshima"
+  - "japan"
+  - "tourism"
+  - "travel"
 ---
 
 ![DSC04716.jpg](/assets/images/4ea13-dsc04716.jpg)

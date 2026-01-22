@@ -1,6 +1,6 @@
 ---
 title: "Around Gongendo Shrine on Ishigaki island"
-date: "2024-08-18"
+date: 2024-08-18
 categories: 
   - "blog"
 tags: 

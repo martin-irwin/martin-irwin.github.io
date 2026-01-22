@@ -1,6 +1,6 @@
 ---
 title: "Happy Valentine's Day!"
-date: "2013-02-14"
+date: 2013-02-14
 categories: 
   - "blog"
 tags: 

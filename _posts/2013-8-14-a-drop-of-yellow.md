@@ -1,14 +1,14 @@
 ---
-titleA drop of yellow
-date2013-08-14
+title: "A drop of yellow"
+date: 2013-08-14
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "street
-  - "sunflower
-  - "sunflowers
-  - "tokyo
-  - "walking
-  - "yellow
+  - "street"
+  - "sunflower"
+  - "sunflowers"
+  - "tokyo"
+  - "walking"
+  - "yellow"
 ---
 

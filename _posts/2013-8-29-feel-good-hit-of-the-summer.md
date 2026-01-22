@@ -1,16 +1,16 @@
 ---
-titleFeel good hit of the summer
-date2013-08-31
+title: "Feel good hit of the summer"
+date: 2013-08-31
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "cicada
-  - "insect
-  - "macro
-  - "nex-7
-  - "sound
-  - "summer
-  - "tamron
+  - "cicada"
+  - "insect"
+  - "macro"
+  - "nex-7"
+  - "sound"
+  - "summer"
+  - "tamron"
 ---
 
 There's no mistaking summer in Japan. Any summertime _anime_ scene will have their distinct chorus in the background. I say background, but sometimes it can feel as if you're wearing these things as headphones. They certainly have an awesome song.  

@@ -1,6 +1,6 @@
 ---
 title: "After Hours"
-date: "2012-10-11"
+date: 2012-10-11
 categories: 
   - "blog"
 tags: 

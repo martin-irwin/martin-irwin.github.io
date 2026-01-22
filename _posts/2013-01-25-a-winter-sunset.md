@@ -1,6 +1,6 @@
 ---
 title: "A Winter Sunset"
-date: "2013-01-25"
+date: 2013-01-25
 categories: 
   - "blog"
 tags: 

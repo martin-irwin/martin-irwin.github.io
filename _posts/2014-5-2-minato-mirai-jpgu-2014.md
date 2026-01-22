@@ -1,6 +1,6 @@
 ---
 title: "Minato Mirai – JPGU 2014"
-date: "2014-05-01"
+date: 2014-05-01
 categories: 
   - "blog"
 tags: 

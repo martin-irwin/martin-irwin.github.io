@@ -1,6 +1,6 @@
 ---
 title: "Held Tenda Tail/Tank Bag Review"
-date: "2019-05-13"
+date: 2019-05-13
 tags: 
   - "bike-tour"
   - "held"

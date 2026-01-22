@@ -1,17 +1,17 @@
 ---
-titleGoroawase
-date2013-09-24
+title: "Goroawase"
+date: 2013-09-24
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "city
-  - "goroawase
-  - "musashi
-  - "skyline
-  - "skyscraper
-  - "skytree
-  - "tokyo
-  - "tokyo-sky-tree
+  - "city"
+  - "goroawase"
+  - "musashi"
+  - "skyline"
+  - "skyscraper"
+  - "skytree"
+  - "tokyo"
+  - "tokyo-sky-tree"
 ---
 
 Tokyo Sky Tree towers above Tokyo at a height of 634m, broadcasting HD television (amongst its other uses). Its height of **634m** was no accident; it stands in the old province of _Musashi_ and the numbers **6** (mu) **3** (sa) **4** (shi) spell out _mu-sa-shi_.

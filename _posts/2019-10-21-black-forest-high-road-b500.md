@@ -1,6 +1,6 @@
 ---
 title: "BLACK FOREST HIGH ROAD – B500"
-date: "2019-10-21"
+date: 2019-10-21
 categories: 
   - "blog"
 tags: 

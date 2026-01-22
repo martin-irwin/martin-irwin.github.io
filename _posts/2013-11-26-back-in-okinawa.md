@@ -1,15 +1,15 @@
 ---
-titleBack in Okinawa
-date2013-11-26
+title: "Back in Okinawa"
+date: 2013-11-26
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "butterfly
-  - "hedomisaki
-  - "insects
-  - "okinawa
-  - "ryukyu-islands
-  - "work
+  - "butterfly"
+  - "hedomisaki"
+  - "insects"
+  - "okinawa"
+  - "ryukyu-islands"
+  - "work"
 ---
 
 I'm back in Okinawa - this time for work - but rather than post uninspiring and dull photos of work (plus, this site is my hobby - to escape work!), I have a few photos from my lunch break at the very northern tip of Okinawa's main island. I spent a few minutes with my NEX-7 and manual lens chasing the amazing butterfly in the shot above...

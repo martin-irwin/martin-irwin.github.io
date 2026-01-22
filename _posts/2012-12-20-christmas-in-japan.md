@@ -1,15 +1,15 @@
 ---
-titleChristmas in Japan
-date2012-12-20
+title: "Christmas in Japan"
+date: 2012-12-20
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "christmas
-  - "christmas-tree
-  - "danbo
-  - "home
-  - "japan
-  - "tree
+  - "christmas"
+  - "christmas-tree"
+  - "danbo"
+  - "home"
+  - "japan"
+  - "tree"
 ---
 
 ![DSC01847.jpg](/assets/images/9d875-dsc01847.jpg)

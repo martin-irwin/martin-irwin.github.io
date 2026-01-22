@@ -1,6 +1,6 @@
 ---
 title: "Koishikawa Botanical Gardens II"
-date: "2025-01-02"
+date: 2025-01-02
 categories: 
 - blog
 tags: 

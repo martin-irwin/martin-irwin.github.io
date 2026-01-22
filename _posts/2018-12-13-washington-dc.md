@@ -1,12 +1,12 @@
 ---
-titleWashington DC
-date2018-12-13
+title: "Washington DC"
+date: 2018-12-13
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "21mm
-  - "28mm
-  - "washington-dc
+  - "21mm"
+  - "28mm"
+  - "washington-dc"
 ---
 
 So I’ve only gone and bought myself a new bloody camera. Somehow I managed to justify it to myself, though the truth of the matter is all of the photos in this post could have been taken with my _old_ camera. But I kind of new this would be the case. The new beasty has faster auto focus and in body stabilisation, meaning that all my old legacy glass is now stabilised. _That_, should be fun.

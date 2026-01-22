@@ -1,6 +1,6 @@
 ---
 title: "Tokyo Taxis"
-date: "2013-02-13"
+date: 2013-02-13
 categories: 
   - "blog"
 tags: 

@@ -1,17 +1,17 @@
 ---
-titleAutumn descends on Tokyo
-date2013-11-25
+title: "Autumn descends on Tokyo"
+date: 2013-11-25
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "autumn
-  - "fall
-  - "leaves
-  - "park
-  - "shinjuku
-  - "shinjukugyoen
-  - "tokyo
-  - "trees
+  - "autumn"
+  - "fall"
+  - "leaves"
+  - "park"
+  - "shinjuku"
+  - "shinjukugyoen"
+  - "tokyo"
+  - "trees"
 ---
 
 Finally, we had an entire weekend of near-perfect weather. Each morning this week we left for work with sunglasses on, praying that the weather would hold for the weekend. We were in luck. We visited Shinjuku Gyoen National Garden in the centre of Tokyo, cameras at the ready.

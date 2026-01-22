@@ -1,5 +1,5 @@
 ---
-title: Closing the year
+title: "Closing the year"
 excerpt: "..."
 date: 2026-01-11
 tags: new year 24mm 90mm tokyo hakuba

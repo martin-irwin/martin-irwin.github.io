@@ -1,15 +1,15 @@
 ---
-titleSakurajosui - 桜上水 - Part 1
-date2014-04-01
+title: "Sakurajosui - 桜上水 - Part 1"
+date: 2014-04-01
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "cherry-blossoms
-  - "home
-  - "sakura-2014
-  - "sakurajosui
-  - "setagaya
-  - "tokyo
+  - "cherry-blossoms"
+  - "home"
+  - "sakura-2014"
+  - "sakurajosui"
+  - "setagaya"
+  - "tokyo"
 ---
 
 We've lived here, in Setagaya ward's _Sakurajosui_, for over three years now. And for a few weeks each year, its name's been very apt. As predicted, Sunday was a wash-out. Huge amounts of rain, and howling winds kept us to the confines of our apartment. For a couple of days now, I've been nursing a heavy cold, but took my camera with my when I went to get some fresh air, and replenish supplies.

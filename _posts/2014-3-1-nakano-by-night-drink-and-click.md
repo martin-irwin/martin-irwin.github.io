@@ -1,14 +1,14 @@
 ---
-titleNakano by night [Drink and Click™]
-date2014-03-02
+title: "Nakano by night [Drink and Click™]"
+date: 2014-03-02
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "drink-and-click
-  - "japan
-  - "nakano
-  - "night
-  - "tokyo
+  - "drink-and-click"
+  - "japan"
+  - "nakano"
+  - "night"
+  - "tokyo"
 ---
 
 ![20140228-_DSC2741.jpg](/assets/images/3f2a1-20140228-_dsc2741.jpg)

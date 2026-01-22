@@ -1,14 +1,14 @@
 ---
-titleAlpine Tour - Day 1
-date2018-09-13
+title: "Alpine Tour - Day 1"
+date: 2018-09-13
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "alpine-tour
-  - "alps
-  - "motorbike
-  - "switzerland
-  - "touring
+  - "alpine-tour"
+  - "alps"
+  - "motorbike"
+  - "switzerland"
+  - "touring"
 ---
 
 Taking the back roads, avoiding Autobahns, we left early on Saturday morning in the direction of the Alps. Warming up the tyres on the bikes on some well trodden tracks between Zurich and Zug, I knew it was going to be a great weekend. First on the schedule was the famous (thanks to Goldfinger) Furka Pass.

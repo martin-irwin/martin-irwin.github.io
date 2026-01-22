@@ -1,17 +1,17 @@
 ---
-titleWalking around
-date2013-02-17
+title: "Walking around"
+date: 2013-02-17
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "abstract
-  - "hibiya
-  - "japan
-  - "marunouchi
-  - "sel24f18z
-  - "tokyo
-  - "water-feature
-  - "zeiss
+  - "abstract"
+  - "hibiya"
+  - "japan"
+  - "marunouchi"
+  - "sel24f18z"
+  - "tokyo"
+  - "water-feature"
+  - "zeiss"
 ---
 
 ![DSC03361.jpg](/assets/images/a024f-dsc03361.jpg)

@@ -1,14 +1,14 @@
 ---
-titleA final few from January
-date2014-01-31
+title: "A final few from January"
+date: 2014-01-31
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "bicycle
-  - "bubble
-  - "street
-  - "tokyo
-  - "walking
+  - "bicycle"
+  - "bubble"
+  - "street"
+  - "tokyo"
+  - "walking"
 ---
 
 ![20140119-_DSC2343.jpg](/assets/images/84902-20140119-_dsc2343.jpg)

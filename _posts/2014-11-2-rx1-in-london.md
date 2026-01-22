@@ -1,12 +1,12 @@
 ---
-titleRX1 in London
-date2014-11-02
+title: "RX1 in London"
+date: 2014-11-02
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "england
-  - "london
-  - "rx1
+  - "england"
+  - "london"
+  - "rx1"
 ---
 
 After lots of deliberation over which lenses are more suitable for a day trip to London, I decided to ignore my camera bag and just picked up the RX1. Full-frame 35mm is a decent focal length, which I enjoy using immensely. I figured I could probably make it work for most scenes in London—it did well enough in Tokyo.

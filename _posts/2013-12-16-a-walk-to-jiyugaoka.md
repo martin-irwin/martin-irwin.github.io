@@ -1,13 +1,13 @@
 ---
-titleA Walk to Jiyugaoka
-date2013-12-16
+title: "A Walk to Jiyugaoka"
+date: 2013-12-16
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "jiyugaoka
-  - "street-photography
-  - "tokyo
-  - "walking
+  - "jiyugaoka"
+  - "street-photography"
+  - "tokyo"
+  - "walking"
 ---
 
 ![20131215-DSC08169.jpg](/assets/images/9efbb-20131215-dsc08169.jpg)

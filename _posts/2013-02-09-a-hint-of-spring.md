@@ -1,6 +1,6 @@
 ---
 title: "A hint of Spring"
-date: "2013-02-09"
+date: 2013-02-09
 categories: 
   - "blog"
 tags: 

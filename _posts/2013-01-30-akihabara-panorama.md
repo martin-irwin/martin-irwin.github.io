@@ -1,6 +1,6 @@
 ---
 title: "Akihabara Panorama"
-date: "2013-01-30"
+date: 2013-01-30
 categories: 
   - "blog"
 tags: 

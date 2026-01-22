@@ -1,6 +1,6 @@
 ---
 title: "The Photograph"
-date: "2014-02-02"
+date: 2014-02-02
 categories: 
   - "blog"
 tags: 

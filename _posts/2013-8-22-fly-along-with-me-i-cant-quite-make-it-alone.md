@@ -1,16 +1,16 @@
 ---
-titleFly along with me, I can’t quite make it alone
-date2013-08-22
+title: "Fly along with me, I can’t quite make it alone"
+date: 2013-08-22
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "animal
-  - "bird
-  - "building
-  - "fly
-  - "pigeon
-  - "rx1
-  - "tokyo
+  - "animal"
+  - "bird"
+  - "building"
+  - "fly"
+  - "pigeon"
+  - "rx1"
+  - "tokyo"
 ---
 
 ![image](/assets/images/d12f7-dsc0503.jpg)

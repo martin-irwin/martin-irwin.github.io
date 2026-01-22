@@ -1,12 +1,12 @@
 ---
-titleIntroducing: Prints
-date2014-11-17
+title: "Introducing: Prints"
+date: 2014-11-17
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "prints
-  - "purchase
-  - "shop
+  - "prints"
+  - "purchase"
+  - "shop"
 ---
 
 _This is something I've been working on for many weeks, so it's about time I gave it a little plug;_ _**I'm now selling ultra-high resolution prints (300 ppi)**__**.**_

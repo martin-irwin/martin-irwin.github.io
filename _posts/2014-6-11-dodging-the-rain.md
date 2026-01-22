@@ -1,13 +1,13 @@
 ---
-titleDodging the rain
-date2014-06-11
+title: "Dodging the rain"
+date: 2014-06-11
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "japan
-  - "rainy-season
-  - "shibuya
-  - "tokyo
+  - "japan"
+  - "rainy-season"
+  - "shibuya"
+  - "tokyo"
 ---
 
 Rainy season really is rainy season. In the last week, we've only had a few hours without rain. I was lucky enough to be in Shibuya during one of those hours.

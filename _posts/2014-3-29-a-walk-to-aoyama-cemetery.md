@@ -1,17 +1,17 @@
 ---
-titleA Walk to Aoyama Cemetery
-date2014-03-29
+title: "A Walk to Aoyama Cemetery"
+date: 2014-03-29
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "aoyama
-  - "aoyama-cemetery
-  - "cemetery
-  - "cherry-blossoms
-  - "japan
-  - "sakura
-  - "sakura-2014
-  - "tokyo
+  - "aoyama"
+  - "aoyama-cemetery"
+  - "cemetery"
+  - "cherry-blossoms"
+  - "japan"
+  - "sakura"
+  - "sakura-2014"
+  - "tokyo"
 ---
 
 ![](/assets/images/7fca7-image-asset.jpeg)

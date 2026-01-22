@@ -1,6 +1,6 @@
 ---
 title: "Lago Maggiore & Rocca di Angera"
-date: "2022-06-15"
+date: 2022-06-15
 categories: 
   - "blog"
 tags: 

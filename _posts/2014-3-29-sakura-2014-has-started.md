@@ -1,17 +1,17 @@
 ---
-title\"Sakura 2014\" has started!
-date2014-03-28
+title: "\Sakura 2014\ has started!"
+date: 2014-03-28
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "blossom
-  - "cherry-blossoms
-  - "flowers
-  - "hanami
-  - "japan
-  - "sakura
-  - "sakura-2014
-  - "sakura-season
+  - "blossom"
+  - "cherry-blossoms"
+  - "flowers"
+  - "hanami"
+  - "japan"
+  - "sakura"
+  - "sakura-2014"
+  - "sakura-season"
 ---
 
 ![](/assets/images/1a048-image-asset.jpeg)

@@ -1,14 +1,14 @@
 ---
-titleImpulses
-date2014-06-01
+title: "Impulses"
+date: 2014-06-01
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "aeroplane
-  - "blue-impulse
-  - "japan
-  - "rx1
-  - "tokyo
+  - "aeroplane"
+  - "blue-impulse"
+  - "japan"
+  - "rx1"
+  - "tokyo"
 ---
 
 To honour the demolition of Tokyo's National Olympic Stadium, Japan air self-defence forces' acrobat team, the [Blue Impulse](http://aerobaticteams.net/blue-impulse.html), could be seen (& heard) flying over central Tokyo for the last few days. The stadium, built to host the 1964 Tokyo Olympics, will be dismantled over 15 months and replaced on the same site with a new US$1.6 billion venue to stage the 2019 Rugby World Cup and 2020 Olympics. We were lucky enough to spot the aircraft flying overhead, as we walked through Harajuku & Yoyogi Park on Saturday afternoon.

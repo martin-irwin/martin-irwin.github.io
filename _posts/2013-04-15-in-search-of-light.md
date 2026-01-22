@@ -1,6 +1,6 @@
 ---
 title: "In search of light"
-date: "2013-04-15"
+date: 2013-04-15
 categories: 
   - "blog"
 tags: 

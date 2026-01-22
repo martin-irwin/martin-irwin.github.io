@@ -1,6 +1,6 @@
 ---
 title: "Back in Japan"
-date: "2023-10-02"
+date: 2023-10-02
 categories: 
   - "blog"
 tags: 

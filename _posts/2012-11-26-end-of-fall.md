@@ -1,14 +1,14 @@
 ---
-titleEnd of Fall
-date2012-11-26
+title: "End of Fall"
+date: 2012-11-26
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "japan
-  - "landscape
-  - "manual-focus
-  - "nex-7
-  - "tokyo
+  - "japan"
+  - "landscape"
+  - "manual-focus"
+  - "nex-7"
+  - "tokyo"
 ---
 
 The weather in Tokyo has taken a sharp turn and become rather cold. Just two weeks ago, I didn't need a jacket, but now there's a crispness in the air signifying the upcoming winter.  

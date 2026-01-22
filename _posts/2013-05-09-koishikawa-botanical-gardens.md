@@ -1,6 +1,6 @@
 ---
 title: "Koishikawa Botanical Gardens"
-date: "2013-05-09"
+date: 2013-05-09
 categories: 
   - "blog"
 tags: 

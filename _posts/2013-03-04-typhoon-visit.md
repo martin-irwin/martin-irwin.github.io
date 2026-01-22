@@ -1,6 +1,6 @@
 ---
 title: "Typhoon visit"
-date: "2013-03-04"
+date: 2013-03-04
 categories: 
   - "blog"
 tags: 

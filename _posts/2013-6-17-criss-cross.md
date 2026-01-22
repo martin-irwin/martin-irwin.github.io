@@ -1,17 +1,17 @@
 ---
-titleCriss Cross
-date2013-06-17
+title: "Criss Cross"
+date: 2013-06-17
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "abstract
-  - "black-and-white
-  - "nex-7
-  - "riverside
-  - "street
-  - "street-photography
-  - "sumida-ku
-  - "tokyo
+  - "abstract"
+  - "black-and-white"
+  - "nex-7"
+  - "riverside"
+  - "street"
+  - "street-photography"
+  - "sumida-ku"
+  - "tokyo"
 ---
 
 I went for a stroll on Saturday afternoon during a break in the near-constant rain. I was meeting friends for drinks in Ginza, and thought I'd walk there from Asakusa-bashi, as I fancied a walk by the river.

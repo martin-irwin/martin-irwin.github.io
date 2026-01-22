@@ -1,14 +1,14 @@
 ---
-titleStumbled Upon
-date2014-05-14
+title: "Stumbled Upon"
+date: 2014-05-14
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "japan
-  - "setagaya
-  - "temple
-  - "tokyo
-  - "walking
+  - "japan"
+  - "setagaya"
+  - "temple"
+  - "tokyo"
+  - "walking"
 ---
 
 There's something very "Tokyo" about going for walk with no real purpose, and stumbling upon something like the image above.

@@ -1,13 +1,13 @@
 ---
-titleGo big or go home
-date2014-06-04
+title: "Go big or go home"
+date: 2014-06-04
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "buildings
-  - "city
-  - "skytree
-  - "tokyo
+  - "buildings"
+  - "city"
+  - "skytree"
+  - "tokyo"
 ---
 
 Tokyo Skytree, written 東京スカイツリー and pronounced "Tōkyō Sukaitsurī" in Japanese, is 634m tall broadcasting tower in eastern Tokyo. I'd only ever looked at the structure either [from afar](http://www.martinirwinphotography.com/myblog/2013/9/24/goroawase), or from the very position pictured above, until now...

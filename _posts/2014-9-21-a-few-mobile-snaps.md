@@ -1,12 +1,12 @@
 ---
-titleA few mobile snaps
-date2014-10-14
+title: "A few mobile snaps"
+date: 2014-10-14
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "lumia-1520
-  - "mobile-phone
-  - "photography
+  - "lumia-1520"
+  - "mobile-phone"
+  - "photography"
 ---
 
 I've been taking photos with mobile phones since my first camera phone, which [predated the iPhone-era by quite some time](http://en.wikipedia.org/wiki/Nokia_7650). Most of those photos are long gone, and that's probably a good thing. The first camera phones had VGA quality cameras, which is 0.3 megapixels in real money. Only teenagers and those with 20-20 vision, and a willing suspension of disbelief, could make out the tiny photos displayed on those tiny screens. We're in a different world now; 8MP is considered lacklustre, with the big-boys putting out phones showcasing 20MP and higher. 

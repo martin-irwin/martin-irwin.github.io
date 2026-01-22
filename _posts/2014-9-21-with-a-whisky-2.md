@@ -1,14 +1,14 @@
 ---
-titleWith a Whisky #2
-date2014-09-28
+title: "With a Whisky #2"
+date: 2014-09-28
 categories: 
-  - "blog
-  - "with-a-whisky
+  - "blog"
+  - "with-a-whisky"
 tags: 
-  - "car
-  - "chicken
-  - "england
-  - "whisky
+  - "car"
+  - "chicken"
+  - "england"
+  - "whisky"
 ---
 
 **_Written whilst enjoying a single malt, "With a Whisky" brings you the latest ramblings from my side of the world. I can't promise prominent prose, or impressive imagery, but I'll do my best to keep you entertained._**

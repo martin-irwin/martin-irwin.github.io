@@ -1,6 +1,6 @@
 ---
 title: "The End of Summer time"
-date: "2019-11-03"
+date: 2019-11-03
 categories: 
   - "blog"
 tags: 

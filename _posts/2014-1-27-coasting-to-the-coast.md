@@ -1,20 +1,20 @@
 ---
-titleCoasting to the coast
-date2014-01-27
+title: "Coasting to the coast"
+date: 2014-01-27
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "coast
-  - "countryside
-  - "echizen
-  - "fieldwork
-  - "fukui
-  - "mountain
-  - "rain
-  - "rural
-  - "sea-of-japan
-  - "snow
-  - "weather
+  - "coast"
+  - "countryside"
+  - "echizen"
+  - "fieldwork"
+  - "fukui"
+  - "mountain"
+  - "rain"
+  - "rural"
+  - "sea-of-japan"
+  - "snow"
+  - "weather"
 ---
 
 > This is Part II of my two-part photo-journal related to a fieldwork trip in Fukui ([Part I](http://www.martinirwinphotography.com/myblog/2014/1/26/four-seasons-in-a-day)).

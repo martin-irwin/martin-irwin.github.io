@@ -1,14 +1,14 @@
 ---
-titleQuiet Kyoto
-date2014-05-19
+title: "Quiet Kyoto"
+date: 2014-05-19
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "city
-  - "japan
-  - "kyoto
-  - "temples
-  - "travel
+  - "city"
+  - "japan"
+  - "kyoto"
+  - "temples"
+  - "travel"
 ---
 
 I was fortunate to tag along to a work-related trip to Kyoto at the end of last week, and escaped the seemingly never-ending rain of Tokyo. Kyoto is different to Tokyo in more ways than it is similar. I suppose even the freshest tourists will notice the difference in building height and surrounding space, if nothing else. After living in Tokyo for over three years, I can safely say that a short visit to Kyoto is like a breath of fresh air.

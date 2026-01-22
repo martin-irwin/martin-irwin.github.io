@@ -1,14 +1,14 @@
 ---
-titleThe Vosges
-date2019-08-12
+title: "The Vosges"
+date: 2019-08-12
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "france
-  - "motorbike
-  - "motorrad
-  - "mountains
-  - "tour
+  - "france"
+  - "motorbike"
+  - "motorrad"
+  - "mountains"
+  - "tour"
 ---
 
 ![20190803-DSC00674-ILCE-7M3.jpg](/assets/images/8970d-20190803-dsc00674-ilce-7m3.jpg)

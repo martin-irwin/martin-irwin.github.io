@@ -1,6 +1,6 @@
 ---
 title: "Updates"
-date: "2018-03-04"
+date: 2018-03-04
 categories: 
   - "blog"
 tags: 

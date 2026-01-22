@@ -1,16 +1,16 @@
 ---
-titleCompacted
-date2014-05-29
+title: "Compacted"
+date: 2014-05-29
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "compact
-  - "humid
-  - "humidity
-  - "muggy
-  - "rx100
-  - "tokyo
-  - "tsuyu
+  - "compact"
+  - "humid"
+  - "humidity"
+  - "muggy"
+  - "rx100"
+  - "tokyo"
+  - "tsuyu"
 ---
 
 The "plum rain" season is just about to start. The origin of the word, as with many Japanese words, is Chinese. It's written 梅雨 and is pronounced つゆ / tsuyu or ばいゆ / baiyu in Japanese (it can be difficult for those not familiar with Japanese sounds to pronounce "tsu"), and "méiyǔ" in Chinese. That means lots of altostratus cloud cover, consisting of almost white skies above, and super-humidity at ground level.

@@ -1,6 +1,6 @@
 ---
 title: "皇居の辺り - around the Tokyo Imperial Palace"
-date: "2023-11-05"
+date: 2023-11-05
 categories: 
   - "blog"
 tags: 

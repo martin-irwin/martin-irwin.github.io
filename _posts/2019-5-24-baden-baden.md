@@ -1,14 +1,14 @@
 ---
-titleBaden Baden
-date2019-05-24
+title: "Baden Baden"
+date: 2019-05-24
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "a73
-  - "a7iii
-  - "baden-baden
-  - "black-forest
-  - "germany
+  - "a73"
+  - "a7iii"
+  - "baden-baden"
+  - "black-forest"
+  - "germany"
 ---
 
 I haven’t used my new camera enough yet, as life has been in the way. I do notice the pixel difference to the A7R (36 vs 24), but of course, none to the RX1. The RX1 is possibly overall softer, but the lens is so good that really, we’re splitting hairs at this point. Also, I now use a 4K display, so 1:1 isn’t as “zoomed” as it used to be.

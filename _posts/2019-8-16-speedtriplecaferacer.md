@@ -1,6 +1,6 @@
 ---
 title: "Triumph Speed Triple *CAFE RACER*"
-date: "2019-08-20"
+date: 2019-08-20
 toc: true
 toc_sticky: true
 category: "review"

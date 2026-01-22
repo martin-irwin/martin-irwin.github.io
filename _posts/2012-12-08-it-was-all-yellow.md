@@ -1,6 +1,6 @@
 ---
 title: "It was all yellow..."
-date: "2012-12-08"
+date: 2012-12-08
 categories: 
   - "blog"
 tags: 

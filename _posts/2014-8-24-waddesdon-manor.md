@@ -1,12 +1,12 @@
 ---
-titleWaddesdon Manor
-date2014-08-23
+title: "Waddesdon Manor"
+date: 2014-08-23
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "buckinghamshire
-  - "manor-house
-  - "uk
+  - "buckinghamshire"
+  - "manor-house"
+  - "uk"
 ---
 
 Finally, I "have the internet". It's taken a while—my most recent posts were actually composed on my phone, which is far from ideal—but now that I have the internet, I hope to get into more of a rhythm with the blog, and photography in general. Let's start off with a quick look at where we went today to meet friends for brunch; _Waddesdon Manor_ in Buckinghamshire.

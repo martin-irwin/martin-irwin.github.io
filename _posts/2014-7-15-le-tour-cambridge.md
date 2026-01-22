@@ -1,13 +1,13 @@
 ---
-titleLe Tour Cambridge
-date2014-07-14
+title: "Le Tour Cambridge"
+date: 2014-07-14
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "cambridge
-  - "cycling
-  - "england
-  - "uk
+  - "cambridge"
+  - "cycling"
+  - "england"
+  - "uk"
 ---
 
 A first, I thought I was lost, but I was actually in the UK to witness Stage 3 of Le Tour de France, from Cambridge to London.

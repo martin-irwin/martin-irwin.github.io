@@ -1,6 +1,6 @@
 ---
 title: "Hong Kong I"
-date: "2019-06-16"
+date: 2019-06-16
 categories: 
   - "blog"
 tags: 

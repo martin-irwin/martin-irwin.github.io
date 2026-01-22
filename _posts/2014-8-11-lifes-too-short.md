@@ -1,14 +1,14 @@
 ---
-titleLife's too short...
-date2014-08-10
+title: "Life's too short..."
+date: 2014-08-10
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "a7r
-  - "church
-  - "sel35f28z
-  - "time
-  - "uk
+  - "a7r"
+  - "church"
+  - "sel35f28z"
+  - "time"
+  - "uk"
 ---
 
 At present, I'm not taking nearly as many photographs as I would like. This is due to the combination of a busy working week, and miscellaneous menial activities. It's basically left me without time to think about taking photographs, and when I possibly have had the time, I've just not felt motivated. This all changed on Saturday morning when I found myself with with a few hours with literally nothing to do, and promptly grabbed my camera.

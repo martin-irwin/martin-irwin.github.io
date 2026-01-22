@@ -1,6 +1,6 @@
 ---
 title: "Itsukushima Shrine/Miyajima [Hiroshima Pt. 3]"
-date: "2013-04-26"
+date: 2013-04-26
 categories: 
   - "blog"
 tags: 

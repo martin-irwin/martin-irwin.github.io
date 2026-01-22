@@ -1,14 +1,14 @@
 ---
-titleTire-phoons
-date2013-10-28
+title: "Tire-phoons"
+date: 2013-10-28
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "boredom
-  - "hermit
-  - "rain
-  - "typhoon
-  - "wind
+  - "boredom"
+  - "hermit"
+  - "rain"
+  - "typhoon"
+  - "wind"
 ---
 
 A double-typhoon last week has summed up quite a tiresome October. The strong wind coupled with the opening of the heavens, along with a few other factors, has meant that we've spent most of the week, and weekend indoors. 

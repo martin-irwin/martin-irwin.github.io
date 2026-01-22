@@ -1,15 +1,15 @@
 ---
-titleYomping through the Snow
-date2014-02-11
+title: "Yomping through the Snow"
+date: 2014-02-11
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "blizzard
-  - "japan
-  - "snow
-  - "snow-2014
-  - "tokyo
-  - "walking
+  - "blizzard"
+  - "japan"
+  - "snow"
+  - "snow-2014"
+  - "tokyo"
+  - "walking"
 ---
 
 The now infamous _Honshu Blizzard of 2014_ was responsible for umpteen tonnes of snow dumped across Tokyo and regions beyond. We decided to lay low, and stay indoors (except when we went to get dinner). The following morning, we were greeted with a sky of brilliant blue, and a ground of bright white.

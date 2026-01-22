@@ -1,6 +1,6 @@
 ---
 title: "The Wordpress /page/2 error 404"
-date: "2013-01-02"
+date: 2013-01-02
 categories: 
   - "blog"
 tags: 

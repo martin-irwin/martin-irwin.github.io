@@ -1,17 +1,17 @@
 ---
-titleBlossoms on the Meguro River ー　目黒川の桜
-date2014-04-09
+title: "Blossoms on the Meguro River ー　目黒川の桜"
+date: 2014-04-09
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "cherry-blossoms
-  - "hanami
-  - "japan
-  - "meguro
-  - "nakameguro
-  - "sakura
-  - "sakura-2014
-  - "spring
+  - "cherry-blossoms"
+  - "hanami"
+  - "japan"
+  - "meguro"
+  - "nakameguro"
+  - "sakura"
+  - "sakura-2014"
+  - "spring"
 ---
 
 This _hanami_ we've generally avoided the super-huge crowds for a couple of reasons. The first, is that we don't really like crowds. We can be swayed, though. The second reason, is that by the weekend the blossoms had passed their peak, unlike [last year](http://www.martinirwinphotography.com/myblog/2013/03/25/sakura-on-the-meguro-river).

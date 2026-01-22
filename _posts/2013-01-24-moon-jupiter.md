@@ -1,6 +1,6 @@
 ---
 title: "Moon &amp; Jupiter"
-date: "2013-01-24"
+date: 2013-01-24
 categories: 
   - "blog"
 tags: 

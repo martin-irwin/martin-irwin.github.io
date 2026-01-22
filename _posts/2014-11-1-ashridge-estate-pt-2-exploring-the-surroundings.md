@@ -1,6 +1,6 @@
 ---
-titleAshridge Estate - Pt. 2 - Exploring the surroundings
-date2014-11-01
+title: "Ashridge Estate - Pt. 2 - Exploring the surroundings"
+date: 2014-11-01
 ---
 
 Walking away from the house, we ventured down one of the many available paths. The grounds surrounding the house are almost entirely woodland, and were not busy at all.

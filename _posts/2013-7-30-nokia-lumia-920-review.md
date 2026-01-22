@@ -1,6 +1,6 @@
 ---
 title: "Nokia Lumia 920 Review"
-date: "2013-07-30"
+date: 2013-07-30
 toc: true
 toc_sticky: true
 category: "review"

@@ -1,6 +1,6 @@
 ---
 title: "Spiralled"
-date: "2013-11-08"
+date: 2013-11-08
 categories: 
   - "blog"
 tags: 

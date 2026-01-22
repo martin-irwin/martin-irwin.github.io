@@ -1,6 +1,6 @@
 ---
 title: "iPad Pro review [10.5”]"
-date: "2018-03-20"
+date: 2018-03-20
 layout: pure
 permalink: /reviews/ipad-pro-review-105/
 categories: review

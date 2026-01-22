@@ -1,21 +1,21 @@
 ---
-titleUpon Reflection
-date2013-11-11
+title: "Upon Reflection"
+date: 2013-11-11
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "50mm
-  - "autumn
-  - "canon
-  - "fall
-  - "lake
-  - "nex-7
-  - "pond
-  - "red
-  - "red-leaves
-  - "reflection
-  - "toudai
-  - "yellow
+  - "50mm"
+  - "autumn"
+  - "canon"
+  - "fall"
+  - "lake"
+  - "nex-7"
+  - "pond"
+  - "red"
+  - "red-leaves"
+  - "reflection"
+  - "toudai"
+  - "yellow"
 ---
 
 Sometime last week, though I can't remember when, the clouds briefly parted and a few rays of sunlight burst through the gap.

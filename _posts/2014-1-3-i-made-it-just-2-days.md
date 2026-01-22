@@ -1,15 +1,15 @@
 ---
-titleI made it just 2 days...
-date2014-01-03
+title: "I made it just 2 days..."
+date: 2014-01-03
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "a7r
-  - "full-frame
-  - "lens
-  - "nex-7
-  - "sel55f18z
-  - "sony
+  - "a7r"
+  - "full-frame"
+  - "lens"
+  - "nex-7"
+  - "sel55f18z"
+  - "sony"
 ---
 
 Well, I made it 2 whole days (though just 1 shopping day) into 2014 without buying a new lens... though this lens was no impulse buy. It's the new Sony FE (full-frame image circle E-mount) Zeiss Sonnar 55/1,8 lens  (model name: SEL55F18Z ). This lens has an MTF curve out of this world (stellar light transmittance, essentially - Zeiss have a [white paper](http://www.zeiss.co.uk/C12567A8003B8B6F/EmbedTitelIntern/CLN_30_MTF_en/$File/CLN_MTF_Kurven_EN.pdf) on the topic). In practice, this means that the lens has extremely high resolution and contrast "wide open" at its maximum aperture (opening). Designing a lens like this is no mean feat - I've never seen a [curve like it](http://goo.gl/2VopRc). The lens outputs an image circle covering the size of a _full-frame_ sensor, like my RX1, but I am currently using the lens on my trusty NEX-7.

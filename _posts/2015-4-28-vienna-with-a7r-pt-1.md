@@ -1,17 +1,17 @@
 ---
-titleVienna with A7R - Pt 1
-date2015-04-28
+title: "Vienna with A7R - Pt 1"
+date: 2015-04-28
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "a7r
-  - "egu
-  - "europe
-  - "lenses
-  - "travel
-  - "vienna
-  - "work
-  - "zeiss
+  - "a7r"
+  - "egu"
+  - "europe"
+  - "lenses"
+  - "travel"
+  - "vienna"
+  - "work"
+  - "zeiss"
 ---
 
 After 4 days back in the UK following on from my [visit to Amsterdam](http://www.martinirwinphotography.com/myblog/2015/4/14/good-morning-amsterdam), I was back at an airport. This time, I decided that being as I was on a work trip, alone, I could carry a bag of camera gear and it wouldn't get in the way of a holiday vibe. With my A7R and an assortment of focal lengths, I was ready to go.

@@ -1,15 +1,15 @@
 ---
-titleEdogawa Fireworks Festival 2013・江戸川区花火大会 「2013年」
-date2013-08-04
+title: "Edogawa Fireworks Festival 2013・江戸川区花火大会 「2013年」"
+date: 2013-08-04
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "edogawa
-  - "festival
-  - "fireworks
-  - "japan
-  - "matsuri
-  - "tokyo
+  - "edogawa"
+  - "festival"
+  - "fireworks"
+  - "japan"
+  - "matsuri"
+  - "tokyo"
 ---
 
 We moved to Japan exactly two months before the [Great East Japan Earthquake](http://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami). The ensuing aftermath, including the disaster at the [nuclear power station in Fukushima](http://en.wikipedia.org/wiki/Fukushima_Daiichi_nuclear_disaster), meant that the majority of festivities and celebrations were cancelled throughout the eastern region of Japan. It's been quite difficult since then, to know what "typical" festivities occur around the area throughout the year. I think we've finally got it nailed down.

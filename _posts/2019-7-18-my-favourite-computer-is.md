@@ -1,11 +1,11 @@
 ---
-titleMy favourite computer is...
-date2019-07-22
+title: "My favourite computer is..."
+date: 2019-07-22
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "ipad
-  - "technology
+  - "ipad"
+  - "technology"
 ---
 
 Weirdly, my iPad Pro. I would like the newer version, for the smaller bezels, FaceID, and the USB-C port. The new pencil has a couple of nice refinements, also. But this iPad should really last quite a while as it is. It’s extremely powerful, has a great screen, and the battery life is ridiculously good.

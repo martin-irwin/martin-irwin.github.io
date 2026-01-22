@@ -1,6 +1,6 @@
 ---
 title: "Some shots around Zug"
-date: "2023-02-05"
+date: 2023-02-05
 categories: 
   - "blog"
 tags: 

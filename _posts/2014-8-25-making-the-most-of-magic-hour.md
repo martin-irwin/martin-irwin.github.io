@@ -1,13 +1,13 @@
 ---
-titleMaking the most of magic hour
-date2014-08-25
+title: "Making the most of magic hour"
+date: 2014-08-25
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "helicopter
-  - "magic-hour
-  - "uk
-  - "yellow
+  - "helicopter"
+  - "magic-hour"
+  - "uk"
+  - "yellow"
 ---
 
 It's nice to still have oodles of daylight available after a [full day out](http://www.martinirwinphotography.com/myblog/2014/8/24/waddesdon-manor). Better still, the sun hangs low in the sky, which results in some nice shadows and interesting lighting.

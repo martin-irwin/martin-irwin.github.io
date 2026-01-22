@@ -1,17 +1,17 @@
 ---
-titleJST a minute...
-date2014-05-11
+title: "JST a minute..."
+date: 2014-05-11
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "food
-  - "japan
-  - "jst
-  - "sel35f28z
-  - "time
-  - "tokyo
-  - "voigtlander
-  - "yakiniku
+  - "food"
+  - "japan"
+  - "jst"
+  - "sel35f28z"
+  - "time"
+  - "tokyo"
+  - "voigtlander"
+  - "yakiniku"
 ---
 
 _Time_ in Japan is all wrong. By that, I literally mean Japan Standard Time (JST). I feel this way due to living in Tokyo for a number of years, and JST seems most odd in Eastern Japan (e.g. Tokyo) more than the rest of the country. In Okinawa, for example, the sun rises around 6am, and sets around 6pm, everyday, all-year.

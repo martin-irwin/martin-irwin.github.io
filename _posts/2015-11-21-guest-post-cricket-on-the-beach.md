@@ -1,10 +1,10 @@
 ---
-titleGuest Post - Cricket on the beach
-date2015-11-21
+title: "Guest Post - Cricket on the beach"
+date: 2015-11-21
 tags: 
-  - "don-mcconnell
-  - "fuji-x100
-  - "guest-post
+  - "don-mcconnell"
+  - "fuji-x100"
+  - "guest-post"
 ---
 
 Not everyone wants to have a blog, though many people do and simply don’t have time, energy, or the knowhow to get up and running. For readers who’d like to showcase their photography somewhere, or to simply have feedback on images, I’m happy to look at your photographs and also publish on the blog if we’re both happy.

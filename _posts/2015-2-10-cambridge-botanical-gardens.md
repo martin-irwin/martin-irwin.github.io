@@ -1,13 +1,13 @@
 ---
-titleCambridge Botanical Gardens
-date2015-02-12
+title: "Cambridge Botanical Gardens"
+date: 2015-02-12
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "botanical-gardens
-  - "cambridge
-  - "plants
-  - "yellow
+  - "botanical-gardens"
+  - "cambridge"
+  - "plants"
+  - "yellow"
 ---
 
 A friend at work suggested that we pop to the botanical gardens at lunchtime, which I thought would be a great idea, even more so as I had my RX1 with me.

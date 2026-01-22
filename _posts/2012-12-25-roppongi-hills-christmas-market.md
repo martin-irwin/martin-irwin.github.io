@@ -1,6 +1,6 @@
 ---
 title: "Roppongi Hills Christmas Market"
-date: "2012-12-25"
+date: 2012-12-25
 categories: 
   - "blog"
 tags: 

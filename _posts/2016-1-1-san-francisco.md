@@ -1,17 +1,17 @@
 ---
-titleSan Francisco
-date2016-01-01
+title: "San Francisco"
+date: 2016-01-01
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "21mm
-  - "agu
-  - "america
-  - "jupiter-3
-  - "san-francisco
-  - "travel
-  - "usa
-  - "voigtlander
+  - "21mm"
+  - "agu"
+  - "america"
+  - "jupiter-3"
+  - "san-francisco"
+  - "travel"
+  - "usa"
+  - "voigtlander"
 ---
 
 Travelling at the very end of the year can feel a little more exhaustive than usual. With Christmas just around the corner, there is probably more to think about (presents, family visits) than at any other time of year. Throw in a 9-hour time difference, and it's hard to synchronise body and mind.

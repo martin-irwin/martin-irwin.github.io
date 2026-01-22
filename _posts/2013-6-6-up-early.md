@@ -1,15 +1,15 @@
 ---
-titleUp early
-date2013-06-06
+title: "Up early"
+date: 2013-06-06
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "nex-7
-  - "sigma
-  - "street
-  - "street-photography
-  - "tokyo
-  - "ueno
+  - "nex-7"
+  - "sigma"
+  - "street"
+  - "street-photography"
+  - "tokyo"
+  - "ueno"
 ---
 
 Woke up just before 6am this morning, to help Charlotte get the express train to the airport from the other side of Tokyo. Tokyo's Narita Airport is quite far from the centre of Tokyo - be warned! Don't get a taxi there. I've heard some horror stories. Anyway, up early, carrying bags, so I wanted a light camera with me. I took the NEX-7, which is pretty light, mated to the excellent Sigma 30mm F2.8, which I haven't used a lot recently due to the possession of the exquisite Zeiss 24mm. The Sigma is smaller, and lighter, so it was my choice for this morning.

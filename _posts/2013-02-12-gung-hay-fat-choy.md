@@ -1,6 +1,6 @@
 ---
 title: "Gung Hay Fat Choy"
-date: "2013-02-12"
+date: 2013-02-12
 categories: 
   - "blog"
 tags: 

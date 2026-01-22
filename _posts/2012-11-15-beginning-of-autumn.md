@@ -1,6 +1,6 @@
 ---
 title: "Beginning of Autumn"
-date: "2012-11-15"
+date: 2012-11-15
 categories: 
   - "blog"
 tags: 

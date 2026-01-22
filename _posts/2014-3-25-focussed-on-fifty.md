@@ -1,14 +1,14 @@
 ---
-titleFocussed on Fifty
-date2014-03-25
+title: "Focussed on Fifty"
+date: 2014-03-25
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "50mm
-  - "a7r
-  - "kudanshita
-  - "sel55f18z
-  - "tokyo
+  - "50mm"
+  - "a7r"
+  - "kudanshita"
+  - "sel55f18z"
+  - "tokyo"
 ---
 
 ![](/assets/images/23025-image-asset.jpeg)

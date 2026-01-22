@@ -1,13 +1,13 @@
 ---
-titleTokyo Station [Drink And Click™]
-date2014-05-31
+title: "Tokyo Station [Drink And Click™]"
+date: 2014-05-31
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "drink-and-click
-  - "japan
-  - "tokyo
-  - "tokyo-station
+  - "drink-and-click"
+  - "japan"
+  - "tokyo"
+  - "tokyo-station"
 ---
 
 I attended another Tokyo "Drink and Click" last night, and had a great time taking long-exposure shots around the Marunouchi area of Tokyo. 

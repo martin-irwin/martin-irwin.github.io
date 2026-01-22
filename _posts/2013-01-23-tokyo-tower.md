@@ -1,6 +1,6 @@
 ---
 title: "Tokyo Tower"
-date: "2013-01-23"
+date: 2013-01-23
 categories: 
   - "blog"
 tags: 

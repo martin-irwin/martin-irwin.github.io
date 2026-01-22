@@ -1,6 +1,6 @@
 ---
 title: "Quality, not quantity"
-date: "2013-03-10"
+date: 2013-03-10
 categories: 
   - "blog"
 tags: 

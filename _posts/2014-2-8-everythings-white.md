@@ -1,6 +1,6 @@
 ---
 title: "Everything's white!"
-date: "2014-02-08"
+date: 2014-02-08
 categories: 
   - "blog"
 tags: 

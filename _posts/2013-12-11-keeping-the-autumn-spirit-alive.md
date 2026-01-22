@@ -1,6 +1,6 @@
 ---
 title: "Keeping the autumn spirit alive"
-date: "2013-12-11"
+date: 2013-12-11
 categories: 
   - "blog"
 tags: 

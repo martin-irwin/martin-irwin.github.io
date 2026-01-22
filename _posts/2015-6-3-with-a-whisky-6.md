@@ -1,17 +1,17 @@
 ---
-titleWith a Whisky #6
-date2015-06-04
+title: "With a Whisky #6"
+date: 2015-06-04
 categories: 
-  - "blog
-  - "with-a-whisky
+  - "blog"
+  - "with-a-whisky"
 tags: 
-  - "critique
-  - "curation
-  - "selection
-  - "vienna
-  - "voigtlander
-  - "whisky
-  - "zeiss
+  - "critique"
+  - "curation"
+  - "selection"
+  - "vienna"
+  - "voigtlander"
+  - "whisky"
+  - "zeiss"
 ---
 
 **_Written whilst enjoying a single malt (Talisker, today), "With a Whisky" brings you the latest ramblings from my side of the world. I can't promise prominent prose, or impressive imagery, but I'll do my best to keep you entertained._**

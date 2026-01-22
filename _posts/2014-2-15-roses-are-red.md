@@ -1,14 +1,14 @@
 ---
-titleRoses are Red
-date2014-02-14
+title: "Roses are Red"
+date: 2014-02-14
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "snow
-  - "snow-2014
-  - "tokyo
-  - "university
-  - "yushima
+  - "snow"
+  - "snow-2014"
+  - "tokyo"
+  - "university"
+  - "yushima"
 ---
 
 Violets are blue, and Tokyo is white.

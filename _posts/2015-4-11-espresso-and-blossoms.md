@@ -1,15 +1,15 @@
 ---
-titleEspresso and Blossoms
-date2015-04-11
+title: "Espresso and Blossoms"
+date: 2015-04-11
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "amsterdam
-  - "cherry-blossoms
-  - "coffee
-  - "espresso
-  - "rx1
-  - "sakura
+  - "amsterdam"
+  - "cherry-blossoms"
+  - "coffee"
+  - "espresso"
+  - "rx1"
+  - "sakura"
 ---
 
 Arguably the best thing about Europe is that there is a hugely diverse set of cultures, and histories, just a few hours away. As with anything, it's easy to take for granted. I would say that we didn't take living in Japan for granted at all—we saw so much of Japan in a relatively short time. I have a friend who assures me that I have seen more of his own country than most natives (himself included).

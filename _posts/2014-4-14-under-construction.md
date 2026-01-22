@@ -1,15 +1,15 @@
 ---
-titleUnder Construction - 工事中
-date2014-04-13
+title: "Under Construction - 工事中"
+date: 2014-04-13
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "akamon
-  - "builders
-  - "construction
-  - "japan
-  - "spring
-  - "toudai
+  - "akamon"
+  - "builders"
+  - "construction"
+  - "japan"
+  - "spring"
+  - "toudai"
 ---
 
 Spring isn't just the time when the natural world comes alive – it's also the time of year when seemingly all of Japan undergoes construction.

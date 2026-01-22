@@ -1,13 +1,13 @@
 ---
-titleSome observations
-date2016-04-22
+title: "Some observations"
+date: 2016-04-22
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "austria
-  - "egu
-  - "rx1
-  - "vienna
+  - "austria"
+  - "egu"
+  - "rx1"
+  - "vienna"
 ---
 
 ![](/assets/images/ba31c-image-asset.jpeg)

@@ -1,13 +1,13 @@
 ---
-titleTōfukuji – 東福寺
-date2014-05-25
+title: "Tōfukuji – 東福寺"
+date: 2014-05-25
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "inari
-  - "japan
-  - "kyoto
-  - "tofukuji
+  - "inari"
+  - "japan"
+  - "kyoto"
+  - "tofukuji"
 ---
 
 _Tōfukuji_ (東福寺) is a large Zen temple in southeastern Kyoto that is particularly famous for the colours of its autumn foliage, though many trees have red leaves all-year round.

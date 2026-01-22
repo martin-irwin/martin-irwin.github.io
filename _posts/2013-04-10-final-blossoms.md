@@ -1,6 +1,6 @@
 ---
 title: "Final Blossoms"
-date: "2013-04-10"
+date: 2013-04-10
 categories: 
   - "blog"
 tags: 

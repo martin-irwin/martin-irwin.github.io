@@ -1,6 +1,6 @@
 ---
 title: "Winter Moments"
-date: "2023-01-29"
+date: 2023-01-29
 categories: 
   - "blog"
 tags: 

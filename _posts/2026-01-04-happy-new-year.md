@@ -1,5 +1,5 @@
 ---
-title: Happy New Year
+title: "Happy New Year"
 excerpt: "A quiet start to 2026, new hardware on the desk, and the last frames from a summer trip to Iriomote-jima and Ishigaki-jima, shot with a new 90mm lens."
 date: 2026-01-04
 tags: [90mm, iriomote]

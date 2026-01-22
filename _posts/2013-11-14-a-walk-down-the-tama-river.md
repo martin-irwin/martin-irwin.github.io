@@ -1,15 +1,15 @@
 ---
-titleA walk down the Tama River
-date2013-11-14
+title: "A walk down the Tama River"
+date: 2013-11-14
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "insect
-  - "nex-7
-  - "tamagawa
-  - "tokyo
-  - "tree
-  - "wildlife
+  - "insect"
+  - "nex-7"
+  - "tamagawa"
+  - "tokyo"
+  - "tree"
+  - "wildlife"
 ---
 
 I'm not sure why, but I always love to see paths, walls, and other man-made features "disrupted" by nature. The irony is that it is the man-made structures which are disrupting nature, not the other way around. I've noticed this kind of thing many times in Japan, but there's not always consistency. I don't know why this amazing tree (which looks more like a set of fingers emerging from the crust of the earth) was spared, but I am glad all the same.

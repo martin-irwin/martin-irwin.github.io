@@ -1,14 +1,14 @@
 ---
-titleUmegaoka・梅が丘
-date2014-03-09
+title: "Umegaoka・梅が丘"
+date: 2014-03-09
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "japanese
-  - "plum
-  - "plum-blossom
-  - "ume
-  - "umegaoka
+  - "japanese"
+  - "plum"
+  - "plum-blossom"
+  - "ume"
+  - "umegaoka"
 ---
 
 ![20140308-_DSC2810.jpg](/assets/images/ddd2e-20140308-_dsc2810.jpg)

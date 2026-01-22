@@ -1,13 +1,13 @@
 ---
-titleRed sky in the morning, shepherds warning
-date2014-10-06
+title: "Red sky in the morning, shepherds warning"
+date: 2014-10-06
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "clouds
-  - "sky
-  - "sunrise
-  - "weather
+  - "clouds"
+  - "sky"
+  - "sunrise"
+  - "weather"
 ---
 
 Autumn is here, it's official. We've had a relatively warm September, and until now, a very (relatively) warm October. On Saturday, everything changed. A huge cold front approaching from the west, covered the whole UK in rain and dropped temperatures by almost 10ºC. 

@@ -1,6 +1,6 @@
 ---
 title: "Angles &amp; Shapes"
-date: "2013-07-17"
+date: 2013-07-17
 categories: 
   - "blog"
 tags: 

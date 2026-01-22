@@ -1,6 +1,6 @@
 ---
 title: "Winter Fuji"
-date: "2013-01-18"
+date: 2013-01-18
 categories: 
   - "blog"
 tags: 

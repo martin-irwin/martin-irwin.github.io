@@ -1,6 +1,6 @@
 ---
 title: "A few more from Ishigaki"
-date: "2024-08-26"
+date: 2024-08-26
 categories: 
   - "blog"
 tags: 

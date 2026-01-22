@@ -1,15 +1,15 @@
 ---
-titleOkinawa Honto - 沖縄本島
-date2013-09-16
+title: "Okinawa Honto - 沖縄本島"
+date: 2013-09-16
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "holiday
-  - "honto
-  - "japan
-  - "nansei-shoto
-  - "okinawa
-  - "ryukyu
+  - "holiday"
+  - "honto"
+  - "japan"
+  - "nansei-shoto"
+  - "okinawa"
+  - "ryukyu"
 ---
 
 ![20130903-DSC07270-Edit-Okinawa-Honto.jpg](/assets/images/7bc2d-20130903-dsc07270-edit-okinawa-honto.jpg)

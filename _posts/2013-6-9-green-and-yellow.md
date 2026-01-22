@@ -1,17 +1,17 @@
 ---
-titleGreen and Yellow
-date2013-06-11
+title: "Green and Yellow"
+date: 2013-06-11
 categories: 
-  - "blog
+  - "blog"
 tags: 
-  - "green
-  - "japan
-  - "jiyugaoka
-  - "street
-  - "street-photography
-  - "taxi
-  - "tokyo
-  - "yellow
+  - "green"
+  - "japan"
+  - "jiyugaoka"
+  - "street"
+  - "street-photography"
+  - "taxi"
+  - "tokyo"
+  - "yellow"
 ---
 
  

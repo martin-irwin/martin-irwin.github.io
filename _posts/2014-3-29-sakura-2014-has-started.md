@@ -1,5 +1,5 @@
 ---
-title: "\Sakura 2014\ has started!"
+title: "Sakura 2014 has started!"
 date: 2014-03-28
 categories: 
   - "blog"

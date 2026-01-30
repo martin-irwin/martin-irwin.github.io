@@ -16,6 +16,8 @@ After moving away from heavy Jekyll themes (Minimal Mistakes), this site was reb
 * **Search**: Client-side indexing via Lunr.js
 * **Styling**: Compressed Sass with a "Less is More" approach
 
+I am currently typing this on my Sony VAIO P which is to be my main website editing tool for 2026 and beyond.
+
 ## 🚀 Local Development
 To run this site locally for testing:
 1. Ensure you have Ruby and Bundler installed.

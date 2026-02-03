@@ -1,5 +1,5 @@
 ---
-title: Info
+title: 黒潮 KUROSHI[O]
 permalink: /info/
 layout: pure
 ---
@@ -7,13 +7,20 @@ layout: pure
 {% assign current_year = site.time | date: '%Y' %}
 {% assign years = current_year | minus: 2010 %}
 <div style="white-space: pre-line; margin-bottom: 1.4rem;">
-Physicist with a camera and an interest in design.
-Exploring intentional technology use.
+<b><i>"The net is vast and infinite, but it has a current. Do you feel it?"</i></b>
+
+We are not defined by our hardware, but by the currents we choose to ride. This deck is a terminal to the Black Tide—a vessel built to navigate the dark indigo waters of the infinite net. Stand at the edge of the Yonaguni Depression. Listen to the whisper of your ghost. The stream is moving. 
+
+Join it.
+
+
+---
+
 Website up for {{ years }} years.
 日本文化を学ぶ者。
 </div>
 
-[martin (at) martinirwinphotography.com](mailto:martin@martinirwinphotography.com)
+[operator (at) kuroshi.net](mailto:operator@kuroshi.net)
 
 <div style="margin-top: 3.4rem;">
   <div class="nav-group">

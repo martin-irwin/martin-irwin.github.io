@@ -1,10 +1,12 @@
-# Martin Irwin Photography 📸
+# Welcome to Kuroshi
 ### Tech, photos, and ramblings.
 
-This is the source code for [martinirwinphotography.com](https://martinirwinphotography.com). 
+This is the source code for [kuroshi.net](https://kuroshi.net). 
 
 ## 📐 The Philosophy: "Clinical Minimalism"
 After moving away from heavy Jekyll themes (Minimal Mistakes), this site was rebuilt from the ground up to be a high-performance, distraction-free digital garden. 
+
+I also removed my long-ass url name and have something more sleek.
 
 * **Standalone Architecture**: No remote themes or external dependencies.
 * **Fast & Lightweight**: Built with a custom "Pure" layout focusing on typography and imagery.

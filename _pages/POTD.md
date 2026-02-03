@@ -9,6 +9,8 @@ title: Photo of the day
   <img id="randomImage" class="rotating-image" alt="potd">
 </figure>
 
+refresh your browser or come back tomorrow for a new image
+
 <script>
   const apiKey = "247f64bef58f06087094850c9639cb44"; 
   const userId = "53911191@N03"; 

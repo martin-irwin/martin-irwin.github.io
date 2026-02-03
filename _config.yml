@@ -4,9 +4,9 @@ remote_theme: null
 locale: "en-GB"
 title: "黒潮"
 title_separator: "-"
-name: "signal-01"
+name: "operator"
 description: "Tech, photos, and ramblings"
-url: "https://martinirwinphotography.com"
+url: "https://kuroshi.net"
 baseurl: ""
 repository: "martin-irwin/martin-irwin"
 

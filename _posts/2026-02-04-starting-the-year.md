@@ -1,7 +1,7 @@
 ---
-title: "Closing the year"
+title: "The tide changes"
 excerpt: "..."
-date: 2026-01-11
+date: 2026-02-02
 tags: new year 24mm 90mm tokyo hakuba
 header:
   image: /assets/images/7CR09004_ILCE-7CR_Japan_Summer-banner.jpg

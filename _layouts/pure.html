@@ -61,6 +61,12 @@
         </time>
         {% endif %}
 
+        {% if page.layout == 'pure' and page.categories contains 'blog' %}
+        <div style="margin-top: 3.4rem; padding-top: 1.4rem; border-top: 1px dotted #000; font-size: 0.75rem; color: #666;">
+          <p>Enjoyed this post? <a href="mailto:operator@kuroshi.net">Get in touch</a>.</p>
+        </div>
+        {% endif %}
+
         {% unless page.url == "/" %}
         <nav style="margin-top: 3.4rem;">
             <a href="{{ '/' | relative_url }}" class="v-link">../</a>

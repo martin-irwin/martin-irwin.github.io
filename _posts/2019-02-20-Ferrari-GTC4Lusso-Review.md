@@ -12,7 +12,7 @@ tags:
   - "ice-driving"
   - "automotive-review"
   - "review"
-category: review
+categories: review
 ---
 
 **Saalfelden, 20 February 2019.** Five hours on a train cutting through the Alps from Switzerland to Austria is an impressive experience in its own merit, but there was a reason I was headed to Austria in the middle of February, and it wasn't to ski. After a comfortable night's sleep, hearty breakfast and double-shot of coffee at the superbly appointed Hotel Gut Brandlhof, I was ready for a day in the very fresh air as the driver of the astonishing Ferrari hatchback… on ice.
@@ -75,7 +75,7 @@ I will add that it's relatively easy to make a near-700BHP car go quickly, but d
 
 Once we make it to the ice track, we put the cars into "snow" mode. This is where my jaw dropped. The Ferrari hatchback is impressive on the road; a real beast. But my goodness. How can an ~1800kg Ferrari hatchback drive around on a sheet of ice without sliding around? Ferrari have performed a miracle with this drivetrain. We performed a few laps of the circuit, for orientation and to feel how planted the car is on the ice. We performed successive laps around the drift circle under different modes: "Wet" allows the tiniest bit of slip from the rear, so just enough to feel like there's an animal here. Switching into "Comfort" really changes things, now the rear can spin just a little more. It's possible to drift and slide around. "Sport" is where things really get silly. Now you feel like a rally driver. Still with complete faith that the front wheels will go where you point them, and they do. When we put the car into "ESP off", it really shows who can drive. Let's put it this way: everyone, instructors included, spun at some point!
 
-<video width="640" height="360" controls>
+<video controls style="max-width: 100%; height: auto;">
   <source src="/assets/videos/GTC4Lusso-driving.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>

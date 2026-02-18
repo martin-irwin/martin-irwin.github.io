@@ -1,5 +1,5 @@
 ---
-title: "Ferarri-GTC4Lusso-Review"
+title: "The Ferarri GTC4Lusso Review"
 date: 2019-02-20
 tags: 
   - "bike-tour"
@@ -14,6 +14,7 @@ category: review
 ---
 
 # The Ferarri GTC4Lusso Review
+
 
 **Saalfelden, 20 February 2019.** Five hours on a train cutting through the Alps from Switzerland to Austria is an impressive experience in its own merit, but there was a reason I was headed to Austria in the middle of February, and it wasn't to ski. After a comfortable night's sleep, hearty breakfast and double-shot of coffee at the superbly appointed Hotel Gut Brandlhof, I was ready for a day in the very fresh air as the driver of the astonishing Ferrari hatchback… on ice.
 

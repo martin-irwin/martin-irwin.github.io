@@ -1,6 +1,6 @@
 ---
 title: "The tide changes"
-excerpt: "..."
+excerpt: "At the end of last year, we were back in Japan for a wedding and some skiing in the alps, but amidst the fun, I've been peeling back layers of my online presence—changing domains, ditching services, and reflecting on how the internet's gone to shit with enshittification and AI greed. Oh, and I'm writing this on a 2011 netbook because why not fight the tide?"
 date: 2026-02-23
 tags:  24mm 90mm tokyo hakuba
 header:

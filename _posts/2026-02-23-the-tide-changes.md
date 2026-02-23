@@ -50,6 +50,6 @@ Which can bring me on to something of a project focussed on e-waste, or at least
 
 I appreciate that it makes little-to-no-sense posting at the end of February with photos taken at the beginning of summer
 
-![Japan Summer Photo](/assets/images/7CR09259_ILCE-7CR_Japan_Summer.jpg)
+![Tanuki](/assets/images/7CR09259_ILCE-7CR_Japan_Winter.jpg)
 
 The net is vast and infinite. 

@@ -30,6 +30,8 @@ exclude:
   - .jekyll-cache
   - .github
 
+future: true
+
 # Conversion
 markdown: kramdown
 highlighter: rouge

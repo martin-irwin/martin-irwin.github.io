@@ -20,7 +20,7 @@ permalink: /rss.xml
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <guid>{{ site.url }}{{ post.url }}</guid>
 
-      {% assign image = post.og_image | default: post.teaser | default: post.image %}
+      {% assign image = post.header.og_image | default: post.header.teaser | default: post.header.image %}
       {% if image %}
       <media:content url="{{ site.url }}{{ image }}" medium="image"/>
       {% endif %}

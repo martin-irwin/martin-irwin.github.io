@@ -14,6 +14,4 @@ published: true
 
 This is a quick post from the backend trenches. I'm currently migrating the site URL and domain, which is a little like moving house, which I also did 3 weeks ago IRL. Thanks for your patience during this transition; I appreciate you sticking around, and for dropping me an email when things get weird.
 
-Dropping a photo in, more for testing purposes than anything else:
-
-![GTR](/assets/images/7CR09262-GTR.jpeg)
+Dropping a photo in, more for testing purposes than anything else.

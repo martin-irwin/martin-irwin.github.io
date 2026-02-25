@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=758, initial-scale=1.0">
+<title>Calendar Display</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --ink-mid: #444;
+    --ink-light: #888;
+    --ink-faint: #ccc;
+    --paper: #f5f3ef;
+    --paper-dark: #e8e4dc;
+    --accent: #1a1a1a;
+    --hour-h: 52px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 758px;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 24px 14px;
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .date-block .weekday {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-mid);
+  }
+
+  .date-block .day-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: -2px;
+  }
+
+  .date-block .month-year {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-mid);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 2px;
+  }
+
+  /* Mini calendar */
+  .mini-cal {
+    text-align: right;
+  }
+
+  .mini-cal .mc-header {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--ink-mid);
+    margin-bottom: 8px;
+  }
+
+  .mini-cal table {
+    border-collapse: collapse;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+  }
+
+  .mini-cal th {
+    width: 26px;
+    height: 22px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: var(--ink-light);
+    text-align: center;
+  }
+
+  .mini-cal td {
+    width: 26px;
+    height: 22px;
+    text-align: center;
+    color: var(--ink-mid);
+    font-size: 11px;
+    cursor: default;
+  }
+
+  .mini-cal td.today {
+    background: var(--ink);
+    color: var(--paper);
+    font-weight: 500;
+  }
+
+  .mini-cal td.has-event::after {
+    content: '·';
+    display: block;
+    line-height: 0;
+    margin-top: -4px;
+    font-size: 16px;
+    color: var(--ink-mid);
+  }
+
+  .mini-cal td.today.has-event::after { color: var(--paper); }
+
+  /* ── BODY LAYOUT ── */
+  .body {
+    display: flex;
+    height: calc(100vh - 130px);
+    min-height: 700px;
+  }
+
+  /* Time gutter */
+  .time-gutter {
+    width: 54px;
+    flex-shrink: 0;
+    padding-top: 0;
+    border-right: 1px solid var(--ink-faint);
+    position: relative;
+  }
+
+  .time-label {
+    height: var(--hour-h);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-top: 4px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--ink-light);
+    letter-spacing: 0.05em;
+    position: relative;
+  }
+
+  .time-label::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 8px;
+    width: 6px;
+    height: 1px;
+    background: var(--ink-faint);
+  }
+
+  /* Schedule grid */
+  .schedule {
+    flex: 1;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .schedule::-webkit-scrollbar { width: 4px; }
+  .schedule::-webkit-scrollbar-track { background: var(--paper-dark); }
+  .schedule::-webkit-scrollbar-thumb { background: var(--ink-faint); }
+
+  .grid-wrap {
+    position: relative;
+  }
+
+  .hour-row {
+    height: var(--hour-h);
+    border-bottom: 1px solid var(--ink-faint);
+    position: relative;
+  }
+
+  .hour-row.work-hour {
+    background: rgba(0,0,0,0.015);
+  }
+
+  /* Current time line */
+  .now-line {
+    position: absolute;
+    left: 0; right: 0;
+    height: 2px;
+    background: var(--ink);
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  .now-line::before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--ink);
+  }
+
+  /* Events */
+  .event {
+    position: absolute;
+    left: 6px;
+    right: 6px;
+    border-left: 3px solid var(--ink);
+    background: var(--paper-dark);
+    padding: 3px 7px;
+    border-radius: 2px;
+    overflow: hidden;
+    z-index: 5;
+    cursor: default;
+  }
+
+  .event.all-day {
+    position: relative;
+    left: auto; right: auto;
+    margin: 4px 6px;
+    height: auto;
+    min-height: 26px;
+  }
+
+  .event-title {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .event-time {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--ink-mid);
+    margin-top: 1px;
+    white-space: nowrap;
+  }
+
+  /* All-day strip */
+  .allday-strip {
+    border-bottom: 2px solid var(--ink);
+    background: var(--paper-dark);
+    min-height: 32px;
+    padding: 4px 0;
+  }
+
+  .allday-label {
+    position: absolute;
+    left: 0;
+    width: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px;
+    color: var(--ink-light);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    top: 8px;
+  }
+
+  /* ── FOOTER ── */
+  .footer {
+    border-top: 1px solid var(--ink-faint);
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--paper);
+  }
+
+  .footer .clock {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: var(--ink-mid);
+    letter-spacing: 0.1em;
+  }
+
+  .footer .status {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: var(--ink-light);
+    letter-spacing: 0.08em;
+  }
+
+  /* ── AUTH OVERLAY ── */
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: var(--paper);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .overlay h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+
+  .overlay p {
+    font-size: 14px;
+    color: var(--ink-mid);
+    line-height: 1.6;
+    max-width: 420px;
+    margin-bottom: 32px;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    padding: 14px 28px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border-radius: 2px;
+    text-decoration: none;
+  }
+
+  .btn:hover { background: #333; }
+
+  .config-box {
+    background: var(--paper-dark);
+    border: 1px solid var(--ink-faint);
+    border-radius: 4px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+    text-align: left;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .config-box label {
+    display: block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-mid);
+    margin-bottom: 6px;
+  }
+
+  .config-box input {
+    width: 100%;
+    background: var(--paper);
+    border: 1px solid var(--ink-faint);
+    border-radius: 2px;
+    padding: 8px 12px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: var(--ink);
+    outline: none;
+    margin-bottom: 14px;
+  }
+
+  .config-box input:focus { border-color: var(--ink); }
+
+  .config-box .hint {
+    font-size: 11px;
+    color: var(--ink-light);
+    line-height: 1.5;
+    margin-top: -8px;
+    margin-bottom: 14px;
+  }
+
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<!-- ── SETUP OVERLAY ── -->
+<div class="overlay" id="setupOverlay">
+  <h1>Calendar Display</h1>
+  <p>Connect your Google Calendar to get started. You'll need a Google API Client ID — this runs entirely in your browser, no server required.</p>
+
+  <div class="config-box">
+    <label>Google OAuth Client ID</label>
+    <input type="text" id="clientIdInput" placeholder="xxxx.apps.googleusercontent.com" />
+    <div class="hint">
+      Create one at <strong>console.cloud.google.com</strong> → APIs &amp; Services → Credentials → OAuth 2.0 Client ID (Web Application). Add this page's URL to Authorized Origins.
+    </div>
+    <label>Refresh every (minutes)</label>
+    <input type="number" id="refreshInput" value="5" min="1" max="60" />
+  </div>
+
+  <button class="btn" onclick="startAuth()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10"/><path d="M12 6v6l4 2"/></svg>
+    Connect Google Calendar
+  </button>
+  <p style="margin-top:16px; font-size:11px; color:var(--ink-light);">Your calendar data never leaves your browser.</p>
+</div>
+
+<!-- ── MAIN UI ── -->
+<div id="mainUI" class="hidden">
+
+  <!-- Header -->
+  <div class="header">
+    <div class="date-block">
+      <div class="weekday" id="hWeekday">Wednesday</div>
+      <div class="day-num" id="hDay">25</div>
+      <div class="month-year" id="hMonthYear">February 2026</div>
+    </div>
+    <div class="mini-cal">
+      <div class="mc-header" id="mcHeader">Feb 2026</div>
+      <table id="mcTable"></table>
+    </div>
+  </div>
+
+  <!-- Body -->
+  <div class="body">
+
+    <!-- Time gutter -->
+    <div class="time-gutter" id="timeGutter"></div>
+
+    <!-- Schedule -->
+    <div class="schedule" id="schedulePane">
+      <!-- All-day strip -->
+      <div style="position:relative; display:flex;">
+        <div class="allday-label">All day</div>
+        <div class="allday-strip" id="alldayStrip" style="flex:1; margin-left:54px;"></div>
+      </div>
+      <!-- Timed grid -->
+      <div class="grid-wrap" id="gridWrap"></div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <span class="clock" id="footerClock">12:00</span>
+    <span class="status" id="footerStatus">Loading…</span>
+  </div>
+
+</div>
+
+<script>
+// ── CONFIG ──────────────────────────────────────────────────────────────────
+const HOUR_START = 6;   // first hour shown
+const HOUR_END   = 22;  // last hour shown (exclusive)
+const HOUR_PX    = 52;  // must match --hour-h CSS var
+
+let CLIENT_ID     = localStorage.getItem('gcal_client_id') || '';
+let REFRESH_MINS  = parseInt(localStorage.getItem('gcal_refresh') || '5');
+let accessToken   = localStorage.getItem('gcal_token') || '';
+let tokenExpiry   = parseInt(localStorage.getItem('gcal_token_expiry') || '0');
+let refreshTimer  = null;
+
+// Pre-fill saved config
+if (CLIENT_ID) document.getElementById('clientIdInput').value = CLIENT_ID;
+document.getElementById('refreshInput').value = REFRESH_MINS;
+
+// ── BOOT ────────────────────────────────────────────────────────────────────
+window.addEventListener('load', () => {
+  // Handle OAuth redirect
+  const hash = window.location.hash;
+  if (hash.includes('access_token')) {
+    const params = new URLSearchParams(hash.slice(1));
+    accessToken = params.get('access_token');
+    const expiresIn = parseInt(params.get('expires_in') || '3600');
+    tokenExpiry = Date.now() + expiresIn * 1000 - 60000;
+    localStorage.setItem('gcal_token', accessToken);
+    localStorage.setItem('gcal_token_expiry', tokenExpiry);
+    history.replaceState(null, '', window.location.pathname);
+  }
+
+  if (accessToken && Date.now() < tokenExpiry && CLIENT_ID) {
+    showMain();
+  } else if (CLIENT_ID) {
+    // Restore client ID in overlay but still show it
+    document.getElementById('setupOverlay').classList.remove('hidden');
+  }
+});
+
+// ── AUTH ────────────────────────────────────────────────────────────────────
+function startAuth() {
+  CLIENT_ID = document.getElementById('clientIdInput').value.trim();
+  REFRESH_MINS = parseInt(document.getElementById('refreshInput').value) || 5;
+  if (!CLIENT_ID) { alert('Please enter your Google OAuth Client ID.'); return; }
+  localStorage.setItem('gcal_client_id', CLIENT_ID);
+  localStorage.setItem('gcal_refresh', REFRESH_MINS);
+
+  const redirect = window.location.origin + window.location.pathname;
+  const scope = encodeURIComponent('https://www.googleapis.com/auth/calendar.readonly');
+  const url = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(redirect)}&response_type=token&scope=${scope}`;
+  window.location.href = url;
+}
+
+// ── MAIN DISPLAY ─────────────────────────────────────────────────────────────
+function showMain() {
+  document.getElementById('setupOverlay').classList.add('hidden');
+  document.getElementById('mainUI').classList.remove('hidden');
+  buildGrid();
+  render();
+  tickClock();
+  scheduleRefresh();
+}
+
+// ── CLOCK ────────────────────────────────────────────────────────────────────
+function tickClock() {
+  updateClock();
+  setInterval(updateClock, 1000);
+}
+
+function updateClock() {
+  const now = new Date();
+  const h = String(now.getHours()).padStart(2,'0');
+  const m = String(now.getMinutes()).padStart(2,'0');
+  const s = String(now.getSeconds()).padStart(2,'0');
+  document.getElementById('footerClock').textContent = `${h}:${m}:${s}`;
+  updateNowLine(now);
+}
+
+// ── GRID ─────────────────────────────────────────────────────────────────────
+function buildGrid() {
+  const gutter = document.getElementById('timeGutter');
+  const gridWrap = document.getElementById('gridWrap');
+  gutter.innerHTML = '';
+  gridWrap.innerHTML = '';
+
+  for (let h = HOUR_START; h < HOUR_END; h++) {
+    const label = document.createElement('div');
+    label.className = 'time-label';
+    label.textContent = h === 12 ? '12 PM' : h < 12 ? `${h} AM` : `${h-12} PM`;
+    gutter.appendChild(label);
+
+    const row = document.createElement('div');
+    row.className = 'hour-row' + (h >= 9 && h < 18 ? ' work-hour' : '');
+    row.dataset.hour = h;
+    gridWrap.appendChild(row);
+  }
+}
+
+function updateNowLine(now) {
+  const gridWrap = document.getElementById('gridWrap');
+  let line = document.getElementById('nowLine');
+  if (!line) {
+    line = document.createElement('div');
+    line.className = 'now-line';
+    line.id = 'nowLine';
+    gridWrap.appendChild(line);
+  }
+  const totalMins = (now.getHours() - HOUR_START) * 60 + now.getMinutes();
+  const top = (totalMins / 60) * HOUR_PX;
+  line.style.top = top + 'px';
+  if (top < 0 || now.getHours() >= HOUR_END) line.style.display = 'none';
+  else line.style.display = 'block';
+}
+
+// ── HEADER ───────────────────────────────────────────────────────────────────
+const WEEKDAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const MONTHS   = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const MON_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+function updateHeader(now) {
+  document.getElementById('hWeekday').textContent = WEEKDAYS[now.getDay()];
+  document.getElementById('hDay').textContent = now.getDate();
+  document.getElementById('hMonthYear').textContent = `${MONTHS[now.getMonth()]} ${now.getFullYear()}`;
+  buildMiniCal(now, []);
+}
+
+function buildMiniCal(now, eventDays) {
+  const y = now.getFullYear(), m = now.getMonth();
+  document.getElementById('mcHeader').textContent = `${MON_SHORT[m]} ${y}`;
+
+  const first = new Date(y, m, 1).getDay();
+  const days  = new Date(y, m+1, 0).getDate();
+  const eventSet = new Set(eventDays);
+
+  let html = '<thead><tr>';
+  ['S','M','T','W','T','F','S'].forEach(d => html += `<th>${d}</th>`);
+  html += '</tr></thead><tbody><tr>';
+
+  let col = 0;
+  for (let i = 0; i < first; i++) { html += '<td></td>'; col++; }
+  for (let d = 1; d <= days; d++) {
+    const isToday = d === now.getDate();
+    const hasEvent = eventSet.has(d);
+    html += `<td class="${isToday?'today':''} ${hasEvent?'has-event':''}">${d}</td>`;
+    col++;
+    if (col % 7 === 0 && d < days) html += '</tr><tr>';
+  }
+  while (col % 7 !== 0) { html += '<td></td>'; col++; }
+  html += '</tr></tbody>';
+  document.getElementById('mcTable').innerHTML = html;
+}
+
+// ── EVENTS ───────────────────────────────────────────────────────────────────
+function clearEvents() {
+  document.getElementById('alldayStrip').innerHTML = '';
+  document.querySelectorAll('.event:not(.all-day)').forEach(e => e.remove());
+}
+
+function placeEvents(events, now) {
+  clearEvents();
+  const todayStr = toDateStr(now);
+  const todayEvents = events.filter(ev => {
+    if (ev.start.date) {
+      // all-day: check date range
+      const start = ev.start.date;
+      const end   = (ev.end?.date) || start;
+      return start <= todayStr && end > todayStr;
+    } else {
+      return toDateStr(new Date(ev.start.dateTime)) === todayStr;
+    }
+  });
+
+  const alldayStrip = document.getElementById('alldayStrip');
+  const gridWrap    = document.getElementById('gridWrap');
+
+  // Track columns for overlap
+  const placed = [];
+
+  todayEvents.forEach(ev => {
+    if (ev.start.date) {
+      // All-day
+      const div = document.createElement('div');
+      div.className = 'event all-day';
+      div.innerHTML = `<div class="event-title">${ev.summary || '(no title)'}</div>`;
+      alldayStrip.appendChild(div);
+      return;
+    }
+
+    const startDt = new Date(ev.start.dateTime);
+    const endDt   = new Date(ev.end?.dateTime || ev.start.dateTime);
+    const startMins = (startDt.getHours() - HOUR_START) * 60 + startDt.getMinutes();
+    const endMins   = (endDt.getHours() - HOUR_START) * 60 + endDt.getMinutes();
+    const top    = (startMins / 60) * HOUR_PX;
+    const height = Math.max(((endMins - startMins) / 60) * HOUR_PX, 26);
+
+    if (top < 0) return;
+
+    // Simple overlap: check how many events overlap this slot
+    const col = placed.filter(p => p.endMins > startMins && p.startMins < endMins).length;
+    placed.push({ startMins, endMins });
+
+    const div = document.createElement('div');
+    div.className = 'event';
+    div.style.top    = top + 'px';
+    div.style.height = height + 'px';
+    if (col > 0) {
+      div.style.left = (6 + col * 120) + 'px';
+      div.style.right = '6px';
+    }
+
+    const fmt = dt => {
+      let h = dt.getHours(), m = dt.getMinutes();
+      const ampm = h >= 12 ? 'pm' : 'am';
+      h = h % 12 || 12;
+      return `${h}${m ? ':'+String(m).padStart(2,'0') : ''}${ampm}`;
+    };
+
+    div.innerHTML = `
+      <div class="event-title">${ev.summary || '(no title)'}</div>
+      ${height > 32 ? `<div class="event-time">${fmt(startDt)} – ${fmt(endDt)}</div>` : ''}
+    `;
+    gridWrap.appendChild(div);
+  });
+
+  // Mini-cal event days
+  const eventDays = events
+    .filter(ev => ev.start.dateTime && toDateStr(new Date(ev.start.dateTime)).slice(0,7) === todayStr.slice(0,7))
+    .map(ev => new Date(ev.start.dateTime).getDate());
+  buildMiniCal(now, eventDays);
+}
+
+// ── GOOGLE CALENDAR API ───────────────────────────────────────────────────────
+async function fetchCalendarEvents() {
+  if (!accessToken || Date.now() > tokenExpiry) {
+    document.getElementById('footerStatus').textContent = 'Token expired — re-authorizing…';
+    setTimeout(startAuth, 1500);
+    return;
+  }
+
+  const now = new Date();
+  const startOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate()).toISOString();
+  const endOfDay   = new Date(now.getFullYear(), now.getMonth(), now.getDate()+1).toISOString();
+
+  try {
+    // Get list of calendars
+    const calRes = await fetch('https://www.googleapis.com/calendar/v3/users/me/calendarList', {
+      headers: { Authorization: `Bearer ${accessToken}` }
+    });
+    const calData = await calRes.json();
+
+    const allEvents = [];
+    await Promise.all((calData.items || []).map(async cal => {
+      const evRes = await fetch(
+        `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(cal.id)}/events?` +
+        `timeMin=${startOfDay}&timeMax=${endOfDay}&singleEvents=true&orderBy=startTime&maxResults=50`,
+        { headers: { Authorization: `Bearer ${accessToken}` } }
+      );
+      const evData = await evRes.json();
+      (evData.items || []).forEach(ev => allEvents.push(ev));
+    }));
+
+    allEvents.sort((a,b) => {
+      const ta = a.start.dateTime || a.start.date;
+      const tb = b.start.dateTime || b.start.date;
+      return ta < tb ? -1 : 1;
+    });
+
+    placeEvents(allEvents, now);
+    const lastUpdate = now.toLocaleTimeString('en-GB', {hour:'2-digit', minute:'2-digit'});
+    document.getElementById('footerStatus').textContent = `Updated ${lastUpdate} · ${allEvents.length} event${allEvents.length!==1?'s':''}`;
+  } catch(e) {
+    document.getElementById('footerStatus').textContent = 'Error fetching calendar';
+    console.error(e);
+  }
+}
+
+// ── RENDER ───────────────────────────────────────────────────────────────────
+function render() {
+  const now = new Date();
+  updateHeader(now);
+  fetchCalendarEvents();
+
+  // Scroll to current time
+  setTimeout(() => {
+    const schedulePane = document.getElementById('schedulePane');
+    const nowMins = (now.getHours() - HOUR_START) * 60 + now.getMinutes();
+    const scrollTo = Math.max(0, (nowMins / 60) * HOUR_PX - 80);
+    schedulePane.scrollTop = scrollTo;
+  }, 100);
+}
+
+function scheduleRefresh() {
+  if (refreshTimer) clearInterval(refreshTimer);
+  refreshTimer = setInterval(render, REFRESH_MINS * 60 * 1000);
+}
+
+// ── UTILS ────────────────────────────────────────────────────────────────────
+function toDateStr(d) {
+  return d.toISOString().slice(0, 10);
+}
+</script>
+</body>
+</html>

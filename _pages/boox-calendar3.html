@@ -1,6 +1,6 @@
 ---
 layout: null
-permalink: /boox-calendar2.html
+permalink: /boox-calendar.html
 ---
 <!DOCTYPE html>
 <html lang="ja">
@@ -9,18 +9,15 @@ permalink: /boox-calendar2.html
 <meta name="viewport" content="width=1024, initial-scale=1.0">
 <title>Calendar</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=IBM+Plex+Mono:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=IBM+Plex+Mono:wght@300;400;500&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --ink: #0a0a0a;
-    --ink-mid: #444;
-    --ink-light: #888;
-    --ink-faint: #ccc;
+    --ink-mid: #555;
+    --ink-light: #999;
+    --ink-faint: #ddd;
     --paper: #f5f3ef;
     --paper-dark: #e8e4dc;
-    --hour-h: 56px;
-    --gutter-w: 48px;
-    --col-count: 3;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -31,7 +28,6 @@ permalink: /boox-calendar2.html
     overflow: hidden;
     background: var(--paper);
     color: var(--ink);
-    font-family: 'IBM Plex Sans', sans-serif;
   }
 
   .shell {
@@ -47,164 +43,275 @@ permalink: /boox-calendar2.html
     align-items: stretch;
     border-bottom: 2px solid var(--ink);
     flex-shrink: 0;
-    height: 170px;
+    height: 172px;
   }
 
+  /* Date */
   .date-block {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px 16px 10px 18px;
+    padding: 10px 18px 10px 20px;
     border-right: 1px solid var(--ink-faint);
     flex-shrink: 0;
-    width: 140px;
+    width: 148px;
   }
-  .date-block .weekday { font-family: 'IBM Plex Mono', monospace; font-size: 9px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-mid); margin-bottom: 2px; }
-  .date-block .day-num { font-family: 'Playfair Display', serif; font-size: 76px; line-height: 1; font-weight: 700; letter-spacing: -3px; }
-  .date-block .month-year { font-family: 'IBM Plex Mono', monospace; font-size: 9px; color: var(--ink-mid); letter-spacing: 0.12em; text-transform: uppercase; margin-top: 4px; line-height: 1.6; }
+  .date-block .weekday {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; font-weight: 500;
+    letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--ink-mid); margin-bottom: 2px;
+  }
+  .date-block .day-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 82px; line-height: 1;
+    font-weight: 700; letter-spacing: -3px;
+  }
+  .date-block .month-year {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; color: var(--ink-mid);
+    letter-spacing: 0.12em; text-transform: uppercase;
+    margin-top: 4px; line-height: 1.6;
+  }
 
   /* Kanji */
   .kanji-panel {
     flex: 1;
     display: flex;
     align-items: center;
-    padding: 12px 20px;
+    padding: 12px 22px;
     gap: 20px;
     border-right: 1px solid var(--ink-faint);
     overflow: hidden;
   }
-  .kanji-char { font-family: 'Noto Serif JP', serif; font-size: 100px; line-height: 1; font-weight: 700; flex-shrink: 0; }
+  .kanji-char {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 106px; line-height: 1;
+    font-weight: 700; flex-shrink: 0;
+  }
   .kanji-info { flex: 1; overflow: hidden; }
-  .kanji-readings { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--ink-mid); margin-bottom: 5px; }
-  .kanji-readings .label { font-size: 8px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-light); margin-right: 3px; }
-  .kanji-readings span { margin-right: 12px; }
-  .kanji-meaning { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 400; line-height: 1.2; margin-bottom: 7px; }
+  .kanji-readings {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px; color: var(--ink-mid);
+    margin-bottom: 5px;
+  }
+  .kanji-readings span { margin-right: 14px; }
+  .kanji-readings .label {
+    font-size: 8px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--ink-light); margin-right: 3px;
+  }
+  .kanji-meaning {
+    font-family: 'Playfair Display', serif;
+    font-size: 21px; font-weight: 400;
+    line-height: 1.2; margin-bottom: 7px;
+  }
   .kanji-word { font-size: 12px; color: var(--ink-mid); line-height: 1.5; }
-  .kanji-word .word-jp { font-family: 'Noto Serif JP', serif; font-size: 15px; font-weight: 400; margin-right: 7px; color: var(--ink); }
-  .kanji-word .word-read { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--ink-mid); margin-right: 7px; }
-  .kanji-sentence { margin-top: 5px; font-size: 10px; color: var(--ink-light); line-height: 1.5; font-style: italic; }
+  .kanji-word .word-jp {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 15px; font-weight: 400;
+    margin-right: 7px; color: var(--ink);
+  }
+  .kanji-word .word-read {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px; color: var(--ink-mid); margin-right: 7px;
+  }
+  .kanji-sentence {
+    margin-top: 5px; font-size: 10px;
+    color: var(--ink-light); line-height: 1.5; font-style: italic;
+  }
 
   /* Mini cal */
-  .mini-cal { flex-shrink: 0; padding: 12px 14px; display: flex; flex-direction: column; justify-content: center; }
-  .mini-cal .mc-header { font-family: 'IBM Plex Mono', monospace; font-size: 9px; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-mid); margin-bottom: 6px; text-align: center; }
+  .mini-cal {
+    flex-shrink: 0;
+    padding: 12px 16px;
+    display: flex; flex-direction: column; justify-content: center;
+  }
+  .mini-cal .mc-header {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--ink-mid);
+    margin-bottom: 6px; text-align: center;
+  }
   .mini-cal table { border-collapse: collapse; font-family: 'IBM Plex Mono', monospace; }
   .mini-cal th { width: 26px; height: 20px; font-size: 8px; font-weight: 500; color: var(--ink-light); text-align: center; }
   .mini-cal td { width: 26px; height: 20px; text-align: center; color: var(--ink-mid); font-size: 11px; }
   .mini-cal td.today { background: var(--ink); color: var(--paper); font-weight: 500; }
-  .mini-cal td.col-day { background: var(--paper-dark); }
-  .mini-cal td.today.col-day { background: var(--ink); }
   .mini-cal td.has-event::after { content: '·'; display: block; line-height: 0; margin-top: -4px; font-size: 16px; color: var(--ink-mid); }
   .mini-cal td.today.has-event::after { color: var(--paper); }
 
-  /* ── SCHEDULE AREA ── */
-  .schedule-area {
+  /* ── AGENDA ── */
+  .agenda {
     flex: 1;
-    display: flex;
     overflow: hidden;
-  }
-
-  /* Shared time gutter */
-  .time-gutter {
-    width: var(--gutter-w);
-    flex-shrink: 0;
-    border-right: 1px solid var(--ink-faint);
-    overflow: hidden;
-    padding-top: 28px; /* offset for day header row */
-  }
-  .time-label {
-    height: var(--hour-h);
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    padding-right: 8px;
-    padding-top: 4px;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 10px;
-    color: var(--ink-light);
-    letter-spacing: 0.03em;
-    position: relative;
-  }
-  .time-label::after { content: ''; position: absolute; right: 0; top: 9px; width: 5px; height: 1px; background: var(--ink-faint); }
-
-  /* Columns wrapper */
-  .cols-wrap {
-    flex: 1;
-    display: flex;
-    overflow: hidden;
-  }
-
-  /* Individual day column */
-  .day-col {
-    flex: 1;
     display: flex;
     flex-direction: column;
-    border-right: 1px solid var(--ink-faint);
-    overflow: hidden;
   }
-  .day-col:last-child { border-right: none; }
 
-  .day-col-header {
-    height: 28px;
-    flex-shrink: 0;
-    display: flex;
+  /* All-day strip — compact, above agenda */
+  .allday-strip {
+    display: none; /* shown only if there are all-day events */
     align-items: center;
-    padding: 0 8px;
-    border-bottom: 1px solid var(--ink);
-    gap: 8px;
-    background: var(--paper);
-  }
-  .day-col-header.is-today { background: var(--ink); color: var(--paper); }
-  .day-col-header .col-weekday { font-family: 'IBM Plex Mono', monospace; font-size: 9px; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; opacity: 0.7; }
-  .day-col-header .col-date { font-family: 'IBM Plex Mono', monospace; font-size: 13px; font-weight: 500; }
-
-  /* All-day row per column */
-  .col-allday {
-    min-height: 24px;
+    gap: 10px;
+    padding: 6px 28px;
     border-bottom: 1px solid var(--ink-faint);
     background: var(--paper-dark);
-    padding: 3px 5px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3px;
     flex-shrink: 0;
   }
-  .allday-chip { font-size: 10px; font-weight: 500; padding: 1px 6px; border-left: 2px solid var(--ink); background: var(--paper); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+  .allday-strip.has-events { display: flex; }
+  .allday-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9px; letter-spacing: 0.15em;
+    text-transform: uppercase; color: var(--ink-light);
+    flex-shrink: 0;
+  }
+  .allday-chip {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px; font-weight: 500;
+    padding: 2px 10px;
+    border-left: 2px solid var(--ink);
+    background: var(--paper);
+  }
 
-  /* Scrollable grid */
-  .col-scroll {
+  /* Agenda list */
+  .agenda-list {
     flex: 1;
     overflow-y: auto;
     overflow-x: hidden;
+    padding: 0;
+  }
+  .agenda-list::-webkit-scrollbar { width: 3px; }
+  .agenda-list::-webkit-scrollbar-thumb { background: var(--ink-faint); }
+
+  /* Empty state */
+  .agenda-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: var(--ink-faint);
+    letter-spacing: 0.05em;
+    font-style: italic;
+  }
+
+  /* Each event row */
+  .agenda-item {
+    display: flex;
+    align-items: baseline;
+    border-bottom: 1px solid var(--ink-faint);
+    padding: 0 28px;
+    min-height: 72px;
     position: relative;
+    transition: background 0.1s;
   }
-  .col-scroll::-webkit-scrollbar { width: 3px; }
-  .col-scroll::-webkit-scrollbar-track { background: var(--paper-dark); }
-  .col-scroll::-webkit-scrollbar-thumb { background: var(--ink-faint); }
 
-  .grid-wrap { position: relative; }
-  .hour-row { height: var(--hour-h); border-bottom: 1px solid var(--ink-faint); position: relative; }
-  .hour-row.work-hour { background: rgba(0,0,0,0.015); }
+  /* Current/next event highlight */
+  .agenda-item.is-now {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .agenda-item.is-now .agenda-time,
+  .agenda-item.is-now .agenda-sep,
+  .agenda-item.is-now .agenda-dur { color: rgba(255,255,255,0.5); }
 
-  /* Now line — only on today column */
-  .now-line { position: absolute; left: 0; right: 0; height: 2px; background: var(--ink); z-index: 10; pointer-events: none; }
-  .now-line::before { content: ''; position: absolute; left: -4px; top: -4px; width: 9px; height: 9px; border-radius: 50%; background: var(--ink); }
-
-  /* Events */
-  .event {
-    position: absolute;
-    left: 4px; right: 4px;
-    border-left: 3px solid var(--ink);
+  .agenda-item.is-next {
     background: var(--paper-dark);
-    padding: 3px 6px;
-    border-radius: 2px;
-    overflow: hidden;
-    z-index: 5;
   }
-  .event-title { font-size: 12px; font-weight: 500; line-height: 1.3; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .event-time { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--ink-mid); margin-top: 1px; white-space: nowrap; }
+
+  /* Time block */
+  .agenda-time-block {
+    flex-shrink: 0;
+    width: 210px;
+    display: flex;
+    align-items: baseline;
+    gap: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .agenda-time {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: var(--ink-mid);
+    line-height: 1;
+  }
+
+  .agenda-item.is-now .agenda-time { color: rgba(255,255,255,0.7); }
+
+  .agenda-sep {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: var(--ink-faint);
+    margin: 0 8px;
+    line-height: 1;
+    align-self: center;
+  }
+
+  /* Divider line between time and title */
+  .agenda-divider {
+    width: 1px;
+    align-self: stretch;
+    background: var(--ink-faint);
+    margin-right: 28px;
+    flex-shrink: 0;
+  }
+  .agenda-item.is-now .agenda-divider { background: rgba(255,255,255,0.2); }
+
+  /* Title */
+  .agenda-title {
+    flex: 1;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    padding: 18px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Duration badge */
+  .agenda-dur {
+    flex-shrink: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--ink-light);
+    margin-left: 20px;
+    align-self: center;
+    letter-spacing: 0.05em;
+  }
+
+  /* NOW indicator pill */
+  .now-pill {
+    position: absolute;
+    left: 28px;
+    top: 6px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--paper);
+    opacity: 0.6;
+  }
+
+  /* PAST events — dimmed */
+  .agenda-item.is-past {
+    opacity: 0.35;
+  }
 
   /* ── FOOTER ── */
-  .footer { border-top: 1px solid var(--ink-faint); padding: 5px 18px; display: flex; align-items: center; justify-content: space-between; flex-shrink: 0; background: var(--paper); }
+  .footer {
+    border-top: 1px solid var(--ink-faint);
+    padding: 5px 20px;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-shrink: 0;
+    background: var(--paper);
+  }
   .footer .clock { font-family: 'IBM Plex Mono', monospace; font-size: 13px; color: var(--ink-mid); letter-spacing: 0.12em; }
   .footer .status { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: var(--ink-light); }
 
@@ -234,7 +341,7 @@ permalink: /boox-calendar2.html
 <!-- SETUP OVERLAY -->
 <div class="overlay" id="setupOverlay">
   <h1>Calendar Display</h1>
-  <p>Connect up to two Google accounts — work and personal. Events from both are merged into one unified 3-day workday view.</p>
+  <p>Connect up to two Google accounts — work and personal. Events from both are merged into today's agenda.</p>
   <div class="config-box">
     <label>Google OAuth Client ID</label>
     <input type="text" id="clientIdInput" placeholder="xxxx.apps.googleusercontent.com" />
@@ -285,10 +392,13 @@ permalink: /boox-calendar2.html
     </div>
   </div>
 
-  <div class="schedule-area">
-    <div class="time-gutter" id="timeGutter"></div>
-    <div class="cols-wrap" id="colsWrap">
-      <!-- day columns injected by JS -->
+  <div class="agenda">
+    <div class="allday-strip" id="alldayStrip">
+      <span class="allday-label">All day</span>
+      <div id="alldayChips" style="display:flex; gap:8px; flex-wrap:wrap;"></div>
+    </div>
+    <div class="agenda-list" id="agendaList">
+      <div class="agenda-empty">No events today</div>
     </div>
   </div>
 
@@ -299,7 +409,7 @@ permalink: /boox-calendar2.html
 </div>
 
 <script>
-// ── KANJI DATA ────────────────────────────────────────────────────────────────
+// ── KANJI ─────────────────────────────────────────────────────────────────────
 const KANJI = [
   { k:'日', on:'ニチ・ジツ', kun:'ひ・か', meaning:'Sun, Day', word:'日本', read:'にほん', wmeaning:'Japan', sentence:'日本語を勉強しています。 — I am studying Japanese.' },
   { k:'月', on:'ゲツ・ガツ', kun:'つき', meaning:'Moon, Month', word:'月曜日', read:'げつようび', wmeaning:'Monday', sentence:'月曜日は会議があります。 — There is a meeting on Monday.' },
@@ -307,9 +417,7 @@ const KANJI = [
   { k:'水', on:'スイ', kun:'みず', meaning:'Water', word:'水泳', read:'すいえい', wmeaning:'Swimming', sentence:'毎朝、水を飲みます。 — I drink water every morning.' },
   { k:'木', on:'モク・ボク', kun:'き', meaning:'Tree, Wood', word:'木曜日', read:'もくようび', wmeaning:'Thursday', sentence:'公園に大きな木があります。 — There is a big tree in the park.' },
   { k:'金', on:'キン・コン', kun:'かね・かな', meaning:'Gold, Money', word:'お金', read:'おかね', wmeaning:'Money', sentence:'お金を大切に使いましょう。 — Let\'s use money carefully.' },
-  { k:'土', on:'ド・ト', kun:'つち', meaning:'Earth, Soil', word:'土曜日', read:'どようび', wmeaning:'Saturday', sentence:'土曜日に友達と会います。 — I\'m meeting a friend on Saturday.' },
   { k:'山', on:'サン', kun:'やま', meaning:'Mountain', word:'富士山', read:'ふじさん', wmeaning:'Mt. Fuji', sentence:'富士山は日本一高い山です。 — Mt. Fuji is Japan\'s tallest mountain.' },
-  { k:'川', on:'セン', kun:'かわ', meaning:'River', word:'川岸', read:'かわぎし', wmeaning:'Riverbank', sentence:'川沿いを散歩しました。 — I took a walk along the river.' },
   { k:'人', on:'ジン・ニン', kun:'ひと', meaning:'Person', word:'人口', read:'じんこう', wmeaning:'Population', sentence:'東京の人口はとても多い。 — Tokyo\'s population is very large.' },
   { k:'子', on:'シ・ス', kun:'こ', meaning:'Child', word:'子供', read:'こども', wmeaning:'Child / Children', sentence:'子供たちが公園で遊んでいます。 — Children are playing in the park.' },
   { k:'学', on:'ガク', kun:'まな-ぶ', meaning:'Study, Learning', word:'学校', read:'がっこう', wmeaning:'School', sentence:'学校まで歩いて行きます。 — I walk to school.' },
@@ -325,70 +433,54 @@ const KANJI = [
   { k:'時', on:'ジ', kun:'とき', meaning:'Time, Hour', word:'時間', read:'じかん', wmeaning:'Time', sentence:'時間を有効に使いましょう。 — Let\'s use time effectively.' },
   { k:'間', on:'カン・ケン', kun:'あいだ・ま', meaning:'Interval, Between', word:'人間', read:'にんげん', wmeaning:'Human being', sentence:'人間は社会的な動物です。 — Humans are social animals.' },
   { k:'見', on:'ケン', kun:'み-る', meaning:'See, Look', word:'意見', read:'いけん', wmeaning:'Opinion', sentence:'あなたの意見を聞かせてください。 — Please let me hear your opinion.' },
-  { k:'聞', on:'ブン・モン', kun:'き-く', meaning:'Hear, Listen', word:'新聞', read:'しんぶん', wmeaning:'Newspaper', sentence:'毎朝新聞を読みます。 — I read the newspaper every morning.' },
   { k:'言', on:'ゲン・ゴン', kun:'い-う・こと', meaning:'Say, Word', word:'言葉', read:'ことば', wmeaning:'Word, Language', sentence:'言葉は人を傷つけることもある。 — Words can also hurt people.' },
   { k:'読', on:'ドク・トク', kun:'よ-む', meaning:'Read', word:'読書', read:'どくしょ', wmeaning:'Reading (books)', sentence:'読書は心を豊かにします。 — Reading enriches the heart.' },
   { k:'書', on:'ショ', kun:'か-く', meaning:'Write', word:'図書館', read:'としょかん', wmeaning:'Library', sentence:'図書館で静かに勉強しました。 — I studied quietly at the library.' },
   { k:'食', on:'ショク', kun:'た-べる', meaning:'Eat, Food', word:'食事', read:'しょくじ', wmeaning:'Meal', sentence:'家族と食事をするのが好きです。 — I like having meals with family.' },
   { k:'行', on:'コウ・ギョウ', kun:'い-く・おこな-う', meaning:'Go, Travel', word:'旅行', read:'りょこう', wmeaning:'Travel, Trip', sentence:'来月、海外旅行に行きます。 — I\'m going on an overseas trip next month.' },
   { k:'来', on:'ライ', kun:'く-る', meaning:'Come', word:'未来', read:'みらい', wmeaning:'Future', sentence:'未来のために今努力しています。 — I am working hard now for the future.' },
-  { k:'帰', on:'キ', kun:'かえ-る', meaning:'Return, Go home', word:'帰宅', read:'きたく', wmeaning:'Returning home', sentence:'今日は早く帰宅できました。 — I was able to return home early today.' },
-  { k:'出', on:'シュツ・スイ', kun:'で-る・だ-す', meaning:'Exit, Leave', word:'出発', read:'しゅっぱつ', wmeaning:'Departure', sentence:'明日の朝、出発します。 — We depart tomorrow morning.' },
-  { k:'入', on:'ニュウ', kun:'い-る・はい-る', meaning:'Enter', word:'入学', read:'にゅうがく', wmeaning:'School enrollment', sentence:'四月に大学に入学しました。 — I enrolled at university in April.' },
   { k:'気', on:'キ・ケ', kun:'いき', meaning:'Spirit, Energy, Air', word:'天気', read:'てんき', wmeaning:'Weather', sentence:'今日の天気はどうですか。 — What is the weather like today?' },
   { k:'心', on:'シン', kun:'こころ', meaning:'Heart, Mind', word:'安心', read:'あんしん', wmeaning:'Relief, Peace of mind', sentence:'無事に帰って安心しました。 — I was relieved that they returned safely.' },
   { k:'手', on:'シュ', kun:'て', meaning:'Hand', word:'手紙', read:'てがみ', wmeaning:'Letter (mail)', sentence:'友達に手紙を書きました。 — I wrote a letter to a friend.' },
   { k:'目', on:'モク・ボク', kun:'め', meaning:'Eye', word:'目標', read:'もくひょう', wmeaning:'Goal, Target', sentence:'今年の目標を決めました。 — I decided on this year\'s goals.' },
-  { k:'足', on:'ソク', kun:'あし・た-りる', meaning:'Foot, Leg, Enough', word:'満足', read:'まんぞく', wmeaning:'Satisfaction', sentence:'今日の仕事に満足しています。 — I am satisfied with today\'s work.' },
   { k:'力', on:'リョク・リキ', kun:'ちから', meaning:'Power, Strength', word:'努力', read:'どりょく', wmeaning:'Effort', sentence:'努力は必ず報われます。 — Effort will always be rewarded.' },
   { k:'東', on:'トウ', kun:'ひがし', meaning:'East', word:'東京', read:'とうきょう', wmeaning:'Tokyo', sentence:'東京は世界有数の大都市です。 — Tokyo is one of the world\'s great cities.' },
-  { k:'西', on:'セイ・サイ', kun:'にし', meaning:'West', word:'西洋', read:'せいよう', wmeaning:'The West, Western', sentence:'西洋と東洋の文化が融合しています。 — Western and Eastern cultures are merging.' },
-  { k:'南', on:'ナン・ナ', kun:'みなみ', meaning:'South', word:'南国', read:'なんごく', wmeaning:'Southern country', sentence:'南国のフルーツは甘い。 — Tropical fruits are sweet.' },
-  { k:'北', on:'ホク', kun:'きた', meaning:'North', word:'北海道', read:'ほっかいどう', wmeaning:'Hokkaido', sentence:'北海道はラーメンが有名です。 — Hokkaido is famous for ramen.' },
   { k:'友', on:'ユウ', kun:'とも', meaning:'Friend', word:'友達', read:'ともだち', wmeaning:'Friend', sentence:'友達と映画を見に行きました。 — I went to see a movie with friends.' },
   { k:'家', on:'カ・ケ', kun:'いえ・うち', meaning:'House, Home, Family', word:'家族', read:'かぞく', wmeaning:'Family', sentence:'家族と一緒に旅行しました。 — I traveled together with my family.' },
   { k:'会', on:'カイ・エ', kun:'あ-う', meaning:'Meet, Society', word:'会議', read:'かいぎ', wmeaning:'Meeting', sentence:'今日の午後、会議があります。 — There is a meeting this afternoon.' },
   { k:'社', on:'シャ', kun:'やしろ', meaning:'Company, Society', word:'会社', read:'かいしゃ', wmeaning:'Company', sentence:'彼は大きな会社で働いています。 — He works at a large company.' },
   { k:'仕', on:'シ・ジ', kun:'つか-える', meaning:'Serve, Work', word:'仕事', read:'しごと', wmeaning:'Work, Job', sentence:'仕事が忙しい週でした。 — It was a busy week at work.' },
   { k:'電', on:'デン', kun:'—', meaning:'Electricity', word:'電車', read:'でんしゃ', wmeaning:'Train', sentence:'電車で通勤しています。 — I commute by train.' },
+  { k:'話', on:'ワ', kun:'はな-す・はなし', meaning:'Talk, Story', word:'電話', read:'でんわ', wmeaning:'Telephone', sentence:'電話で話しました。 — I spoke on the phone.' },
+  { k:'道', on:'ドウ・トウ', kun:'みち', meaning:'Road, Way, Path', word:'近道', read:'ちかみち', wmeaning:'Shortcut', sentence:'近道を通って早く着きました。 — I arrived early by taking a shortcut.' },
+  { k:'花', on:'カ', kun:'はな', meaning:'Flower', word:'花見', read:'はなみ', wmeaning:'Cherry blossom viewing', sentence:'春に花見をするのが楽しみです。 — I look forward to cherry blossom viewing in spring.' },
+  { k:'空', on:'クウ', kun:'そら・あ-く', meaning:'Sky, Empty', word:'空港', read:'くうこう', wmeaning:'Airport', sentence:'空港まで迎えに行きました。 — I went to pick them up at the airport.' },
+  { k:'海', on:'カイ', kun:'うみ', meaning:'Sea, Ocean', word:'海外', read:'かいがい', wmeaning:'Overseas, Abroad', sentence:'海外出張が多い仕事です。 — It is a job with many overseas business trips.' },
+  { k:'町', on:'チョウ', kun:'まち', meaning:'Town', word:'下町', read:'したまち', wmeaning:'Downtown, Old town', sentence:'下町の雰囲気が好きです。 — I like the atmosphere of old downtown areas.' },
+  { k:'名', on:'メイ・ミョウ', kun:'な', meaning:'Name, Famous', word:'名前', read:'なまえ', wmeaning:'Name', sentence:'お名前を教えていただけますか。 — Could you tell me your name?' },
+  { k:'古', on:'コ', kun:'ふる-い', meaning:'Old, Ancient', word:'古典', read:'こてん', wmeaning:'Classic, Classical', sentence:'古典文学を読むのが好きです。 — I like reading classical literature.' },
+  { k:'新', on:'シン', kun:'あたら-しい・あら-た', meaning:'New', word:'新幹線', read:'しんかんせん', wmeaning:'Shinkansen (bullet train)', sentence:'新幹線で大阪に行きました。 — I went to Osaka by Shinkansen.' },
+  { k:'朝', on:'チョウ', kun:'あさ', meaning:'Morning', word:'朝食', read:'ちょうしょく', wmeaning:'Breakfast', sentence:'毎日朝食を食べます。 — I eat breakfast every day.' },
+  { k:'夜', on:'ヤ', kun:'よる・よ', meaning:'Night, Evening', word:'夜景', read:'やけい', wmeaning:'Night view', sentence:'東京タワーからの夜景は美しい。 — The night view from Tokyo Tower is beautiful.' },
 ];
 
 // ── CONFIG ────────────────────────────────────────────────────────────────────
-const HOUR_START  = 7;
-const HOUR_END    = 20;
-const HOUR_PX     = 56;
-const WEEKDAYS_EN = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-const WEEKDAYS_SH = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-const MONTHS      = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-const MON_SHORT   = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-
 let CLIENT_ID    = localStorage.getItem('gcal_client_id') || '';
 let REFRESH_MINS = parseInt(localStorage.getItem('gcal_refresh') || '5');
 let refreshTimer = null;
+let clockTimer   = null;
 
 const accounts = [
   { token: localStorage.getItem('gcal_token_0') || '', expiry: parseInt(localStorage.getItem('gcal_expiry_0') || '0') },
   { token: localStorage.getItem('gcal_token_1') || '', expiry: parseInt(localStorage.getItem('gcal_expiry_1') || '0') },
 ];
 
+const WEEKDAYS  = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const MONTHS    = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const MON_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
 if (CLIENT_ID) document.getElementById('clientIdInput').value = CLIENT_ID;
 document.getElementById('refreshInput').value = REFRESH_MINS;
-
-// ── WORKDAY COLUMNS ───────────────────────────────────────────────────────────
-// Returns array of 3 Date objects: today + next 2 workdays (Mon-Fri)
-function getWorkDays() {
-  const days = [];
-  let d = new Date();
-  d.setHours(0,0,0,0);
-  while (days.length < 3) {
-    const dow = d.getDay();
-    if (dow !== 0 && dow !== 6) days.push(new Date(d));
-    d.setDate(d.getDate() + 1);
-  }
-  return days;
-}
-
-function toDateStr(d) { return d.toISOString().slice(0,10); }
 
 // ── BOOT ──────────────────────────────────────────────────────────────────────
 window.addEventListener('load', () => {
@@ -438,8 +530,6 @@ function proceedToMain() {
 // ── MAIN ──────────────────────────────────────────────────────────────────────
 function showMain() {
   document.getElementById('mainUI').classList.remove('hidden');
-  buildTimeGutter();
-  buildColumns();
   showKanji();
   render();
   tickClock();
@@ -460,112 +550,39 @@ function showKanji() {
 }
 
 // ── CLOCK ─────────────────────────────────────────────────────────────────────
-function tickClock() { updateClock(); setInterval(updateClock, 1000); }
+function tickClock() {
+  updateClock();
+  clockTimer = setInterval(updateClock, 1000);
+}
+
 function updateClock() {
   const now = new Date();
   const pad = n => String(n).padStart(2,'0');
   document.getElementById('footerClock').textContent = `${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
-  updateNowLine(now);
-}
-
-// ── TIME GUTTER ───────────────────────────────────────────────────────────────
-function buildTimeGutter() {
-  const gutter = document.getElementById('timeGutter');
-  gutter.innerHTML = '';
-  for (let h = HOUR_START; h < HOUR_END; h++) {
-    const label = document.createElement('div');
-    label.className = 'time-label';
-    label.textContent = h === 12 ? '12p' : h < 12 ? `${h}a` : `${h-12}p`;
-    gutter.appendChild(label);
-  }
-}
-
-// ── COLUMNS ───────────────────────────────────────────────────────────────────
-function buildColumns() {
-  const wrap    = document.getElementById('colsWrap');
-  wrap.innerHTML = '';
-  const workdays = getWorkDays();
-  const today    = toDateStr(new Date());
-
-  workdays.forEach((day, i) => {
-    const isToday  = toDateStr(day) === today;
-    const col      = document.createElement('div');
-    col.className  = 'day-col';
-    col.id         = `col-${i}`;
-
-    // Header
-    const hdr = document.createElement('div');
-    hdr.className = 'day-col-header' + (isToday ? ' is-today' : '');
-    hdr.innerHTML = `<span class="col-weekday">${WEEKDAYS_SH[day.getDay()]}</span><span class="col-date">${day.getDate()}</span>`;
-    col.appendChild(hdr);
-
-    // All-day
-    const allday = document.createElement('div');
-    allday.className = 'col-allday';
-    allday.id = `allday-${i}`;
-    col.appendChild(allday);
-
-    // Scrollable grid
-    const scroll = document.createElement('div');
-    scroll.className = 'col-scroll';
-    scroll.id = `scroll-${i}`;
-
-    const grid = document.createElement('div');
-    grid.className = 'grid-wrap';
-    grid.id = `grid-${i}`;
-
-    for (let h = HOUR_START; h < HOUR_END; h++) {
-      const row = document.createElement('div');
-      row.className = 'hour-row' + (h >= 9 && h < 18 ? ' work-hour' : '');
-      grid.appendChild(row);
-    }
-
-    // Now line on today's column only
-    if (isToday) {
-      const line = document.createElement('div');
-      line.className = 'now-line';
-      line.id = 'nowLine';
-      grid.appendChild(line);
-    }
-
-    scroll.appendChild(grid);
-    col.appendChild(scroll);
-    wrap.appendChild(col);
-  });
-}
-
-function updateNowLine(now) {
-  const line = document.getElementById('nowLine');
-  if (!line) return;
-  const totalMins = (now.getHours() - HOUR_START) * 60 + now.getMinutes();
-  const top = (totalMins / 60) * HOUR_PX;
-  line.style.top     = top + 'px';
-  line.style.display = (top < 0 || now.getHours() >= HOUR_END) ? 'none' : 'block';
+  // Refresh agenda highlighting every minute
+  if (now.getSeconds() === 0) highlightAgenda(now);
 }
 
 // ── HEADER ────────────────────────────────────────────────────────────────────
 function updateHeader(now) {
-  document.getElementById('hWeekday').textContent   = WEEKDAYS_EN[now.getDay()];
+  document.getElementById('hWeekday').textContent   = WEEKDAYS[now.getDay()];
   document.getElementById('hDay').textContent       = now.getDate();
   document.getElementById('hMonthYear').textContent = `${MONTHS[now.getMonth()]}\n${now.getFullYear()}`;
 }
 
-function buildMiniCal(now, colDays, eventDays) {
+function buildMiniCal(now, eventDays) {
   const y = now.getFullYear(), m = now.getMonth();
   document.getElementById('mcHeader').textContent = `${MON_SHORT[m]} ${y}`;
   const first    = new Date(y, m, 1).getDay();
   const days     = new Date(y, m+1, 0).getDate();
   const eventSet = new Set(eventDays);
-  const colSet   = new Set(colDays.map(d => d.getDate()));
-
   let html = '<thead><tr>';
   ['S','M','T','W','T','F','S'].forEach(d => html += `<th>${d}</th>`);
   html += '</tr></thead><tbody><tr>';
   let col = 0;
   for (let i = 0; i < first; i++) { html += '<td></td>'; col++; }
   for (let d = 1; d <= days; d++) {
-    const cls = [d===now.getDate()?'today':'', colSet.has(d)?'col-day':'', eventSet.has(d)?'has-event':''].filter(Boolean).join(' ');
-    html += `<td class="${cls}">${d}</td>`;
+    html += `<td class="${d===now.getDate()?'today':''} ${eventSet.has(d)?'has-event':''}">${d}</td>`;
     col++;
     if (col % 7 === 0 && d < days) html += '</tr><tr>';
   }
@@ -574,77 +591,114 @@ function buildMiniCal(now, colDays, eventDays) {
   document.getElementById('mcTable').innerHTML = html;
 }
 
-// ── EVENTS ────────────────────────────────────────────────────────────────────
-function clearEvents() {
-  for (let i = 0; i < 3; i++) {
-    const allday = document.getElementById(`allday-${i}`);
-    const grid   = document.getElementById(`grid-${i}`);
-    if (allday) allday.innerHTML = '';
-    if (grid)   grid.querySelectorAll('.event').forEach(e => e.remove());
+// ── AGENDA ────────────────────────────────────────────────────────────────────
+function fmtTime(dt) {
+  return `${String(dt.getHours()).padStart(2,'0')}${String(dt.getMinutes()).padStart(2,'0')}`;
+}
+
+function fmtDuration(startDt, endDt) {
+  const mins = Math.round((endDt - startDt) / 60000);
+  if (mins < 60) return `${mins}m`;
+  const h = Math.floor(mins / 60), m = mins % 60;
+  return m ? `${h}h ${m}m` : `${h}h`;
+}
+
+function buildAgenda(events, now) {
+  const todayStr    = toDateStr(now);
+  const alldayStrip = document.getElementById('alldayStrip');
+  const alldayChips = document.getElementById('alldayChips');
+  const agendaList  = document.getElementById('agendaList');
+
+  // Split all-day vs timed
+  const allday = events.filter(ev => ev.start.date && ev.start.date <= todayStr && (ev.end?.date || ev.start.date) > todayStr);
+  const timed  = events
+    .filter(ev => ev.start.dateTime && toDateStr(new Date(ev.start.dateTime)) === todayStr)
+    .sort((a,b) => a.start.dateTime < b.start.dateTime ? -1 : 1);
+
+  // All-day strip
+  alldayChips.innerHTML = '';
+  if (allday.length > 0) {
+    alldayStrip.classList.add('has-events');
+    allday.forEach(ev => {
+      const chip = document.createElement('div');
+      chip.className = 'allday-chip';
+      chip.textContent = ev.summary || '(no title)';
+      alldayChips.appendChild(chip);
+    });
+  } else {
+    alldayStrip.classList.remove('has-events');
+  }
+
+  // Agenda items
+  if (timed.length === 0) {
+    agendaList.innerHTML = '<div class="agenda-empty">No meetings today</div>';
+    return;
+  }
+
+  agendaList.innerHTML = '';
+  timed.forEach(ev => {
+    const startDt = new Date(ev.start.dateTime);
+    const endDt   = new Date(ev.end?.dateTime || ev.start.dateTime);
+    const item    = document.createElement('div');
+    item.className = 'agenda-item';
+    item.dataset.start = startDt.getTime();
+    item.dataset.end   = endDt.getTime();
+
+    item.innerHTML = `
+      <div class="now-pill" style="display:none">NOW</div>
+      <div class="agenda-time-block">
+        <span class="agenda-time">${fmtTime(startDt)}</span>
+        <span class="agenda-sep">—</span>
+        <span class="agenda-time">${fmtTime(endDt)}</span>
+      </div>
+      <div class="agenda-divider"></div>
+      <div class="agenda-title">${ev.summary || '(no title)'}</div>
+      <div class="agenda-dur">${fmtDuration(startDt, endDt)}</div>
+    `;
+    agendaList.appendChild(item);
+  });
+
+  highlightAgenda(now);
+}
+
+function highlightAgenda(now) {
+  const ts = now.getTime();
+  let scrollTo = null;
+
+  document.querySelectorAll('.agenda-item').forEach(item => {
+    const start = parseInt(item.dataset.start);
+    const end   = parseInt(item.dataset.end);
+    const pill  = item.querySelector('.now-pill');
+
+    item.classList.remove('is-now', 'is-next', 'is-past');
+    pill.style.display = 'none';
+
+    if (ts >= start && ts < end) {
+      item.classList.add('is-now');
+      pill.style.display = 'block';
+      scrollTo = item;
+    } else if (ts < start) {
+      // First future event becomes "next"
+      if (!document.querySelector('.agenda-item.is-next') && !scrollTo) {
+        item.classList.add('is-next');
+        if (!scrollTo) scrollTo = item;
+      }
+    } else {
+      item.classList.add('is-past');
+    }
+  });
+
+  // Scroll so current/next event is near top
+  if (scrollTo) {
+    setTimeout(() => {
+      scrollTo.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 100);
   }
 }
 
-function placeEvents(events, workdays) {
-  clearEvents();
-
-  workdays.forEach((day, colIdx) => {
-    const dayStr   = toDateStr(day);
-    const allday   = document.getElementById(`allday-${colIdx}`);
-    const grid     = document.getElementById(`grid-${colIdx}`);
-    if (!grid) return;
-
-    const dayEvents = events.filter(ev => {
-      if (ev.start.date) return ev.start.date <= dayStr && (ev.end?.date || ev.start.date) > dayStr;
-      return toDateStr(new Date(ev.start.dateTime)) === dayStr;
-    });
-
-    const placed = [];
-    dayEvents.forEach(ev => {
-      if (ev.start.date) {
-        const chip = document.createElement('div');
-        chip.className = 'allday-chip';
-        chip.textContent = ev.summary || '(no title)';
-        allday.appendChild(chip);
-        return;
-      }
-
-      const startDt   = new Date(ev.start.dateTime);
-      const endDt     = new Date(ev.end?.dateTime || ev.start.dateTime);
-      const startMins = (startDt.getHours() - HOUR_START) * 60 + startDt.getMinutes();
-      const endMins   = (endDt.getHours()   - HOUR_START) * 60 + endDt.getMinutes();
-      const top       = (startMins / 60) * HOUR_PX;
-      const height    = Math.max(((endMins - startMins) / 60) * HOUR_PX, 26);
-      if (top < 0) return;
-
-      const overlap = placed.filter(p => p.endMins > startMins && p.startMins < endMins).length;
-      placed.push({ startMins, endMins });
-
-      const div = document.createElement('div');
-      div.className    = 'event';
-      div.style.top    = top + 'px';
-      div.style.height = height + 'px';
-      if (overlap > 0) {
-        div.style.left  = (4 + overlap * 80) + 'px';
-        div.style.right = '4px';
-      }
-
-      const fmt = dt => {
-        let h = dt.getHours(), m = dt.getMinutes();
-        const ap = h >= 12 ? 'p' : 'a';
-        h = h % 12 || 12;
-        return `${h}${m ? ':'+String(m).padStart(2,'0') : ''}${ap}`;
-      };
-
-      div.innerHTML = `
-        <div class="event-title">${ev.summary || '(no title)'}</div>
-        ${height > 34 ? `<div class="event-time">${fmt(startDt)} – ${fmt(endDt)}</div>` : ''}
-      `;
-      grid.appendChild(div);
-    });
-  });
-}
-
 // ── FETCH ─────────────────────────────────────────────────────────────────────
+function toDateStr(d) { return d.toISOString().slice(0,10); }
+
 async function fetchFromAccount(slot, startISO, endISO) {
   const { token, expiry } = accounts[slot];
   if (!token || Date.now() > expiry) return [];
@@ -654,7 +708,7 @@ async function fetchFromAccount(slot, startISO, endISO) {
     if (calData.error) return [];
     const events = [];
     await Promise.all((calData.items || []).map(async cal => {
-      const evRes  = await fetch(`https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(cal.id)}/events?timeMin=${startISO}&timeMax=${endISO}&singleEvents=true&orderBy=startTime&maxResults=100`, { headers: { Authorization: `Bearer ${token}` } });
+      const evRes  = await fetch(`https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(cal.id)}/events?timeMin=${startISO}&timeMax=${endISO}&singleEvents=true&orderBy=startTime&maxResults=50`, { headers: { Authorization: `Bearer ${token}` } });
       const evData = await evRes.json();
       (evData.items || []).forEach(ev => events.push(ev));
     }));
@@ -662,12 +716,9 @@ async function fetchFromAccount(slot, startISO, endISO) {
   } catch(e) { return []; }
 }
 
-async function fetchAllEvents(workdays) {
-  // Fetch from first workday start to last workday end
-  const startISO = new Date(workdays[0].getFullYear(), workdays[0].getMonth(), workdays[0].getDate()).toISOString();
-  const lastDay  = workdays[workdays.length - 1];
-  const endISO   = new Date(lastDay.getFullYear(), lastDay.getMonth(), lastDay.getDate() + 1).toISOString();
-
+async function fetchAllEvents(now) {
+  const startISO = new Date(now.getFullYear(), now.getMonth(), now.getDate()).toISOString();
+  const endISO   = new Date(now.getFullYear(), now.getMonth(), now.getDate()+1).toISOString();
   const [ev0, ev1] = await Promise.all([fetchFromAccount(0, startISO, endISO), fetchFromAccount(1, startISO, endISO)]);
   const seen = new Set();
   return [...ev0, ...ev1].filter(ev => {
@@ -679,38 +730,26 @@ async function fetchAllEvents(workdays) {
 
 // ── RENDER ────────────────────────────────────────────────────────────────────
 async function render() {
-  const now      = new Date();
-  const workdays = getWorkDays();
+  const now = new Date();
   updateHeader(now);
-
   try {
-    const events = await fetchAllEvents(workdays);
-    placeEvents(events, workdays);
+    const events = await fetchAllEvents(now);
+    buildAgenda(events, now);
 
-    // Mini-cal event days (from all events this month)
     const eventDays = events
-      .filter(ev => ev.start.dateTime && toDateStr(new Date(ev.start.dateTime)).slice(0,7) === toDateStr(now).slice(0,7))
+      .filter(ev => ev.start.dateTime)
       .map(ev => new Date(ev.start.dateTime).getDate());
-    buildMiniCal(now, workdays, eventDays);
+    buildMiniCal(now, eventDays);
 
-    const expired  = accounts.map((a,i) => a.token && Date.now() > a.expiry ? i+1 : null).filter(Boolean);
-    const warn     = expired.length ? ` · ⚠ acct ${expired.join(',')} expired` : '';
-    const updated  = now.toLocaleTimeString('en-GB', {hour:'2-digit', minute:'2-digit'});
-    document.getElementById('footerStatus').textContent = `Updated ${updated} · ${events.length} event${events.length!==1?'s':''}${warn}`;
+    const expired = accounts.map((a,i) => a.token && Date.now() > a.expiry ? i+1 : null).filter(Boolean);
+    const warn    = expired.length ? ` · ⚠ acct ${expired.join(',')} expired` : '';
+    const updated = now.toLocaleTimeString('en-GB', {hour:'2-digit', minute:'2-digit'});
+    const timedCount = events.filter(ev => ev.start.dateTime).length;
+    document.getElementById('footerStatus').textContent = `Updated ${updated} · ${timedCount} meeting${timedCount!==1?'s':''} today${warn}`;
   } catch(e) {
     document.getElementById('footerStatus').textContent = 'Error fetching calendar';
     console.error(e);
   }
-
-  // Scroll all columns to current time
-  setTimeout(() => {
-    const nowMins = (now.getHours() - HOUR_START) * 60 + now.getMinutes();
-    const scrollTo = Math.max(0, (nowMins / 60) * HOUR_PX - 60);
-    for (let i = 0; i < 3; i++) {
-      const s = document.getElementById(`scroll-${i}`);
-      if (s) s.scrollTop = scrollTo;
-    }
-  }, 100);
 }
 
 function scheduleRefresh() {

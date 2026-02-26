@@ -29,6 +29,7 @@ exclude:
   - .sass-cache
   - .jekyll-cache
   - .github
+  - assets/js/main.min.js.map
 
 future: true
 

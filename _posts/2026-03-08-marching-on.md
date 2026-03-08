@@ -1,7 +1,7 @@
 ---
 title: "Marching on"
 excerpt: "Enter the new month."
-date: 2026-03-02
+date: 2026-03-08
 tags:
   - e85
   - linux
@@ -33,3 +33,5 @@ Last update for now, is that I am running Linux as my main computer now. I'll ce
   <source src="'/assets/videos/screensaver_240p.mp4'" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+Until soon.

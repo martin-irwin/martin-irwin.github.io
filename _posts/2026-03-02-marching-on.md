@@ -1,18 +1,27 @@
 ---
 title: "Marching on"
-excerpt: "Kind of self explanatory, but I thank you for your patience and understanding."
+excerpt: "Enter the new month."
 date: 2026-03-02
 tags: 
 header:
-  image: /assets/images/7CR09262-GTR.jpeg
-  teaser: /assets/images/7CR09262-GTR.jpeg
-  og_image: /assets/images/7CR09262-GTR.jpeg
+  image: /assets/images/IMG20260224173042-EDIT.jpg
+  teaser: /assets/images/IMG20260224173042-EDIT.jpg
+  og_image: /assets/images/IMG20260224173042-EDIT.jpg
 categories:
   - blog
-published: false
+published: true
 ---
-Testing
+March is underway, February is but a memory.
 
+Two photos for today; first is the door into the lake, that really caught my eye when I was out for a walk. It's not gold, but looked it during this sunset.
+
+The second image is a preview of my latest bit of code, which is an E85 fuel finder for Switzerland:
+
+![Latest image 2](/assets/images/IMG20260302120721.jpg)
+
+I had to write this as Google searches only turn up very old information, and even the websites of the fuel suppliers themselves, have broken search ability.
+
+You can find the app [here](/agrola-services-finder.html).
 
 <video controls style="max-width: 100%; height: auto;">
   <source src="'/assets/videos/screensaver_240p.mp4'" type="video/mp4">

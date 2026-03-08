@@ -30,7 +30,7 @@ You can find the app [here](/agrola-services-finder.html).
 Last update for now, is that I am running Linux as my main computer now. I'll certianly go into this a lot more, but until then, you can enjoy my screensaver:
 
 <video controls style="max-width: 100%; height: auto;">
-  <source src="'/assets/videos/screensaver_240p.mp4'" type="video/mp4">
+  <source src="/assets/videos/screensaver_240p.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

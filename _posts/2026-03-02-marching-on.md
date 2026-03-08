@@ -2,7 +2,11 @@
 title: "Marching on"
 excerpt: "Enter the new month."
 date: 2026-03-02
-tags: 
+tags:
+  - e85
+  - linux
+  - photo
+  - swiss
 header:
   image: /assets/images/IMG20260224173042-EDIT.jpg
   teaser: /assets/images/IMG20260224173042-EDIT.jpg
@@ -22,6 +26,8 @@ The second image is a preview of my latest bit of code, which is an E85 fuel fin
 I had to write this as Google searches only turn up very old information, and even the websites of the fuel suppliers themselves, have broken search ability.
 
 You can find the app [here](/agrola-services-finder.html).
+
+Last update for now, is that I am running Linux as my main computer now. I'll certianly go into this a lot more, but until then, you can enjoy my screensaver:
 
 <video controls style="max-width: 100%; height: auto;">
   <source src="'/assets/videos/screensaver_240p.mp4'" type="video/mp4">

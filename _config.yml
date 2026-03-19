@@ -6,7 +6,7 @@ title: "黒潮"
 title_separator: "-"
 name: "operator"
 description: "Tech, photos, and ramblings"
-og_image: /assets/images/og-image.png
+og_image: "https://kuroshi.net/assets/images/og-image.png"
 url: "https://kuroshi.net"
 baseurl: ""
 repository: "martin-irwin/martin-irwin"

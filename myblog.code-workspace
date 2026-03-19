@@ -1,0 +1,18 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "📝 myblog (kuroshi.net)"
+    }
+  ],
+  "settings": {
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "editor.fontFamily": "'JetBrains Mono', monospace",
+    "editor.fontSize": 13,
+    "editor.tabSize": 2,
+    "files.autoSave": "onFocusChange",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "liveServer.settings.port": 5500
+  }
+}

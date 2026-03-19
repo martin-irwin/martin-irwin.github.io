@@ -1,0 +1,47 @@
+---
+layout: null
+permalink: /llms.txt
+---
+# 黒潮 / kuroshi.net
+
+> A personal site running since 2012. Tech, photos, and ramblings from a British expat in Switzerland, formerly Tokyo. The current moves whether you follow it or not.
+
+## About
+
+- Author: M (operator)
+- Location: online
+- Previously: Tokyo, Japan
+- Contact: operator (at) kuroshi.net
+
+## What this site is
+
+A long-running personal blog covering photography, technology, retro hardware, Japan, cars, and whatever else is worth writing about. Over 400 posts since 2012. Not a brand. Not a product. A flow state.
+
+## Sections
+
+- [Blog](https://kuroshi.net/blog/) — main post archive, mixed topics
+- [Photos](https://kuroshi.net/photos/) — photography
+- [Portfolio](https://kuroshi.net/portfolio/) — selected work
+- [Code](https://kuroshi.net/code/) — tools, scripts, and side projects
+- [Reviews](https://kuroshi.net/reviews/) — hardware, software, and other things worth reviewing
+- [POTD](https://kuroshi.net/potd/) — photo of the day
+- [Japanese](https://kuroshi.net/japanese/) — Japanese language and culture notes
+- [Info](https://kuroshi.net/info/) — about the site
+
+## Topics you'll find here
+
+Photography (Sony A7CR, RX1), Japan and Japanese culture, retro computing (VAIO, Palm OS, MiniDisc, CRTs), Linux and terminal workflows, Arch Linux / Hyprland, GT-R ownership, Swiss life, cameras and lenses, music, food, travel.
+
+## What this site is not
+
+A news site. A startup blog. SEO content. AI-generated text. Everything here is written by a human who has been on the internet long enough to remember when that needed no clarification.
+
+## Tech stack
+
+- Jekyll (static site, GitHub Pages)
+- Hosted at kuroshi.net since 2026, previously a squarespace domain before they doubled prices and the internet went to shit
+
+## Feeds
+
+- [RSS](https://kuroshi.net/feed.xml)
+- [Sitemap](https://kuroshi.net/sitemap.xml)

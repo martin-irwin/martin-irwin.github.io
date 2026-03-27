@@ -4,7 +4,7 @@ permalink: /agrola.html
 ---
 
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,7 +39,6 @@ permalink: /agrola.html
     overflow-x: hidden;
   }
 
-  /* HEADER STRIP */
   #header {
     background: var(--accent);
     color: #000;
@@ -61,7 +60,6 @@ permalink: /agrola.html
     letter-spacing: 3px;
     color: #000;
   }
-
   #logo span {
     background: #000;
     color: var(--accent);
@@ -69,7 +67,6 @@ permalink: /agrola.html
     margin-left: 4px;
   }
 
-  /* LANG SWITCH */
   #lang-switch {
     display: flex;
     gap: 0;
@@ -93,7 +90,6 @@ permalink: /agrola.html
     color: var(--accent);
   }
 
-  /* STATUS BAR */
   #statusbar {
     background: #000;
     border-bottom: 1px solid var(--muted);
@@ -113,22 +109,17 @@ permalink: /agrola.html
   }
   #statusbar .dot.active { background: var(--green); animation: pulse 1.5s infinite; }
   #statusbar .dot.error { background: var(--danger); }
+  #statusbar .dot.bg { background: var(--accent); animation: pulse 2s infinite; }
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
 
-  #progress-bar {
-    height: 2px;
-    background: var(--muted);
-    width: 120px;
+  #bg-scan-indicator {
+    font-size: 10px;
+    color: var(--accent);
     display: none;
+    letter-spacing: 1px;
   }
-  #progress-fill {
-    height: 100%;
-    background: var(--accent);
-    width: 0%;
-    transition: width 0.3s;
-  }
+  #bg-scan-indicator.visible { display: inline; }
 
-  /* CONTROLS ROW */
   #controls {
     background: var(--paper);
     border-bottom: 2px solid var(--border);
@@ -146,7 +137,6 @@ permalink: /agrola.html
     letter-spacing: 1px;
   }
 
-  /* FILTER TOGGLES */
   .filter-toggle {
     border: 2px solid var(--muted);
     background: transparent;
@@ -165,7 +155,6 @@ permalink: /agrola.html
     background: var(--accent);
   }
 
-  /* VIEW SWITCH */
   #view-switch {
     margin-left: auto;
     display: flex;
@@ -188,12 +177,7 @@ permalink: /agrola.html
     color: #000;
   }
 
-  /* SORT CONTROL */
-  #sort-ctrl {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-  }
+  #sort-ctrl { display: flex; align-items: center; gap: 6px; }
   #sort-select {
     background: var(--bg);
     border: 2px solid var(--muted);
@@ -204,7 +188,6 @@ permalink: /agrola.html
     cursor: pointer;
   }
 
-  /* LOCATE BUTTON */
   #btn-locate {
     background: transparent;
     border: 2px solid var(--green);
@@ -216,10 +199,7 @@ permalink: /agrola.html
     letter-spacing: 1px;
     transition: all 0.15s;
   }
-  #btn-locate:hover {
-    background: var(--green);
-    color: #000;
-  }
+  #btn-locate:hover { background: var(--green); color: #000; }
 
   #btn-refresh {
     background: transparent;
@@ -233,23 +213,16 @@ permalink: /agrola.html
   }
   #btn-refresh:hover { border-color: var(--accent); color: var(--accent); }
 
-  /* MAIN LAYOUT */
   #main {
     display: flex;
     height: calc(100vh - 44px - 30px - 50px);
     min-height: 400px;
   }
 
-  /* MAP */
-  #map-container {
-    flex: 1;
-    display: none;
-    position: relative;
-  }
+  #map-container { flex: 1; display: none; position: relative; }
   #map-container.visible { display: block; }
   #map { width: 100%; height: 100%; }
 
-  /* LIST */
   #list-container {
     width: 100%;
     overflow-y: auto;
@@ -258,21 +231,16 @@ permalink: /agrola.html
   }
   #list-container.visible { display: block; }
 
-  /* SPLIT VIEW */
   body.view-both #list-container {
     display: block;
     width: 380px;
     min-width: 280px;
     flex-shrink: 0;
   }
-  body.view-both #map-container {
-    display: block;
-    flex: 1;
-  }
+  body.view-both #map-container { display: block; flex: 1; }
   body.view-list #list-container { display: block; width: 100%; }
   body.view-map #map-container { display: block; width: 100%; }
 
-  /* STATION CARD */
   .station-card {
     border-bottom: 1px solid #222;
     padding: 10px 12px;
@@ -284,6 +252,13 @@ permalink: /agrola.html
   .station-card.highlighted { background: #1d1d00; border-left: 3px solid var(--accent); }
   .station-card.has-e85 { border-left: 3px solid var(--green); }
   .station-card.highlighted.has-e85 { border-left: 3px solid var(--accent); }
+  .station-card.new-find {
+    animation: flashNew 1.5s ease-out;
+  }
+  @keyframes flashNew {
+    0% { background: #003322; }
+    100% { background: transparent; }
+  }
 
   .card-name {
     font-family: 'Oswald', sans-serif;
@@ -292,38 +267,17 @@ permalink: /agrola.html
     letter-spacing: 1px;
     padding-right: 60px;
   }
-  .card-addr {
-    color: var(--muted);
-    font-size: 11px;
-    margin-top: 2px;
-  }
-  .card-dist {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 13px;
-    color: var(--accent);
-    font-family: 'Oswald', sans-serif;
-  }
-  .card-tags {
-    display: flex;
-    gap: 4px;
-    flex-wrap: wrap;
-    margin-top: 6px;
-  }
+  .card-addr { color: var(--muted); font-size: 11px; margin-top: 2px; }
+  .card-dist { position: absolute; top: 10px; right: 10px; font-size: 13px; color: var(--accent); font-family: 'Oswald', sans-serif; }
+  .card-tags { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 6px; }
   .tag {
-    font-size: 10px;
-    padding: 1px 6px;
+    font-size: 10px; padding: 1px 6px;
     border: 1px solid var(--muted);
     color: var(--muted);
     letter-spacing: 0.5px;
     text-transform: uppercase;
   }
-  .tag.e85 {
-    border-color: var(--green);
-    color: var(--green);
-    font-weight: bold;
-  }
+  .tag.e85    { border-color: var(--green); color: var(--green); font-weight: bold; }
   .tag.hvo    { border-color: #00aaff; color: #00aaff; }
   .tag.adblue { border-color: #88aaff; color: #88aaff; }
   .tag.ev     { border-color: #00ffcc; color: #00ffcc; }
@@ -348,16 +302,9 @@ permalink: /agrola.html
   }
   .card-gmaps:hover { background: var(--text); }
 
-  /* EMPTY STATE */
-  #empty-state {
-    padding: 40px 20px;
-    text-align: center;
-    color: var(--muted);
-    display: none;
-  }
+  #empty-state { padding: 40px 20px; text-align: center; color: var(--muted); display: none; }
   #empty-state.visible { display: block; }
 
-  /* COUNT BAR */
   #count-bar {
     background: #000;
     border-top: 1px solid #222;
@@ -371,83 +318,22 @@ permalink: /agrola.html
   }
   #count-bar span { color: var(--accent); }
 
-  /* LOADING OVERLAY */
-  #loading-overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.92);
-    display: flex;
-    flex-direction: column;
+  /* Quick-load banner (shown while background scan runs) */
+  #scan-banner {
+    display: none;
+    background: #0d0d00;
+    border-bottom: 1px solid #333;
+    padding: 5px 12px;
+    font-size: 11px;
+    color: var(--muted);
     align-items: center;
-    justify-content: center;
-    z-index: 9999;
-    gap: 16px;
+    gap: 10px;
   }
-  #loading-overlay.hidden { display: none; }
-  .load-title {
-    font-family: 'Oswald', sans-serif;
-    font-size: 28px;
-    color: var(--accent);
-    letter-spacing: 4px;
-  }
-  .load-sub {
-    font-size: 12px;
-    color: var(--muted);
-    letter-spacing: 1px;
-  }
-  .load-bar-wrap {
-    width: 300px;
-    height: 4px;
-    background: #222;
-    border: 1px solid #333;
-  }
-  .load-bar-fill {
-    height: 100%;
-    background: var(--accent);
-    transition: width 0.4s;
-    width: 0%;
-  }
-  #load-status {
-    font-size: 11px;
-    color: var(--text);
-    max-width: 300px;
-    text-align: center;
-    min-height: 30px;
-  }
-  .load-cancel {
-    border: 1px solid var(--muted);
-    background: transparent;
-    color: var(--muted);
-    padding: 4px 12px;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 11px;
-    cursor: pointer;
-    margin-top: 8px;
-  }
-  .load-cancel:hover { border-color: var(--danger); color: var(--danger); }
+  #scan-banner.visible { display: flex; }
+  #scan-progress-text { color: var(--accent); }
+  #scan-bar-wrap { flex: 1; max-width: 200px; height: 2px; background: #222; }
+  #scan-bar-fill { height: 100%; background: var(--accent); width: 0%; transition: width 0.3s; }
 
-  /* Map popup */
-  .leaflet-popup-content-wrapper {
-    background: var(--paper);
-    border: 1px solid var(--border);
-    border-radius: 0;
-    color: var(--text);
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 12px;
-  }
-  .leaflet-popup-tip { background: var(--paper); }
-  .popup-name { font-family: 'Oswald', sans-serif; font-size: 15px; margin-bottom: 4px; }
-  .popup-addr { color: var(--muted); font-size: 11px; margin-bottom: 6px; }
-
-  /* Scrollbar */
-  ::-webkit-scrollbar { width: 4px; }
-  ::-webkit-scrollbar-track { background: var(--bg); }
-  ::-webkit-scrollbar-thumb { background: var(--muted); }
-
-  /* Hide the default Leaflet Routing Machine sidebar */
-  .leaflet-routing-container { display: none !important; }
-
-  /* Route info bar that appears when a route is drawn */
   #route-bar {
     display: none;
     background: #000;
@@ -473,7 +359,6 @@ permalink: /agrola.html
   }
   #btn-clear-route:hover { background: var(--danger); color: #000; }
 
-  /* Card route button */
   .card-route {
     display: inline-block;
     margin-top: 6px;
@@ -490,7 +375,24 @@ permalink: /agrola.html
   }
   .card-route:hover { background: var(--accent); color: #000; }
 
-  /* Japanese font fallback for JP mode */
+  .leaflet-popup-content-wrapper {
+    background: var(--paper);
+    border: 1px solid var(--border);
+    border-radius: 0;
+    color: var(--text);
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 12px;
+  }
+  .leaflet-popup-tip { background: var(--paper); }
+  .popup-name { font-family: 'Oswald', sans-serif; font-size: 15px; margin-bottom: 4px; }
+  .popup-addr { color: var(--muted); font-size: 11px; margin-bottom: 6px; }
+
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--muted); }
+
+  .leaflet-routing-container { display: none !important; }
+
   body.lang-ja .card-name,
   body.lang-ja .card-addr,
   body.lang-ja .tag,
@@ -502,21 +404,12 @@ permalink: /agrola.html
 </head>
 <body class="view-both">
 
-<!-- LOADING OVERLAY -->
-<div id="loading-overlay">
-  <div class="load-title">AGROLA<span style="color:#fff">●</span>E85</div>
-  <div class="load-sub" data-i18n="loading_init">INITIALISIERUNG — STANDORTE WERDEN GELADEN</div>
-  <div class="load-bar-wrap"><div class="load-bar-fill" id="load-bar"></div></div>
-  <div id="load-status"></div>
-  <button class="load-cancel" id="btn-cancel-load">ABBRECHEN</button>
-</div>
-
 <!-- HEADER -->
 <div id="header">
   <div id="logo">AGROLA <span>E85</span></div>
   <div id="lang-switch">
-    <button onclick="setLang('de')" class="active" data-lang="de">DE</button>
-    <button onclick="setLang('en')" data-lang="en">EN</button>
+    <button onclick="setLang('de')" data-lang="de">DE</button>
+    <button onclick="setLang('en')" data-lang="en" class="active">EN</button>
     <button onclick="setLang('ja')" data-lang="ja">JA</button>
   </div>
 </div>
@@ -524,16 +417,24 @@ permalink: /agrola.html
 <!-- STATUS BAR -->
 <div id="statusbar">
   <div><span class="dot" id="dot-data"></span><span id="status-text">—</span></div>
-  <div id="progress-bar"><div id="progress-fill"></div></div>
-  <div id="stat-total"><span id="n-total">0</span> <span data-i18n="stations">STANDORTE</span></div>
+  <div id="stat-total"><span id="n-total">0</span> <span data-i18n="stations">STATIONS</span></div>
   <div id="stat-e85"><span id="n-e85" style="color:var(--green)">0</span> E85</div>
-  <div id="stat-loc" style="color:var(--muted);display:none"><span data-i18n="your_loc">STANDORT</span>: <span id="loc-display">—</span></div>
+  <div id="stat-loc" style="color:var(--muted);display:none"><span data-i18n="your_loc">YOUR LOC</span>: <span id="loc-display">—</span></div>
+  <div id="bg-scan-indicator">↻ <span id="bg-scan-text">SCANNING...</span></div>
+</div>
+
+<!-- BACKGROUND SCAN PROGRESS BANNER -->
+<div id="scan-banner">
+  <span style="color:var(--muted);letter-spacing:1px">BACKGROUND SCAN</span>
+  <div id="scan-bar-wrap"><div id="scan-bar-fill"></div></div>
+  <span id="scan-progress-text">0 / 0</span>
+  <span id="scan-new-found" style="color:var(--green);display:none">+<span id="scan-new-count">0</span> NEW E85</span>
 </div>
 
 <!-- CONTROLS -->
 <div id="controls">
   <span class="ctrl-label" data-i18n="filter">FILTER</span>
-  <button class="filter-toggle" id="tog-e85" onclick="toggleFilter('e85')">E85</button>
+  <button class="filter-toggle on" id="tog-e85" onclick="toggleFilter('e85')">E85</button>
   <button class="filter-toggle" id="tog-hvo" onclick="toggleFilter('hvo')">HVO</button>
   <button class="filter-toggle" id="tog-adblue" onclick="toggleFilter('adblue')">AdBlue</button>
   <button class="filter-toggle" id="tog-ev" onclick="toggleFilter('ev')">EV⚡</button>
@@ -548,18 +449,18 @@ permalink: /agrola.html
   <div id="sort-ctrl">
     <span class="ctrl-label" data-i18n="sort">SORT</span>
     <select id="sort-select" onchange="sortAndRender()">
-      <option value="distance" data-i18n="by_distance">ENTFERNUNG</option>
+      <option value="distance" data-i18n="by_distance">DISTANCE</option>
       <option value="name" data-i18n="by_name">NAME</option>
     </select>
   </div>
 
-  <button id="btn-locate" onclick="locateUser()">⌖ <span data-i18n="locate">ORTEN</span></button>
-  <button id="btn-refresh" onclick="confirmRefresh()">↻ <span data-i18n="refresh">AKTUALISIEREN</span></button>
+  <button id="btn-locate" onclick="locateUser()">⌖ <span data-i18n="locate">LOCATE ME</span></button>
+  <button id="btn-refresh" onclick="confirmRefresh()">↻ <span data-i18n="refresh">REFRESH</span></button>
 
   <div id="view-switch">
-    <button onclick="setView('list')" data-view="list" data-i18n="view_list">LISTE</button>
-    <button onclick="setView('both')" data-view="both" class="active" data-i18n="view_both">BEIDE</button>
-    <button onclick="setView('map')" data-view="map" data-i18n="view_map">KARTE</button>
+    <button onclick="setView('list')" data-view="list" data-i18n="view_list">LIST</button>
+    <button onclick="setView('both')" data-view="both" class="active" data-i18n="view_both">BOTH</button>
+    <button onclick="setView('map')" data-view="map" data-i18n="view_map">MAP</button>
   </div>
 </div>
 
@@ -567,7 +468,7 @@ permalink: /agrola.html
 <div id="main">
   <div id="list-container" class="visible">
     <div id="station-list"></div>
-    <div id="empty-state"><span data-i18n="no_results">KEINE ERGEBNISSE</span></div>
+    <div id="empty-state"><span data-i18n="no_results">NO RESULTS</span></div>
   </div>
   <div id="map-container" class="visible">
     <div id="map"></div>
@@ -578,11 +479,11 @@ permalink: /agrola.html
 <div id="route-bar">
   <div>
     <div class="route-stat" id="route-dist">—</div>
-    <div class="route-label" data-i18n="route_dist">STRECKE</div>
+    <div class="route-label" data-i18n="route_dist">DISTANCE</div>
   </div>
   <div>
     <div class="route-stat" id="route-time">—</div>
-    <div class="route-label" data-i18n="route_time">FAHRZEIT</div>
+    <div class="route-label" data-i18n="route_time">DRIVE TIME</div>
   </div>
   <div id="route-dest" style="color:var(--text);font-size:12px"></div>
   <button id="btn-clear-route" onclick="clearRoute()">✕ ROUTE</button>
@@ -590,7 +491,7 @@ permalink: /agrola.html
 
 <!-- BOTTOM COUNT -->
 <div id="count-bar">
-  <span><span data-i18n="showing">ANZEIGE</span>: <span id="n-showing">0</span> / <span id="n-total-bot">0</span></span>
+  <span><span data-i18n="showing">SHOWING</span>: <span id="n-showing">0</span> / <span id="n-total-bot">0</span></span>
 </div>
 
 <script>
@@ -599,150 +500,82 @@ permalink: /agrola.html
 // ═══════════════════════════════════════════════════════
 const I18N = {
   de: {
-    loading_init: 'INITIALISIERUNG — STANDORTE WERDEN GELADEN',
-    stations: 'STANDORTE',
-    your_loc: 'STANDORT',
-    filter: 'FILTER',
-    sort: 'SORT',
-    by_distance: 'ENTFERNUNG',
-    by_name: 'NAME',
-    locate: 'ORTEN',
-    refresh: 'AKTUALISIEREN',
-    view_list: 'LISTE',
-    view_both: 'BEIDE',
-    view_map: 'KARTE',
-    no_results: 'KEINE ERGEBNISSE',
-    showing: 'ANZEIGE',
-    navigate: 'NAVIGIEREN',
-    status_loading: 'LADE STANDORTE...',
-    status_done: 'DATEN GELADEN',
-    status_error: 'FEHLER',
-    status_idle: 'BEREIT',
-    route_dist: 'STRECKE',
-    route_time: 'FAHRZEIT',
-    routing: 'ROUTE BERECHNEN',
-    confirm_refresh: 'Alle Standortdaten neu laden? Dies kann ~1-2 Minuten dauern.',
-    km_away: 'km',
-    no_location: 'Standort nicht verfügbar',
-    details_e85: 'E85 Bioethanol',
-    details_hvo: 'HVO Diesel',
-    details_h2: 'Wasserstoff',
-    details_adblue: 'AdBlue®',
-    details_ev: 'Elektro-Ladestation',
-    fuels: 'KRAFTSTOFFE',
+    stations: 'STANDORTE', your_loc: 'STANDORT', filter: 'FILTER', sort: 'SORT',
+    by_distance: 'ENTFERNUNG', by_name: 'NAME', locate: 'ORTEN', refresh: 'AKTUALISIEREN',
+    view_list: 'LISTE', view_both: 'BEIDE', view_map: 'KARTE', no_results: 'KEINE ERGEBNISSE',
+    showing: 'ANZEIGE', navigate: 'NAVIGIEREN', status_loading: 'LADEN...', status_done: 'BEREIT',
+    status_error: 'FEHLER', status_idle: 'BEREIT', route_dist: 'STRECKE', route_time: 'FAHRZEIT',
+    confirm_refresh: 'Alle Standortdaten neu laden? (Full scan ~1-2 min)',
+    km_away: 'km', no_location: 'Standort nicht verfügbar',
   },
   en: {
-    loading_init: 'INITIALISING — LOADING STATIONS',
-    stations: 'STATIONS',
-    your_loc: 'YOUR LOC',
-    filter: 'FILTER',
-    sort: 'SORT',
-    by_distance: 'DISTANCE',
-    by_name: 'NAME',
-    locate: 'LOCATE ME',
-    refresh: 'REFRESH',
-    view_list: 'LIST',
-    view_both: 'BOTH',
-    view_map: 'MAP',
-    no_results: 'NO RESULTS',
-    showing: 'SHOWING',
-    navigate: 'NAVIGATE',
-    status_loading: 'LOADING STATIONS...',
-    status_done: 'DATA LOADED',
-    status_error: 'ERROR',
-    status_idle: 'READY',
-    route_dist: 'DISTANCE',
-    route_time: 'DRIVE TIME',
-    routing: 'ROUTING',
-    confirm_refresh: 'Reload all station data? This may take ~1-2 minutes.',
-    km_away: 'km',
-    no_location: 'Location unavailable',
-    details_e85: 'E85 Bioethanol',
-    details_hvo: 'HVO Diesel',
-    details_h2: 'Hydrogen',
-    details_adblue: 'AdBlue®',
-    details_ev: 'EV Charging',
-    fuels: 'FUELS',
+    stations: 'STATIONS', your_loc: 'YOUR LOC', filter: 'FILTER', sort: 'SORT',
+    by_distance: 'DISTANCE', by_name: 'NAME', locate: 'LOCATE ME', refresh: 'REFRESH',
+    view_list: 'LIST', view_both: 'BOTH', view_map: 'MAP', no_results: 'NO RESULTS',
+    showing: 'SHOWING', navigate: 'NAVIGATE', status_loading: 'LOADING...', status_done: 'READY',
+    status_error: 'ERROR', status_idle: 'READY', route_dist: 'DISTANCE', route_time: 'DRIVE TIME',
+    confirm_refresh: 'Reload all station data? Full background scan ~1-2 min.',
+    km_away: 'km', no_location: 'Location unavailable',
   },
   ja: {
-    loading_init: '初期化中 — スタンドを読み込んでいます',
-    stations: 'スタンド',
-    your_loc: '現在地',
-    filter: 'フィルター',
-    sort: '並び替え',
-    by_distance: '距離順',
-    by_name: '名前順',
-    locate: '現在地取得',
-    refresh: '更新',
-    view_list: 'リスト',
-    view_both: '両方',
-    view_map: '地図',
-    no_results: '結果なし',
-    showing: '表示中',
-    navigate: 'ナビ',
-    status_loading: 'スタンドを読み込み中...',
-    status_done: 'データ読み込み完了',
-    status_error: 'エラー',
-    status_idle: '準備完了',
-    route_dist: '距離',
-    route_time: '所要時間',
-    routing: 'ルート計算',
-    confirm_refresh: 'スタンドデータを再読み込みしますか？約1〜2分かかります。',
-    km_away: 'km',
-    no_location: '現在地を取得できません',
-    details_e85: 'E85 バイオエタノール',
-    details_hvo: 'HVO ディーゼル',
-    details_h2: '水素',
-    details_adblue: 'AdBlue®',
-    details_ev: 'EV充電',
-    fuels: '燃料',
+    stations: 'スタンド', your_loc: '現在地', filter: 'フィルター', sort: '並び替え',
+    by_distance: '距離順', by_name: '名前順', locate: '現在地取得', refresh: '更新',
+    view_list: 'リスト', view_both: '両方', view_map: '地図', no_results: '結果なし',
+    showing: '表示中', navigate: 'ナビ', status_loading: '読込中...', status_done: '準備完了',
+    status_error: 'エラー', status_idle: '準備完了', route_dist: '距離', route_time: '所要時間',
+    confirm_refresh: 'スタンドデータを再読み込みしますか？',
+    km_away: 'km', no_location: '現在地を取得できません',
   }
 };
-let lang = 'de';
+let lang = 'en';
 
-function t(key) { return (I18N[lang] && I18N[lang][key]) || I18N['de'][key] || key; }
+function t(key) { return (I18N[lang] && I18N[lang][key]) || I18N['en'][key] || key; }
 
 function setLang(l) {
   lang = l;
   document.querySelectorAll('[data-lang]').forEach(b => b.classList.toggle('active', b.dataset.lang === l));
-  document.body.className = document.body.className.replace(/lang-\w+/, '').trim() + ' lang-' + l;
+  document.body.className = document.body.className.replace(/lang-\w+/g, '').trim() + ' lang-' + l;
   applyI18n();
   sortAndRender();
 }
 
 function applyI18n() {
   document.querySelectorAll('[data-i18n]').forEach(el => {
-    const key = el.dataset.i18n;
-    el.textContent = t(key);
+    el.textContent = t(el.dataset.i18n);
   });
   document.querySelector('#sort-select option[value="distance"]').textContent = t('by_distance');
   document.querySelector('#sort-select option[value="name"]').textContent = t('by_name');
 }
 
 // ═══════════════════════════════════════════════════════
-// STATE
+// CONSTANTS
 // ═══════════════════════════════════════════════════════
-const STORAGE_KEY = 'agrola_stations_v6';
 const API_KEY = 'xZGQPdiHSCKftrVbWn2W718DdL30ri';
 const BASE_URL = `https://locator.uberall.com/api/storefinders/${API_KEY}`;
 
-let allStations = [];
+// Known E85 station IDs (verified from cache)
+const KNOWN_E85_IDS = [1568624, 1568742, 1568842, 1568859, 1568878, 1568965, 1569030];
+
+const CACHE_E85    = 'agrola_e85_known_v1';   // known E85 — 24h TTL
+const CACHE_FULL   = 'agrola_full_v7';         // full scan — 7 day TTL
+const TTL_E85      = 86400000;                 // 24 hours
+const TTL_FULL     = 86400000 * 7;             // 7 days
+
+// ═══════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════
+let allStations = [];          // currently displayed stations
+let fullStationMap = new Map(); // id -> station, full dataset
 let userLat = null, userLng = null;
-let activeFilters = new Set();
+let activeFilters = new Set(['e85']); // E85 on by default
 let currentView = 'both';
 let map = null, markers = {};
 let routeControl = null, userMarker = null;
-let cancelLoad = false;
+let bgScanNewCount = 0;
 
 // ═══════════════════════════════════════════════════════
-// FUEL DETECTION — keywords in services/labels
+// FUEL DETECTION
 // ═══════════════════════════════════════════════════════
-// Exact service strings from Agrola/Uberall API:
-// "Diesel", "Bleifrei 95", "Bleifrei 98", "Diesel cleanline",
-// "AdBlue LKW", "AdBlue PW", "HVO", "E-Ladestation", "CNG", "LPG",
-// "LKW geeignet", "Sattelschlepper geeignet", "3 - 4 m", "3 m",
-// "selfwash (1 Platz)", "selfwash (2 Plätze)", "selfwash (3 Plätze)", "selfwash (6 Plätze)",
-// "carwash (Portalwaschanlage)", "TopShop", "Shop", "LAVEBA Shop"
 function detectFuels(station) {
   const svcs = new Set(Array.isArray(station.services) ? station.services : []);
   return {
@@ -757,130 +590,228 @@ function detectFuels(station) {
     wash:    svcs.has('carwash (Portalwaschanlage)') || [...svcs].some(s => s.startsWith('selfwash')),
     shop:    svcs.has('TopShop') || svcs.has('Shop') || svcs.has('LAVEBA Shop'),
     lkw:     svcs.has('LKW geeignet') || svcs.has('Sattelschlepper geeignet'),
-    // No E85 in the dataset! The closest would be checked via description
     e85:     [...svcs].some(s => s.toLowerCase().includes('e85') || s.toLowerCase().includes('ethanol')),
   };
 }
 
-// ═══════════════════════════════════════════════════════
-// FETCH ALL STATIONS
-// ═══════════════════════════════════════════════════════
-async function loadStations(forceRefresh = false) {
-  cancelLoad = false;
+function buildStation(detail, fallback) {
+  return {
+    id:       detail.id || fallback.id,
+    name:     detail.name || fallback.name,
+    lat:      parseFloat(detail.lat || fallback.lat),
+    lng:      parseFloat(detail.lng || fallback.lng),
+    city:     detail.city || fallback.city,
+    street:   detail.streetAndNumber || fallback.streetAndNumber || '',
+    zip:      detail.zip || fallback.zip,
+    fuels:    detectFuels(detail),
+    services: detail.services || [],
+    raw:      detail,
+  };
+}
 
-  // Try cache first
-  if (!forceRefresh) {
+async function fetchStationDetail(id) {
+  const dr = await fetch(`${BASE_URL}/locations/${id}?v=20241126`);
+  const dd = await dr.json();
+  return dd.response || null;
+}
+
+// ═══════════════════════════════════════════════════════
+// PHASE 1: FAST — load known E85 stations
+// ═══════════════════════════════════════════════════════
+async function loadKnownE85() {
+  // Check cache first
+  try {
+    const cached = localStorage.getItem(CACHE_E85);
+    if (cached) {
+      const data = JSON.parse(cached);
+      if (Date.now() - data.ts < TTL_E85) {
+        data.stations.forEach(s => fullStationMap.set(s.id, s));
+        allStations = [...fullStationMap.values()];
+        setStatus('idle');
+        sortAndRender();
+        updateCounts();
+        return true; // loaded from cache
+      }
+    }
+  } catch(e) {}
+
+  setStatus('loading');
+  document.getElementById('status-text').textContent = 'VERIFYING E85 STATIONS...';
+
+  // Fetch all known IDs in parallel
+  const results = await Promise.allSettled(
+    KNOWN_E85_IDS.map(id => fetchStationDetail(id))
+  );
+
+  const stations = [];
+  results.forEach((r, i) => {
+    if (r.status === 'fulfilled' && r.value) {
+      const s = buildStation(r.value, { id: KNOWN_E85_IDS[i] });
+      stations.push(s);
+      fullStationMap.set(s.id, s);
+    }
+  });
+
+  // Cache E85 stations
+  try {
+    localStorage.setItem(CACHE_E85, JSON.stringify({ ts: Date.now(), stations }));
+  } catch(e) {}
+
+  allStations = [...fullStationMap.values()];
+  setStatus('idle');
+  sortAndRender();
+  updateCounts();
+  return false; // fetched fresh
+}
+
+// ═══════════════════════════════════════════════════════
+// PHASE 2: BACKGROUND — full scan for new E85 stations
+// ═══════════════════════════════════════════════════════
+async function backgroundFullScan(force = false) {
+  // Check if we already have a recent full scan
+  if (!force) {
     try {
-      const cached = localStorage.getItem(STORAGE_KEY);
+      const cached = localStorage.getItem(CACHE_FULL);
       if (cached) {
         const data = JSON.parse(cached);
-        if (Date.now() - data.ts < 86400000 * 7) { // 7 days
-          allStations = data.stations;
-          hideLoading();
-          setStatus('idle');
-          sortAndRender();
-          updateCounts();
-          return;
+        if (Date.now() - data.ts < TTL_FULL) {
+          // Merge cached full data into map (for non-E85 stations)
+          let merged = false;
+          data.stations.forEach(s => {
+            if (!fullStationMap.has(s.id)) {
+              fullStationMap.set(s.id, s);
+              merged = true;
+            }
+          });
+          if (merged) {
+            allStations = [...fullStationMap.values()];
+            sortAndRender();
+            updateCounts();
+          }
+          return; // full scan still valid
         }
       }
     } catch(e) {}
   }
 
-  showLoading();
-  setStatus('loading');
+  // Run background scan
+  const banner = document.getElementById('scan-banner');
+  const bgInd  = document.getElementById('bg-scan-indicator');
+  banner.classList.add('visible');
+  bgInd.classList.add('visible');
+  bgScanNewCount = 0;
 
   try {
-    setLoadStatus(t('status_loading'));
-    setLoadProgress(5);
-
-    // Fetch all locations — request services + key fields explicitly
-    const allFields = ['id','name','lat','lng','city','streetAndNumber','zip','country',
-      'services','labels','categories','descriptionLong','descriptionShort'].map(f=>`fieldMask=${f}`).join('&');
+    const allFields = ['id','name','lat','lng','city','streetAndNumber','zip'].map(f=>`fieldMask=${f}`).join('&');
     const resp = await fetch(`${BASE_URL}/locations/all?v=20241126&${allFields}`);
     const data = await resp.json();
     const locs = data.response?.locations || [];
-    
-    setLoadProgress(20);
 
-    // /all endpoint never includes services — must fetch each station individually
-    const results = [];
-    setLoadStatus(`${locs.length} Standorte gefunden. Details werden geladen...`);
+    // Skip IDs we already have fresh data for
+    const knownIds = new Set(fullStationMap.keys());
+    const toFetch = locs.filter(l => !knownIds.has(l.id));
 
-    for (let i = 0; i < locs.length; i++) {
-      if (cancelLoad) break;
-      const loc = locs[i];
+    document.getElementById('scan-progress-text').textContent = `0 / ${toFetch.length}`;
+
+    for (let i = 0; i < toFetch.length; i++) {
+      const loc = toFetch[i];
       let detail = loc;
       try {
         const dr = await fetch(`${BASE_URL}/locations/${loc.id}?v=20241126`);
         const dd = await dr.json();
-        // API returns location data directly in dd.response, NOT dd.response.location
         detail = dd.response || loc;
-      } catch(e) { /* use basic loc data, services will be empty */ }
+      } catch(e) {}
 
-      results.push({
-        id: loc.id,
-        name: detail.name || loc.name,
-        lat: parseFloat(detail.lat || loc.lat),
-        lng: parseFloat(detail.lng || loc.lng),
-        city: detail.city || loc.city,
-        street: detail.streetAndNumber || loc.streetAndNumber || '',
-        zip: detail.zip || loc.zip,
-        fuels: detectFuels(detail),
-        services: detail.services || [],
-        raw: detail,
-      });
+      const s = buildStation(detail, loc);
+      const wasNew = !fullStationMap.has(s.id);
+      const hadE85Before = fullStationMap.get(s.id)?.fuels?.e85;
 
-      setLoadProgress(20 + Math.floor((i / locs.length) * 75));
-      setLoadStatus(`${i+1} / ${locs.length} — ${loc.name || ''}`);
-      if (i % 5 === 4) await new Promise(r => setTimeout(r, 80));
+      fullStationMap.set(s.id, s);
+
+      // If this is a newly discovered E85 station, surface it immediately
+      if (s.fuels.e85 && (wasNew || !hadE85Before)) {
+        bgScanNewCount++;
+        document.getElementById('scan-new-count').textContent = bgScanNewCount;
+        document.getElementById('scan-new-found').style.display = '';
+
+        // Update known E85 cache with the new find
+        try {
+          const e85cached = localStorage.getItem(CACHE_E85);
+          const e85data = e85cached ? JSON.parse(e85cached) : { ts: Date.now(), stations: [] };
+          if (!e85data.stations.find(x => x.id === s.id)) {
+            e85data.stations.push(s);
+            localStorage.setItem(CACHE_E85, JSON.stringify(e85data));
+          }
+        } catch(e) {}
+
+        allStations = [...fullStationMap.values()];
+        sortAndRender(s.id); // pass id to flash the new card
+        updateCounts();
+      }
+
+      // Update progress
+      const pct = Math.floor(((i+1) / toFetch.length) * 100);
+      document.getElementById('scan-bar-fill').style.width = pct + '%';
+      document.getElementById('scan-progress-text').textContent = `${i+1} / ${toFetch.length}`;
+
+      // Small yield every 10 stations to keep UI responsive
+      if (i % 10 === 9) await new Promise(r => setTimeout(r, 50));
     }
 
-    setLoadProgress(98);
-    allStations = results;
-
-    // Cache
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify({ ts: Date.now(), stations: results }));
-    } catch(e) {}
-
-    setLoadProgress(100);
-    setLoadStatus(t('status_done'));
-    await new Promise(r => setTimeout(r, 500));
-    hideLoading();
-    setStatus('idle');
+    // Merge any updated data into allStations
+    allStations = [...fullStationMap.values()];
     sortAndRender();
     updateCounts();
 
+    // Cache full scan
+    try {
+      localStorage.setItem(CACHE_FULL, JSON.stringify({
+        ts: Date.now(),
+        stations: [...fullStationMap.values()]
+      }));
+    } catch(e) {}
+
   } catch(err) {
-    console.error(err);
-    setStatus('error');
-    setLoadStatus('FEHLER: ' + err.message);
-    document.getElementById('btn-cancel-load').textContent = 'SCHLIESSEN';
+    console.error('Background scan error:', err);
+  }
+
+  banner.classList.remove('visible');
+  bgInd.classList.remove('visible');
+}
+
+// ═══════════════════════════════════════════════════════
+// BOOT SEQUENCE
+// ═══════════════════════════════════════════════════════
+async function boot() {
+  await loadKnownE85();
+  // Start background scan without awaiting — runs silently
+  backgroundFullScan();
+}
+
+function confirmRefresh() {
+  if (confirm(t('confirm_refresh'))) {
+    localStorage.removeItem(CACHE_E85);
+    localStorage.removeItem(CACHE_FULL);
+    fullStationMap.clear();
+    allStations = [];
+    sortAndRender();
+    boot();
   }
 }
 
 // ═══════════════════════════════════════════════════════
 // UI HELPERS
 // ═══════════════════════════════════════════════════════
-function showLoading() { document.getElementById('loading-overlay').classList.remove('hidden'); }
-function hideLoading() { document.getElementById('loading-overlay').classList.add('hidden'); }
-function setLoadStatus(msg) { document.getElementById('load-status').textContent = msg; }
-function setLoadProgress(pct) {
-  document.getElementById('load-bar').style.width = pct + '%';
-}
 function setStatus(state) {
   const dot = document.getElementById('dot-data');
   const txt = document.getElementById('status-text');
   dot.className = 'dot ' + (state === 'loading' ? 'active' : state === 'error' ? 'error' : '');
   txt.textContent = t('status_' + state);
-
-  const pb = document.getElementById('progress-bar');
-  pb.style.display = state === 'loading' ? 'block' : 'none';
 }
 
 function updateCounts() {
-  const e85count = allStations.filter(s => s.fuels.e85).length;
-  document.getElementById('n-total').textContent = allStations.length;
+  const e85count = [...fullStationMap.values()].filter(s => s.fuels.e85).length;
+  document.getElementById('n-total').textContent = fullStationMap.size;
   document.getElementById('n-e85').textContent = e85count;
 }
 
@@ -888,17 +819,12 @@ function updateCounts() {
 // GEOLOCATION
 // ═══════════════════════════════════════════════════════
 function locateUser() {
-  if (!navigator.geolocation) {
-    alert(t('no_location'));
-    return;
-  }
+  if (!navigator.geolocation) { alert(t('no_location')); return; }
   navigator.geolocation.getCurrentPosition(pos => {
     userLat = pos.coords.latitude;
     userLng = pos.coords.longitude;
     document.getElementById('stat-loc').style.display = '';
-    document.getElementById('loc-display').textContent =
-      userLat.toFixed(4) + ', ' + userLng.toFixed(4);
-
+    document.getElementById('loc-display').textContent = userLat.toFixed(4) + ', ' + userLng.toFixed(4);
     if (map) {
       map.setView([userLat, userLng], 11);
       if (userMarker) map.removeLayer(userMarker);
@@ -910,73 +836,40 @@ function locateUser() {
         zIndexOffset: 1000
       }).addTo(map).bindPopup('<span style="color:var(--green)">◉ YOU</span>');
     }
-    // Switch sort to distance
     document.getElementById('sort-select').value = 'distance';
     sortAndRender();
   }, () => alert(t('no_location')));
 }
 
 function routeTo(station) {
-  if (userLat === null) {
-    alert(t('no_location'));
-    return;
-  }
+  if (userLat === null) { alert(t('no_location')); return; }
   if (!map) return;
-
-  // Clear existing route
   clearRoute();
-
-  // Switch to map/both view so route is visible
   if (currentView === 'list') setView('both');
-
   routeControl = L.Routing.control({
-    waypoints: [
-      L.latLng(userLat, userLng),
-      L.latLng(station.lat, station.lng)
-    ],
-    router: L.Routing.osrmv1({
-      serviceUrl: 'https://router.project-osrm.org/route/v1',
-      profile: 'driving'
-    }),
+    waypoints: [L.latLng(userLat, userLng), L.latLng(station.lat, station.lng)],
+    router: L.Routing.osrmv1({ serviceUrl: 'https://router.project-osrm.org/route/v1', profile: 'driving' }),
     lineOptions: {
-      styles: [
-        { color: '#000', weight: 8, opacity: 0.4 },
-        { color: '#e8e000', weight: 3, opacity: 1, dashArray: null }
-      ],
-      extendToWaypoints: true,
-      missingRouteTolerance: 0
+      styles: [{ color: '#000', weight: 8, opacity: 0.4 }, { color: '#e8e000', weight: 3, opacity: 1 }],
+      extendToWaypoints: true, missingRouteTolerance: 0
     },
-    show: false,        // hide default panel
-    addWaypoints: false,
-    routeWhileDragging: false,
-    fitSelectedRoutes: true,
-    createMarker: () => null, // use our own markers
+    show: false, addWaypoints: false, routeWhileDragging: false,
+    fitSelectedRoutes: true, createMarker: () => null,
   }).addTo(map);
-
   routeControl.on('routesfound', function(e) {
     const route = e.routes[0].summary;
     const km = (route.totalDistance / 1000).toFixed(1);
     const mins = Math.round(route.totalTime / 60);
     const hrs = Math.floor(mins / 60);
-    const timeStr = hrs > 0 ? `${hrs}h ${mins % 60}min` : `${mins} min`;
-
     document.getElementById('route-dist').textContent = km + ' km';
-    document.getElementById('route-time').textContent = timeStr;
+    document.getElementById('route-time').textContent = hrs > 0 ? `${hrs}h ${mins % 60}min` : `${mins} min`;
     document.getElementById('route-dest').textContent = station.name;
-    document.getElementById('route-bar').classList.add('visible');
-  });
-
-  routeControl.on('routingerror', function() {
-    document.getElementById('route-dest').textContent = 'Routing fehlgeschlagen';
     document.getElementById('route-bar').classList.add('visible');
   });
 }
 
 function clearRoute() {
-  if (routeControl) {
-    map.removeControl(routeControl);
-    routeControl = null;
-  }
+  if (routeControl) { map.removeControl(routeControl); routeControl = null; }
   document.getElementById('route-bar').classList.remove('visible');
 }
 
@@ -1000,38 +893,30 @@ function toggleFilter(f) {
 
 function stationMatchesFilters(s) {
   if (activeFilters.size === 0) return true;
-  for (const f of activeFilters) {
-    if (s.fuels[f]) return true;
-  }
+  for (const f of activeFilters) { if (s.fuels[f]) return true; }
   return false;
 }
 
 // ═══════════════════════════════════════════════════════
 // RENDER
 // ═══════════════════════════════════════════════════════
-function sortAndRender() {
-  let stations = allStations.filter(stationMatchesFilters);
-
-  // Add distances
+function sortAndRender(flashId = null) {
+  let stations = [...fullStationMap.values()].filter(stationMatchesFilters);
   stations = stations.map(s => ({
     ...s,
     dist: (userLat !== null && !isNaN(s.lat) && !isNaN(s.lng))
-      ? haversine(userLat, userLng, s.lat, s.lng)
-      : null
+      ? haversine(userLat, userLng, s.lat, s.lng) : null
   }));
-
   const sortBy = document.getElementById('sort-select').value;
   if (sortBy === 'distance' && userLat !== null) {
     stations.sort((a,b) => (a.dist ?? 9999) - (b.dist ?? 9999));
   } else {
     stations.sort((a,b) => (a.name || '').localeCompare(b.name || ''));
   }
-
-  renderList(stations);
+  renderList(stations, flashId);
   renderMap(stations);
-
   document.getElementById('n-showing').textContent = stations.length;
-  document.getElementById('n-total-bot').textContent = allStations.length;
+  document.getElementById('n-total-bot').textContent = fullStationMap.size;
   document.getElementById('empty-state').classList.toggle('visible', stations.length === 0);
 }
 
@@ -1055,50 +940,42 @@ function mapsUrl(s) {
   return `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}`;
 }
 
-function renderList(stations) {
+function renderList(stations, flashId = null) {
   const container = document.getElementById('station-list');
   container.innerHTML = stations.map(s => {
-    const addr = [s.street, s.streetNo, s.zip, s.city].filter(Boolean).join(' ');
+    const addr = [s.street, s.zip, s.city].filter(Boolean).join(' ');
     const distStr = s.dist !== null ? `${s.dist.toFixed(1)} ${t('km_away')}` : '';
-    const hasE85 = s.fuels.e85;
     return `
-    <div class="station-card ${hasE85 ? 'has-e85' : ''}" onclick="highlightStation(${s.id})" id="card-${s.id}">
+    <div class="station-card ${s.fuels.e85 ? 'has-e85' : ''} ${flashId === s.id ? 'new-find' : ''}"
+         onclick="highlightStation(${s.id})" id="card-${s.id}">
       <div class="card-name">${s.name || '—'}</div>
       <div class="card-addr">${addr}</div>
       ${distStr ? `<div class="card-dist">${distStr}</div>` : ''}
       <div class="card-tags">${fuelTags(s.fuels)}</div>
-      <a class="card-gmaps" href="${mapsUrl(s)}" target="_blank" onclick="event.stopPropagation()">▶ ${t('navigate')}</a>${userLat !== null ? `<button class="card-route" onclick="event.stopPropagation();routeTo(allStations.find(x=>x.id===${s.id}))">⊕ ROUTE</button>` : ''}
+      <a class="card-gmaps" href="${mapsUrl(s)}" target="_blank" onclick="event.stopPropagation()">▶ ${t('navigate')}</a>${userLat !== null ? `<button class="card-route" onclick="event.stopPropagation();routeTo(fullStationMap.get(${s.id}))">⊕ ROUTE</button>` : ''}
     </div>`;
   }).join('');
 }
 
 function renderMap(stations) {
   if (!map) return;
-
-  // Clear old markers
   Object.values(markers).forEach(m => map.removeLayer(m));
   markers = {};
-
   stations.forEach(s => {
     if (isNaN(s.lat) || isNaN(s.lng)) return;
-    const isE85 = s.fuels.e85;
-    const color = isE85 ? '#00ff88' : '#e8e000';
+    const color = s.fuels.e85 ? '#00ff88' : '#e8e000';
     const icon = L.divIcon({
       html: `<div style="width:10px;height:10px;background:${color};border:2px solid #000;transform:rotate(45deg)"></div>`,
-      iconSize: [10,10],
-      iconAnchor: [5,5],
-      className: ''
+      iconSize: [10,10], iconAnchor: [5,5], className: ''
     });
-    const addr = [s.street, s.streetNo, s.zip, s.city].filter(Boolean).join(' ');
-    const marker = L.marker([s.lat, s.lng], { icon })
-      .addTo(map)
-      .bindPopup(`
-        <div class="popup-name">${s.name}</div>
-        <div class="popup-addr">${addr}</div>
-        <div style="margin:4px 0">${fuelTags(s.fuels)}</div>
-        <a href="${mapsUrl(s)}" target="_blank" class="card-gmaps">▶ ${t('navigate')}</a>
-        <button class="card-route" onclick="routeTo(allStations.find(x=>x.id===${s.id}))" style="margin-left:4px">⊕ ROUTE</button>
-      `);
+    const addr = [s.street, s.zip, s.city].filter(Boolean).join(' ');
+    const marker = L.marker([s.lat, s.lng], { icon }).addTo(map).bindPopup(`
+      <div class="popup-name">${s.name}</div>
+      <div class="popup-addr">${addr}</div>
+      <div style="margin:4px 0">${fuelTags(s.fuels)}</div>
+      <a href="${mapsUrl(s)}" target="_blank" class="card-gmaps">▶ ${t('navigate')}</a>
+      <button class="card-route" onclick="routeTo(fullStationMap.get(${s.id}))" style="margin-left:4px">⊕ ROUTE</button>
+    `);
     marker.on('click', () => highlightStation(s.id));
     markers[s.id] = marker;
   });
@@ -1107,14 +984,8 @@ function renderMap(stations) {
 function highlightStation(id) {
   document.querySelectorAll('.station-card').forEach(c => c.classList.remove('highlighted'));
   const card = document.getElementById('card-' + id);
-  if (card) {
-    card.classList.add('highlighted');
-    card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  }
-  if (markers[id]) {
-    markers[id].openPopup();
-    map?.setView(markers[id].getLatLng(), Math.max(map.getZoom(), 13));
-  }
+  if (card) { card.classList.add('highlighted'); card.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); }
+  if (markers[id]) { markers[id].openPopup(); map?.setView(markers[id].getLatLng(), Math.max(map.getZoom(), 13)); }
 }
 
 // ═══════════════════════════════════════════════════════
@@ -1122,7 +993,7 @@ function highlightStation(id) {
 // ═══════════════════════════════════════════════════════
 function setView(v) {
   currentView = v;
-  document.body.className = document.body.className.replace(/view-\w+/, '') + ' view-' + v;
+  document.body.className = document.body.className.replace(/view-\w+/g, '') + ' view-' + v;
   document.querySelectorAll('[data-view]').forEach(b => b.classList.toggle('active', b.dataset.view === v));
   if (map) setTimeout(() => map.invalidateSize(), 50);
 }
@@ -1134,34 +1005,16 @@ function initMap() {
   map = L.map('map', { zoomControl: true }).setView([47.0, 8.3], 8);
   L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     attribution: '©OpenStreetMap ©CARTO',
-    subdomains: 'abcd',
-    maxZoom: 19
+    subdomains: 'abcd', maxZoom: 19
   }).addTo(map);
 }
-
-// ═══════════════════════════════════════════════════════
-// REFRESH / CANCEL
-// ═══════════════════════════════════════════════════════
-function confirmRefresh() {
-  if (confirm(t('confirm_refresh'))) loadStations(true);
-}
-
-document.getElementById('btn-cancel-load').onclick = () => {
-  cancelLoad = true;
-  hideLoading();
-  if (allStations.length > 0) {
-    setStatus('idle');
-    sortAndRender();
-    updateCounts();
-  }
-};
 
 // ═══════════════════════════════════════════════════════
 // BOOT
 // ═══════════════════════════════════════════════════════
 initMap();
 applyI18n();
-loadStations();
+boot();
 </script>
 </body>
 </html>

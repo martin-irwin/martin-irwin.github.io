@@ -28,6 +28,7 @@ My photo from Watches and Wonders in Geneva yesterday, where JLC really do by do
 
 ![JLC do by doing](/assets/images/IMG20260415162541.jpg)
 
+
 It's a harder pill to swallow than the more cossetted approaches of reading, watching videos, building yourself up... because it is that. It is the hard part. Doing something. Not thinking about it—doing it. Writing this post will only happen if I do it. Could it be better? Sure, probably. Would it be better if it sat in drafts for a year before I got around to making it "perfect"? No.
 
 Do it.

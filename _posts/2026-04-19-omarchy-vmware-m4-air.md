@@ -9,9 +9,9 @@ tags:
   - vmware
   - technology
 header:
-  image: /assets/images/img-2026-04-17-01.jpg
-  teaser: /assets/images/img-2026-04-17-01.jpg
-  og_image: /assets/images/img-2026-04-17-01.jpg
+  image: /assets/images/IMG20260418135833.jpg
+  teaser: /assets/images/IMG20260418135833.jpg
+  og_image: /assets/images/IMG20260418135833.jpg
 categories:
   - blog
 published: true
@@ -30,7 +30,7 @@ Honestly, as a playground more than anything. I want to iterate on Omarchy confi
 That said, I also wanted to get Obsidian running with my actual vault synced via Dropbox. So it's not purely experimental — it's a sandboxed environment that still connects to real data.
 
 ---
-
+![](/assets/images/IMG20260418124652.jpg)
 ## Step 1: Install VMware Fusion
 
 VMware Fusion is free for personal use. Download it from [broadcom.com](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion). You'll need a Broadcom account, which is mildly annoying, but it's a one-time thing.
@@ -70,7 +70,7 @@ ssh yourusername@192.168.x.x
 Much more comfortable. You can also use Tailscale here if you want the VM accessible on your Tailnet, though for a local VM it's optional.
 
 ---
-
+![](/assets/images/IMG20260418130352.jpg)
 ## Step 4: The Dropbox problem on aarch64
 
 Here's where it gets interesting. The M4 Air is ARM — aarch64 — and Dropbox has never shipped a Linux client for ARM. If you try to install the official client, it simply doesn't exist for your architecture.
@@ -144,6 +144,8 @@ yay -S obsidian
 Point it at your synced vault folder inside `~/Dropbox/brain2` (or wherever Maestral put it). That's it — your vault is live.
 
 ---
+
+![](/assets/images/2026-04-19-omarchy-m4.jpg)
 
 ## Is it worth it?
 

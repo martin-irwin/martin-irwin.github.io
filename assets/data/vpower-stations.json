@@ -1,0 +1,3570 @@
+[
+  {
+    "id": "10023320",
+    "name": "SHELL HORNEGG",
+    "lat": 47.352197,
+    "lng": 8.558575,
+    "address": "HORNEGGSTRASSE 3",
+    "city": "ZUERICH",
+    "postcode": "8008",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023322",
+    "name": "SHELL PLAZA",
+    "lat": 47.647114,
+    "lng": 9.170106,
+    "address": "LÖWENSTRASSE 21",
+    "city": "KREUZLINGEN",
+    "postcode": "8280",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023323",
+    "name": "SHELL LIMMATBRÜCKE.",
+    "lat": 47.406834,
+    "lng": 8.411635,
+    "address": "ÜBERLANDSTRASSE",
+    "city": "FAHRWEID",
+    "postcode": "8951",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023325",
+    "name": "VOLENERGY KOBLENZ",
+    "lat": 47.605603,
+    "lng": 8.231202,
+    "address": "BAHNHOFSTRASSE 21",
+    "city": "KOBLENZ",
+    "postcode": "5322",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023331",
+    "name": "SHELL ZOLL",
+    "lat": 47.740893,
+    "lng": 8.715924,
+    "address": "ZOLLSTRASSE 79",
+    "city": "THAYNGEN",
+    "postcode": "8240",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023335",
+    "name": "SHELL RAUTISTRASSE.",
+    "lat": 47.380276,
+    "lng": 8.494082,
+    "address": "RAUTISTRASSE 12",
+    "city": "ZUERICH",
+    "postcode": "8047",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023336",
+    "name": "SHELL STAAD",
+    "lat": 47.480102,
+    "lng": 9.531622,
+    "address": "HAUPTSTRASSE 30",
+    "city": "STAAD",
+    "postcode": "9422",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023338",
+    "name": "SHELL WOLLISHOFEN.",
+    "lat": 47.337446,
+    "lng": 8.530238,
+    "address": "ALBISSTRASSE 115",
+    "city": "ZUERICH",
+    "postcode": "8038",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023340",
+    "name": "SHELL IM BRUNNEN",
+    "lat": 47.352166,
+    "lng": 8.722675,
+    "address": "FELDHOFSTRASSE 2",
+    "city": "USTER",
+    "postcode": "8610",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023343",
+    "name": "SHELL ROSENBERG.",
+    "lat": 47.518346,
+    "lng": 8.719485,
+    "address": "SCHAFFHAUSERSTRASSE 154",
+    "city": "WINTERTHUR",
+    "postcode": "8400",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023344",
+    "name": "SHELL GLATT",
+    "lat": 47.407969,
+    "lng": 8.5998,
+    "address": "NEUE WINTERTHURERSTRASSE 99",
+    "city": "WALLISELLEN",
+    "postcode": "8304",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023347",
+    "name": "SHELL BERGSTRASSE/SHOP",
+    "lat": 47.36791,
+    "lng": 8.564432,
+    "address": "BERGSTRASSE 117",
+    "city": "ZUERICH",
+    "postcode": "8032",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023349",
+    "name": "SHELL KILLWANGEN.",
+    "lat": 47.430605,
+    "lng": 8.356887,
+    "address": "BAHNHOFSTRASSE",
+    "city": "KILLWANGEN",
+    "postcode": "8956",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023351",
+    "name": "SHELL RÜMLANG.",
+    "lat": 47.461236,
+    "lng": 8.524384,
+    "address": "RIEDMATTSTRASSE 8",
+    "city": "RÜMLANG",
+    "postcode": "8153",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023353",
+    "name": "SHELL ALLSCHWIL.",
+    "lat": 47.546312,
+    "lng": 7.55375,
+    "address": "STOCKBRUNNENRAIN 2",
+    "city": "ALLSCHWIL",
+    "postcode": "4123",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023354",
+    "name": "SHELL GLARNERLAND.",
+    "lat": 47.138396,
+    "lng": 9.049305,
+    "address": "AUTOBAHNRASTSTÄTTE WEST A3",
+    "city": "NIEDERURNEN",
+    "postcode": "8867",
+    "brand": "Shell",
+    "fuels": [
+      "cng",
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023358",
+    "name": "SHELL SONNENTAL.",
+    "lat": 47.395631,
+    "lng": 8.606116,
+    "address": "ZUERICHSTRASSE 89",
+    "city": "DUEBENDORF",
+    "postcode": "8600",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023359",
+    "name": "SHELL FURTTAL.",
+    "lat": 47.420935,
+    "lng": 8.5026,
+    "address": "WEHNTALERSTRASSE 586C",
+    "city": "ZUERICH",
+    "postcode": "8046",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023360",
+    "name": "SHELL GANDA.",
+    "lat": 46.970124,
+    "lng": 9.595097,
+    "address": "GANDA 24",
+    "city": "LANDQUART",
+    "postcode": "7302",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023363",
+    "name": "TANKSTELLE GLISERALLEE GMBH",
+    "lat": 46.311624,
+    "lng": 7.979963,
+    "address": "GLISERALLEE 135",
+    "city": "GLIS",
+    "postcode": "3902",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023364",
+    "name": "SHELL BIRMENSDORF.",
+    "lat": 47.365486,
+    "lng": 8.429913,
+    "address": "INDUSTRIESTRASSE 1",
+    "city": "BIRMENSDORF",
+    "postcode": "8903",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023368",
+    "name": "SHELL RHEINFALL",
+    "lat": 47.686096,
+    "lng": 8.621445,
+    "address": "SCHAFFHAUSERSTRASSE 38",
+    "city": "NEUHAUSEN AM RHEINFALL",
+    "postcode": "8212",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023369",
+    "name": "SHELL WÜRENLOS-LIMMAT.",
+    "lat": 47.438839,
+    "lng": 8.347986,
+    "address": "WÜRENLOS A1/LIMMAT",
+    "city": "WÜRENLOS",
+    "postcode": "5436",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023374",
+    "name": "SHELL BAREGG.",
+    "lat": 47.456366,
+    "lng": 8.282787,
+    "address": "ZELGWEG 17",
+    "city": "DAETTWIL",
+    "postcode": "5405",
+    "brand": "Shell",
+    "fuels": [
+      "cng",
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023375",
+    "name": "SHELL DÄNIKEN.",
+    "lat": 47.356406,
+    "lng": 7.982541,
+    "address": "HAUPTSTRASSE 58",
+    "city": "DÄNIKEN",
+    "postcode": "4658",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023377",
+    "name": "SHELL STEFFISBURG",
+    "lat": 46.765388,
+    "lng": 7.625857,
+    "address": "BERNSTRASSE 40B",
+    "city": "STEFFISBURG",
+    "postcode": "3612",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023379",
+    "name": "SHELL FOHLENWEIDE.",
+    "lat": 47.355547,
+    "lng": 8.326073,
+    "address": "WOHLERSTRASSE 18",
+    "city": "BREMGARTEN",
+    "postcode": "5620",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023380",
+    "name": "SHELL STELZ",
+    "lat": 47.439475,
+    "lng": 9.055915,
+    "address": "WILERSTRASSE. 208",
+    "city": "KIRCHBERG",
+    "postcode": "9533",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023381",
+    "name": "SHELL ERLACH",
+    "lat": 47.411705,
+    "lng": 9.336007,
+    "address": "ZÜRCHERSTRASSE 205",
+    "city": "ST. GALLEN",
+    "postcode": "9014",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023383",
+    "name": "SHELL AU.",
+    "lat": 47.430767,
+    "lng": 9.635825,
+    "address": "ZOLLSTRASSE 6",
+    "city": "AU SG",
+    "postcode": "9434",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023386",
+    "name": "SHELL IM GIESSEN",
+    "lat": 47.403216,
+    "lng": 8.607619,
+    "address": "ÜBERLANDSTR. 97",
+    "city": "DÜBENDORF",
+    "postcode": "8600",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023387",
+    "name": "SHELL GRÜTZE.",
+    "lat": 47.204018,
+    "lng": 8.764075,
+    "address": "KANTONSSTRASSE 149",
+    "city": "FREIENBACH",
+    "postcode": "8807",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023388",
+    "name": "SHELL GLATTBRUGG.",
+    "lat": 47.431919,
+    "lng": 8.563144,
+    "address": "SCHAFFHAUSERSTRASSE 87",
+    "city": "GLATTBRUGG",
+    "postcode": "8152",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023391",
+    "name": "SHELL MURI.",
+    "lat": 46.927683,
+    "lng": 7.493572,
+    "address": "THUNSTRASSE 167",
+    "city": "MURI B. BERN",
+    "postcode": "3074",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023395",
+    "name": "SHELL THERWIL",
+    "lat": 47.496642,
+    "lng": 7.564242,
+    "address": "REINACHERSTRASSE 49A",
+    "city": "THERWIL",
+    "postcode": "4106",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023396",
+    "name": "SHELL WÜRENLOS-WALD.",
+    "lat": 47.438626,
+    "lng": 8.347967,
+    "address": "WÜRENLOS A1/WALD",
+    "city": "WÜRENLOS",
+    "postcode": "5436",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023399",
+    "name": "SHELL KOLBENACKER",
+    "lat": 47.425826,
+    "lng": 8.547801,
+    "address": "GLATTALSTRASSE 56",
+    "city": "ZUERICH",
+    "postcode": "8052",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023403",
+    "name": "SHELL KRIENS.",
+    "lat": 47.02657,
+    "lng": 8.299182,
+    "address": "NIDFELDSTRASSE 10",
+    "city": "KRIENS",
+    "postcode": "6010",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023404",
+    "name": "SHELL FRAUENFELD",
+    "lat": 47.563434,
+    "lng": 8.907876,
+    "address": "ZÜRCHERSTRASSE 291",
+    "city": "FRAUENFELD",
+    "postcode": "8500",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023405",
+    "name": "VOLENERGY FELDMEILEN",
+    "lat": 47.274866,
+    "lng": 8.623184,
+    "address": "SEESTRASSE 269",
+    "city": "FELDMEILEN",
+    "postcode": "8706",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023406",
+    "name": "SHELL DIETLIKON.",
+    "lat": 47.414925,
+    "lng": 8.620078,
+    "address": "NEUE WINTERTHURERSTR. 15",
+    "city": "DIETLIKON",
+    "postcode": "8305",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023410",
+    "name": "SHELL HEUBERG.",
+    "lat": 47.317632,
+    "lng": 8.666987,
+    "address": "FORCHSTRASSE A52",
+    "city": "FORCH",
+    "postcode": "8127",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023411",
+    "name": "SHELL KAPPELERHOF.",
+    "lat": 47.48251,
+    "lng": 8.278927,
+    "address": "BRUGGERSTRASSE 194",
+    "city": "BADEN",
+    "postcode": "5400",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023413",
+    "name": "SHELL CHAM.",
+    "lat": 47.182649,
+    "lng": 8.471817,
+    "address": "ZUGERSTRASSE 82",
+    "city": "CHAM",
+    "postcode": "6330",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023417",
+    "name": "RIGI-GARAGE KENEL GMBH.",
+    "lat": 47.064776,
+    "lng": 8.522817,
+    "address": "ZUGERSTRASSE 17",
+    "city": "ARTH",
+    "postcode": "6415",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023418",
+    "name": "GARAGE LUTZ AG.",
+    "lat": 47.005929,
+    "lng": 9.499699,
+    "address": "SARGANSERSTRASSE 14",
+    "city": "BAD RAGAZ",
+    "postcode": "7310",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023439",
+    "name": "SHELL ILLNAU",
+    "lat": 47.407016,
+    "lng": 8.726938,
+    "address": "KEMPTTALSTRASSE 43",
+    "city": "ILLNAU",
+    "postcode": "8308",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023442",
+    "name": "VOLENERGY LUNGERN",
+    "lat": 46.787849,
+    "lng": 8.160146,
+    "address": "BRÜNIGSTRASSE 42",
+    "city": "LUNGERN",
+    "postcode": "6078",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023445",
+    "name": "FELBER J. & CO AG.",
+    "lat": 47.10498,
+    "lng": 9.06568,
+    "address": "OBERURNERSTRASSE 2",
+    "city": "NAEFELS",
+    "postcode": "8752",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023456",
+    "name": "SHELL WALDHOF.",
+    "lat": 47.273736,
+    "lng": 8.911881,
+    "address": "RÜTISTRASSE 29",
+    "city": "WALD",
+    "postcode": "8636",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023475",
+    "name": "INTERZEGG AG.",
+    "lat": 46.948826,
+    "lng": 10.36821,
+    "address": "CLIS CENTER",
+    "city": "SAMNAUN DORF",
+    "postcode": "7563",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023494",
+    "name": "VOLENERGY BAAR",
+    "lat": 47.197269,
+    "lng": 8.539507,
+    "address": "SIHLBRUGGSTRASSE",
+    "city": "BAAR",
+    "postcode": "6340",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023508",
+    "name": "SHELL ROTKREUZ.",
+    "lat": 47.147793,
+    "lng": 8.4345,
+    "address": "BLEGISTRASSE 4",
+    "city": "ROTKREUZ",
+    "postcode": "6343",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023529",
+    "name": "FRITZ & URS JÄGER AG",
+    "lat": 46.302139,
+    "lng": 7.707068,
+    "address": "KANTONSSTRASSE 32",
+    "city": "TURTMANN",
+    "postcode": "3946",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023531",
+    "name": "GARAGE REX AG.",
+    "lat": 46.292269,
+    "lng": 7.890343,
+    "address": "KANTONSSTRASSE 34",
+    "city": "VISP",
+    "postcode": "3930",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023546",
+    "name": "K34 AG",
+    "lat": 47.198664,
+    "lng": 8.108427,
+    "address": "KANTONSSTRASSE 34",
+    "city": "GEUENSEE",
+    "postcode": "6232",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023553",
+    "name": "HEDIN AUTOMOTIVE SAMSTAGERN",
+    "lat": 47.196729,
+    "lng": 8.681128,
+    "address": "HÜGSAMSTRASSE 2",
+    "city": "SAMSTAGERN",
+    "postcode": "8833",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023554",
+    "name": "SHELL DÜDINGEN",
+    "lat": 46.853984,
+    "lng": 7.191096,
+    "address": "INDUSTRIESTRASSE 2",
+    "city": "DÜDINGEN",
+    "postcode": "3186",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023562",
+    "name": "VOLENERGY FRUTIGEN",
+    "lat": 46.578052,
+    "lng": 7.65224,
+    "address": "LÖTSCHBERGSTRASSE 6",
+    "city": "FRUTIGEN",
+    "postcode": "3714",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023565",
+    "name": "GARAGE IM STEIGER AG.",
+    "lat": 47.474042,
+    "lng": 8.194883,
+    "address": "BADSTRASSE 50",
+    "city": "BRUGG",
+    "postcode": "5200",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023592",
+    "name": "GARAGE ABEGGLEN.",
+    "lat": 46.749243,
+    "lng": 8.053403,
+    "address": "HAUPTSTR. 243",
+    "city": "BRIENZ",
+    "postcode": "3855",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023597",
+    "name": "DENOTH HANDELS AG.",
+    "lat": 46.959157,
+    "lng": 10.396953,
+    "address": "SAMNAUN-LARET",
+    "city": "SAMNAUN-COMPATSCH",
+    "postcode": "7562",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023605",
+    "name": "BOTSBERG GARAGE.",
+    "lat": 47.417002,
+    "lng": 9.171033,
+    "address": "WILERSTR. 219",
+    "city": "FLAWIL",
+    "postcode": "9230",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023609",
+    "name": "UHLIG AG.",
+    "lat": 47.560155,
+    "lng": 8.492564,
+    "address": "AARUETISTRASSE 4",
+    "city": "GLATTFELDEN",
+    "postcode": "8192",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023616",
+    "name": "SHELL HIRZEL",
+    "lat": 47.219113,
+    "lng": 8.612195,
+    "address": "ZUGERSTRASSE 1",
+    "city": "HIRZEL",
+    "postcode": "8816",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023625",
+    "name": "GARAGE-REICHLIN AG.",
+    "lat": 47.069553,
+    "lng": 8.436927,
+    "address": "GREPPERSTRASSE 86-92",
+    "city": "KUESSNACHT AM RIGI",
+    "postcode": "6403",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023642",
+    "name": "VOLENERGY NEBIKON",
+    "lat": 47.18912,
+    "lng": 7.974181,
+    "address": "VORSTATT 28",
+    "city": "NEBIKON",
+    "postcode": "6244",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023645",
+    "name": "MARIO VON ARX",
+    "lat": 47.303547,
+    "lng": 7.801943,
+    "address": "DORFSTRASSE 178",
+    "city": "NEUENDORF",
+    "postcode": "4623",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023647",
+    "name": "VOLENERGY OBERBIPP",
+    "lat": 47.256478,
+    "lng": 7.66051,
+    "address": "BIELSTRASSE 13",
+    "city": "OBERBIPP",
+    "postcode": "4538",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023651",
+    "name": "GEBR. BLUM AG",
+    "lat": 47.224274,
+    "lng": 7.893768,
+    "address": "STEINACHER 3",
+    "city": "PFAFFNAU",
+    "postcode": "6264",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023658",
+    "name": "BEAT MATTI",
+    "lat": 46.619917,
+    "lng": 7.376965,
+    "address": "BIFANG 315A",
+    "city": "BOLTIGEN",
+    "postcode": "3766",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023665",
+    "name": "HEDIN AUTOMOTIVE SAMSTAGERN",
+    "lat": 47.196762,
+    "lng": 8.67942,
+    "address": "IM OBSTGARTEN 1",
+    "city": "SAMSTAGERN",
+    "postcode": "8833",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023689",
+    "name": "VOLENERGY WIDNAU",
+    "lat": 47.397588,
+    "lng": 9.640199,
+    "address": "DIEPOLDSAUERSTRASSE 38",
+    "city": "WIDNAU",
+    "postcode": "9443",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023690",
+    "name": "KREUZ-GARAGE WILLISAU AG.",
+    "lat": 47.123075,
+    "lng": 7.99395,
+    "address": "ETTISWILERSTR. 10",
+    "city": "WILLISAU",
+    "postcode": "6130",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023692",
+    "name": "KESSLER BETRIEBE AG",
+    "lat": 46.832715,
+    "lng": 9.853609,
+    "address": "PRÄTTIGAUERSTRASSE 32",
+    "city": "DAVOS WOLFGANG",
+    "postcode": "7265",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023695",
+    "name": "VOLENERGY ZELL",
+    "lat": 47.137468,
+    "lng": 7.92253,
+    "address": "DORF",
+    "city": "ZELL",
+    "postcode": "6144",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023716",
+    "name": "SHELL AUGST.",
+    "lat": 47.534741,
+    "lng": 7.711384,
+    "address": "RHEINSTRASSE 29",
+    "city": "PRATTELN",
+    "postcode": "4133",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023717",
+    "name": "SHELL HORBURG.",
+    "lat": 47.571413,
+    "lng": 7.595518,
+    "address": "HORBURGSTRASSE 83",
+    "city": "BASEL",
+    "postcode": "4057",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023719",
+    "name": "SHELL HUNZENSCHWIL.",
+    "lat": 47.386773,
+    "lng": 8.113817,
+    "address": "HAUPTSTRASSE 43",
+    "city": "HUNZENSCHWIL",
+    "postcode": "5502",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023721",
+    "name": "SHELL STEIN.",
+    "lat": 47.547645,
+    "lng": 7.953427,
+    "address": "SCHAFFHAUSERSTRASSE 46",
+    "city": "STEIN",
+    "postcode": "4332",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023723",
+    "name": "SHELL OFTRINGEN.",
+    "lat": 47.30519,
+    "lng": 7.930826,
+    "address": "CAMPINGWEG 11 / LUZERNSTRASSE 1",
+    "city": "OFTRINGEN",
+    "postcode": "4665",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023725",
+    "name": "SHELL HÖHE.",
+    "lat": 46.941631,
+    "lng": 7.396474,
+    "address": "MORGENSTRASSE 10",
+    "city": "BERN",
+    "postcode": "3018",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023726",
+    "name": "VOLENERGY BERN",
+    "lat": 46.955775,
+    "lng": 7.426449,
+    "address": "LAENGGASSSTRASSE 85",
+    "city": "BERN",
+    "postcode": "3012",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023727",
+    "name": "SHELL WANKDORF.",
+    "lat": 46.965087,
+    "lng": 7.463868,
+    "address": "WINKELRIEDSTRASSE 7A",
+    "city": "BERN",
+    "postcode": "3014",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023728",
+    "name": "SHELL SCHIFFLAENDTE",
+    "lat": 47.132493,
+    "lng": 7.238105,
+    "address": "BADHAUSSTRASSE 19 A",
+    "city": "BIEL",
+    "postcode": "2503",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023729",
+    "name": "VOLENERGY BIEL",
+    "lat": 47.152523,
+    "lng": 7.261493,
+    "address": "REUCHENETTESTRASSE 86",
+    "city": "BIEL/BIENNE",
+    "postcode": "2502",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023734",
+    "name": "SHELL SOLOTHURN",
+    "lat": 47.211546,
+    "lng": 7.523647,
+    "address": "BIELSTRASSE 89",
+    "city": "SOLOTHURN",
+    "postcode": "4500",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023735",
+    "name": "SHELL KLOSEMATTE.",
+    "lat": 46.754288,
+    "lng": 7.627577,
+    "address": "FRUTIGENSTRASSE 18",
+    "city": "THUN",
+    "postcode": "3600",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023740",
+    "name": "SETTELEN AG (TUERKH.)",
+    "lat": 47.558078,
+    "lng": 7.574245,
+    "address": "TUERKHEIMERSTRASSE 17",
+    "city": "BASEL",
+    "postcode": "4055",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023748",
+    "name": "FREY LOUIS",
+    "lat": 47.276787,
+    "lng": 8.338718,
+    "address": "AARAUERSTR. 21",
+    "city": "MURI",
+    "postcode": "5630",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023757",
+    "name": "SHELL OSTRING",
+    "lat": 46.945493,
+    "lng": 7.471181,
+    "address": "GANTRISCHSTRASSE 44",
+    "city": "BERN",
+    "postcode": "3006",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023759",
+    "name": "WIDI GARAGE AG.",
+    "lat": 46.584975,
+    "lng": 7.649103,
+    "address": "KANDERSTEGSTRASSE 39",
+    "city": "FRUTIGEN",
+    "postcode": "3714",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023767",
+    "name": "GARAGE FREY",
+    "lat": 47.362469,
+    "lng": 8.043597,
+    "address": "AARAUERSTR. 351",
+    "city": "UNTERENTFELDEN",
+    "postcode": "5035",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023772",
+    "name": "SHELL MEYRIN.",
+    "lat": 46.22733,
+    "lng": 6.07839,
+    "address": "RTE DE MEYRIN 248",
+    "city": "MEYRIN",
+    "postcode": "1217",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023773",
+    "name": "SHELL ACACIAS.",
+    "lat": 46.18966,
+    "lng": 6.131856,
+    "address": "ROUTE DES ACACIAS 41",
+    "city": "CAROUGE",
+    "postcode": "1227",
+    "brand": "Shell",
+    "fuels": [
+      "cng",
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023774",
+    "name": "SHELL PULLY-PORT.",
+    "lat": 46.506773,
+    "lng": 6.662837,
+    "address": "AVENUE DES DÉSERTES 3",
+    "city": "PULLY",
+    "postcode": "1009",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023775",
+    "name": "SHELL PARC DE BUDÉ.",
+    "lat": 46.223815,
+    "lng": 6.131134,
+    "address": "CH. DU PETIT-SACONNEX 5",
+    "city": "GENÈVE",
+    "postcode": "1209",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023777",
+    "name": "SHELL AMBILLY.",
+    "lat": 46.198569,
+    "lng": 6.212702,
+    "address": "ROUTE D'AMBILLY 3",
+    "city": "THONEX",
+    "postcode": "1226",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023778",
+    "name": "SHELL ST-GINGOLPH.",
+    "lat": 46.38523,
+    "lng": 6.830616,
+    "address": "ROUTE CANTONALE",
+    "city": "ST-GINGOLPH",
+    "postcode": "1898",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023780",
+    "name": "SHELL LA MALADIÈRE.",
+    "lat": 46.51707,
+    "lng": 6.607355,
+    "address": "AV. DES FIGUIERS 22",
+    "city": "LAUSANNE",
+    "postcode": "1007",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023782",
+    "name": "SHELL CHAVANNES-DE-BOGIS.",
+    "lat": 46.34534,
+    "lng": 6.154385,
+    "address": "RTE DE DIVONNE 2",
+    "city": "CHAVANNES-DE-BOGIS",
+    "postcode": "1279",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023783",
+    "name": "SHELL CHAMPEL.",
+    "lat": 46.193148,
+    "lng": 6.152643,
+    "address": "RUE MICHEL SERVET 17",
+    "city": "GENÈVE",
+    "postcode": "1206",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023785",
+    "name": "SHELL GRUYERE",
+    "lat": 46.682134,
+    "lng": 7.085059,
+    "address": "LE RESTOROUTE 184",
+    "city": "AVRY-DEVANT-PONT",
+    "postcode": "1644",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023788",
+    "name": "SHELL PORRENTRUY.",
+    "lat": 47.421325,
+    "lng": 7.079003,
+    "address": "RUE XAVIER-STOCKMAR 6",
+    "city": "PORRENTRUY",
+    "postcode": "2900",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023789",
+    "name": "SHELL TAVANNES.",
+    "lat": 47.223376,
+    "lng": 7.203559,
+    "address": "GRAND-RUE 60",
+    "city": "TAVANNES",
+    "postcode": "2710",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023790",
+    "name": "SHELL CENTRE COMMERCIAL.",
+    "lat": 46.534551,
+    "lng": 6.565272,
+    "address": "CHEMIN DU CROSET 3",
+    "city": "ECUBLENS",
+    "postcode": "1024",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023792",
+    "name": "SHELL MONTBRILLANT.",
+    "lat": 46.220119,
+    "lng": 6.140445,
+    "address": "RUE DE MONTBRILLANT 67",
+    "city": "GENÈVE",
+    "postcode": "1202",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023794",
+    "name": "SHELL RELAIS DU ST-BERNARD.",
+    "lat": 46.128129,
+    "lng": 7.060112,
+    "address": "A9 - RELAIS DU ST-BERNARD",
+    "city": "MARTIGNY",
+    "postcode": "1920",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023799",
+    "name": "SHELL VILLENEUVE.",
+    "lat": 46.393578,
+    "lng": 6.921548,
+    "address": "RTE DU SIMPLON 4",
+    "city": "NOVILLE",
+    "postcode": "1845",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023800",
+    "name": "SHELL FRIBOURG-NORD.",
+    "lat": 46.821934,
+    "lng": 7.15168,
+    "address": "ROUTE DE MORAT 130",
+    "city": "GRANGES-PACCOT",
+    "postcode": "1763",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023801",
+    "name": "SHELL YVERDON.",
+    "lat": 46.764898,
+    "lng": 6.649498,
+    "address": "ROUTE DE LAUSANNE 20",
+    "city": "YVERDON-LES-BAINS",
+    "postcode": "1400",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023802",
+    "name": "SHELL SIGNY.",
+    "lat": 46.398013,
+    "lng": 6.206154,
+    "address": "RUE DES FLECHERES 9",
+    "city": "SIGNY CENTRE",
+    "postcode": "1274",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023803",
+    "name": "SHELL GRADELLE.",
+    "lat": 46.203851,
+    "lng": 6.186991,
+    "address": "CH. DE LA GRADELLE 40",
+    "city": "CHÊNE-BOUGERIES",
+    "postcode": "1224",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023804",
+    "name": "SHELL BAVOIS-JURA",
+    "lat": 46.673542,
+    "lng": 6.56951,
+    "address": "RESTOROUTE DE BAVOIS-JURA, A1",
+    "city": "BAVOIS",
+    "postcode": "1372",
+    "brand": "Shell",
+    "fuels": [
+      "cng",
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "autogas_lpg",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023805",
+    "name": "SHELL BAVOIS-ALPES",
+    "lat": 46.673698,
+    "lng": 6.570404,
+    "address": "RESTOROUTE DE BAVOIS-ALPES, A1",
+    "city": "BAVOIS",
+    "postcode": "1372",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023807",
+    "name": "SHELL CHESEAUX.",
+    "lat": 46.582526,
+    "lng": 6.601114,
+    "address": "RTE DE GENÈVE 9A",
+    "city": "CHESEAUX-SUR-LAUSANNE",
+    "postcode": "1033",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023809",
+    "name": "VOLENERGY BONCOURT",
+    "lat": 47.498233,
+    "lng": 7.01624,
+    "address": "RTE DE FRANCE 16",
+    "city": "BONCOURT",
+    "postcode": "2926",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023812",
+    "name": "SHELL LIBELLULES.",
+    "lat": 46.206479,
+    "lng": 6.109639,
+    "address": "AV. DE L'AIN 5",
+    "city": "LE LIGNON",
+    "postcode": "1219",
+    "brand": "Shell",
+    "fuels": [
+      "cng",
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023814",
+    "name": "SHELL KRIEG.",
+    "lat": 46.195904,
+    "lng": 6.163625,
+    "address": "AVENUE KRIEG 5",
+    "city": "GENÈVE",
+    "postcode": "1208",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023816",
+    "name": "SHELL CHAUX-DE-FONDS.",
+    "lat": 47.096091,
+    "lng": 6.818151,
+    "address": "AV. LEOPOLD ROBERT 122",
+    "city": "LA CHAUX-DE-FONDS",
+    "postcode": "2300",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023817",
+    "name": "SHELL VALMONT.",
+    "lat": 46.535303,
+    "lng": 6.655108,
+    "address": "RTE D'ORON 37",
+    "city": "LAUSANNE",
+    "postcode": "1010",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023821",
+    "name": "SHELL MEYRIN-PARC.",
+    "lat": 46.2306,
+    "lng": 6.08489,
+    "address": "AV. MATEGNIN 45",
+    "city": "MEYRIN",
+    "postcode": "1217",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023822",
+    "name": "SHELL LA BUNA.",
+    "lat": 46.296118,
+    "lng": 6.1672,
+    "address": "ROUTE SUISSE 3",
+    "city": "MIES",
+    "postcode": "1295",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023823",
+    "name": "SHELL QUAI-PERRIER.",
+    "lat": 46.987705,
+    "lng": 6.9182,
+    "address": "QUAI LOUIS-PERRIER 12",
+    "city": "NEUCHÂTEL",
+    "postcode": "2000",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023825",
+    "name": "SHELL ONEX.",
+    "lat": 46.182276,
+    "lng": 6.097729,
+    "address": "RTE DE CHANCY 142",
+    "city": "ONEX",
+    "postcode": "1213",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023827",
+    "name": "SHELL PERLY.",
+    "lat": 46.153449,
+    "lng": 6.092666,
+    "address": "RTE DE ST-JULIEN 295",
+    "city": "PERLY",
+    "postcode": "1258",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023829",
+    "name": "SHELL C.F. RAMUZ.",
+    "lat": 46.509853,
+    "lng": 6.650494,
+    "address": "AVENUE C.F. RAMUZ 38",
+    "city": "PULLY",
+    "postcode": "1009",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023841",
+    "name": "GARAGE MAISON BLANCHE",
+    "lat": 46.15676,
+    "lng": 5.98993,
+    "address": "ROUTE DE CHANCY 500",
+    "city": "CHANCY",
+    "postcode": "1284",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023866",
+    "name": "GARAGE ALFTER SÀRL",
+    "lat": 46.891557,
+    "lng": 6.771445,
+    "address": "AV. DU LAC 19",
+    "city": "ST-AUBIN-SAUGES",
+    "postcode": "2024",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023882",
+    "name": "RESTOSHOP SA",
+    "lat": 46.551358,
+    "lng": 6.570886,
+    "address": "RUE DE MORGES. 1",
+    "city": "CRISSIER",
+    "postcode": "1023",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023924",
+    "name": "GARAGE ST-CHRISTOPHE.",
+    "lat": 46.236225,
+    "lng": 6.926518,
+    "address": "DOZON",
+    "city": "TROISTORRENTS",
+    "postcode": "1872",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023930",
+    "name": "SHELL AUTOSTRADA NORD.",
+    "lat": 46.209119,
+    "lng": 9.026592,
+    "address": "AUTOSTRADA A2 DIREZIONE CHIASSO",
+    "city": "BELLINZONA",
+    "postcode": "6500",
+    "brand": "Shell",
+    "fuels": [
+      "cng",
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "autogas_lpg",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "10023931",
+    "name": "SHELL VERBANO",
+    "lat": 46.17491,
+    "lng": 8.817323,
+    "address": "VIA R. SIMEN",
+    "city": "MINUSIO",
+    "postcode": "6648",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023935",
+    "name": "SHELL AUTOSTRADA SÜD",
+    "lat": 46.181732,
+    "lng": 9.00137,
+    "address": "AUTOSTRADA A2 DIREZIONE BASILEA",
+    "city": "MONTE CARASSO",
+    "postcode": "6513",
+    "brand": "Shell",
+    "fuels": [
+      "cng",
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "autogas_lpg",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023939",
+    "name": "SHELL AI PADIGLIONI.",
+    "lat": 46.156069,
+    "lng": 8.971859,
+    "address": "VIA GORELLE 2",
+    "city": "SANT ANTONINO",
+    "postcode": "6592",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023945",
+    "name": "VOLENERGY ASCONA",
+    "lat": 46.163637,
+    "lng": 8.77548,
+    "address": "VIA FERRERA",
+    "city": "ASCONA",
+    "postcode": "6612",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023947",
+    "name": "SHELL VEDEGGIO",
+    "lat": 46.112157,
+    "lng": 8.931845,
+    "address": "VIA CANTONALE 6",
+    "city": "BIRONICO",
+    "postcode": "6804",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10023948",
+    "name": "SHELL LUGANO SÜD",
+    "lat": 45.985138,
+    "lng": 8.936465,
+    "address": "VIA LA SGUANCIA 11",
+    "city": "PAZZALLO",
+    "postcode": "6912",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10045416",
+    "name": "SHELL HAUTERIVE.",
+    "lat": 47.011895,
+    "lng": 6.976071,
+    "address": "ROUTE DES ROUGES-TERRES 22-24",
+    "city": "HAUTERIVE",
+    "postcode": "2068",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10048104",
+    "name": "AUTO SUTER AG",
+    "lat": 47.179594,
+    "lng": 8.433792,
+    "address": "CHAMERSTRASSE 50",
+    "city": "HUENENBERG",
+    "postcode": "6331",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10054762",
+    "name": "MIGROL AUTO SERVICE BERN.",
+    "lat": 46.946538,
+    "lng": 7.384998,
+    "address": "FELLERSTRASSE 33",
+    "city": "BERN",
+    "postcode": "3027",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10054763",
+    "name": "MIGROL SERVICE VOLKETSWIL.",
+    "lat": 47.380863,
+    "lng": 8.674105,
+    "address": "INDUSTRIESTRASSE 20A",
+    "city": "VOLKETSWIL",
+    "postcode": "8604",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10054765",
+    "name": "MIGROL SERVICE STANS.",
+    "lat": 46.966366,
+    "lng": 8.352923,
+    "address": "ROTZLOCHSTRASSE 1",
+    "city": "STANS",
+    "postcode": "6370",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "10054766",
+    "name": "MIGROL SERVICE RENENS.",
+    "lat": 46.533598,
+    "lng": 6.585086,
+    "address": "RUE DU SILO 7",
+    "city": "RENENS",
+    "postcode": "1020",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11353028",
+    "name": "MIGROL SERVICE ALTDORF.",
+    "lat": 46.896181,
+    "lng": 8.626645,
+    "address": "FLÜELERSTRASSE 154",
+    "city": "ALTDORF",
+    "postcode": "6460",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11357904",
+    "name": "MIGROL SERVICE WILDERSWIL.",
+    "lat": 46.66845,
+    "lng": 7.869751,
+    "address": "GSTEIGSTRASSE 6",
+    "city": "WILDERSWIL",
+    "postcode": "3812",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11357905",
+    "name": "MIGROL SERVICE CONTHEY.",
+    "lat": 46.224399,
+    "lng": 7.301451,
+    "address": "RTE CANTONALE 25B",
+    "city": "CONTHEY",
+    "postcode": "1964",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11357921",
+    "name": "MIGROL AUTOBAHNTANKSTELLE.",
+    "lat": 47.585649,
+    "lng": 7.600983,
+    "address": "BASEL NORD-WEIL A2/A5",
+    "city": "BASEL",
+    "postcode": "4016",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11361887",
+    "name": "MIGROL SERVICE OLTEN.",
+    "lat": 47.345071,
+    "lng": 7.907436,
+    "address": "AARBURGERSTRASSE 115",
+    "city": "OLTEN",
+    "postcode": "4600",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11361898",
+    "name": "MIGROL AUTO SERVICE REINACH.",
+    "lat": 47.48963,
+    "lng": 7.598205,
+    "address": "KÄGENSTRASSE 1",
+    "city": "REINACH",
+    "postcode": "4153",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11361911",
+    "name": "MIGROL SERVICE WEINFELDEN.",
+    "lat": 47.562991,
+    "lng": 9.104693,
+    "address": "DUFOURSTRASSE 14",
+    "city": "WEINFELDEN",
+    "postcode": "8570",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11362276",
+    "name": "MIGROL SERVICE TRIEMLI.",
+    "lat": 47.367345,
+    "lng": 8.494196,
+    "address": "BIRMENSDORFERSTRASSE 517",
+    "city": "ZUERICH",
+    "postcode": "8055",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11366603",
+    "name": "MIGROL SERVICE WINTERTHUR (ZH)",
+    "lat": 47.49577,
+    "lng": 8.712887,
+    "address": "ZUERCHERSTRASSE 48",
+    "city": "WINTERTHUR",
+    "postcode": "8406",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11366605",
+    "name": "MIGROL SERVICE ZUG.",
+    "lat": 47.182462,
+    "lng": 8.484073,
+    "address": "CHOLLERSTRASSE 1",
+    "city": "ZUG",
+    "postcode": "6300",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11366613",
+    "name": "MIGROL SERVICE STALDEN.",
+    "lat": 46.247069,
+    "lng": 7.876762,
+    "address": "TALSTRASSE",
+    "city": "STALDEN",
+    "postcode": "3922",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11366614",
+    "name": "MIGROL SERVICE BÜLACH.",
+    "lat": 47.511451,
+    "lng": 8.544185,
+    "address": "ZÜRCHERSTRASSE 57",
+    "city": "BÜLACH",
+    "postcode": "8180",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11366647",
+    "name": "MIGROL SERVICE BURGDORF.",
+    "lat": 47.068726,
+    "lng": 7.600707,
+    "address": "KIRCHBERGSTRASSE 235",
+    "city": "BURGDORF",
+    "postcode": "3400",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11366652",
+    "name": "MIGROL SERVICE BRUGG.",
+    "lat": 47.491763,
+    "lng": 8.220511,
+    "address": "ZURZACHERSTRASSE 83",
+    "city": "BRUGG",
+    "postcode": "5200",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11366653",
+    "name": "MIGROL SERVICE FÜLLINSDORF.",
+    "lat": 47.507534,
+    "lng": 7.721283,
+    "address": "RHEINSTRASSE 46",
+    "city": "FÜLLINSDORF",
+    "postcode": "4414",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11366674",
+    "name": "MIGROL SERVICE SG.",
+    "lat": 47.41624,
+    "lng": 9.34521,
+    "address": "ZUERCHERSTRASSE 114",
+    "city": "ST GALLEN",
+    "postcode": "9000",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11366698",
+    "name": "MIGROL SERVICE SURSEE.",
+    "lat": 47.1737,
+    "lng": 8.100275,
+    "address": "ZEUGHAUSSTRASSE 38",
+    "city": "SURSEE",
+    "postcode": "6210",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11366708",
+    "name": "MIGROL SERVICE SINS.",
+    "lat": 47.185006,
+    "lng": 8.396822,
+    "address": "EICHFELD 1",
+    "city": "SINS",
+    "postcode": "5643",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11367372",
+    "name": "MIGROL SERVICE DIETIKON.",
+    "lat": 47.384172,
+    "lng": 8.395729,
+    "address": "BERNSTRASSE 386",
+    "city": "DIETIKON",
+    "postcode": "8953",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11367393",
+    "name": "MIGROL SERVICE EMMENBRÜCKE",
+    "lat": 47.072387,
+    "lng": 8.279405,
+    "address": "GERLISWILSTRASSE 24",
+    "city": "EMMENBRÜCKE",
+    "postcode": "6020",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11367723",
+    "name": "MIGROL SERVICE WINTERTHUR (WUELFL.)",
+    "lat": 47.51594,
+    "lng": 8.680161,
+    "address": "WUEFLINGERSTRASSE 393",
+    "city": "WINTERTHUR",
+    "postcode": "8408",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11380180",
+    "name": "MIGROL SERVICE VILLARS-ST-CROIX",
+    "lat": 46.566904,
+    "lng": 6.558823,
+    "address": "ROUTE DE COSSONAY 3",
+    "city": "VILLARS STE CROIX",
+    "postcode": "1029",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11525737",
+    "name": "MIGROL SERVICE PRILLY.",
+    "lat": 46.537886,
+    "lng": 6.601163,
+    "address": "ROUTE DE COSSONAY 66",
+    "city": "PRILLY",
+    "postcode": "1008",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11529372",
+    "name": "MIGROL SERVICE LA TOUR DE TREME.",
+    "lat": 46.600854,
+    "lng": 7.075521,
+    "address": "RTE DE PRA RIOND 3",
+    "city": "LA TOUR DE TREME",
+    "postcode": "1635",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11546089",
+    "name": "MIGROL SERVICE COLLOMBEY.",
+    "lat": 46.267274,
+    "lng": 6.953079,
+    "address": "RTE DU MONTAGNIER",
+    "city": "COLLOMBEY-MURAZ",
+    "postcode": "1868",
+    "brand": "Shell",
+    "fuels": [
+      "cng",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11583136",
+    "name": "MIGROL SERVICE BOSWIL.",
+    "lat": 47.298029,
+    "lng": 8.316484,
+    "address": "MURISTRASSE 8",
+    "city": "BOSWIL",
+    "postcode": "5623",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11583163",
+    "name": "MIGROL SERVICE ZH-THURG",
+    "lat": 47.41967,
+    "lng": 8.556218,
+    "address": "THURGAUERSTRASSE 100",
+    "city": "ZUERICH",
+    "postcode": "8052",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11583164",
+    "name": "MIGROL SERVICE WIL.",
+    "lat": 47.455546,
+    "lng": 9.048978,
+    "address": "TOGGENBURGERSTRASSE 129",
+    "city": "WIL",
+    "postcode": "9500",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11583180",
+    "name": "MIGROL SERVICE BIRSFELDEN.",
+    "lat": 47.549814,
+    "lng": 7.625582,
+    "address": "RHEINFELDERSTRASSE 10",
+    "city": "BIRSFELDEN",
+    "postcode": "4127",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11583203",
+    "name": "MIGROL SERVICE TRUEBBACH.",
+    "lat": 47.074961,
+    "lng": 9.486336,
+    "address": "STAATSSTRASSE 10",
+    "city": "TRUEBBACH",
+    "postcode": "9477",
+    "brand": "Shell",
+    "fuels": [
+      "cng",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11583256",
+    "name": "MIGROL SERVICE SCHMERIKON.",
+    "lat": 47.230062,
+    "lng": 8.962038,
+    "address": "ST GALLERSTRASSE 75A",
+    "city": "SCHMERIKON",
+    "postcode": "8716",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11589958",
+    "name": "MIGROL SERVICE MEGGEN",
+    "lat": 47.054546,
+    "lng": 8.389846,
+    "address": "GOTTHARDSTRASSE 45",
+    "city": "MEGGEN",
+    "postcode": "6045",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11590382",
+    "name": "MIGROL SERVICE WALLISELLEN.",
+    "lat": 47.408166,
+    "lng": 8.601656,
+    "address": "HUSACHERSTRASSE 2",
+    "city": "WALLISELLEN",
+    "postcode": "8304",
+    "brand": "Shell",
+    "fuels": [
+      "cng",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11590486",
+    "name": "MIGROL SERVICE KRIENS GMBH.",
+    "lat": 47.034341,
+    "lng": 8.264776,
+    "address": "OBERNAUERSTRASSE 47",
+    "city": "KRIENS",
+    "postcode": "6010",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11596486",
+    "name": "MIGROL SERVICE ROLLE.",
+    "lat": 46.462826,
+    "lng": 6.335204,
+    "address": "RTE DE LA VALLEE 7-11",
+    "city": "ROLLE",
+    "postcode": "1180",
+    "brand": "Shell",
+    "fuels": [
+      "cng",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11599716",
+    "name": "MIGROL SERVICE MORGES.",
+    "lat": 46.517426,
+    "lng": 6.512416,
+    "address": "RUE DE LAUSANNE 73",
+    "city": "MORGES",
+    "postcode": "1110",
+    "brand": "Shell",
+    "fuels": [
+      "cng",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11601722",
+    "name": "MIGROL SERVICE MONTAGNY.",
+    "lat": 46.788392,
+    "lng": 6.620678,
+    "address": "EN CHAMARD 16",
+    "city": "MONTAGNY-YVERDON",
+    "postcode": "1442",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11605765",
+    "name": "MIGROL SERVICE REGENSDORF.",
+    "lat": 47.437507,
+    "lng": 8.474183,
+    "address": "FELDSTRASSE 6",
+    "city": "REGENSDORF",
+    "postcode": "8105",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11606828",
+    "name": "MIGROL SERVICE EGNACH.",
+    "lat": 47.5481,
+    "lng": 9.371804,
+    "address": "ROMANSHORNERSTRASSE 129",
+    "city": "EGNACH",
+    "postcode": "9322",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11607212",
+    "name": "MIGROL SERVICE BALEXERT.",
+    "lat": 46.218152,
+    "lng": 6.114738,
+    "address": "AV LOUIS CASAI 27",
+    "city": "GENEVE 28",
+    "postcode": "1211",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11614922",
+    "name": "MIGROL SERVICE SION",
+    "lat": 46.228948,
+    "lng": 7.345039,
+    "address": "RUE DE LAUSANNE 100",
+    "city": "SION",
+    "postcode": "1950",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11618626",
+    "name": "MIGROL SERVICE ST MARGRETHEN.",
+    "lat": 47.455032,
+    "lng": 9.638322,
+    "address": "GRENZSTRASSE 31",
+    "city": "ST MARGRETHEN",
+    "postcode": "9430",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11625097",
+    "name": "MIGROL SERVICE STEFFISBURG.",
+    "lat": 46.76603,
+    "lng": 7.624371,
+    "address": "BERNSTRASSE 39",
+    "city": "STEFFISBURG",
+    "postcode": "3613",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11632756",
+    "name": "MIGROL SERVICE BERN WESTSIDE.",
+    "lat": 46.943473,
+    "lng": 7.37114,
+    "address": "RIEDBACHSTRASSE 104",
+    "city": "BERN",
+    "postcode": "3027",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11633437",
+    "name": "MIGROL SERVICE MARTIGNY.",
+    "lat": 46.106007,
+    "lng": 7.085611,
+    "address": "RUE DES AVOUILLONS 3",
+    "city": "MARTIGNY",
+    "postcode": "1920",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11634826",
+    "name": "MIGROL SERVICE ZWINGEN.",
+    "lat": 47.43922,
+    "lng": 7.53857,
+    "address": "RECKHOLDERSTRASSE 2",
+    "city": "ZWINGEN",
+    "postcode": "4222",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11637788",
+    "name": "MIGROL SERVICE ETOY.",
+    "lat": 46.474688,
+    "lng": 6.418432,
+    "address": "RTE. DE NOYER-GIROD 1",
+    "city": "ETOY",
+    "postcode": "1163",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11640360",
+    "name": "MIGROL SERVICE ALLSCHWIL.",
+    "lat": 47.548421,
+    "lng": 7.546403,
+    "address": "BINNINGERSTRASSE 91",
+    "city": "ALLSCHWIL",
+    "postcode": "4123",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11645873",
+    "name": "MIGROL SERVICE FLAMATT.",
+    "lat": 46.890128,
+    "lng": 7.32312,
+    "address": "BERNSTRASSE 50",
+    "city": "FLAMATT",
+    "postcode": "3175",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11647413",
+    "name": "MIGROL SERVICE THAYNGEN.",
+    "lat": 47.740546,
+    "lng": 8.714873,
+    "address": "GRENZSTRASSE 72",
+    "city": "THAYNGEN",
+    "postcode": "8240",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11768219",
+    "name": "MIGROL SERVICE FRAUENFELD",
+    "lat": 47.561877,
+    "lng": 8.906077,
+    "address": "ZUERCHERSTRASSE 276",
+    "city": "FRAUENFELD",
+    "postcode": "8500",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11773670",
+    "name": "MIGROL SERVICE DIELSDORF.",
+    "lat": 47.485832,
+    "lng": 8.452087,
+    "address": "WEHNTALERSTRASSE 4",
+    "city": "DIELSDORF",
+    "postcode": "8157",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11789485",
+    "name": "MIGROL SERVICE CHUR.",
+    "lat": 46.851246,
+    "lng": 9.512835,
+    "address": "RHEINFELSSTRASSE 2",
+    "city": "CHUR",
+    "postcode": "7000",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "11826423",
+    "name": "MIGROL SERVICE STEG.",
+    "lat": 46.306335,
+    "lng": 7.751148,
+    "address": "KANTONSSTRASSE 30",
+    "city": "STEG",
+    "postcode": "3940",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12165368",
+    "name": "SHELL FLUGHAFENSTRASSE",
+    "lat": 47.571196,
+    "lng": 7.569242,
+    "address": "FLUGHAFENSTRASSE 100",
+    "city": "BASEL",
+    "postcode": "4056",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12293261",
+    "name": "AUTO SOLIDORO AG",
+    "lat": 47.285965,
+    "lng": 8.563671,
+    "address": "ZUERCHERSTRASSE 73",
+    "city": "THALWIL",
+    "postcode": "8800",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12495635",
+    "name": "VOLENERGY ST. IMIER",
+    "lat": 47.149663,
+    "lng": 6.991088,
+    "address": "RUE BAPTISTE-SAVOYE 16",
+    "city": "ST. IMIER",
+    "postcode": "2610",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12495890",
+    "name": "VOLENERGY AUSWIL",
+    "lat": 47.128175,
+    "lng": 7.826076,
+    "address": "HUTTWILSTRASSE 58",
+    "city": "AUSWIL",
+    "postcode": "4944",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12495895",
+    "name": "VOLENERGY LANGNAU IM EMMENTAL",
+    "lat": 46.938314,
+    "lng": 7.792515,
+    "address": "HINTERDORFSTRASSE 5",
+    "city": "LANGNAU IM EMMENTAL",
+    "postcode": "3550",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12495936",
+    "name": "VOLENERGY SIERRE",
+    "lat": 46.295285,
+    "lng": 7.551219,
+    "address": "ROUTE DU BOIS DE FINGES 23",
+    "city": "SIERRE",
+    "postcode": "3960",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12495942",
+    "name": "VOLENERGY MOUTIER",
+    "lat": 47.282454,
+    "lng": 7.381621,
+    "address": "RTE. DE SOLEURE 4",
+    "city": "MOUTIER",
+    "postcode": "2740",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12501519",
+    "name": "VOLENERGY TANN",
+    "lat": 47.267806,
+    "lng": 8.852938,
+    "address": "ABERNSTRASSE 11",
+    "city": "TANN",
+    "postcode": "8632",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12538851",
+    "name": "GARAGE LUTZ AG",
+    "lat": 47.005924,
+    "lng": 9.499698,
+    "address": "SARGANSERSTRASSE 15",
+    "city": "BAD RAGAZ",
+    "postcode": "7310",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12589033",
+    "name": "VOLENERGY LANGENTHAL",
+    "lat": 47.20215,
+    "lng": 7.78086,
+    "address": "BLEIENBACHSTRASSE 54",
+    "city": "LANGENTHAL",
+    "postcode": "4900",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12590803",
+    "name": "VOLENERGY ENGELBERG",
+    "lat": 46.818703,
+    "lng": 8.397915,
+    "address": "ENGELBERGSTRASSE 40",
+    "city": "ENGELBERG",
+    "postcode": "6390",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12590816",
+    "name": "VOLENERGY CLARENS",
+    "lat": 46.442994,
+    "lng": 6.886669,
+    "address": "RUE DU LAC 136",
+    "city": "CLARENS",
+    "postcode": "1815",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12590817",
+    "name": "VOLENERGY CORGEMONT",
+    "lat": 47.192942,
+    "lng": 7.136801,
+    "address": "GRANDE RUE 55",
+    "city": "CORGEMONT",
+    "postcode": "2606",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12590823",
+    "name": "VOLENERGY DELEMONT",
+    "lat": 47.366492,
+    "lng": 7.358779,
+    "address": "RUE AUGUSTE QUIQUEREZ 8",
+    "city": "DELEMONT",
+    "postcode": "2800",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12590992",
+    "name": "VOLENERGY BIEL",
+    "lat": 47.139915,
+    "lng": 7.263667,
+    "address": "METTSTRASSE 33",
+    "city": "BIEL",
+    "postcode": "2503",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12613565",
+    "name": "VOLENERGY MÜNSINGEN",
+    "lat": 46.886318,
+    "lng": 7.555302,
+    "address": "BERNSTRASSE 89",
+    "city": "MÜNSINGEN",
+    "postcode": "3110",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12613569",
+    "name": "VOLENERGY ROPRAZ",
+    "lat": 46.593273,
+    "lng": 6.74793,
+    "address": "ROUTE DE BERNE 1",
+    "city": "ROPRAZ",
+    "postcode": "1088",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12613723",
+    "name": "VOLENERGY ROPRAZ JURA",
+    "lat": 46.593421,
+    "lng": 6.747649,
+    "address": "ROUTE DE BERNE",
+    "city": "ROPRAZ",
+    "postcode": "1088",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12675485",
+    "name": "SHELL HAAG",
+    "lat": 47.210029,
+    "lng": 9.489805,
+    "address": "RHEINSTRASSE 1",
+    "city": "SENNWALD",
+    "postcode": "9469",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12720904",
+    "name": "MIGROL SERVICE BASEL",
+    "lat": 47.581049,
+    "lng": 7.594238,
+    "address": "HOCHBERGERSTR. 106",
+    "city": "BASEL",
+    "postcode": "4057",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12733875",
+    "name": "SHELL LANGENTHAL",
+    "lat": 47.216919,
+    "lng": 7.771141,
+    "address": "BÜTZBERGSTRASSE 93",
+    "city": "LANGENTHAL",
+    "postcode": "4900",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "12822245",
+    "name": "VOLENERGY WIEDLISBACH",
+    "lat": 47.249263,
+    "lng": 7.636165,
+    "address": "BIELSTRASSE 50",
+    "city": "WIEDLISBACH",
+    "postcode": "4537",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12822246",
+    "name": "VOLENERGY WIKON",
+    "lat": 47.269981,
+    "lng": 7.959445,
+    "address": "LUZERNERSTRASSE 27",
+    "city": "WIKON",
+    "postcode": "4806",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12833499",
+    "name": "SHELL ST. MORITZ",
+    "lat": 46.491617,
+    "lng": 9.832867,
+    "address": "VIA SOMPLAZ 32",
+    "city": "ST. MORITZ",
+    "postcode": "7500",
+    "brand": "Shell",
+    "fuels": [
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12859646",
+    "name": "VOLENERGY SCHLIEREN",
+    "lat": 47.39672,
+    "lng": 8.44151,
+    "address": "BADENERSTRASSE 35",
+    "city": "SCHLIEREN",
+    "postcode": "8952",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "fuelsave_midgrade_gasoline",
+      "fuelsave_regular_diesel",
+      "midgrade_gasoline",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "12996531",
+    "name": "SHELL VÉTROZ",
+    "lat": 46.22545,
+    "lng": 7.291736,
+    "address": "ROUTE CANTONALE 15",
+    "city": "VETROZ",
+    "postcode": "1963",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "fuelsave_midgrade_gasoline",
+      "fuelsave_regular_diesel",
+      "midgrade_gasoline",
+      "shell_regular_diesel",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "13022244",
+    "name": "MIGROL SERVICE WÜRENLINGEN",
+    "lat": 47.520762,
+    "lng": 8.242507,
+    "address": "DÖTTINGERSTRASSE 1",
+    "city": "WÜRENLINGEN",
+    "postcode": "5303",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "fuelsave_midgrade_gasoline",
+      "fuelsave_regular_diesel",
+      "midgrade_gasoline",
+      "super_premium_gasoline"
+    ]
+  },
+  {
+    "id": "13031576",
+    "name": "SHELL PALEZIEUX",
+    "lat": 46.548814,
+    "lng": 6.830074,
+    "address": "ROUTE DE GRANGES. 1A",
+    "city": "PALÉZIEUX",
+    "postcode": "1607",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "fuelsave_midgrade_gasoline",
+      "fuelsave_regular_diesel",
+      "midgrade_gasoline",
+      "super_premium_gasoline",
+      "shell_recharge"
+    ]
+  },
+  {
+    "id": "13092135",
+    "name": "MIGROL SERVICE LYSS",
+    "lat": 47.067877,
+    "lng": 7.303874,
+    "address": "KIRCHENFELDSTRASSE 34",
+    "city": "LYSS",
+    "postcode": "3250",
+    "brand": "Shell",
+    "fuels": [
+      "premium_diesel",
+      "fuelsave_midgrade_gasoline",
+      "fuelsave_regular_diesel",
+      "midgrade_gasoline",
+      "super_premium_gasoline"
+    ]
+  }
+]

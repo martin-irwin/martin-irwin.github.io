@@ -8,7 +8,7 @@ permalink: /agrola.html
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AGROLA E85 FINDER</title>
+<title>CH FUEL FINDER</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Sawarabi+Gothic&family=Oswald:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
@@ -18,15 +18,16 @@ permalink: /agrola.html
 
 <style>
   :root {
-    --bg: #0a0a0a;
-    --paper: #111;
-    --border: #e8e000;
-    --accent: #e8e000;
-    --danger: #ff3300;
-    --text: #e8e8e8;
-    --muted: #555;
-    --green: #00ff88;
-    --card-bg: #161616;
+    --bg: #f4f3ef;
+    --paper: #eae9e4;
+    --border: #c8c6be;
+    --accent: #555;
+    --danger: #c0392b;
+    --text: #2c2c2c;
+    --muted: #999;
+    --green: #1a8a5c;
+    --vpower: #c0392b;
+    --card-bg: #fff;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -40,14 +41,14 @@ permalink: /agrola.html
   }
 
   #header {
-    background: var(--accent);
-    color: #000;
+    background: var(--card-bg);
+    color: var(--text);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 12px;
     height: 44px;
-    border-bottom: 3px solid #000;
+    border-bottom: 2px solid var(--border);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -55,44 +56,47 @@ permalink: /agrola.html
 
   #logo {
     font-family: 'Oswald', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
     letter-spacing: 3px;
-    color: #000;
+    color: var(--text);
   }
-  #logo span {
-    background: #000;
-    color: var(--accent);
+  #logo .logo-ch {
+    background: var(--text);
+    color: var(--bg);
     padding: 1px 6px;
-    margin-left: 4px;
+    margin-left: 6px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    vertical-align: 2px;
   }
 
   #lang-switch {
     display: flex;
     gap: 0;
-    border: 2px solid #000;
+    border: 1px solid var(--border);
   }
   #lang-switch button {
     background: transparent;
     border: none;
-    border-right: 2px solid #000;
+    border-right: 1px solid var(--border);
     padding: 4px 10px;
     font-family: 'Share Tech Mono', monospace;
     font-size: 12px;
     font-weight: 700;
     cursor: pointer;
-    color: #000;
+    color: var(--muted);
     transition: background 0.1s;
   }
   #lang-switch button:last-child { border-right: none; }
   #lang-switch button.active, #lang-switch button:hover {
-    background: #000;
-    color: var(--accent);
+    background: var(--text);
+    color: var(--bg);
   }
 
   #statusbar {
-    background: #000;
-    border-bottom: 1px solid var(--muted);
+    background: var(--card-bg);
+    border-bottom: 1px solid var(--border);
     padding: 6px 12px;
     display: flex;
     align-items: center;
@@ -122,7 +126,7 @@ permalink: /agrola.html
 
   #controls {
     background: var(--paper);
-    border-bottom: 2px solid var(--border);
+    border-bottom: 1px solid var(--border);
     padding: 8px 12px;
     display: flex;
     align-items: center;
@@ -138,7 +142,7 @@ permalink: /agrola.html
   }
 
   .filter-toggle {
-    border: 2px solid var(--muted);
+    border: 1px solid var(--border);
     background: transparent;
     color: var(--muted);
     padding: 4px 12px;
@@ -150,20 +154,38 @@ permalink: /agrola.html
     text-transform: uppercase;
   }
   .filter-toggle.on {
-    border-color: var(--accent);
-    color: var(--bg);
-    background: var(--accent);
+    border-color: var(--text);
+    color: var(--card-bg);
+    background: var(--text);
   }
+
+  .filter-more {
+    border: 1px dashed var(--border);
+    background: transparent;
+    color: var(--muted);
+    padding: 4px 10px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 11px;
+    cursor: pointer;
+    letter-spacing: 1px;
+  }
+  .filter-more:hover { border-color: var(--text); color: var(--text); }
+  .extra-filters {
+    display: none;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .extra-filters.open { display: contents; }
 
   #view-switch {
     margin-left: auto;
     display: flex;
-    border: 2px solid var(--border);
+    border: 1px solid var(--border);
   }
   #view-switch button {
     background: transparent;
     border: none;
-    border-right: 2px solid var(--border);
+    border-right: 1px solid var(--border);
     padding: 4px 14px;
     font-family: 'Share Tech Mono', monospace;
     font-size: 12px;
@@ -173,14 +195,14 @@ permalink: /agrola.html
   }
   #view-switch button:last-child { border-right: none; }
   #view-switch button.active {
-    background: var(--border);
-    color: #000;
+    background: var(--text);
+    color: var(--bg);
   }
 
   #sort-ctrl { display: flex; align-items: center; gap: 6px; }
   #sort-select {
-    background: var(--bg);
-    border: 2px solid var(--muted);
+    background: var(--card-bg);
+    border: 1px solid var(--border);
     color: var(--text);
     padding: 3px 8px;
     font-family: 'Share Tech Mono', monospace;
@@ -190,7 +212,7 @@ permalink: /agrola.html
 
   #btn-locate {
     background: transparent;
-    border: 2px solid var(--green);
+    border: 1px solid var(--green);
     color: var(--green);
     padding: 4px 12px;
     font-family: 'Share Tech Mono', monospace;
@@ -199,11 +221,11 @@ permalink: /agrola.html
     letter-spacing: 1px;
     transition: all 0.15s;
   }
-  #btn-locate:hover { background: var(--green); color: #000; }
+  #btn-locate:hover { background: var(--green); color: #fff; }
 
   #btn-refresh {
     background: transparent;
-    border: 2px solid var(--muted);
+    border: 1px solid var(--border);
     color: var(--muted);
     padding: 4px 12px;
     font-family: 'Share Tech Mono', monospace;
@@ -211,11 +233,11 @@ permalink: /agrola.html
     cursor: pointer;
     letter-spacing: 1px;
   }
-  #btn-refresh:hover { border-color: var(--accent); color: var(--accent); }
+  #btn-refresh:hover { border-color: var(--text); color: var(--text); }
 
   #main {
     display: flex;
-    height: calc(100vh - 44px - 30px - 50px);
+    height: calc(100vh - 44px - 30px - 50px - 52px);
     min-height: 400px;
   }
 
@@ -226,8 +248,9 @@ permalink: /agrola.html
   #list-container {
     width: 100%;
     overflow-y: auto;
-    border-right: 1px solid var(--muted);
+    border-right: 1px solid var(--border);
     display: none;
+    background: var(--card-bg);
   }
   #list-container.visible { display: block; }
 
@@ -242,21 +265,24 @@ permalink: /agrola.html
   body.view-map #map-container { display: block; width: 100%; }
 
   .station-card {
-    border-bottom: 1px solid #222;
+    border-bottom: 1px solid var(--border);
     padding: 10px 12px;
     cursor: pointer;
     transition: background 0.1s;
     position: relative;
   }
-  .station-card:hover { background: #1a1a1a; }
-  .station-card.highlighted { background: #1d1d00; border-left: 3px solid var(--accent); }
+  .station-card:hover { background: var(--bg); }
+  .station-card.highlighted { background: #e8e7e0; border-left: 3px solid var(--text); }
   .station-card.has-e85 { border-left: 3px solid var(--green); }
-  .station-card.highlighted.has-e85 { border-left: 3px solid var(--accent); }
+  .station-card.has-vpower { border-left: 3px solid var(--vpower); }
+  .station-card.has-e85.has-vpower { border-left: 3px solid var(--green); }
+  .station-card.highlighted.has-e85 { border-left: 3px solid var(--text); }
+  .station-card.highlighted.has-vpower { border-left: 3px solid var(--text); }
   .station-card.new-find {
     animation: flashNew 1.5s ease-out;
   }
   @keyframes flashNew {
-    0% { background: #003322; }
+    0% { background: #d4edda; }
     100% { background: transparent; }
   }
 
@@ -272,42 +298,43 @@ permalink: /agrola.html
   .card-tags { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 6px; }
   .tag {
     font-size: 10px; padding: 1px 6px;
-    border: 1px solid var(--muted);
+    border: 1px solid var(--border);
     color: var(--muted);
     letter-spacing: 0.5px;
     text-transform: uppercase;
   }
   .tag.e85    { border-color: var(--green); color: var(--green); font-weight: bold; }
-  .tag.hvo    { border-color: #00aaff; color: #00aaff; }
-  .tag.adblue { border-color: #88aaff; color: #88aaff; }
-  .tag.ev     { border-color: #00ffcc; color: #00ffcc; }
-  .tag.cng    { border-color: #ff88ff; color: #ff88ff; }
-  .tag.lpg    { border-color: #ffaa00; color: #ffaa00; }
-  .tag.b95    { border-color: #aaaaaa; color: #aaaaaa; }
-  .tag.b98    { border-color: #cccccc; color: #cccccc; }
-  .tag.diesel { border-color: #ffdd44; color: #ffdd44; }
-  .tag.wash   { border-color: #44ddff; color: #44ddff; }
-  .tag.shop   { border-color: #ff99cc; color: #ff99cc; }
+  .tag.vpower { border-color: var(--vpower); color: var(--vpower); font-weight: bold; }
+  .tag.hvo    { border-color: #0077b6; color: #0077b6; }
+  .tag.adblue { border-color: #4a6fa5; color: #4a6fa5; }
+  .tag.ev     { border-color: #2d8659; color: #2d8659; }
+  .tag.cng    { border-color: #8e44ad; color: #8e44ad; }
+  .tag.lpg    { border-color: #d4770a; color: #d4770a; }
+  .tag.b95    { border-color: #888; color: #888; }
+  .tag.b98    { border-color: #666; color: #666; }
+  .tag.diesel { border-color: #9a7b2e; color: #9a7b2e; }
+  .tag.wash   { border-color: #2980b9; color: #2980b9; }
+  .tag.shop   { border-color: #c0568a; color: #c0568a; }
 
   .card-gmaps {
     display: inline-block;
     margin-top: 6px;
     font-size: 10px;
-    color: #000;
-    background: var(--accent);
+    color: #fff;
+    background: var(--text);
     padding: 2px 8px;
     text-decoration: none;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
-  .card-gmaps:hover { background: var(--text); }
+  .card-gmaps:hover { background: var(--accent); }
 
   #empty-state { padding: 40px 20px; text-align: center; color: var(--muted); display: none; }
   #empty-state.visible { display: block; }
 
   #count-bar {
-    background: #000;
-    border-top: 1px solid #222;
+    background: var(--card-bg);
+    border-top: 1px solid var(--border);
     padding: 4px 12px;
     font-size: 11px;
     color: var(--muted);
@@ -316,13 +343,12 @@ permalink: /agrola.html
     position: sticky;
     bottom: 0;
   }
-  #count-bar span { color: var(--accent); }
+  #count-bar span.ct { color: var(--text); font-weight: bold; }
 
-  /* Quick-load banner (shown while background scan runs) */
   #scan-banner {
     display: none;
-    background: #0d0d00;
-    border-bottom: 1px solid #333;
+    background: var(--paper);
+    border-bottom: 1px solid var(--border);
     padding: 5px 12px;
     font-size: 11px;
     color: var(--muted);
@@ -330,14 +356,14 @@ permalink: /agrola.html
     gap: 10px;
   }
   #scan-banner.visible { display: flex; }
-  #scan-progress-text { color: var(--accent); }
-  #scan-bar-wrap { flex: 1; max-width: 200px; height: 2px; background: #222; }
-  #scan-bar-fill { height: 100%; background: var(--accent); width: 0%; transition: width 0.3s; }
+  #scan-progress-text { color: var(--text); }
+  #scan-bar-wrap { flex: 1; max-width: 200px; height: 2px; background: var(--border); }
+  #scan-bar-fill { height: 100%; background: var(--green); width: 0%; transition: width 0.3s; }
 
   #route-bar {
     display: none;
-    background: #000;
-    border-top: 2px solid var(--accent);
+    background: var(--card-bg);
+    border-top: 2px solid var(--text);
     padding: 6px 12px;
     font-size: 12px;
     align-items: center;
@@ -345,7 +371,7 @@ permalink: /agrola.html
     flex-wrap: wrap;
   }
   #route-bar.visible { display: flex; }
-  #route-bar .route-stat { color: var(--accent); font-family: 'Oswald', sans-serif; font-size: 16px; }
+  #route-bar .route-stat { color: var(--text); font-family: 'Oswald', sans-serif; font-size: 16px; }
   #route-bar .route-label { color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: 1px; }
   #btn-clear-route {
     margin-left: auto;
@@ -357,41 +383,94 @@ permalink: /agrola.html
     font-size: 11px;
     cursor: pointer;
   }
-  #btn-clear-route:hover { background: var(--danger); color: #000; }
+  #btn-clear-route:hover { background: var(--danger); color: #fff; }
 
   .card-route {
     display: inline-block;
     margin-top: 6px;
     margin-left: 6px;
     font-size: 10px;
-    color: var(--accent);
+    color: var(--text);
     background: transparent;
-    border: 1px solid var(--accent);
+    border: 1px solid var(--text);
     padding: 2px 8px;
     cursor: pointer;
     font-family: 'Share Tech Mono', monospace;
     letter-spacing: 1px;
     text-transform: uppercase;
   }
-  .card-route:hover { background: var(--accent); color: #000; }
+  .card-route:hover { background: var(--text); color: var(--card-bg); }
 
   .leaflet-popup-content-wrapper {
-    background: var(--paper);
+    background: var(--card-bg);
     border: 1px solid var(--border);
     border-radius: 0;
     color: var(--text);
     font-family: 'Share Tech Mono', monospace;
     font-size: 12px;
   }
-  .leaflet-popup-tip { background: var(--paper); }
+  .leaflet-popup-tip { background: var(--card-bg); }
   .popup-name { font-family: 'Oswald', sans-serif; font-size: 15px; margin-bottom: 4px; }
   .popup-addr { color: var(--muted); font-size: 11px; margin-bottom: 6px; }
 
   ::-webkit-scrollbar { width: 4px; }
   ::-webkit-scrollbar-track { background: var(--bg); }
-  ::-webkit-scrollbar-thumb { background: var(--muted); }
+  ::-webkit-scrollbar-thumb { background: var(--border); }
 
   .leaflet-routing-container { display: none !important; }
+
+  /* Fuel-type toggle bar — sticky bottom, thumb-reachable on mobile */
+  #fuel-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+    background: var(--card-bg);
+    border-top: 2px solid var(--border);
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    padding: 0;
+    height: 52px;
+  }
+  .fuel-btn {
+    flex: 1;
+    max-width: 200px;
+    border: none;
+    background: transparent;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: var(--muted);
+    padding: 8px 0;
+    transition: all 0.15s;
+    border-bottom: 3px solid transparent;
+    text-transform: uppercase;
+  }
+  .fuel-btn.active-e85 {
+    color: var(--green);
+    border-bottom-color: var(--green);
+    font-weight: bold;
+  }
+  .fuel-btn.active-vpower {
+    color: var(--vpower);
+    border-bottom-color: var(--vpower);
+    font-weight: bold;
+  }
+  .fuel-btn.active-both {
+    color: var(--text);
+    border-bottom-color: var(--text);
+    font-weight: bold;
+  }
+  .fuel-btn .fuel-count {
+    display: block;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0;
+    font-weight: normal;
+  }
 
   body.lang-ja .card-name,
   body.lang-ja .card-addr,
@@ -400,13 +479,21 @@ permalink: /agrola.html
   body.lang-ja #statusbar {
     font-family: 'Sawarabi Gothic', sans-serif;
   }
+
+  @media (max-width: 700px) {
+    body.view-both #list-container { display: none; }
+    body.view-both #map-container { display: block; width: 100%; }
+    #controls { gap: 6px; padding: 6px 8px; }
+    .filter-toggle { padding: 3px 8px; font-size: 11px; }
+    #main { height: calc(100vh - 44px - 30px - 42px - 52px); }
+  }
 </style>
 </head>
 <body class="view-both">
 
 <!-- HEADER -->
 <div id="header">
-  <div id="logo">AGROLA <span>E85</span></div>
+  <div id="logo">HIGH OCTANE <span class="logo-ch">CH</span></div>
   <div id="lang-switch">
     <button onclick="setLang('de')" data-lang="de">DE</button>
     <button onclick="setLang('en')" data-lang="en" class="active">EN</button>
@@ -416,11 +503,12 @@ permalink: /agrola.html
 
 <!-- STATUS BAR -->
 <div id="statusbar">
-  <div><span class="dot" id="dot-data"></span><span id="status-text">—</span></div>
+  <div><span class="dot" id="dot-data"></span><span id="status-text">&mdash;</span></div>
   <div id="stat-total"><span id="n-total">0</span> <span data-i18n="stations">STATIONS</span></div>
   <div id="stat-e85"><span id="n-e85" style="color:var(--green)">0</span> E85</div>
-  <div id="stat-loc" style="color:var(--muted);display:none"><span data-i18n="your_loc">YOUR LOC</span>: <span id="loc-display">—</span></div>
-  <div id="bg-scan-indicator">↻ <span id="bg-scan-text">SCANNING...</span></div>
+  <div id="stat-vpower"><span id="n-vpower" style="color:var(--vpower)">0</span> V-POWER</div>
+  <div id="stat-loc" style="color:var(--muted);display:none"><span data-i18n="your_loc">YOUR LOC</span>: <span id="loc-display">&mdash;</span></div>
+  <div id="bg-scan-indicator">&#x21bb; <span id="bg-scan-text">SCANNING...</span></div>
 </div>
 
 <!-- BACKGROUND SCAN PROGRESS BANNER -->
@@ -435,16 +523,19 @@ permalink: /agrola.html
 <div id="controls">
   <span class="ctrl-label" data-i18n="filter">FILTER</span>
   <button class="filter-toggle on" id="tog-e85" onclick="toggleFilter('e85')">E85</button>
-  <button class="filter-toggle" id="tog-hvo" onclick="toggleFilter('hvo')">HVO</button>
-  <button class="filter-toggle" id="tog-adblue" onclick="toggleFilter('adblue')">AdBlue</button>
-  <button class="filter-toggle" id="tog-ev" onclick="toggleFilter('ev')">EV⚡</button>
-  <button class="filter-toggle" id="tog-cng" onclick="toggleFilter('cng')">CNG</button>
-  <button class="filter-toggle" id="tog-lpg" onclick="toggleFilter('lpg')">LPG</button>
-  <button class="filter-toggle" id="tog-b95" onclick="toggleFilter('b95')">95</button>
-  <button class="filter-toggle" id="tog-b98" onclick="toggleFilter('b98')">98</button>
-  <button class="filter-toggle" id="tog-diesel" onclick="toggleFilter('diesel')">Diesel</button>
-  <button class="filter-toggle" id="tog-wash" onclick="toggleFilter('wash')">🚿 Wash</button>
-  <button class="filter-toggle" id="tog-shop" onclick="toggleFilter('shop')">🏪 Shop</button>
+  <button class="filter-toggle" id="tog-wash" onclick="toggleFilter('wash')">Wash</button>
+  <button class="filter-toggle" id="tog-shop" onclick="toggleFilter('shop')">Shop</button>
+  <button class="filter-more" id="btn-more-filters" onclick="toggleMoreFilters()">+ MORE</button>
+  <div id="extra-filters" class="extra-filters">
+    <button class="filter-toggle" id="tog-hvo" onclick="toggleFilter('hvo')">HVO</button>
+    <button class="filter-toggle" id="tog-adblue" onclick="toggleFilter('adblue')">AdBlue</button>
+    <button class="filter-toggle" id="tog-ev" onclick="toggleFilter('ev')">EV</button>
+    <button class="filter-toggle" id="tog-cng" onclick="toggleFilter('cng')">CNG</button>
+    <button class="filter-toggle" id="tog-lpg" onclick="toggleFilter('lpg')">LPG</button>
+    <button class="filter-toggle" id="tog-b95" onclick="toggleFilter('b95')">95</button>
+    <button class="filter-toggle" id="tog-b98" onclick="toggleFilter('b98')">98</button>
+    <button class="filter-toggle" id="tog-diesel" onclick="toggleFilter('diesel')">Diesel</button>
+  </div>
 
   <div id="sort-ctrl">
     <span class="ctrl-label" data-i18n="sort">SORT</span>
@@ -454,8 +545,8 @@ permalink: /agrola.html
     </select>
   </div>
 
-  <button id="btn-locate" onclick="locateUser()">⌖ <span data-i18n="locate">LOCATE ME</span></button>
-  <button id="btn-refresh" onclick="confirmRefresh()">↻ <span data-i18n="refresh">REFRESH</span></button>
+  <button id="btn-locate" onclick="locateUser()">&#x2316; <span data-i18n="locate">LOCATE ME</span></button>
+  <button id="btn-refresh" onclick="confirmRefresh()">&#x21bb; <span data-i18n="refresh">REFRESH</span></button>
 
   <div id="view-switch">
     <button onclick="setView('list')" data-view="list" data-i18n="view_list">LIST</button>
@@ -478,20 +569,36 @@ permalink: /agrola.html
 <!-- ROUTE BAR -->
 <div id="route-bar">
   <div>
-    <div class="route-stat" id="route-dist">—</div>
+    <div class="route-stat" id="route-dist">&mdash;</div>
     <div class="route-label" data-i18n="route_dist">DISTANCE</div>
   </div>
   <div>
-    <div class="route-stat" id="route-time">—</div>
+    <div class="route-stat" id="route-time">&mdash;</div>
     <div class="route-label" data-i18n="route_time">DRIVE TIME</div>
   </div>
   <div id="route-dest" style="color:var(--text);font-size:12px"></div>
-  <button id="btn-clear-route" onclick="clearRoute()">✕ ROUTE</button>
+  <button id="btn-clear-route" onclick="clearRoute()">&#x2715; ROUTE</button>
 </div>
 
 <!-- BOTTOM COUNT -->
 <div id="count-bar">
-  <span><span data-i18n="showing">SHOWING</span>: <span id="n-showing">0</span> / <span id="n-total-bot">0</span></span>
+  <span><span data-i18n="showing">SHOWING</span>: <span class="ct" id="n-showing">0</span> / <span class="ct" id="n-total-bot">0</span></span>
+</div>
+
+<!-- FUEL TYPE TOGGLE — fixed bottom bar, thumb-reachable -->
+<div id="fuel-bar">
+  <button class="fuel-btn active-e85" id="fbtn-e85" onclick="setFuelMode('e85')">
+    E85
+    <span class="fuel-count" id="fcount-e85">0</span>
+  </button>
+  <button class="fuel-btn" id="fbtn-vpower" onclick="setFuelMode('vpower')">
+    V-POWER 100
+    <span class="fuel-count" id="fcount-vpower">0</span>
+  </button>
+  <button class="fuel-btn" id="fbtn-both" onclick="setFuelMode('both')">
+    BOTH
+    <span class="fuel-count" id="fcount-both">0</span>
+  </button>
 </div>
 
 <script>
@@ -556,25 +663,30 @@ const BASE_URL = `https://locator.uberall.com/api/storefinders/${API_KEY}`;
 // Known E85 station IDs (verified from cache)
 const KNOWN_E85_IDS = [1568624, 1568742, 1568842, 1568859, 1568878, 1568965, 1569030];
 
-const CACHE_E85    = 'agrola_e85_known_v1';   // known E85 — 24h TTL
-const CACHE_FULL   = 'agrola_full_v7';         // full scan — 7 day TTL
-const TTL_E85      = 86400000;                 // 24 hours
-const TTL_FULL     = 86400000 * 7;             // 7 days
+const CACHE_E85    = 'agrola_e85_known_v1';
+const CACHE_FULL   = 'agrola_full_v7';
+const TTL_E85      = 86400000;
+const TTL_FULL     = 86400000 * 7;
+
+// Switzerland border (simplified, 179 points)
+const CH_BORDER = [[8.5625,47.8032],[8.5765,47.7802],[8.4729,47.7666],[8.4059,47.67],[8.4732,47.6423],[8.6064,47.6709],[8.6311,47.6548],[8.5789,47.5955],[8.5192,47.633],[8.4595,47.5997],[8.4938,47.5821],[8.3874,47.5659],[8.2157,47.621],[8.0866,47.5575],[7.9163,47.5473],[7.8868,47.5895],[7.8175,47.5886],[7.6918,47.532],[7.6333,47.5611],[7.6849,47.5654],[7.6944,47.6007],[7.589,47.5898],[7.4968,47.5374],[7.531,47.5264],[7.4868,47.4821],[7.434,47.4978],[7.4207,47.4813],[7.4572,47.4727],[7.4023,47.4358],[7.2463,47.4198],[7.1703,47.4433],[7.2006,47.494],[6.985,47.4938],[7.0024,47.455],[6.9406,47.4337],[6.8795,47.3551],[7.0127,47.3723],[7.056,47.3339],[6.942,47.2876],[6.9561,47.244],[6.7037,47.0813],[6.7181,47.0514],[6.4325,46.9287],[6.462,46.8945],[6.4311,46.8113],[6.4524,46.7751],[6.1098,46.5782],[6.1565,46.5456],[6.0727,46.466],[6.0651,46.417],[6.1699,46.3668],[6.1026,46.285],[6.1242,46.2516],[5.97,46.2083],[5.9941,46.1827],[5.9573,46.1289],[6.1335,46.1406],[6.2938,46.2247],[6.3099,46.2566],[6.2605,46.252],[6.22,46.3121],[6.335,46.4033],[6.5204,46.4558],[6.6824,46.4544],[6.8218,46.4279],[6.771,46.3559],[6.8665,46.2805],[6.8033,46.2041],[6.7985,46.1361],[6.8994,46.1242],[6.8754,46.0523],[6.9358,46.0651],[7.1054,45.8608],[7.1892,45.8585],[7.2887,45.9206],[7.3842,45.8972],[7.5421,45.9574],[7.549,45.986],[7.6595,45.9755],[7.7261,45.9239],[7.8703,45.9192],[7.9108,45.9974],[8.0132,46.0141],[8.0344,46.1023],[8.1477,46.1361],[8.1642,46.1789],[8.0798,46.2596],[8.3146,46.3801],[8.2892,46.4057],[8.3064,46.4251],[8.4396,46.4643],[8.4711,46.3953],[8.4279,46.3009],[8.4416,46.252],[8.5323,46.2188],[8.6133,46.1232],[8.7142,46.0994],[8.7431,46.1213],[8.8529,46.0723],[8.7843,45.9917],[8.8955,45.9588],[8.9436,45.8675],[8.914,45.8312],[9.0314,45.8211],[9.0898,45.901],[8.9909,45.9707],[9.0266,45.9936],[9.0095,46.0342],[9.0747,46.0661],[9.0726,46.1189],[9.2464,46.2321],[9.2999,46.3261],[9.2807,46.4151],[9.2477,46.4331],[9.2821,46.4956],[9.3713,46.5078],[9.4098,46.4662],[9.4606,46.506],[9.462,46.3791],[9.5595,46.3014],[9.7092,46.291],[9.7435,46.3507],[9.9536,46.3782],[9.9976,46.3488],[9.9948,46.2881],[10.0552,46.2691],[10.0429,46.2255],[10.15,46.2321],[10.1761,46.2539],[10.1047,46.3289],[10.161,46.4151],[10.0401,46.4445],[10.0401,46.5409],[10.1006,46.6042],[10.2379,46.6353],[10.2461,46.5702],[10.2997,46.5504],[10.4782,46.5513],[10.4865,46.6136],[10.4068,46.6344],[10.3835,46.6862],[10.4411,46.7549],[10.4247,46.7925],[10.4947,46.9371],[10.3683,46.9934],[10.3189,46.9259],[10.2448,46.9296],[10.2283,46.8715],[10.1019,46.8452],[9.8712,46.9315],[9.8877,46.9896],[9.863,47.0233],[9.6487,47.0608],[9.476,47.0517],[9.5199,47.1019],[9.4897,47.1971],[9.5636,47.3053],[9.679,47.3872],[9.6576,47.4508],[9.6008,47.4608],[9.5506,47.5372],[9.4496,47.5941],[9.2587,47.6598],[9.0253,47.6848],[8.8962,47.6487],[8.8509,47.683],[8.8732,47.704],[8.8059,47.7379],[8.7702,47.7172],[8.8107,47.6938],[8.7935,47.6751],[8.728,47.6945],[8.7139,47.7354],[8.7431,47.7481],[8.683,47.7855],[8.6541,47.7993],[8.6322,47.7596],[8.6195,47.8007],[8.5625,47.8032]];
 
 // ═══════════════════════════════════════════════════════
 // STATE
 // ═══════════════════════════════════════════════════════
-let allStations = [];          // currently displayed stations
-let fullStationMap = new Map(); // id -> station, full dataset
+let allStations = [];
+let fullStationMap = new Map();   // id -> station (AGROLA)
+let vpowerStations = [];          // V-Power 100 stations from JSON
 let userLat = null, userLng = null;
-let activeFilters = new Set(['e85']); // E85 on by default
+let activeFilters = new Set(['e85']);
+let fuelMode = 'e85';            // 'e85' | 'vpower' | 'both'
 let currentView = 'both';
 let map = null, markers = {};
 let routeControl = null, userMarker = null;
 let bgScanNewCount = 0;
 
 // ═══════════════════════════════════════════════════════
-// FUEL DETECTION
+// FUEL DETECTION (AGROLA)
 // ═══════════════════════════════════════════════════════
 function detectFuels(station) {
   const svcs = new Set(Array.isArray(station.services) ? station.services : []);
@@ -605,7 +717,24 @@ function buildStation(detail, fallback) {
     zip:      detail.zip || fallback.zip,
     fuels:    detectFuels(detail),
     services: detail.services || [],
+    source:   'agrola',
     raw:      detail,
+  };
+}
+
+// Build a station object from V-Power JSON
+function buildVpowerStation(v) {
+  return {
+    id:       'vp-' + v.id,
+    name:     v.name,
+    lat:      v.lat,
+    lng:      v.lng,
+    city:     v.city,
+    street:   v.address,
+    zip:      v.postcode,
+    fuels:    { vpower: true },
+    services: [],
+    source:   'vpower',
   };
 }
 
@@ -616,21 +745,33 @@ async function fetchStationDetail(id) {
 }
 
 // ═══════════════════════════════════════════════════════
+// V-POWER DATA
+// ═══════════════════════════════════════════════════════
+async function loadVpowerStations() {
+  try {
+    const resp = await fetch('/assets/data/vpower-stations.json');
+    const data = await resp.json();
+    vpowerStations = data.map(buildVpowerStation);
+    updateFuelCounts();
+  } catch(e) {
+    console.error('Failed to load V-Power stations:', e);
+  }
+}
+
+// ═══════════════════════════════════════════════════════
 // PHASE 1: FAST — load known E85 stations
 // ═══════════════════════════════════════════════════════
 async function loadKnownE85() {
-  // Check cache first
   try {
     const cached = localStorage.getItem(CACHE_E85);
     if (cached) {
       const data = JSON.parse(cached);
       if (Date.now() - data.ts < TTL_E85) {
         data.stations.forEach(s => fullStationMap.set(s.id, s));
-        allStations = [...fullStationMap.values()];
         setStatus('idle');
         sortAndRender();
         updateCounts();
-        return true; // loaded from cache
+        return true;
       }
     }
   } catch(e) {}
@@ -638,7 +779,6 @@ async function loadKnownE85() {
   setStatus('loading');
   document.getElementById('status-text').textContent = 'VERIFYING E85 STATIONS...';
 
-  // Fetch all known IDs in parallel
   const results = await Promise.allSettled(
     KNOWN_E85_IDS.map(id => fetchStationDetail(id))
   );
@@ -652,30 +792,26 @@ async function loadKnownE85() {
     }
   });
 
-  // Cache E85 stations
   try {
     localStorage.setItem(CACHE_E85, JSON.stringify({ ts: Date.now(), stations }));
   } catch(e) {}
 
-  allStations = [...fullStationMap.values()];
   setStatus('idle');
   sortAndRender();
   updateCounts();
-  return false; // fetched fresh
+  return false;
 }
 
 // ═══════════════════════════════════════════════════════
 // PHASE 2: BACKGROUND — full scan for new E85 stations
 // ═══════════════════════════════════════════════════════
 async function backgroundFullScan(force = false) {
-  // Check if we already have a recent full scan
   if (!force) {
     try {
       const cached = localStorage.getItem(CACHE_FULL);
       if (cached) {
         const data = JSON.parse(cached);
         if (Date.now() - data.ts < TTL_FULL) {
-          // Merge cached full data into map (for non-E85 stations)
           let merged = false;
           data.stations.forEach(s => {
             if (!fullStationMap.has(s.id)) {
@@ -684,17 +820,15 @@ async function backgroundFullScan(force = false) {
             }
           });
           if (merged) {
-            allStations = [...fullStationMap.values()];
             sortAndRender();
             updateCounts();
           }
-          return; // full scan still valid
+          return;
         }
       }
     } catch(e) {}
   }
 
-  // Run background scan
   const banner = document.getElementById('scan-banner');
   const bgInd  = document.getElementById('bg-scan-indicator');
   banner.classList.add('visible');
@@ -707,7 +841,6 @@ async function backgroundFullScan(force = false) {
     const data = await resp.json();
     const locs = data.response?.locations || [];
 
-    // Skip IDs we already have fresh data for
     const knownIds = new Set(fullStationMap.keys());
     const toFetch = locs.filter(l => !knownIds.has(l.id));
 
@@ -728,13 +861,11 @@ async function backgroundFullScan(force = false) {
 
       fullStationMap.set(s.id, s);
 
-      // If this is a newly discovered E85 station, surface it immediately
       if (s.fuels.e85 && (wasNew || !hadE85Before)) {
         bgScanNewCount++;
         document.getElementById('scan-new-count').textContent = bgScanNewCount;
         document.getElementById('scan-new-found').style.display = '';
 
-        // Update known E85 cache with the new find
         try {
           const e85cached = localStorage.getItem(CACHE_E85);
           const e85data = e85cached ? JSON.parse(e85cached) : { ts: Date.now(), stations: [] };
@@ -744,26 +875,20 @@ async function backgroundFullScan(force = false) {
           }
         } catch(e) {}
 
-        allStations = [...fullStationMap.values()];
-        sortAndRender(s.id); // pass id to flash the new card
+        sortAndRender(s.id);
         updateCounts();
       }
 
-      // Update progress
       const pct = Math.floor(((i+1) / toFetch.length) * 100);
       document.getElementById('scan-bar-fill').style.width = pct + '%';
       document.getElementById('scan-progress-text').textContent = `${i+1} / ${toFetch.length}`;
 
-      // Small yield every 10 stations to keep UI responsive
       if (i % 10 === 9) await new Promise(r => setTimeout(r, 50));
     }
 
-    // Merge any updated data into allStations
-    allStations = [...fullStationMap.values()];
     sortAndRender();
     updateCounts();
 
-    // Cache full scan
     try {
       localStorage.setItem(CACHE_FULL, JSON.stringify({
         ts: Date.now(),
@@ -783,8 +908,11 @@ async function backgroundFullScan(force = false) {
 // BOOT SEQUENCE
 // ═══════════════════════════════════════════════════════
 async function boot() {
-  await loadKnownE85();
-  // Start background scan without awaiting — runs silently
+  await Promise.all([loadKnownE85(), loadVpowerStations()]);
+  sortAndRender();
+  updateCounts();
+  updateFuelCounts();
+  locateUser();
   backgroundFullScan();
 }
 
@@ -793,10 +921,27 @@ function confirmRefresh() {
     localStorage.removeItem(CACHE_E85);
     localStorage.removeItem(CACHE_FULL);
     fullStationMap.clear();
-    allStations = [];
     sortAndRender();
     boot();
   }
+}
+
+// ═══════════════════════════════════════════════════════
+// FUEL MODE (bottom bar toggle)
+// ═══════════════════════════════════════════════════════
+function setFuelMode(mode) {
+  fuelMode = mode;
+  document.querySelectorAll('.fuel-btn').forEach(b => b.className = 'fuel-btn');
+  const btn = document.getElementById('fbtn-' + mode);
+  btn.classList.add(mode === 'e85' ? 'active-e85' : mode === 'vpower' ? 'active-vpower' : 'active-both');
+  sortAndRender();
+}
+
+function updateFuelCounts() {
+  const e85count = [...fullStationMap.values()].filter(s => s.fuels.e85).length;
+  document.getElementById('fcount-e85').textContent = e85count + ' stations';
+  document.getElementById('fcount-vpower').textContent = vpowerStations.length + ' stations';
+  document.getElementById('fcount-both').textContent = (e85count + vpowerStations.length) + ' stations';
 }
 
 // ═══════════════════════════════════════════════════════
@@ -811,8 +956,10 @@ function setStatus(state) {
 
 function updateCounts() {
   const e85count = [...fullStationMap.values()].filter(s => s.fuels.e85).length;
-  document.getElementById('n-total').textContent = fullStationMap.size;
+  document.getElementById('n-total').textContent = fullStationMap.size + vpowerStations.length;
   document.getElementById('n-e85').textContent = e85count;
+  document.getElementById('n-vpower').textContent = vpowerStations.length;
+  updateFuelCounts();
 }
 
 // ═══════════════════════════════════════════════════════
@@ -830,11 +977,11 @@ function locateUser() {
       if (userMarker) map.removeLayer(userMarker);
       userMarker = L.marker([userLat, userLng], {
         icon: L.divIcon({
-          html: `<div style="width:14px;height:14px;background:var(--green);border-radius:50%;border:3px solid #000;box-shadow:0 0 8px #00ff88"></div>`,
+          html: '<div style="width:14px;height:14px;background:#1a8a5c;border-radius:50%;border:3px solid #fff;box-shadow:0 0 6px rgba(0,0,0,0.3)"></div>',
           iconSize: [14,14], iconAnchor: [7,7], className: ''
         }),
         zIndexOffset: 1000
-      }).addTo(map).bindPopup('<span style="color:var(--green)">◉ YOU</span>');
+      }).addTo(map).bindPopup('<b>YOU</b>');
     }
     document.getElementById('sort-select').value = 'distance';
     sortAndRender();
@@ -850,7 +997,7 @@ function routeTo(station) {
     waypoints: [L.latLng(userLat, userLng), L.latLng(station.lat, station.lng)],
     router: L.Routing.osrmv1({ serviceUrl: 'https://router.project-osrm.org/route/v1', profile: 'driving' }),
     lineOptions: {
-      styles: [{ color: '#000', weight: 8, opacity: 0.4 }, { color: '#e8e000', weight: 3, opacity: 1 }],
+      styles: [{ color: 'rgba(0,0,0,0.2)', weight: 8 }, { color: '#2c2c2c', weight: 3, opacity: 1 }],
       extendToWaypoints: true, missingRouteTolerance: 0
     },
     show: false, addWaypoints: false, routeWhileDragging: false,
@@ -884,6 +1031,13 @@ function haversine(lat1, lng1, lat2, lng2) {
 // ═══════════════════════════════════════════════════════
 // FILTERS
 // ═══════════════════════════════════════════════════════
+function toggleMoreFilters() {
+  const el = document.getElementById('extra-filters');
+  const btn = document.getElementById('btn-more-filters');
+  el.classList.toggle('open');
+  btn.textContent = el.classList.contains('open') ? '- LESS' : '+ MORE';
+}
+
 function toggleFilter(f) {
   if (activeFilters.has(f)) activeFilters.delete(f);
   else activeFilters.add(f);
@@ -892,16 +1046,32 @@ function toggleFilter(f) {
 }
 
 function stationMatchesFilters(s) {
+  // Filters only apply to AGROLA stations
+  if (s.source === 'vpower') return true;
   if (activeFilters.size === 0) return true;
   for (const f of activeFilters) { if (s.fuels[f]) return true; }
   return false;
 }
 
 // ═══════════════════════════════════════════════════════
+// UNIFIED STATION LIST
+// ═══════════════════════════════════════════════════════
+function getVisibleStations() {
+  let stations = [];
+  if (fuelMode === 'e85' || fuelMode === 'both') {
+    stations = stations.concat([...fullStationMap.values()]);
+  }
+  if (fuelMode === 'vpower' || fuelMode === 'both') {
+    stations = stations.concat(vpowerStations);
+  }
+  return stations.filter(stationMatchesFilters);
+}
+
+// ═══════════════════════════════════════════════════════
 // RENDER
 // ═══════════════════════════════════════════════════════
 function sortAndRender(flashId = null) {
-  let stations = [...fullStationMap.values()].filter(stationMatchesFilters);
+  let stations = getVisibleStations();
   stations = stations.map(s => ({
     ...s,
     dist: (userLat !== null && !isNaN(s.lat) && !isNaN(s.lng))
@@ -916,23 +1086,25 @@ function sortAndRender(flashId = null) {
   renderList(stations, flashId);
   renderMap(stations);
   document.getElementById('n-showing').textContent = stations.length;
-  document.getElementById('n-total-bot').textContent = fullStationMap.size;
+  document.getElementById('n-total-bot').textContent = fullStationMap.size + vpowerStations.length;
   document.getElementById('empty-state').classList.toggle('visible', stations.length === 0);
 }
 
-function fuelTags(fuels) {
+function fuelTags(s) {
   const tags = [];
-  if (fuels.e85)    tags.push(`<span class="tag e85">E85</span>`);
-  if (fuels.hvo)    tags.push(`<span class="tag hvo">HVO</span>`);
-  if (fuels.b95)    tags.push(`<span class="tag b95">95</span>`);
-  if (fuels.b98)    tags.push(`<span class="tag b98">98</span>`);
-  if (fuels.diesel) tags.push(`<span class="tag diesel">Diesel</span>`);
-  if (fuels.adblue) tags.push(`<span class="tag adblue">AdBlue</span>`);
-  if (fuels.ev)     tags.push(`<span class="tag ev">EV⚡</span>`);
-  if (fuels.cng)    tags.push(`<span class="tag cng">CNG</span>`);
-  if (fuels.lpg)    tags.push(`<span class="tag lpg">LPG</span>`);
-  if (fuels.wash)   tags.push(`<span class="tag wash">Wash</span>`);
-  if (fuels.shop)   tags.push(`<span class="tag shop">Shop</span>`);
+  const fuels = s.fuels;
+  if (fuels.e85)    tags.push('<span class="tag e85">E85</span>');
+  if (fuels.vpower) tags.push('<span class="tag vpower">V-POWER 100</span>');
+  if (fuels.hvo)    tags.push('<span class="tag hvo">HVO</span>');
+  if (fuels.b95)    tags.push('<span class="tag b95">95</span>');
+  if (fuels.b98)    tags.push('<span class="tag b98">98</span>');
+  if (fuels.diesel) tags.push('<span class="tag diesel">Diesel</span>');
+  if (fuels.adblue) tags.push('<span class="tag adblue">AdBlue</span>');
+  if (fuels.ev)     tags.push('<span class="tag ev">EV</span>');
+  if (fuels.cng)    tags.push('<span class="tag cng">CNG</span>');
+  if (fuels.lpg)    tags.push('<span class="tag lpg">LPG</span>');
+  if (fuels.wash)   tags.push('<span class="tag wash">Wash</span>');
+  if (fuels.shop)   tags.push('<span class="tag shop">Shop</span>');
   return tags.join('');
 }
 
@@ -940,21 +1112,39 @@ function mapsUrl(s) {
   return `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}`;
 }
 
+// Unified lookup: works for both AGROLA and V-Power stations
+function lookupStation(id) {
+  if (typeof id === 'string' && id.startsWith('vp-')) {
+    return vpowerStations.find(s => s.id === id);
+  }
+  return fullStationMap.get(id);
+}
+
 function renderList(stations, flashId = null) {
   const container = document.getElementById('station-list');
   container.innerHTML = stations.map(s => {
     const addr = [s.street, s.zip, s.city].filter(Boolean).join(' ');
     const distStr = s.dist !== null ? `${s.dist.toFixed(1)} ${t('km_away')}` : '';
+    const cls = [
+      'station-card',
+      s.fuels.e85 ? 'has-e85' : '',
+      s.fuels.vpower ? 'has-vpower' : '',
+      flashId === s.id ? 'new-find' : ''
+    ].filter(Boolean).join(' ');
+    const sid = JSON.stringify(s.id);
     return `
-    <div class="station-card ${s.fuels.e85 ? 'has-e85' : ''} ${flashId === s.id ? 'new-find' : ''}"
-         onclick="highlightStation(${s.id})" id="card-${s.id}">
-      <div class="card-name">${s.name || '—'}</div>
+    <div class="${cls}" onclick="highlightStation(${sid})" id="card-${s.id}">
+      <div class="card-name">${s.name || '\u2014'}</div>
       <div class="card-addr">${addr}</div>
       ${distStr ? `<div class="card-dist">${distStr}</div>` : ''}
-      <div class="card-tags">${fuelTags(s.fuels)}</div>
-      <a class="card-gmaps" href="${mapsUrl(s)}" target="_blank" onclick="event.stopPropagation()">▶ ${t('navigate')}</a>${userLat !== null ? `<button class="card-route" onclick="event.stopPropagation();routeTo(fullStationMap.get(${s.id}))">⊕ ROUTE</button>` : ''}
+      <div class="card-tags">${fuelTags(s)}</div>
+      <a class="card-gmaps" href="${mapsUrl(s)}" target="_blank" onclick="event.stopPropagation()">\u25b6 ${t('navigate')}</a>${userLat !== null ? `<button class="card-route" onclick="event.stopPropagation();routeTo(lookupStation(${sid}))">\u2295 ROUTE</button>` : ''}
     </div>`;
   }).join('');
+
+  if (fuelMode === 'e85') {
+    container.innerHTML += '<div style="padding:16px 12px;font-size:11px;color:var(--muted);border-top:1px solid var(--border)">AGROLA\'s E85 network in Switzerland \u2014 small but growing. Currently 7 verified stations.</div>';
+  }
 }
 
 function renderMap(stations) {
@@ -963,18 +1153,27 @@ function renderMap(stations) {
   markers = {};
   stations.forEach(s => {
     if (isNaN(s.lat) || isNaN(s.lng)) return;
-    const color = s.fuels.e85 ? '#00ff88' : '#e8e000';
+    let color, size;
+    if (s.fuels.vpower) {
+      color = '#c0392b'; size = 9;
+    } else if (s.fuels.e85) {
+      color = '#1a8a5c'; size = 12;
+    } else {
+      color = '#888'; size = 8;
+    }
+    const bw = s.fuels.e85 ? 3 : 2;
     const icon = L.divIcon({
-      html: `<div style="width:10px;height:10px;background:${color};border:2px solid #000;transform:rotate(45deg)"></div>`,
-      iconSize: [10,10], iconAnchor: [5,5], className: ''
+      html: `<div style="width:${size}px;height:${size}px;background:${color};border:${bw}px solid #fff;border-radius:50%;box-shadow:0 1px 3px rgba(0,0,0,0.3)"></div>`,
+      iconSize: [size,size], iconAnchor: [size/2,size/2], className: ''
     });
     const addr = [s.street, s.zip, s.city].filter(Boolean).join(' ');
+    const sid = JSON.stringify(s.id);
     const marker = L.marker([s.lat, s.lng], { icon }).addTo(map).bindPopup(`
       <div class="popup-name">${s.name}</div>
       <div class="popup-addr">${addr}</div>
-      <div style="margin:4px 0">${fuelTags(s.fuels)}</div>
-      <a href="${mapsUrl(s)}" target="_blank" class="card-gmaps">▶ ${t('navigate')}</a>
-      <button class="card-route" onclick="routeTo(fullStationMap.get(${s.id}))" style="margin-left:4px">⊕ ROUTE</button>
+      <div style="margin:4px 0">${fuelTags(s)}</div>
+      <a href="${mapsUrl(s)}" target="_blank" class="card-gmaps">\u25b6 ${t('navigate')}</a>
+      <button class="card-route" onclick="routeTo(lookupStation(${sid}))" style="margin-left:4px">\u2295 ROUTE</button>
     `);
     marker.on('click', () => highlightStation(s.id));
     markers[s.id] = marker;
@@ -1002,10 +1201,22 @@ function setView(v) {
 // MAP INIT
 // ═══════════════════════════════════════════════════════
 function initMap() {
-  map = L.map('map', { zoomControl: true }).setView([47.0, 8.3], 8);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '©OpenStreetMap ©CARTO',
+  map = L.map('map', { zoomControl: true }).setView([46.85, 8.2], 8);
+
+  // Light Voyager basemap
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    attribution: '\u00a9OpenStreetMap \u00a9CARTO',
     subdomains: 'abcd', maxZoom: 19
+  }).addTo(map);
+
+  // Switzerland border overlay
+  const chLatLngs = CH_BORDER.map(c => [c[1], c[0]]);
+  L.polyline(chLatLngs, {
+    color: '#2c2c2c',
+    weight: 2.5,
+    opacity: 0.6,
+    dashArray: null,
+    fill: false,
   }).addTo(map);
 }
 

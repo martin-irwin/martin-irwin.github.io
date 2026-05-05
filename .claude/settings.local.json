@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:find.shell.com)",
+      "WebFetch(domain:ch.fuelo.net)",
+      "WebFetch(domain:shellgslmsapiprod.azureedge.net)",
+      "WebFetch(domain:www.shell.ch)",
+      "WebFetch(domain:api.shell.com)",
+      "WebFetch(domain:developer.shell.com)",
+      "WebFetch(domain:shellgsllocator.geoapp.me)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'Total: {len\\(d\\)} stations'\\); print\\(f'Sample: {json.dumps\\(d[0], indent=2\\)}'\\); brands={}; [brands.update\\({s[\\\\\"name\\\\\"].split\\(\\)[0]:brands.get\\(s[\\\\\"name\\\\\"].split\\(\\)[0],0\\)+1}\\) for s in d]; print\\(f'Name prefixes: {dict\\(sorted\\(brands.items\\(\\),key=lambda x:-x[1]\\)[:10]\\)}'\\)\")",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(python3:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(chmod +x:*)",
+      "Bash(bash -n /Users/maru/Website/scripts/fetch-vpower.sh)",
+      "Bash(git log:*)",
+      "Bash(git mv:*)"
+    ]
+  }
+}

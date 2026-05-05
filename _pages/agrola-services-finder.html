@@ -315,6 +315,10 @@ permalink: /agrola.html
   .tag.diesel { border-color: #9a7b2e; color: #9a7b2e; }
   .tag.wash   { border-color: #2980b9; color: #2980b9; }
   .tag.shop   { border-color: #c0568a; color: #c0568a; }
+  .tag.t24h   { border-color: var(--accent); color: var(--accent); }
+  .tag.topen  { border-color: var(--green); color: var(--green); font-weight: bold; }
+  .tag.tclosed{ border-color: var(--danger); color: var(--danger); }
+  #stat-refreshed { color: var(--muted); font-size: 10px; margin-left: auto; }
 
   .card-gmaps {
     display: inline-block;
@@ -509,6 +513,7 @@ permalink: /agrola.html
   <div id="stat-vpower"><span id="n-vpower" style="color:var(--vpower)">0</span> V-POWER</div>
   <div id="stat-loc" style="color:var(--muted);display:none"><span data-i18n="your_loc">YOUR LOC</span>: <span id="loc-display">&mdash;</span></div>
   <div id="bg-scan-indicator">&#x21bb; <span id="bg-scan-text">SCANNING...</span></div>
+  <div id="stat-refreshed"></div>
 </div>
 
 <!-- BACKGROUND SCAN PROGRESS BANNER -->
@@ -684,6 +689,8 @@ let currentView = 'both';
 let map = null, markers = {};
 let routeControl = null, userMarker = null;
 let bgScanNewCount = 0;
+let vpowerRefreshedAt = null;      // ISO timestamp from vpower-stations.json
+const vpowerDetailCache = {};      // shellId -> detail object (lazy-fetched)
 
 // ═══════════════════════════════════════════════════════
 // FUEL DETECTION (AGROLA)
@@ -735,6 +742,9 @@ function buildVpowerStation(v) {
     fuels:    { vpower: true },
     services: [],
     source:   'vpower',
+    openStatus: v.open_status || null,
+    nextStatusChange: v.next_open_status_change || null,
+    shellId:  v.id,
   };
 }
 
@@ -751,8 +761,16 @@ async function loadVpowerStations() {
   try {
     const resp = await fetch('/assets/data/vpower-stations.json');
     const data = await resp.json();
-    vpowerStations = data.map(buildVpowerStation);
+    // Handle both old bare-array and new { refreshed_at, stations } formats
+    const stations = Array.isArray(data) ? data : data.stations;
+    vpowerRefreshedAt = data.refreshed_at || null;
+    vpowerStations = stations.map(buildVpowerStation);
     updateFuelCounts();
+    if (vpowerRefreshedAt) {
+      const d = new Date(vpowerRefreshedAt);
+      document.getElementById('stat-refreshed').textContent =
+        'V-POWER DATA: ' + d.toISOString().slice(0, 10);
+    }
   } catch(e) {
     console.error('Failed to load V-Power stations:', e);
   }
@@ -1090,11 +1108,32 @@ function sortAndRender(flashId = null) {
   document.getElementById('empty-state').classList.toggle('visible', stations.length === 0);
 }
 
+// Compute open/closed status for V-Power stations
+function openStatusBadge(s) {
+  if (!s.openStatus) return '';
+  if (s.openStatus === 'twenty_four_hour') return '<span class="tag t24h">24H</span>';
+  // For stations with a next_open_status_change, compute live status
+  if (s.nextStatusChange) {
+    const changeAt = new Date(s.nextStatusChange);
+    const now = new Date();
+    // If status is "open" and change time is in the future, still open
+    if (s.openStatus === 'open' && now < changeAt) return '<span class="tag topen">OPEN</span>';
+    if (s.openStatus === 'open' && now >= changeAt) return '<span class="tag tclosed">CLOSED</span>';
+    if (s.openStatus === 'closed' && now < changeAt) return '<span class="tag tclosed">CLOSED</span>';
+    if (s.openStatus === 'closed' && now >= changeAt) return '<span class="tag topen">OPEN</span>';
+  }
+  if (s.openStatus === 'open') return '<span class="tag topen">OPEN</span>';
+  if (s.openStatus === 'closed') return '<span class="tag tclosed">CLOSED</span>';
+  return '';
+}
+
 function fuelTags(s) {
   const tags = [];
   const fuels = s.fuels;
   if (fuels.e85)    tags.push('<span class="tag e85">E85</span>');
   if (fuels.vpower) tags.push('<span class="tag vpower">V-POWER 100</span>');
+  const badge = openStatusBadge(s);
+  if (badge) tags.push(badge);
   if (fuels.hvo)    tags.push('<span class="tag hvo">HVO</span>');
   if (fuels.b95)    tags.push('<span class="tag b95">95</span>');
   if (fuels.b98)    tags.push('<span class="tag b98">98</span>');
@@ -1110,6 +1149,33 @@ function fuelTags(s) {
 
 function mapsUrl(s) {
   return `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}`;
+}
+
+// Lazy-fetch V-Power station detail (opening hours) from Geoapp
+const SHELL_DETAIL_URL = 'https://shellgsllocator.geoapp.me/api/v2/locations';
+async function fetchVpowerDetail(shellId) {
+  if (vpowerDetailCache[shellId]) return vpowerDetailCache[shellId];
+  try {
+    const resp = await fetch(`${SHELL_DETAIL_URL}/${shellId}?locale=de_CH&format=json`);
+    const data = await resp.json();
+    vpowerDetailCache[shellId] = data;
+    return data;
+  } catch(e) {
+    return null;
+  }
+}
+
+function formatHoursTable(detail) {
+  const oh = detail?.opening_hours;
+  if (!Array.isArray(oh) || oh.length === 0) return '';
+  let html = '<table style="font-size:10px;margin-top:6px;border-collapse:collapse;width:100%">';
+  oh.forEach(entry => {
+    const dayStr = (entry.days || []).join(', ');
+    const timeStr = (entry.hours || []).map(h => h.join('\u2013')).join(', ') || 'Closed';
+    html += `<tr><td style="padding:1px 6px 1px 0;color:var(--muted)">${dayStr}</td><td style="padding:1px 0">${timeStr}</td></tr>`;
+  });
+  html += '</table>';
+  return html;
 }
 
 // Unified lookup: works for both AGROLA and V-Power stations
@@ -1168,13 +1234,30 @@ function renderMap(stations) {
     });
     const addr = [s.street, s.zip, s.city].filter(Boolean).join(' ');
     const sid = JSON.stringify(s.id);
+    const hoursId = 'hours-' + s.id;
     const marker = L.marker([s.lat, s.lng], { icon }).addTo(map).bindPopup(`
       <div class="popup-name">${s.name}</div>
       <div class="popup-addr">${addr}</div>
       <div style="margin:4px 0">${fuelTags(s)}</div>
+      ${s.source === 'vpower' ? `<div id="${hoursId}" style="color:var(--muted);font-size:10px">Loading hours...</div>` : ''}
       <a href="${mapsUrl(s)}" target="_blank" class="card-gmaps">\u25b6 ${t('navigate')}</a>
       <button class="card-route" onclick="routeTo(lookupStation(${sid}))" style="margin-left:4px">\u2295 ROUTE</button>
     `);
+    // Lazy-fetch opening hours when popup opens (V-Power only)
+    if (s.source === 'vpower' && s.shellId) {
+      marker.on('popupopen', async () => {
+        const el = document.getElementById(hoursId);
+        if (!el || el.dataset.loaded) return;
+        const detail = await fetchVpowerDetail(s.shellId);
+        el.dataset.loaded = '1';
+        if (detail) {
+          const table = formatHoursTable(detail);
+          el.innerHTML = table || '<span style="color:var(--muted);font-size:10px">Hours unavailable</span>';
+        } else {
+          el.innerHTML = '<span style="color:var(--muted);font-size:10px">Hours unavailable</span>';
+        }
+      });
+    }
     marker.on('click', () => highlightStation(s.id));
     markers[s.id] = marker;
   });

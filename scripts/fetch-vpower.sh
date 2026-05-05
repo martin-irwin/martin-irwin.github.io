@@ -73,7 +73,9 @@ for i in "${!POINTS[@]}"; do
     city: .city,
     postcode: .postcode,
     brand: .brand,
-    fuels: .fuels
+    fuels: .fuels,
+    open_status: .open_status,
+    next_open_status_change: .next_open_status_change
   }]' "$MERGED" "$RESP" > "$TMP_DIR/tmp.json"
   mv "$TMP_DIR/tmp.json" "$MERGED"
 
@@ -89,15 +91,15 @@ TOTAL=$(jq 'length' "$DEDUPED")
 echo ""
 echo "Total unique V-Power 100 stations: $TOTAL"
 
-# Diff against existing file
+# Diff against existing file (handles both old bare-array and new wrapper formats)
 if [[ -f "$OUT" ]]; then
-  OLD_IDS=$(jq -r '.[].id' "$OUT" | sort)
+  OLD_IDS=$(jq -r 'if type == "array" then .[].id else .stations[].id end' "$OUT" | sort)
   NEW_IDS=$(jq -r '.[].id' "$DEDUPED" | sort)
 
   ADDED=$(comm -13 <(echo "$OLD_IDS") <(echo "$NEW_IDS") | wc -l | tr -d ' ')
   REMOVED=$(comm -23 <(echo "$OLD_IDS") <(echo "$NEW_IDS") | wc -l | tr -d ' ')
   UNCHANGED=$(comm -12 <(echo "$OLD_IDS") <(echo "$NEW_IDS") | wc -l | tr -d ' ')
-  OLD_TOTAL=$(jq 'length' "$OUT")
+  OLD_TOTAL=$(jq 'if type == "array" then length else .stations | length end' "$OUT")
 
   echo "Previous: $OLD_TOTAL stations"
   echo "  Added:     $ADDED"
@@ -111,6 +113,9 @@ else
   echo "No previous file — writing fresh."
 fi
 
-cp "$DEDUPED" "$OUT"
+# Wrap in envelope with timestamp
+REFRESHED_AT=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+jq --arg ts "$REFRESHED_AT" '{refreshed_at: $ts, stations: .}' "$DEDUPED" > "$TMP_DIR/final.json"
+cp "$TMP_DIR/final.json" "$OUT"
 echo ""
-echo "Written to: $OUT"
+echo "Written to: $OUT (refreshed_at: $REFRESHED_AT)"

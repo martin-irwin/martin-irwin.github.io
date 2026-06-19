@@ -8,9 +8,9 @@ tags:
   - obsidian
   - tech
 header:
-  image: /assets/images/IMG20260418135833.jpg
-  teaser: /assets/images/IMG20260418135833.jpg
-  og_image: /assets/images/IMG20260418135833.jpg
+  image: /assets/images/pomera3.jpeg
+  teaser: /assets/images/pomera3.jpeg
+  og_image: /assets/images/pomera3.jpeg
 categories:
   - blog
 published: true
@@ -23,6 +23,8 @@ The Pomera DM250 is one of those tools that earns its place by removing things. 
 The friction comes later, when the words need to get from the SD card into Obsidian. Pomera writes plain text with a UTF-8 BOM and Windows line endings, drops files into whatever folder you last used, and otherwise stays out of the way. Useful on the device. Mildly annoying on the Mac.
 
 Here is the pipeline I settled on. A single shell script, run when the SD card is plugged in, that handles the BOM, the line endings, the rename to `.md`, and the move into the Obsidian inbox. The original files get archived rather than deleted, in case I want to dig back through what was on which card.
+
+![pomera](/assets/images/pomera2.jpeg)
 
 ---
 
@@ -120,6 +122,4 @@ If you have a DM250 and an Obsidian vault and you have been moving files around 
 
 ---
 
-*Pomera DM250, M4 Mac Mini, Obsidian vault in Dropbox.*
-
-2026-06-18
+![pomera](/assets/images/pomera1.jpeg)

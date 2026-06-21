@@ -868,34 +868,46 @@ function detectFuels(station) {
 }
 
 function buildStation(detail, fallback) {
+  const street = detail.streetAndNumber || fallback.streetAndNumber || '';
   return {
     id:       detail.id || fallback.id,
     name:     detail.name || fallback.name,
     lat:      parseFloat(detail.lat || fallback.lat),
     lng:      parseFloat(detail.lng || fallback.lng),
+    address:  street,
     city:     detail.city || fallback.city,
-    street:   detail.streetAndNumber || fallback.streetAndNumber || '',
+    street:   street,
     zip:      detail.zip || fallback.zip,
+    country:  'CH',
+    source:   'agrola',
     fuels:    detectFuels(detail),
     services: detail.services || [],
-    source:   'agrola',
+    hours:    null,   // AGROLA API exposes no opening hours
+    is_24h:   null,
     raw:      detail,
   };
 }
 
-// Build a station object from V-Power JSON
+// Build a station object from V-Power JSON.
+// Country/source-agnostic shape (see also buildStation for AGROLA): every
+// station carries id, name, lat, lng, address, country, source, fuels, hours,
+// is_24h — so adding a new country/source in Build 2 needs no renderer changes.
 function buildVpowerStation(v) {
   return {
     id:       'vp-' + v.id,
     name:     v.name,
     lat:      v.lat,
     lng:      v.lng,
+    address:  v.address || '',
     city:     v.city,
     street:   v.address,
     zip:      v.postcode,
+    country:  v.country || 'CH',
+    source:   v.source || 'geoapp-shell',
     fuels:    { vpower: true },
     services: [],
-    source:   'vpower',
+    hours:    v.hours || null,
+    is_24h:   typeof v.is_24h === 'boolean' ? v.is_24h : null,
     openStatus: v.open_status || null,
     nextStatusChange: v.next_open_status_change || null,
     shellId:  v.id,
@@ -915,9 +927,10 @@ async function loadVpowerStations() {
   try {
     const resp = await fetch('/assets/data/vpower-stations.json');
     const data = await resp.json();
-    // Handle both old bare-array and new { refreshed_at, stations } formats
+    // Accept the new { _meta, stations } schema as well as legacy
+    // { refreshed_at, stations } and bare-array formats.
     const stations = Array.isArray(data) ? data : data.stations;
-    vpowerRefreshedAt = data.refreshed_at || null;
+    vpowerRefreshedAt = (data._meta && data._meta.last_refreshed) || data.refreshed_at || null;
     vpowerStations = stations.map(buildVpowerStation);
     updateFuelCounts();
     if (vpowerRefreshedAt) {
@@ -1323,7 +1336,7 @@ function toggleFilter(f) {
 
 function stationMatchesFilters(s) {
   // Filters only apply to AGROLA stations
-  if (s.source === 'vpower') return true;
+  if (s.source !== 'agrola') return true;
   if (activeFilters.size === 0) return true;
   for (const f of activeFilters) { if (s.fuels[f]) return true; }
   return false;
@@ -1589,12 +1602,12 @@ function renderMap(stations) {
       <div class="popup-name">${s.name}</div>
       <div class="popup-addr">${addr}</div>
       <div style="margin:4px 0">${fuelTags(s)}</div>
-      ${s.source === 'vpower' ? `<div id="${hoursId}" style="color:var(--muted);font-size:10px">Loading hours...</div>` : ''}
+      ${s.source === 'geoapp-shell' ? `<div id="${hoursId}" style="color:var(--muted);font-size:10px">Loading hours...</div>` : ''}
       <a href="${mapsUrl(s)}" target="_blank" class="card-gmaps">\u25b6 ${t('navigate')}</a>
       <button class="card-route" onclick="routeTo(lookupStation(${sid}))" style="margin-left:4px">\u2295 ROUTE</button>
     `);
     // Lazy-fetch opening hours when popup opens (V-Power only)
-    if (s.source === 'vpower' && s.shellId) {
+    if (s.source === 'geoapp-shell' && s.shellId) {
       marker.on('popupopen', async () => {
         const el = document.getElementById(hoursId);
         if (!el || el.dataset.loaded) return;

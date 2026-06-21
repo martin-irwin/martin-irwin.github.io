@@ -1,5 +1,12 @@
 {
-  "refreshed_at": "2026-05-05T10:02:25Z",
+  "_meta": {
+    "last_refreshed": "2026-06-21T12:25:51Z",
+    "source_url": "https://shellgsllocator.geoapp.me/api/v2/locations",
+    "source": "geoapp-shell",
+    "country": "CH",
+    "fuel": "V-Power 100 (super_premium_gasoline)",
+    "station_count": 227
+  },
   "stations": [
     {
       "id": "10023320",
@@ -9,45 +16,96 @@
       "address": "HORNEGGSTRASSE 3",
       "city": "ZUERICH",
       "postcode": "8008",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023322",
       "name": "SHELL PLAZA",
       "lat": 47.647114,
       "lng": 9.170106,
-      "address": "L\u00d6WENSTRASSE 21",
+      "address": "LÖWENSTRASSE 21",
       "city": "KREUZLINGEN",
       "postcode": "8280",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023323",
-      "name": "SHELL LIMMATBR\u00dcCKE.",
+      "name": "SHELL LIMMATBRÜCKE.",
       "lat": 47.406834,
       "lng": 8.411635,
-      "address": "\u00dcBERLANDSTRASSE",
+      "address": "ÜBERLANDSTRASSE",
       "city": "FAHRWEID",
       "postcode": "8951",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023325",
@@ -57,12 +115,29 @@
       "address": "BAHNHOFSTRASSE 21",
       "city": "KOBLENZ",
       "postcode": "5322",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023331",
@@ -72,13 +147,30 @@
       "address": "ZOLLSTRASSE 79",
       "city": "THAYNGEN",
       "postcode": "8240",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023335",
@@ -88,13 +180,30 @@
       "address": "RAUTISTRASSE 12",
       "city": "ZUERICH",
       "postcode": "8047",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023336",
@@ -104,6 +213,8 @@
       "address": "HAUPTSTRASSE 30",
       "city": "STAAD",
       "postcode": "9422",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -111,7 +222,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023338",
@@ -121,12 +247,29 @@
       "address": "ALBISSTRASSE 115",
       "city": "ZUERICH",
       "postcode": "8038",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023340",
@@ -136,13 +279,30 @@
       "address": "FELDHOFSTRASSE 2",
       "city": "USTER",
       "postcode": "8610",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023343",
@@ -152,6 +312,8 @@
       "address": "SCHAFFHAUSERSTRASSE 154",
       "city": "WINTERTHUR",
       "postcode": "8400",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -159,7 +321,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023344",
@@ -169,13 +346,62 @@
       "address": "NEUE WINTERTHURERSTRASSE 99",
       "city": "WALLISELLEN",
       "postcode": "8304",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
+    },
+    {
+      "id": "10023346",
+      "name": "SHELL HARDAU",
+      "lat": 47.381658,
+      "lng": 8.509571,
+      "address": "BULLINGERSTRASSE 73",
+      "city": "ZUERICH",
+      "postcode": "8004",
+      "country": "CH",
+      "source": "geoapp-shell",
+      "brand": "Shell",
+      "fuels": [
+        "midgrade_gasoline",
+        "shell_regular_diesel",
+        "super_premium_gasoline"
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023347",
@@ -185,11 +411,39 @@
       "address": "BERGSTRASSE 117",
       "city": "ZUERICH",
       "postcode": "8032",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sat"
+          ],
+          "hours": [
+            [
+              "06:00",
+              "22:00"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Sun"
+          ],
+          "hours": [
+            [
+              "08:00",
+              "22:00"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "10023349",
@@ -199,22 +453,41 @@
       "address": "BAHNHOFSTRASSE",
       "city": "KILLWANGEN",
       "postcode": "8956",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023351",
-      "name": "SHELL R\u00dcMLANG.",
+      "name": "SHELL RÜMLANG.",
       "lat": 47.461236,
       "lng": 8.524384,
       "address": "RIEDMATTSTRASSE 8",
-      "city": "R\u00dcMLANG",
+      "city": "RÜMLANG",
       "postcode": "8153",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -222,7 +495,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023353",
@@ -232,6 +520,8 @@
       "address": "STOCKBRUNNENRAIN 2",
       "city": "ALLSCHWIL",
       "postcode": "4123",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -239,16 +529,33 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023354",
       "name": "SHELL GLARNERLAND.",
       "lat": 47.138396,
       "lng": 9.049305,
-      "address": "AUTOBAHNRASTST\u00c4TTE WEST A3",
+      "address": "AUTOBAHNRASTSTÄTTE WEST A3",
       "city": "NIEDERURNEN",
       "postcode": "8867",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "cng",
@@ -256,7 +563,22 @@
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023358",
@@ -266,12 +588,29 @@
       "address": "ZUERICHSTRASSE 89",
       "city": "DUEBENDORF",
       "postcode": "8600",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "06:00",
+              "22:00"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "10023359",
@@ -281,6 +620,8 @@
       "address": "WEHNTALERSTRASSE 586C",
       "city": "ZUERICH",
       "postcode": "8046",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -288,7 +629,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:45"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "10023360",
@@ -298,6 +654,8 @@
       "address": "GANDA 24",
       "city": "LANDQUART",
       "postcode": "7302",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -305,7 +663,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023363",
@@ -315,13 +688,30 @@
       "address": "GLISERALLEE 135",
       "city": "GLIS",
       "postcode": "3902",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023364",
@@ -331,13 +721,30 @@
       "address": "INDUSTRIESTRASSE 1",
       "city": "BIRMENSDORF",
       "postcode": "8903",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023368",
@@ -347,29 +754,63 @@
       "address": "SCHAFFHAUSERSTRASSE 38",
       "city": "NEUHAUSEN AM RHEINFALL",
       "postcode": "8212",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023369",
-      "name": "SHELL W\u00dcRENLOS-LIMMAT.",
+      "name": "SHELL WÜRENLOS-LIMMAT.",
       "lat": 47.438839,
       "lng": 8.347986,
-      "address": "W\u00dcRENLOS A1/LIMMAT",
-      "city": "W\u00dcRENLOS",
+      "address": "WÜRENLOS A1/LIMMAT",
+      "city": "WÜRENLOS",
       "postcode": "5436",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023374",
@@ -379,6 +820,8 @@
       "address": "ZELGWEG 17",
       "city": "DAETTWIL",
       "postcode": "5405",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "cng",
@@ -386,23 +829,55 @@
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023375",
-      "name": "SHELL D\u00c4NIKEN.",
+      "name": "SHELL DÄNIKEN.",
       "lat": 47.356406,
       "lng": 7.982541,
       "address": "HAUPTSTRASSE 58",
-      "city": "D\u00c4NIKEN",
+      "city": "DÄNIKEN",
       "postcode": "4658",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023377",
@@ -412,13 +887,30 @@
       "address": "BERNSTRASSE 40B",
       "city": "STEFFISBURG",
       "postcode": "3612",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023379",
@@ -428,6 +920,8 @@
       "address": "WOHLERSTRASSE 18",
       "city": "BREMGARTEN",
       "postcode": "5620",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -435,7 +929,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023380",
@@ -445,6 +954,8 @@
       "address": "WILERSTRASSE. 208",
       "city": "KIRCHBERG",
       "postcode": "9533",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -452,23 +963,55 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023381",
       "name": "SHELL ERLACH",
       "lat": 47.411705,
       "lng": 9.336007,
-      "address": "Z\u00dcRCHERSTRASSE 205",
+      "address": "ZÜRCHERSTRASSE 205",
       "city": "ST. GALLEN",
       "postcode": "9014",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023383",
@@ -478,45 +1021,96 @@
       "address": "ZOLLSTRASSE 6",
       "city": "AU SG",
       "postcode": "9434",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023386",
       "name": "SHELL IM GIESSEN",
       "lat": 47.403216,
       "lng": 8.607619,
-      "address": "\u00dcBERLANDSTR. 97",
-      "city": "D\u00dcBENDORF",
+      "address": "ÜBERLANDSTR. 97",
+      "city": "DÜBENDORF",
       "postcode": "8600",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023387",
-      "name": "SHELL GR\u00dcTZE.",
+      "name": "SHELL GRÜTZE.",
       "lat": 47.204018,
       "lng": 8.764075,
       "address": "KANTONSSTRASSE 149",
       "city": "FREIENBACH",
       "postcode": "8807",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023388",
@@ -526,12 +1120,29 @@
       "address": "SCHAFFHAUSERSTRASSE 87",
       "city": "GLATTBRUGG",
       "postcode": "8152",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023391",
@@ -541,13 +1152,30 @@
       "address": "THUNSTRASSE 167",
       "city": "MURI B. BERN",
       "postcode": "3074",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023395",
@@ -557,6 +1185,8 @@
       "address": "REINACHERSTRASSE 49A",
       "city": "THERWIL",
       "postcode": "4106",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -564,23 +1194,55 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023396",
-      "name": "SHELL W\u00dcRENLOS-WALD.",
+      "name": "SHELL WÜRENLOS-WALD.",
       "lat": 47.438626,
       "lng": 8.347967,
-      "address": "W\u00dcRENLOS A1/WALD",
-      "city": "W\u00dcRENLOS",
+      "address": "WÜRENLOS A1/WALD",
+      "city": "WÜRENLOS",
       "postcode": "5436",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023399",
@@ -590,13 +1252,30 @@
       "address": "GLATTALSTRASSE 56",
       "city": "ZUERICH",
       "postcode": "8052",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023403",
@@ -606,29 +1285,63 @@
       "address": "NIDFELDSTRASSE 10",
       "city": "KRIENS",
       "postcode": "6010",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023404",
       "name": "SHELL FRAUENFELD",
       "lat": 47.563434,
       "lng": 8.907876,
-      "address": "Z\u00dcRCHERSTRASSE 291",
+      "address": "ZÜRCHERSTRASSE 291",
       "city": "FRAUENFELD",
       "postcode": "8500",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023405",
@@ -638,12 +1351,29 @@
       "address": "SEESTRASSE 269",
       "city": "FELDMEILEN",
       "postcode": "8706",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023406",
@@ -653,6 +1383,8 @@
       "address": "NEUE WINTERTHURERSTR. 15",
       "city": "DIETLIKON",
       "postcode": "8305",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -660,7 +1392,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023410",
@@ -670,6 +1417,8 @@
       "address": "FORCHSTRASSE A52",
       "city": "FORCH",
       "postcode": "8127",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -677,7 +1426,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023411",
@@ -687,13 +1451,30 @@
       "address": "BRUGGERSTRASSE 194",
       "city": "BADEN",
       "postcode": "5400",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023413",
@@ -703,13 +1484,30 @@
       "address": "ZUGERSTRASSE 82",
       "city": "CHAM",
       "postcode": "6330",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023417",
@@ -719,12 +1517,29 @@
       "address": "ZUGERSTRASSE 17",
       "city": "ARTH",
       "postcode": "6415",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023418",
@@ -734,12 +1549,29 @@
       "address": "SARGANSERSTRASSE 14",
       "city": "BAD RAGAZ",
       "postcode": "7310",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023439",
@@ -749,27 +1581,61 @@
       "address": "KEMPTTALSTRASSE 43",
       "city": "ILLNAU",
       "postcode": "8308",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023442",
       "name": "VOLENERGY LUNGERN",
       "lat": 46.787849,
       "lng": 8.160146,
-      "address": "BR\u00dcNIGSTRASSE 42",
+      "address": "BRÜNIGSTRASSE 42",
       "city": "LUNGERN",
       "postcode": "6078",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023445",
@@ -779,28 +1645,62 @@
       "address": "OBERURNERSTRASSE 2",
       "city": "NAEFELS",
       "postcode": "8752",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023456",
       "name": "SHELL WALDHOF.",
       "lat": 47.273736,
       "lng": 8.911881,
-      "address": "R\u00dcTISTRASSE 29",
+      "address": "RÜTISTRASSE 29",
       "city": "WALD",
       "postcode": "8636",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023475",
@@ -810,12 +1710,29 @@
       "address": "CLIS CENTER",
       "city": "SAMNAUN DORF",
       "postcode": "7563",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023494",
@@ -825,13 +1742,30 @@
       "address": "SIHLBRUGGSTRASSE",
       "city": "BAAR",
       "postcode": "6340",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023508",
@@ -841,28 +1775,73 @@
       "address": "BLEGISTRASSE 4",
       "city": "ROTKREUZ",
       "postcode": "6343",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023529",
-      "name": "FRITZ & URS J\u00c4GER AG",
+      "name": "FRITZ & URS JÄGER AG",
       "lat": 46.302139,
       "lng": 7.707068,
       "address": "KANTONSSTRASSE 32",
       "city": "TURTMANN",
       "postcode": "3946",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sat"
+          ],
+          "hours": [
+            [
+              "06:00",
+              "21:00"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Sun"
+          ],
+          "hours": [
+            [
+              "08:00",
+              "21:00"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "10023531",
@@ -872,12 +1851,29 @@
       "address": "KANTONSSTRASSE 34",
       "city": "VISP",
       "postcode": "3930",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023546",
@@ -887,57 +1883,125 @@
       "address": "KANTONSSTRASSE 34",
       "city": "GEUENSEE",
       "postcode": "6232",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023553",
       "name": "HEDIN AUTOMOTIVE SAMSTAGERN",
       "lat": 47.196729,
       "lng": 8.681128,
-      "address": "H\u00dcGSAMSTRASSE 2",
+      "address": "HÜGSAMSTRASSE 2",
       "city": "SAMSTAGERN",
       "postcode": "8833",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023554",
-      "name": "SHELL D\u00dcDINGEN",
+      "name": "SHELL DÜDINGEN",
       "lat": 46.853984,
       "lng": 7.191096,
       "address": "INDUSTRIESTRASSE 2",
-      "city": "D\u00dcDINGEN",
+      "city": "DÜDINGEN",
       "postcode": "3186",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023562",
       "name": "VOLENERGY FRUTIGEN",
       "lat": 46.578052,
       "lng": 7.65224,
-      "address": "L\u00d6TSCHBERGSTRASSE 6",
+      "address": "LÖTSCHBERGSTRASSE 6",
       "city": "FRUTIGEN",
       "postcode": "3714",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023565",
@@ -947,13 +2011,30 @@
       "address": "BADSTRASSE 50",
       "city": "BRUGG",
       "postcode": "5200",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023592",
@@ -963,12 +2044,40 @@
       "address": "HAUPTSTR. 243",
       "city": "BRIENZ",
       "postcode": "3855",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Fri"
+          ],
+          "hours": [
+            [
+              "07:30",
+              "18:00"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Sat"
+          ],
+          "hours": [
+            [
+              "07:30",
+              "12:00"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "10023597",
@@ -978,13 +2087,30 @@
       "address": "SAMNAUN-LARET",
       "city": "SAMNAUN-COMPATSCH",
       "postcode": "7562",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023605",
@@ -994,12 +2120,29 @@
       "address": "WILERSTR. 219",
       "city": "FLAWIL",
       "postcode": "9230",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023609",
@@ -1009,12 +2152,29 @@
       "address": "AARUETISTRASSE 4",
       "city": "GLATTFELDEN",
       "postcode": "8192",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023616",
@@ -1024,13 +2184,30 @@
       "address": "ZUGERSTRASSE 1",
       "city": "HIRZEL",
       "postcode": "8816",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023625",
@@ -1040,12 +2217,29 @@
       "address": "GREPPERSTRASSE 86-92",
       "city": "KUESSNACHT AM RIGI",
       "postcode": "6403",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023642",
@@ -1055,12 +2249,29 @@
       "address": "VORSTATT 28",
       "city": "NEBIKON",
       "postcode": "6244",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023645",
@@ -1070,12 +2281,29 @@
       "address": "DORFSTRASSE 178",
       "city": "NEUENDORF",
       "postcode": "4623",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023647",
@@ -1085,12 +2313,29 @@
       "address": "BIELSTRASSE 13",
       "city": "OBERBIPP",
       "postcode": "4538",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023651",
@@ -1100,12 +2345,29 @@
       "address": "STEINACHER 3",
       "city": "PFAFFNAU",
       "postcode": "6264",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023658",
@@ -1115,12 +2377,29 @@
       "address": "BIFANG 315A",
       "city": "BOLTIGEN",
       "postcode": "3766",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023665",
@@ -1130,12 +2409,51 @@
       "address": "IM OBSTGARTEN 1",
       "city": "SAMSTAGERN",
       "postcode": "8833",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Fri"
+          ],
+          "hours": [
+            [
+              "06:30",
+              "22:00"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Sat"
+          ],
+          "hours": [
+            [
+              "07:00",
+              "21:00"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Sun"
+          ],
+          "hours": [
+            [
+              "08:00",
+              "19:00"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "10023689",
@@ -1145,12 +2463,29 @@
       "address": "DIEPOLDSAUERSTRASSE 38",
       "city": "WIDNAU",
       "postcode": "9443",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023690",
@@ -1160,28 +2495,62 @@
       "address": "ETTISWILERSTR. 10",
       "city": "WILLISAU",
       "postcode": "6130",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023692",
       "name": "KESSLER BETRIEBE AG",
       "lat": 46.832715,
       "lng": 9.853609,
-      "address": "PR\u00c4TTIGAUERSTRASSE 32",
+      "address": "PRÄTTIGAUERSTRASSE 32",
       "city": "DAVOS WOLFGANG",
       "postcode": "7265",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023695",
@@ -1191,12 +2560,29 @@
       "address": "DORF",
       "city": "ZELL",
       "postcode": "6144",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023716",
@@ -1206,6 +2592,8 @@
       "address": "RHEINSTRASSE 29",
       "city": "PRATTELN",
       "postcode": "4133",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1213,7 +2601,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023717",
@@ -1223,13 +2626,30 @@
       "address": "HORBURGSTRASSE 83",
       "city": "BASEL",
       "postcode": "4057",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023719",
@@ -1239,6 +2659,8 @@
       "address": "HAUPTSTRASSE 43",
       "city": "HUNZENSCHWIL",
       "postcode": "5502",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1246,7 +2668,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023721",
@@ -1256,6 +2693,8 @@
       "address": "SCHAFFHAUSERSTRASSE 46",
       "city": "STEIN",
       "postcode": "4332",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1263,7 +2702,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023723",
@@ -1273,6 +2727,8 @@
       "address": "CAMPINGWEG 11 / LUZERNSTRASSE 1",
       "city": "OFTRINGEN",
       "postcode": "4665",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1280,23 +2736,55 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023725",
-      "name": "SHELL H\u00d6HE.",
+      "name": "SHELL HÖHE.",
       "lat": 46.941631,
       "lng": 7.396474,
       "address": "MORGENSTRASSE 10",
       "city": "BERN",
       "postcode": "3018",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023726",
@@ -1306,12 +2794,29 @@
       "address": "LAENGGASSSTRASSE 85",
       "city": "BERN",
       "postcode": "3012",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023727",
@@ -1321,12 +2826,41 @@
       "address": "WINKELRIEDSTRASSE 7A",
       "city": "BERN",
       "postcode": "3014",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Fri"
+          ],
+          "hours": [
+            [
+              "06:00",
+              "22:00"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Sat",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "07:00",
+              "22:00"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "10023728",
@@ -1336,13 +2870,30 @@
       "address": "BADHAUSSTRASSE 19 A",
       "city": "BIEL",
       "postcode": "2503",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023729",
@@ -1352,13 +2903,30 @@
       "address": "REUCHENETTESTRASSE 86",
       "city": "BIEL/BIENNE",
       "postcode": "2502",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023734",
@@ -1368,6 +2936,8 @@
       "address": "BIELSTRASSE 89",
       "city": "SOLOTHURN",
       "postcode": "4500",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1375,7 +2945,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023735",
@@ -1385,6 +2970,8 @@
       "address": "FRUTIGENSTRASSE 18",
       "city": "THUN",
       "postcode": "3600",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1392,7 +2979,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023740",
@@ -1402,12 +3004,29 @@
       "address": "TUERKHEIMERSTRASSE 17",
       "city": "BASEL",
       "postcode": "4055",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023748",
@@ -1417,12 +3036,29 @@
       "address": "AARAUERSTR. 21",
       "city": "MURI",
       "postcode": "5630",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023757",
@@ -1432,12 +3068,51 @@
       "address": "GANTRISCHSTRASSE 44",
       "city": "BERN",
       "postcode": "3006",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Fri"
+          ],
+          "hours": [
+            [
+              "06:30",
+              "18:30"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Sat"
+          ],
+          "hours": [
+            [
+              "09:00",
+              "18:00"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Sun"
+          ],
+          "hours": [
+            [
+              "09:00",
+              "12:00"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "10023759",
@@ -1447,12 +3122,29 @@
       "address": "KANDERSTEGSTRASSE 39",
       "city": "FRUTIGEN",
       "postcode": "3714",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023767",
@@ -1462,12 +3154,29 @@
       "address": "AARAUERSTR. 351",
       "city": "UNTERENTFELDEN",
       "postcode": "5035",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023772",
@@ -1477,6 +3186,8 @@
       "address": "RTE DE MEYRIN 248",
       "city": "MEYRIN",
       "postcode": "1217",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1484,7 +3195,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023773",
@@ -1494,6 +3220,8 @@
       "address": "ROUTE DES ACACIAS 41",
       "city": "CAROUGE",
       "postcode": "1227",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "cng",
@@ -1501,39 +3229,88 @@
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023774",
       "name": "SHELL PULLY-PORT.",
       "lat": 46.506773,
       "lng": 6.662837,
-      "address": "AVENUE DES D\u00c9SERTES 3",
+      "address": "AVENUE DES DÉSERTES 3",
       "city": "PULLY",
       "postcode": "1009",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023775",
-      "name": "SHELL PARC DE BUD\u00c9.",
+      "name": "SHELL PARC DE BUDÉ.",
       "lat": 46.223815,
       "lng": 6.131134,
       "address": "CH. DU PETIT-SACONNEX 5",
-      "city": "GEN\u00c8VE",
+      "city": "GENÈVE",
       "postcode": "1209",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sat"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "10023777",
@@ -1543,6 +3320,8 @@
       "address": "ROUTE D'AMBILLY 3",
       "city": "THONEX",
       "postcode": "1226",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1550,7 +3329,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023778",
@@ -1560,28 +3354,62 @@
       "address": "ROUTE CANTONALE",
       "city": "ST-GINGOLPH",
       "postcode": "1898",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023780",
-      "name": "SHELL LA MALADI\u00c8RE.",
+      "name": "SHELL LA MALADIÈRE.",
       "lat": 46.51707,
       "lng": 6.607355,
       "address": "AV. DES FIGUIERS 22",
       "city": "LAUSANNE",
       "postcode": "1007",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023782",
@@ -1591,6 +3419,8 @@
       "address": "RTE DE DIVONNE 2",
       "city": "CHAVANNES-DE-BOGIS",
       "postcode": "1279",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1598,7 +3428,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023783",
@@ -1606,15 +3451,32 @@
       "lat": 46.193148,
       "lng": 6.152643,
       "address": "RUE MICHEL SERVET 17",
-      "city": "GEN\u00c8VE",
+      "city": "GENÈVE",
       "postcode": "1206",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023785",
@@ -1624,13 +3486,30 @@
       "address": "LE RESTOROUTE 184",
       "city": "AVRY-DEVANT-PONT",
       "postcode": "1644",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023788",
@@ -1640,6 +3519,8 @@
       "address": "RUE XAVIER-STOCKMAR 6",
       "city": "PORRENTRUY",
       "postcode": "2900",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1647,7 +3528,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023789",
@@ -1657,13 +3553,30 @@
       "address": "GRAND-RUE 60",
       "city": "TAVANNES",
       "postcode": "2710",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023790",
@@ -1673,12 +3586,29 @@
       "address": "CHEMIN DU CROSET 3",
       "city": "ECUBLENS",
       "postcode": "1024",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023792",
@@ -1686,14 +3616,31 @@
       "lat": 46.220119,
       "lng": 6.140445,
       "address": "RUE DE MONTBRILLANT 67",
-      "city": "GEN\u00c8VE",
+      "city": "GENÈVE",
       "postcode": "1202",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023794",
@@ -1703,6 +3650,8 @@
       "address": "A9 - RELAIS DU ST-BERNARD",
       "city": "MARTIGNY",
       "postcode": "1920",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1710,7 +3659,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023799",
@@ -1720,13 +3684,30 @@
       "address": "RTE DU SIMPLON 4",
       "city": "NOVILLE",
       "postcode": "1845",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023800",
@@ -1736,6 +3717,8 @@
       "address": "ROUTE DE MORAT 130",
       "city": "GRANGES-PACCOT",
       "postcode": "1763",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1743,7 +3726,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023801",
@@ -1753,6 +3751,8 @@
       "address": "ROUTE DE LAUSANNE 20",
       "city": "YVERDON-LES-BAINS",
       "postcode": "1400",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1760,7 +3760,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023802",
@@ -1770,6 +3785,8 @@
       "address": "RUE DES FLECHERES 9",
       "city": "SIGNY CENTRE",
       "postcode": "1274",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1777,7 +3794,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023803",
@@ -1785,15 +3817,32 @@
       "lat": 46.203851,
       "lng": 6.186991,
       "address": "CH. DE LA GRADELLE 40",
-      "city": "CH\u00caNE-BOUGERIES",
+      "city": "CHÊNE-BOUGERIES",
       "postcode": "1224",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023804",
@@ -1803,6 +3852,8 @@
       "address": "RESTOROUTE DE BAVOIS-JURA, A1",
       "city": "BAVOIS",
       "postcode": "1372",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "cng",
@@ -1811,7 +3862,22 @@
         "shell_regular_diesel",
         "autogas_lpg",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023805",
@@ -1821,22 +3887,41 @@
       "address": "RESTOROUTE DE BAVOIS-ALPES, A1",
       "city": "BAVOIS",
       "postcode": "1372",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023807",
       "name": "SHELL CHESEAUX.",
       "lat": 46.582526,
       "lng": 6.601114,
-      "address": "RTE DE GEN\u00c8VE 9A",
+      "address": "RTE DE GENÈVE 9A",
       "city": "CHESEAUX-SUR-LAUSANNE",
       "postcode": "1033",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1844,7 +3929,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023809",
@@ -1854,12 +3954,29 @@
       "address": "RTE DE FRANCE 16",
       "city": "BONCOURT",
       "postcode": "2926",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023812",
@@ -1869,6 +3986,8 @@
       "address": "AV. DE L'AIN 5",
       "city": "LE LIGNON",
       "postcode": "1219",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "cng",
@@ -1877,7 +3996,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023814",
@@ -1885,14 +4019,31 @@
       "lat": 46.195904,
       "lng": 6.163625,
       "address": "AVENUE KRIEG 5",
-      "city": "GEN\u00c8VE",
+      "city": "GENÈVE",
       "postcode": "1208",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023816",
@@ -1902,12 +4053,29 @@
       "address": "AV. LEOPOLD ROBERT 122",
       "city": "LA CHAUX-DE-FONDS",
       "postcode": "2300",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023817",
@@ -1917,12 +4085,29 @@
       "address": "RTE D'ORON 37",
       "city": "LAUSANNE",
       "postcode": "1010",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023821",
@@ -1932,13 +4117,30 @@
       "address": "AV. MATEGNIN 45",
       "city": "MEYRIN",
       "postcode": "1217",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023822",
@@ -1948,6 +4150,8 @@
       "address": "ROUTE SUISSE 3",
       "city": "MIES",
       "postcode": "1295",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1955,7 +4159,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023823",
@@ -1963,15 +4182,32 @@
       "lat": 46.987705,
       "lng": 6.9182,
       "address": "QUAI LOUIS-PERRIER 12",
-      "city": "NEUCH\u00c2TEL",
+      "city": "NEUCHÂTEL",
       "postcode": "2000",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023825",
@@ -1981,6 +4217,8 @@
       "address": "RTE DE CHANCY 142",
       "city": "ONEX",
       "postcode": "1213",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -1988,7 +4226,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023827",
@@ -1998,13 +4251,30 @@
       "address": "RTE DE ST-JULIEN 295",
       "city": "PERLY",
       "postcode": "1258",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023829",
@@ -2014,13 +4284,30 @@
       "address": "AVENUE C.F. RAMUZ 38",
       "city": "PULLY",
       "postcode": "1009",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023841",
@@ -2030,28 +4317,84 @@
       "address": "ROUTE DE CHANCY 500",
       "city": "CHANCY",
       "postcode": "1284",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Fri"
+          ],
+          "hours": [
+            [
+              "06:00",
+              "21:00"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Sat"
+          ],
+          "hours": [
+            [
+              "07:00",
+              "21:00"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Sun"
+          ],
+          "hours": [
+            [
+              "07:30",
+              "21:00"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "10023866",
-      "name": "GARAGE ALFTER S\u00c0RL",
+      "name": "GARAGE ALFTER SÀRL",
       "lat": 46.891557,
       "lng": 6.771445,
       "address": "AV. DU LAC 19",
       "city": "ST-AUBIN-SAUGES",
       "postcode": "2024",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023882",
@@ -2061,12 +4404,29 @@
       "address": "RUE DE MORGES. 1",
       "city": "CRISSIER",
       "postcode": "1023",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023924",
@@ -2076,12 +4436,29 @@
       "address": "DOZON",
       "city": "TROISTORRENTS",
       "postcode": "1872",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023930",
@@ -2091,6 +4468,8 @@
       "address": "AUTOSTRADA A2 DIREZIONE CHIASSO",
       "city": "BELLINZONA",
       "postcode": "6500",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "cng",
@@ -2100,7 +4479,22 @@
         "autogas_lpg",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023931",
@@ -2110,22 +4504,41 @@
       "address": "VIA R. SIMEN",
       "city": "MINUSIO",
       "postcode": "6648",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023935",
-      "name": "SHELL AUTOSTRADA S\u00dcD",
+      "name": "SHELL AUTOSTRADA SÜD",
       "lat": 46.181732,
       "lng": 9.00137,
       "address": "AUTOSTRADA A2 DIREZIONE BASILEA",
       "city": "MONTE CARASSO",
       "postcode": "6513",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "cng",
@@ -2134,7 +4547,22 @@
         "shell_regular_diesel",
         "autogas_lpg",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023939",
@@ -2144,13 +4572,30 @@
       "address": "VIA GORELLE 2",
       "city": "SANT ANTONINO",
       "postcode": "6592",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023945",
@@ -2160,12 +4605,29 @@
       "address": "VIA FERRERA",
       "city": "ASCONA",
       "postcode": "6612",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "06:00",
+              "21:00"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "10023947",
@@ -2175,29 +4637,63 @@
       "address": "VIA CANTONALE 6",
       "city": "BIRONICO",
       "postcode": "6804",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10023948",
-      "name": "SHELL LUGANO S\u00dcD",
+      "name": "SHELL LUGANO SÜD",
       "lat": 45.985138,
       "lng": 8.936465,
       "address": "VIA LA SGUANCIA 11",
       "city": "PAZZALLO",
       "postcode": "6912",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10045416",
@@ -2207,13 +4703,30 @@
       "address": "ROUTE DES ROUGES-TERRES 22-24",
       "city": "HAUTERIVE",
       "postcode": "2068",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10048104",
@@ -2223,13 +4736,42 @@
       "address": "CHAMERSTRASSE 50",
       "city": "HUENENBERG",
       "postcode": "6331",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Fri"
+          ],
+          "hours": [
+            [
+              "06:00",
+              "21:00"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Sat",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "07:00",
+              "21:00"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "10054762",
@@ -2239,12 +4781,29 @@
       "address": "FELLERSTRASSE 33",
       "city": "BERN",
       "postcode": "3027",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10054763",
@@ -2254,12 +4813,29 @@
       "address": "INDUSTRIESTRASSE 20A",
       "city": "VOLKETSWIL",
       "postcode": "8604",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10054765",
@@ -2269,12 +4845,29 @@
       "address": "ROTZLOCHSTRASSE 1",
       "city": "STANS",
       "postcode": "6370",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "10054766",
@@ -2284,28 +4877,62 @@
       "address": "RUE DU SILO 7",
       "city": "RENENS",
       "postcode": "1020",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11353028",
       "name": "MIGROL SERVICE ALTDORF.",
       "lat": 46.896181,
       "lng": 8.626645,
-      "address": "FL\u00dcELERSTRASSE 154",
+      "address": "FLÜELERSTRASSE 154",
       "city": "ALTDORF",
       "postcode": "6460",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11357904",
@@ -2315,12 +4942,29 @@
       "address": "GSTEIGSTRASSE 6",
       "city": "WILDERSWIL",
       "postcode": "3812",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11357905",
@@ -2330,12 +4974,29 @@
       "address": "RTE CANTONALE 25B",
       "city": "CONTHEY",
       "postcode": "1964",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11357921",
@@ -2345,12 +5006,29 @@
       "address": "BASEL NORD-WEIL A2/A5",
       "city": "BASEL",
       "postcode": "4016",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11361887",
@@ -2360,27 +5038,61 @@
       "address": "AARBURGERSTRASSE 115",
       "city": "OLTEN",
       "postcode": "4600",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11361898",
       "name": "MIGROL AUTO SERVICE REINACH.",
       "lat": 47.48963,
       "lng": 7.598205,
-      "address": "K\u00c4GENSTRASSE 1",
+      "address": "KÄGENSTRASSE 1",
       "city": "REINACH",
       "postcode": "4153",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11361911",
@@ -2390,13 +5102,17 @@
       "address": "DUFOURSTRASSE 14",
       "city": "WEINFELDEN",
       "postcode": "8570",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": null,
+      "is_24h": false
     },
     {
       "id": "11362276",
@@ -2406,12 +5122,29 @@
       "address": "BIRMENSDORFERSTRASSE 517",
       "city": "ZUERICH",
       "postcode": "8055",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11366603",
@@ -2421,12 +5154,29 @@
       "address": "ZUERCHERSTRASSE 48",
       "city": "WINTERTHUR",
       "postcode": "8406",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11366605",
@@ -2436,13 +5186,17 @@
       "address": "CHOLLERSTRASSE 1",
       "city": "ZUG",
       "postcode": "6300",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": null,
+      "is_24h": false
     },
     {
       "id": "11366613",
@@ -2452,27 +5206,61 @@
       "address": "TALSTRASSE",
       "city": "STALDEN",
       "postcode": "3922",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11366614",
-      "name": "MIGROL SERVICE B\u00dcLACH.",
+      "name": "MIGROL SERVICE BÜLACH.",
       "lat": 47.511451,
       "lng": 8.544185,
-      "address": "Z\u00dcRCHERSTRASSE 57",
-      "city": "B\u00dcLACH",
+      "address": "ZÜRCHERSTRASSE 57",
+      "city": "BÜLACH",
       "postcode": "8180",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11366647",
@@ -2482,13 +5270,30 @@
       "address": "KIRCHBERGSTRASSE 235",
       "city": "BURGDORF",
       "postcode": "3400",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11366652",
@@ -2498,27 +5303,61 @@
       "address": "ZURZACHERSTRASSE 83",
       "city": "BRUGG",
       "postcode": "5200",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11366653",
-      "name": "MIGROL SERVICE F\u00dcLLINSDORF.",
+      "name": "MIGROL SERVICE FÜLLINSDORF.",
       "lat": 47.507534,
       "lng": 7.721283,
       "address": "RHEINSTRASSE 46",
-      "city": "F\u00dcLLINSDORF",
+      "city": "FÜLLINSDORF",
       "postcode": "4414",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11366674",
@@ -2528,12 +5367,29 @@
       "address": "ZUERCHERSTRASSE 114",
       "city": "ST GALLEN",
       "postcode": "9000",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11366698",
@@ -2543,12 +5399,29 @@
       "address": "ZEUGHAUSSTRASSE 38",
       "city": "SURSEE",
       "postcode": "6210",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11366708",
@@ -2558,12 +5431,29 @@
       "address": "EICHFELD 1",
       "city": "SINS",
       "postcode": "5643",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11367372",
@@ -2573,27 +5463,60 @@
       "address": "BERNSTRASSE 386",
       "city": "DIETIKON",
       "postcode": "8953",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11367393",
-      "name": "MIGROL SERVICE EMMENBR\u00dcCKE",
+      "name": "MIGROL SERVICE EMMENBRÜCKE",
       "lat": 47.072387,
       "lng": 8.279405,
       "address": "GERLISWILSTRASSE 24",
-      "city": "EMMENBR\u00dcCKE",
+      "city": "EMMENBRÜCKE",
       "postcode": "6020",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Sun"
+          ],
+          "hours": [
+            [
+              "07:00",
+              "21:00"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "11367723",
@@ -2603,12 +5526,29 @@
       "address": "WUEFLINGERSTRASSE 393",
       "city": "WINTERTHUR",
       "postcode": "8408",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11380180",
@@ -2618,12 +5558,29 @@
       "address": "ROUTE DE COSSONAY 3",
       "city": "VILLARS STE CROIX",
       "postcode": "1029",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11525737",
@@ -2633,12 +5590,29 @@
       "address": "ROUTE DE COSSONAY 66",
       "city": "PRILLY",
       "postcode": "1008",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11529372",
@@ -2648,12 +5622,29 @@
       "address": "RTE DE PRA RIOND 3",
       "city": "LA TOUR DE TREME",
       "postcode": "1635",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11546089",
@@ -2663,13 +5654,30 @@
       "address": "RTE DU MONTAGNIER",
       "city": "COLLOMBEY-MURAZ",
       "postcode": "1868",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "cng",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11583136",
@@ -2679,12 +5687,29 @@
       "address": "MURISTRASSE 8",
       "city": "BOSWIL",
       "postcode": "5623",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11583163",
@@ -2694,13 +5719,17 @@
       "address": "THURGAUERSTRASSE 100",
       "city": "ZUERICH",
       "postcode": "8052",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": null,
+      "is_24h": false
     },
     {
       "id": "11583164",
@@ -2710,13 +5739,17 @@
       "address": "TOGGENBURGERSTRASSE 129",
       "city": "WIL",
       "postcode": "9500",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": null,
+      "is_24h": false
     },
     {
       "id": "11583180",
@@ -2726,12 +5759,29 @@
       "address": "RHEINFELDERSTRASSE 10",
       "city": "BIRSFELDEN",
       "postcode": "4127",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11583203",
@@ -2741,13 +5791,17 @@
       "address": "STAATSSTRASSE 10",
       "city": "TRUEBBACH",
       "postcode": "9477",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "cng",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": null,
+      "is_24h": false
     },
     {
       "id": "11583256",
@@ -2757,27 +5811,29 @@
       "address": "ST GALLERSTRASSE 75A",
       "city": "SCHMERIKON",
       "postcode": "8716",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
-    },
-    {
-      "id": "11589958",
-      "name": "MIGROL SERVICE MEGGEN",
-      "lat": 47.054546,
-      "lng": 8.389846,
-      "address": "GOTTHARDSTRASSE 45",
-      "city": "MEGGEN",
-      "postcode": "6045",
-      "brand": "Shell",
-      "fuels": [
-        "midgrade_gasoline",
-        "shell_regular_diesel",
-        "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11590382",
@@ -2787,13 +5843,30 @@
       "address": "HUSACHERSTRASSE 2",
       "city": "WALLISELLEN",
       "postcode": "8304",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "cng",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11590486",
@@ -2803,12 +5876,29 @@
       "address": "OBERNAUERSTRASSE 47",
       "city": "KRIENS",
       "postcode": "6010",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11596486",
@@ -2818,13 +5908,30 @@
       "address": "RTE DE LA VALLEE 7-11",
       "city": "ROLLE",
       "postcode": "1180",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "cng",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11599716",
@@ -2834,13 +5941,30 @@
       "address": "RUE DE LAUSANNE 73",
       "city": "MORGES",
       "postcode": "1110",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "cng",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11601722",
@@ -2850,12 +5974,29 @@
       "address": "EN CHAMARD 16",
       "city": "MONTAGNY-YVERDON",
       "postcode": "1442",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11605765",
@@ -2865,12 +6006,29 @@
       "address": "FELDSTRASSE 6",
       "city": "REGENSDORF",
       "postcode": "8105",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11606828",
@@ -2880,12 +6038,29 @@
       "address": "ROMANSHORNERSTRASSE 129",
       "city": "EGNACH",
       "postcode": "9322",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11607212",
@@ -2895,13 +6070,30 @@
       "address": "AV LOUIS CASAI 27",
       "city": "GENEVE 28",
       "postcode": "1211",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11614922",
@@ -2911,12 +6103,29 @@
       "address": "RUE DE LAUSANNE 100",
       "city": "SION",
       "postcode": "1950",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11618626",
@@ -2926,12 +6135,29 @@
       "address": "GRENZSTRASSE 31",
       "city": "ST MARGRETHEN",
       "postcode": "9430",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11625097",
@@ -2941,12 +6167,29 @@
       "address": "BERNSTRASSE 39",
       "city": "STEFFISBURG",
       "postcode": "3613",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11632756",
@@ -2956,13 +6199,30 @@
       "address": "RIEDBACHSTRASSE 104",
       "city": "BERN",
       "postcode": "3027",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11633437",
@@ -2972,12 +6232,29 @@
       "address": "RUE DES AVOUILLONS 3",
       "city": "MARTIGNY",
       "postcode": "1920",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11634826",
@@ -2987,12 +6264,29 @@
       "address": "RECKHOLDERSTRASSE 2",
       "city": "ZWINGEN",
       "postcode": "4222",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11637788",
@@ -3002,12 +6296,29 @@
       "address": "RTE. DE NOYER-GIROD 1",
       "city": "ETOY",
       "postcode": "1163",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11640360",
@@ -3017,13 +6328,30 @@
       "address": "BINNINGERSTRASSE 91",
       "city": "ALLSCHWIL",
       "postcode": "4123",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11645873",
@@ -3033,12 +6361,29 @@
       "address": "BERNSTRASSE 50",
       "city": "FLAMATT",
       "postcode": "3175",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11647413",
@@ -3048,12 +6393,29 @@
       "address": "GRENZSTRASSE 72",
       "city": "THAYNGEN",
       "postcode": "8240",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11768219",
@@ -3063,12 +6425,29 @@
       "address": "ZUERCHERSTRASSE 276",
       "city": "FRAUENFELD",
       "postcode": "8500",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11773670",
@@ -3078,13 +6457,30 @@
       "address": "WEHNTALERSTRASSE 4",
       "city": "DIELSDORF",
       "postcode": "8157",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11789485",
@@ -3094,13 +6490,30 @@
       "address": "RHEINFELSSTRASSE 2",
       "city": "CHUR",
       "postcode": "7000",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "11826423",
@@ -3110,12 +6523,29 @@
       "address": "KANTONSSTRASSE 30",
       "city": "STEG",
       "postcode": "3940",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12165368",
@@ -3125,13 +6555,31 @@
       "address": "FLUGHAFENSTRASSE 100",
       "city": "BASEL",
       "postcode": "4056",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
-        "super_premium_gasoline"
-      ]
+        "super_premium_gasoline",
+        "shell_recharge"
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12293261",
@@ -3141,12 +6589,29 @@
       "address": "ZUERCHERSTRASSE 73",
       "city": "THALWIL",
       "postcode": "8800",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12495635",
@@ -3156,12 +6621,29 @@
       "address": "RUE BAPTISTE-SAVOYE 16",
       "city": "ST. IMIER",
       "postcode": "2610",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12495890",
@@ -3171,12 +6653,29 @@
       "address": "HUTTWILSTRASSE 58",
       "city": "AUSWIL",
       "postcode": "4944",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12495895",
@@ -3186,12 +6685,29 @@
       "address": "HINTERDORFSTRASSE 5",
       "city": "LANGNAU IM EMMENTAL",
       "postcode": "3550",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12495936",
@@ -3201,12 +6717,29 @@
       "address": "ROUTE DU BOIS DE FINGES 23",
       "city": "SIERRE",
       "postcode": "3960",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12495942",
@@ -3216,12 +6749,29 @@
       "address": "RTE. DE SOLEURE 4",
       "city": "MOUTIER",
       "postcode": "2740",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12501519",
@@ -3231,12 +6781,29 @@
       "address": "ABERNSTRASSE 11",
       "city": "TANN",
       "postcode": "8632",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12538851",
@@ -3246,12 +6813,29 @@
       "address": "SARGANSERSTRASSE 15",
       "city": "BAD RAGAZ",
       "postcode": "7310",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12589033",
@@ -3261,12 +6845,29 @@
       "address": "BLEIENBACHSTRASSE 54",
       "city": "LANGENTHAL",
       "postcode": "4900",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12590803",
@@ -3276,12 +6877,29 @@
       "address": "ENGELBERGSTRASSE 40",
       "city": "ENGELBERG",
       "postcode": "6390",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12590816",
@@ -3291,12 +6909,29 @@
       "address": "RUE DU LAC 136",
       "city": "CLARENS",
       "postcode": "1815",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12590817",
@@ -3306,12 +6941,29 @@
       "address": "GRANDE RUE 55",
       "city": "CORGEMONT",
       "postcode": "2606",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12590823",
@@ -3321,12 +6973,29 @@
       "address": "RUE AUGUSTE QUIQUEREZ 8",
       "city": "DELEMONT",
       "postcode": "2800",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12590992",
@@ -3336,27 +7005,61 @@
       "address": "METTSTRASSE 33",
       "city": "BIEL",
       "postcode": "2503",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12613565",
-      "name": "VOLENERGY M\u00dcNSINGEN",
+      "name": "VOLENERGY MÜNSINGEN",
       "lat": 46.886318,
       "lng": 7.555302,
       "address": "BERNSTRASSE 89",
-      "city": "M\u00dcNSINGEN",
+      "city": "MÜNSINGEN",
       "postcode": "3110",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12613569",
@@ -3366,12 +7069,29 @@
       "address": "ROUTE DE BERNE 1",
       "city": "ROPRAZ",
       "postcode": "1088",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12613723",
@@ -3381,12 +7101,29 @@
       "address": "ROUTE DE BERNE",
       "city": "ROPRAZ",
       "postcode": "1088",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12675485",
@@ -3396,12 +7133,29 @@
       "address": "RHEINSTRASSE 1",
       "city": "SENNWALD",
       "postcode": "9469",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12720904",
@@ -3411,21 +7165,73 @@
       "address": "HOCHBERGERSTR. 106",
       "city": "BASEL",
       "postcode": "4057",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon"
+          ],
+          "hours": [
+            [
+              "06:00",
+              "23:00"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Tue",
+            "Fri"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Sat"
+          ],
+          "hours": [
+            [
+              "06:00",
+              "23:00"
+            ]
+          ]
+        },
+        {
+          "days": [
+            "Sun"
+          ],
+          "hours": [
+            [
+              "07:00",
+              "23:00"
+            ]
+          ]
+        }
+      ],
+      "is_24h": false
     },
     {
       "id": "12733875",
       "name": "SHELL LANGENTHAL",
       "lat": 47.216919,
       "lng": 7.771141,
-      "address": "B\u00dcTZBERGSTRASSE 93",
+      "address": "BÜTZBERGSTRASSE 93",
       "city": "LANGENTHAL",
       "postcode": "4900",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -3433,7 +7239,22 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12822245",
@@ -3443,13 +7264,30 @@
       "address": "BIELSTRASSE 50",
       "city": "WIEDLISBACH",
       "postcode": "4537",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12822246",
@@ -3459,12 +7297,29 @@
       "address": "LUZERNERSTRASSE 27",
       "city": "WIKON",
       "postcode": "4806",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12833499",
@@ -3474,12 +7329,29 @@
       "address": "VIA SOMPLAZ 32",
       "city": "ST. MORITZ",
       "postcode": "7500",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "midgrade_gasoline",
         "shell_regular_diesel",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12859646",
@@ -3489,6 +7361,8 @@
       "address": "BADENERSTRASSE 35",
       "city": "SCHLIEREN",
       "postcode": "8952",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -3496,16 +7370,33 @@
         "fuelsave_regular_diesel",
         "midgrade_gasoline",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "12996531",
-      "name": "SHELL V\u00c9TROZ",
+      "name": "SHELL VÉTROZ",
       "lat": 46.22545,
       "lng": 7.291736,
       "address": "ROUTE CANTONALE 15",
       "city": "VETROZ",
       "postcode": "1963",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -3515,16 +7406,33 @@
         "shell_regular_diesel",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "13022244",
-      "name": "MIGROL SERVICE W\u00dcRENLINGEN",
+      "name": "MIGROL SERVICE WÜRENLINGEN",
       "lat": 47.520762,
       "lng": 8.242507,
-      "address": "D\u00d6TTINGERSTRASSE 1",
-      "city": "W\u00dcRENLINGEN",
+      "address": "DÖTTINGERSTRASSE 1",
+      "city": "WÜRENLINGEN",
       "postcode": "5303",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -3532,7 +7440,22 @@
         "fuelsave_regular_diesel",
         "midgrade_gasoline",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "13031576",
@@ -3540,8 +7463,10 @@
       "lat": 46.548814,
       "lng": 6.830074,
       "address": "ROUTE DE GRANGES. 1A",
-      "city": "PAL\u00c9ZIEUX",
+      "city": "PALÉZIEUX",
       "postcode": "1607",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -3550,7 +7475,22 @@
         "midgrade_gasoline",
         "super_premium_gasoline",
         "shell_recharge"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     },
     {
       "id": "13092135",
@@ -3560,6 +7500,8 @@
       "address": "KIRCHENFELDSTRASSE 34",
       "city": "LYSS",
       "postcode": "3250",
+      "country": "CH",
+      "source": "geoapp-shell",
       "brand": "Shell",
       "fuels": [
         "premium_diesel",
@@ -3567,7 +7509,22 @@
         "fuelsave_regular_diesel",
         "midgrade_gasoline",
         "super_premium_gasoline"
-      ]
+      ],
+      "hours": [
+        {
+          "days": [
+            "Mon",
+            "Sun"
+          ],
+          "hours": [
+            [
+              "00:00",
+              "23:59"
+            ]
+          ]
+        }
+      ],
+      "is_24h": true
     }
   ]
 }

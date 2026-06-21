@@ -1,6 +1,6 @@
 ---
 title: "Pomera DM250 to Obsidian"
-excerpt: "The official Dropbox client doesn't exist on aarch64. Maestral does. A quick guide to getting Omarchy running in VMware Fusion on Apple Silicon, with working Dropbox sync."
+excerpt: "A guide to using the Pomera DM250 digital typre writer with Obsidian vault on another computer. "
 date: 2026-06-20
 tags:
   - pomera

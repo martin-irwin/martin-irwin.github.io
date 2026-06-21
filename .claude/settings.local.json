@@ -17,7 +17,17 @@
       "Bash(chmod +x:*)",
       "Bash(bash -n /Users/maru/Website/scripts/fetch-vpower.sh)",
       "Bash(git log:*)",
-      "Bash(git mv:*)"
+      "Bash(git mv:*)",
+      "Bash(curl -s --max-time 20 \"https://shellgsllocator.geoapp.me/api/v2/locations/10023320?locale=de_CH&format=json\")",
+      "Bash(curl -s --max-time 20 \"https://shellgsllocator.geoapp.me/api/v2/locations.json?ne_lat=47.9&ne_lng=10.5&sw_lat=45.8&sw_lng=5.9&locale=de_CH&format=json&limit=3\")",
+      "Bash(curl -s --max-time 15 '__TRACKED_VAR__?sw[]=47.30&sw[]=8.45&ne[]=47.45&ne[]=8.65&locale=de_CH&format=json')",
+      "Bash(node -e \"let s='';process.stdin.on\\('data',d=>s+=d\\).on\\('end',\\(\\)=>{try{const d=JSON.parse\\(s\\);console.log\\('locations:',\\(d.locations||[]\\).length,'clusters:',\\(d.clusters||[]\\).length\\);}catch\\(e\\){console.log\\('parse err',s.slice\\(0,200\\)\\)}}\\)\")",
+      "Bash(ruby -rjson -e 'd=JSON.parse\\(STDIN.read\\); puts \"locations: #{\\(d[\"locations\"]||[]\\).size} clusters: #{\\(d[\"clusters\"]||[]\\).size}\"')",
+      "Bash(git commit -q -m ' *)",
+      "Bash(ruby -e 'c=File.read\\(\"_pages/octane.html\", encoding: \"UTF-8\"\\); s=c[/<script>\\(.*\\)<\\\\/script>/m,1]; puts \"{ #{s.count\\(\"{\"\\)} vs } #{s.count\\(\"}\"\\)}\"; puts \"\\( #{s.count\\(\"\\(\"\\)} vs \\) #{s.count\\(\"\\)\"\\)}\"; puts \"[ #{s.count\\(\"[\"\\)} vs ] #{s.count\\(\"]\"\\)}\"')",
+      "Bash(ruby /tmp/regen.rb)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(ruby -rjson -e ' *)"
     ]
   }
 }

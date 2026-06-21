@@ -487,18 +487,139 @@ permalink: /octane.html
   }
 
   @media (max-width: 700px) {
-    body.view-both #list-container { display: none; }
-    body.view-both #map-container { display: block; width: 100%; }
-    #controls { gap: 6px; padding: 6px 8px; }
-    .filter-toggle { padding: 3px 8px; font-size: 11px; }
-    #main { height: calc(100vh - 44px - 30px - 42px - 52px); }
+    /* Mobile-first: 16px on form controls kills iOS focus auto-zoom */
+    body { font-size: 14px; }
+    select, input, textarea, #sort-select { font-size: 16px; }
+
+    /* Stacked layout: map on top, list (with nearest card) below */
+    #main { flex-direction: column; height: auto; min-height: 0; }
+    body.view-both #map-container,
+    body.view-both #list-container { display: block; width: 100%; flex: none; }
+    body.view-both #map-container { height: 42vh; }
+    body.view-map  #map-container { height: calc(100vh - 44px - 52px); }
+    body.view-list #map-container { display: none; }
+    #list-container { overflow-y: visible; }
+    body.view-list #list-container,
+    body.view-both #list-container { padding-bottom: 60px; }
+
+    /* Filter row: horizontal scroll, never wrap */
+    #controls { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; gap: 8px; padding: 8px; }
+    #controls > * { flex-shrink: 0; }
+    .extra-filters.open { display: flex; }
+    #view-switch { margin-left: 0; }
+    .filter-toggle { padding: 8px 12px; font-size: 13px; min-height: 40px; }
+
+    /* Bigger, thumb-friendly station cards */
+    .station-card { padding: 14px; }
+    .card-name { font-size: 17px; }
+    .card-addr { font-size: 13px; }
+    .card-dist { font-size: 15px; }
+    .card-gmaps { display: block; text-align: center; padding: 12px; font-size: 14px; margin-top: 10px; letter-spacing: 2px; }
+    .card-route { display: block; margin: 8px 0 0; text-align: center; padding: 11px; font-size: 13px; }
+
+    /* Count bar can't be sticky over the fixed fuel bar on mobile */
+    #count-bar { position: static; }
+    #fuel-bar .fuel-btn { font-size: 14px; }
+  }
+
+  /* ═══════════ LAUNCHER (mobile-first first screen) ═══════════ */
+  #launcher {
+    position: fixed; inset: 0; z-index: 2000;
+    background: var(--bg);
+    display: none; flex-direction: column;
+    padding: 24px 18px calc(20px + env(safe-area-inset-bottom));
+    overflow-y: auto;
+  }
+  body.launcher-open #launcher { display: flex; }
+  body.launcher-open { overflow: hidden; }
+  #launcher-wordmark {
+    font-family: 'Oswald', sans-serif; font-weight: 700;
+    letter-spacing: 3px; font-size: 22px; text-align: center;
+    margin: 7vh 0 5vh; color: var(--text);
+  }
+  #launcher-wordmark .logo-ch {
+    background: var(--text); color: var(--bg);
+    padding: 2px 8px; font-size: 15px; margin-left: 8px;
+    letter-spacing: 1px; vertical-align: 2px;
+  }
+  #launcher-buttons {
+    display: flex; flex-direction: column; gap: 16px;
+    max-width: 460px; width: 100%; margin: 0 auto;
+  }
+  .launch-btn {
+    display: flex; flex-direction: column; justify-content: center;
+    min-height: 88px; width: 100%;
+    border: 2px solid var(--border); background: var(--card-bg);
+    border-radius: 4px; padding: 14px 22px; cursor: pointer;
+    text-align: left; font-family: 'Oswald', sans-serif;
+    transition: transform 0.08s ease;
+  }
+  .launch-btn:active { transform: scale(0.985); }
+  .launch-btn .launch-name { font-size: 30px; font-weight: 700; letter-spacing: 2px; line-height: 1; }
+  .launch-btn .launch-sub  { font-family: 'Share Tech Mono', monospace; font-size: 12px; color: var(--muted); margin-top: 7px; letter-spacing: 1px; }
+  .launch-btn.launch-e85    { border-color: var(--green); }
+  .launch-btn.launch-e85 .launch-name    { color: var(--green); }
+  .launch-btn.launch-vpower { border-color: var(--vpower); }
+  .launch-btn.launch-vpower .launch-name { color: var(--vpower); }
+  .launch-btn.launch-map    { border-color: var(--text); background: var(--text); }
+  .launch-btn.launch-map .launch-name    { color: var(--bg); }
+  .launch-btn.launch-map .launch-sub     { color: var(--border); }
+  #launcher-foot { margin-top: auto; padding-top: 26px; text-align: center; font-size: 10px; color: var(--muted); letter-spacing: 1px; }
+
+  /* Home / back button in header */
+  #btn-home {
+    background: transparent; border: 1px solid var(--border);
+    color: var(--muted); cursor: pointer;
+    font-family: 'Share Tech Mono', monospace; font-size: 16px;
+    width: 34px; height: 34px; line-height: 1; margin-right: 8px;
+    flex-shrink: 0; display: flex; align-items: center; justify-content: center;
+  }
+  #btn-home:hover { border-color: var(--text); color: var(--text); }
+
+  /* ═══════════ NEAREST-STATION CARD ═══════════ */
+  #nearest-panel { display: none; background: var(--card-bg); }
+  #nearest-panel.visible { display: block; }
+  .nearest-card { padding: 14px 14px 12px; border-bottom: 2px solid var(--text); }
+  .nearest-card .nc-label { font-size: 10px; letter-spacing: 2px; color: var(--muted); text-transform: uppercase; margin-bottom: 5px; }
+  .nearest-card .nc-name  { font-family: 'Oswald', sans-serif; font-size: 22px; letter-spacing: 1px; color: var(--text); line-height: 1.1; }
+  .nearest-card .nc-addr  { font-size: 12px; color: var(--muted); margin-top: 3px; }
+  .nc-meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-top: 9px; }
+  .nc-dist { font-family: 'Oswald', sans-serif; font-size: 20px; color: var(--text); }
+  .nc-dir  { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; padding: 3px 9px; border: 1px solid var(--accent); color: var(--accent); }
+  .nc-dir.ahead  { border-color: var(--green);  color: var(--green); font-weight: bold; }
+  .nc-dir.behind { border-color: var(--danger); color: var(--danger); }
+  .nc-dir.nearby { border-color: var(--accent); color: var(--accent); }
+  .nc-navigate {
+    display: block; width: 100%; box-sizing: border-box; text-align: center;
+    margin-top: 12px; padding: 14px; background: var(--green); color: #fff;
+    text-decoration: none; font-family: 'Oswald', sans-serif; font-size: 18px;
+    letter-spacing: 2px; border: none; cursor: pointer; text-transform: uppercase;
+  }
+  .nearest-card.vpower-card .nc-navigate { background: var(--vpower); }
+  .nc-alts { border-bottom: 1px solid var(--border); }
+  .nc-alt  { display: flex; align-items: center; gap: 10px; padding: 11px 14px; border-top: 1px solid var(--border); }
+  .nc-alt-info { flex: 1; min-width: 0; }
+  .nc-alt-name { font-family: 'Oswald', sans-serif; font-size: 15px; letter-spacing: 0.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .nc-alt-sub  { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .nc-alt-nav  {
+    flex-shrink: 0; min-height: 44px; padding: 0 14px;
+    background: var(--text); color: #fff; text-decoration: none;
+    font-size: 12px; letter-spacing: 1px; display: flex; align-items: center;
   }
 </style>
 </head>
-<body class="view-both">
+<body class="view-both launcher-open">
+
+<!-- LAUNCHER (first screen, built from fuel registry) -->
+<div id="launcher">
+  <div id="launcher-wordmark">HIGH OCTANE <span class="logo-ch">CH</span></div>
+  <div id="launcher-buttons"></div>
+  <div id="launcher-foot"></div>
+</div>
 
 <!-- HEADER -->
 <div id="header">
+  <button id="btn-home" onclick="showLauncher()" title="Back to launcher" aria-label="Back to launcher">&#x2302;</button>
   <div id="logo">HIGH OCTANE <span class="logo-ch">CH</span></div>
   <div id="lang-switch">
     <button onclick="setLang('de')" data-lang="de">DE</button>
@@ -565,6 +686,7 @@ permalink: /octane.html
 <!-- MAIN -->
 <div id="main">
   <div id="list-container" class="visible">
+    <div id="nearest-panel"></div>
     <div id="station-list"></div>
     <div id="empty-state"><span data-i18n="no_results">NO RESULTS</span></div>
   </div>
@@ -621,6 +743,9 @@ const I18N = {
     status_error: 'FEHLER', status_idle: 'BEREIT', route_dist: 'STRECKE', route_time: 'FAHRZEIT',
     confirm_refresh: 'Alle Standortdaten neu laden? (Full scan ~1-2 min)',
     km_away: 'km', no_location: 'Standort nicht verfügbar',
+    nearest: 'NÄCHSTE STATION', ahead: 'VORAUS', behind: 'ZURÜCK', nearby: 'IN DER NÄHE',
+    full_map: 'KARTE', stations_count: 'Standorte', all_fuels: 'alle Kraftstoffe',
+    pick_fuel: 'Kraftstoff wählen',
   },
   en: {
     stations: 'STATIONS', your_loc: 'YOUR LOC', filter: 'FILTER', sort: 'SORT',
@@ -630,6 +755,9 @@ const I18N = {
     status_error: 'ERROR', status_idle: 'READY', route_dist: 'DISTANCE', route_time: 'DRIVE TIME',
     confirm_refresh: 'Reload all station data? Full background scan ~1-2 min.',
     km_away: 'km', no_location: 'Location unavailable',
+    nearest: 'NEAREST STATION', ahead: 'AHEAD', behind: 'BEHIND', nearby: 'NEARBY',
+    full_map: 'FULL MAP', stations_count: 'stations', all_fuels: 'all fuels',
+    pick_fuel: 'Pick a fuel',
   },
   ja: {
     stations: 'スタンド', your_loc: '現在地', filter: 'フィルター', sort: '並び替え',
@@ -639,6 +767,9 @@ const I18N = {
     status_error: 'エラー', status_idle: '準備完了', route_dist: '距離', route_time: '所要時間',
     confirm_refresh: 'スタンドデータを再読み込みしますか？',
     km_away: 'km', no_location: '現在地を取得できません',
+    nearest: '最寄りのスタンド', ahead: '前方', behind: '後方', nearby: '近く',
+    full_map: '地図', stations_count: 'スタンド', all_fuels: '全燃料',
+    pick_fuel: '燃料を選択',
   }
 };
 let lang = 'en';
@@ -650,6 +781,8 @@ function setLang(l) {
   document.querySelectorAll('[data-lang]').forEach(b => b.classList.toggle('active', b.dataset.lang === l));
   document.body.className = document.body.className.replace(/lang-\w+/g, '').trim() + ' lang-' + l;
   applyI18n();
+  updateFuelCounts();
+  buildLauncher();
   sortAndRender();
 }
 
@@ -693,6 +826,25 @@ let routeControl = null, userMarker = null;
 let bgScanNewCount = 0;
 let vpowerRefreshedAt = null;      // ISO timestamp from vpower-stations.json
 const vpowerDetailCache = {};      // shellId -> detail object (lazy-fetched)
+let userHeading = null;            // deg from north, null when stationary/unknown
+let watchId = null;                // geolocation watch handle
+
+// ═══════════════════════════════════════════════════════
+// FUEL REGISTRY — data-driven so Build 2 (e.g. Aral 102) is additive.
+// Each entry: how to label/colour a fuel and how to test a station for it.
+// The launcher buttons and the bottom toggle bar are both generated from this.
+// ═══════════════════════════════════════════════════════
+const FUEL_MODES = [
+  { key: 'e85',    cls: 'e85',    label: 'E85',         test: s => !!(s.fuels && s.fuels.e85) },
+  { key: 'vpower', cls: 'vpower', label: 'V-POWER 100', test: s => !!(s.fuels && s.fuels.vpower) },
+];
+
+// Every loaded station from every source, unified.
+function unionStations() { return [...fullStationMap.values(), ...vpowerStations]; }
+function countFuel(key) {
+  const m = FUEL_MODES.find(x => x.key === key);
+  return m ? unionStations().filter(m.test).length : 0;
+}
 
 // ═══════════════════════════════════════════════════════
 // FUEL DETECTION (AGROLA)
@@ -929,11 +1081,50 @@ async function backgroundFullScan(force = false) {
 // ═══════════════════════════════════════════════════════
 async function boot() {
   await Promise.all([loadKnownE85(), loadVpowerStations()]);
+  buildFuelBar();
   sortAndRender();
   updateCounts();
-  updateFuelCounts();
+  buildLauncher();
+  // Keep scanning in the background so E85 counts fill in even while on the launcher.
+  backgroundFullScan().then(buildLauncher);
+}
+
+// ═══════════════════════════════════════════════════════
+// LAUNCHER — first screen, built from the fuel registry
+// ═══════════════════════════════════════════════════════
+function buildLauncher() {
+  const wrap = document.getElementById('launcher-buttons');
+  if (!wrap) return;
+  const fuelBtns = FUEL_MODES.map(m => `
+    <button class="launch-btn launch-${m.cls}" onclick="enterFinder('${m.key}')">
+      <span class="launch-name">${m.label}</span>
+      <span class="launch-sub">${countFuel(m.key)} ${t('stations_count')}</span>
+    </button>`).join('');
+  wrap.innerHTML = fuelBtns + `
+    <button class="launch-btn launch-map" onclick="enterFinder('map')">
+      <span class="launch-name">${t('full_map')}</span>
+      <span class="launch-sub">${unionStations().length} ${t('stations_count')} · ${t('all_fuels')}</span>
+    </button>`;
+  const foot = document.getElementById('launcher-foot');
+  if (foot) {
+    foot.textContent = vpowerRefreshedAt
+      ? 'V-POWER DATA: ' + new Date(vpowerRefreshedAt).toISOString().slice(0, 10)
+      : '';
+  }
+}
+
+function showLauncher() {
+  stopWatch();
+  buildLauncher();
+  document.body.classList.add('launcher-open');
+}
+
+function enterFinder(fuelKey) {
+  document.body.classList.remove('launcher-open');
+  setFuelMode(fuelKey === 'map' ? 'both' : fuelKey);
+  if (map) setTimeout(() => map.invalidateSize(), 60);
+  // Location request fires immediately; map recenters on the user.
   locateUser();
-  backgroundFullScan();
 }
 
 function confirmRefresh() {
@@ -949,19 +1140,36 @@ function confirmRefresh() {
 // ═══════════════════════════════════════════════════════
 // FUEL MODE (bottom bar toggle)
 // ═══════════════════════════════════════════════════════
+// Bottom toggle bar — generated from the fuel registry (+ a derived BOTH mode).
+function fuelBarModes() {
+  return [...FUEL_MODES, { key: 'both', cls: 'both', label: 'BOTH', count: () => unionStations().length }];
+}
+
+function buildFuelBar() {
+  const bar = document.getElementById('fuel-bar');
+  if (!bar) return;
+  bar.innerHTML = fuelBarModes().map(m => `
+    <button class="fuel-btn${fuelMode === m.key ? ' active-' + m.cls : ''}" id="fbtn-${m.key}" onclick="setFuelMode('${m.key}')">
+      ${m.label}
+      <span class="fuel-count" id="fcount-${m.key}">0</span>
+    </button>`).join('');
+  updateFuelCounts();
+}
+
 function setFuelMode(mode) {
   fuelMode = mode;
-  document.querySelectorAll('.fuel-btn').forEach(b => b.className = 'fuel-btn');
+  document.querySelectorAll('.fuel-btn').forEach(b => b.classList.remove('active-e85', 'active-vpower', 'active-both'));
+  const m = fuelBarModes().find(x => x.key === mode);
   const btn = document.getElementById('fbtn-' + mode);
-  btn.classList.add(mode === 'e85' ? 'active-e85' : mode === 'vpower' ? 'active-vpower' : 'active-both');
+  if (btn && m) btn.classList.add('active-' + m.cls);
   sortAndRender();
 }
 
 function updateFuelCounts() {
-  const e85count = [...fullStationMap.values()].filter(s => s.fuels.e85).length;
-  document.getElementById('fcount-e85').textContent = e85count + ' stations';
-  document.getElementById('fcount-vpower').textContent = vpowerStations.length + ' stations';
-  document.getElementById('fcount-both').textContent = (e85count + vpowerStations.length) + ' stations';
+  fuelBarModes().forEach(m => {
+    const el = document.getElementById('fcount-' + m.key);
+    if (el) el.textContent = (m.count ? m.count() : countFuel(m.key)) + ' ' + t('stations_count');
+  });
 }
 
 // ═══════════════════════════════════════════════════════
@@ -985,27 +1193,56 @@ function updateCounts() {
 // ═══════════════════════════════════════════════════════
 // GEOLOCATION
 // ═══════════════════════════════════════════════════════
+// Apply a geolocation fix. heading is only meaningful while moving; treat it as
+// unknown (null) when stationary so we never render a bogus direction.
+function applyPosition(pos, recenter) {
+  userLat = pos.coords.latitude;
+  userLng = pos.coords.longitude;
+  const h = pos.coords.heading;
+  const moving = pos.coords.speed == null || pos.coords.speed > 0.3;
+  userHeading = (h != null && Number.isFinite(h) && moving) ? h : null;
+  document.getElementById('stat-loc').style.display = '';
+  document.getElementById('loc-display').textContent = userLat.toFixed(4) + ', ' + userLng.toFixed(4);
+  updateUserMarker(recenter);
+  document.getElementById('sort-select').value = 'distance';
+  sortAndRender();
+}
+
+function updateUserMarker(recenter) {
+  if (!map) return;
+  if (recenter) map.setView([userLat, userLng], Math.max(map.getZoom(), 12));
+  if (userMarker) map.removeLayer(userMarker);
+  userMarker = L.marker([userLat, userLng], {
+    icon: L.divIcon({
+      html: '<div style="width:14px;height:14px;background:#1a8a5c;border-radius:50%;border:3px solid #fff;box-shadow:0 0 6px rgba(0,0,0,0.3)"></div>',
+      iconSize: [14,14], iconAnchor: [7,7], className: ''
+    }),
+    zIndexOffset: 1000
+  }).addTo(map).bindPopup('<b>YOU</b>');
+}
+
+// One-shot fix (fast centre) + continuous watch (live heading while driving).
 function locateUser() {
   if (!navigator.geolocation) { alert(t('no_location')); return; }
-  navigator.geolocation.getCurrentPosition(pos => {
-    userLat = pos.coords.latitude;
-    userLng = pos.coords.longitude;
-    document.getElementById('stat-loc').style.display = '';
-    document.getElementById('loc-display').textContent = userLat.toFixed(4) + ', ' + userLng.toFixed(4);
-    if (map) {
-      map.setView([userLat, userLng], 11);
-      if (userMarker) map.removeLayer(userMarker);
-      userMarker = L.marker([userLat, userLng], {
-        icon: L.divIcon({
-          html: '<div style="width:14px;height:14px;background:#1a8a5c;border-radius:50%;border:3px solid #fff;box-shadow:0 0 6px rgba(0,0,0,0.3)"></div>',
-          iconSize: [14,14], iconAnchor: [7,7], className: ''
-        }),
-        zIndexOffset: 1000
-      }).addTo(map).bindPopup('<b>YOU</b>');
-    }
-    document.getElementById('sort-select').value = 'distance';
-    sortAndRender();
-  }, () => alert(t('no_location')));
+  navigator.geolocation.getCurrentPosition(
+    pos => applyPosition(pos, true),
+    () => { if (watchId === null) alert(t('no_location')); },
+    { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 }
+  );
+  startWatch();
+}
+
+function startWatch() {
+  if (!navigator.geolocation || watchId !== null) return;
+  watchId = navigator.geolocation.watchPosition(
+    pos => applyPosition(pos, false),
+    () => {},
+    { enableHighAccuracy: true, maximumAge: 4000, timeout: 20000 }
+  );
+}
+
+function stopWatch() {
+  if (watchId !== null) { navigator.geolocation.clearWatch(watchId); watchId = null; }
 }
 
 function routeTo(station) {
@@ -1047,6 +1284,25 @@ function haversine(lat1, lng1, lat2, lng2) {
   const a = Math.sin(dLat/2)**2 + Math.cos(lat1*Math.PI/180)*Math.cos(lat2*Math.PI/180)*Math.sin(dLng/2)**2;
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 }
+
+// Initial bearing (deg from north) from user to a station.
+function bearing(lat1, lng1, lat2, lng2) {
+  const p1 = lat1*Math.PI/180, p2 = lat2*Math.PI/180, dl = (lng2-lng1)*Math.PI/180;
+  const y = Math.sin(dl)*Math.cos(p2);
+  const x = Math.cos(p1)*Math.sin(p2) - Math.sin(p1)*Math.cos(p2)*Math.cos(dl);
+  return (Math.atan2(y, x)*180/Math.PI + 360) % 360;
+}
+
+// Classify a station relative to travel heading: ahead (±70°), behind (±70° of
+// the opposite), or nearby. Returns null when heading is unknown.
+function relativeDir(brng) {
+  if (userHeading == null) return null;
+  const diff = Math.abs(((brng - userHeading + 540) % 360) - 180); // 0..180
+  if (diff <= 70) return 'ahead';
+  if (diff >= 110) return 'behind';
+  return 'nearby';
+}
+function dirRank(d) { return d === 'ahead' ? 0 : d === 'behind' ? 2 : 1; }
 
 // ═══════════════════════════════════════════════════════
 // FILTERS
@@ -1092,22 +1348,114 @@ function getVisibleStations() {
 // ═══════════════════════════════════════════════════════
 function sortAndRender(flashId = null) {
   let stations = getVisibleStations();
-  stations = stations.map(s => ({
-    ...s,
-    dist: (userLat !== null && !isNaN(s.lat) && !isNaN(s.lng))
-      ? haversine(userLat, userLng, s.lat, s.lng) : null
-  }));
+  stations = stations.map(s => {
+    const located = userLat !== null && !isNaN(s.lat) && !isNaN(s.lng);
+    const dist = located ? haversine(userLat, userLng, s.lat, s.lng) : null;
+    const dir = (located && userHeading !== null) ? relativeDir(bearing(userLat, userLng, s.lat, s.lng)) : null;
+    return { ...s, dist, dir };
+  });
   const sortBy = document.getElementById('sort-select').value;
   if (sortBy === 'distance' && userLat !== null) {
-    stations.sort((a,b) => (a.dist ?? 9999) - (b.dist ?? 9999));
+    if (userHeading !== null) {
+      // Heading-aware: ahead first, then nearby, then behind — each by distance.
+      stations.sort((a,b) => dirRank(a.dir) - dirRank(b.dir) || (a.dist ?? 9999) - (b.dist ?? 9999));
+    } else {
+      stations.sort((a,b) => (a.dist ?? 9999) - (b.dist ?? 9999));
+    }
   } else {
     stations.sort((a,b) => (a.name || '').localeCompare(b.name || ''));
   }
   renderList(stations, flashId);
   renderMap(stations);
+  renderNearest(stations);
   document.getElementById('n-showing').textContent = stations.length;
   document.getElementById('n-total-bot').textContent = fullStationMap.size + vpowerStations.length;
   document.getElementById('empty-state').classList.toggle('visible', stations.length === 0);
+}
+
+// ═══════════════════════════════════════════════════════
+// NEAREST-STATION CARD (heading-aware)
+// ═══════════════════════════════════════════════════════
+function addrOf(s) { return [s.street, s.zip, s.city].filter(Boolean).join(' '); }
+
+function isIOS() {
+  return /iP(hone|ad|od)/.test(navigator.userAgent) ||
+    (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+}
+
+// Platform-aware deep link: Apple Maps on iOS, Google Maps elsewhere.
+function navUrl(s) {
+  if (isIOS()) {
+    return `https://maps.apple.com/?daddr=${s.lat},${s.lng}&dirflg=d&q=${encodeURIComponent(s.name || 'Station')}`;
+  }
+  return `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}`;
+}
+
+function dirChip(dir) {
+  if (!dir) return '';
+  const arrow = dir === 'ahead' ? '↑' : dir === 'behind' ? '↓' : '•';
+  return `<span class="nc-dir ${dir}">${arrow} ${t(dir)}</span>`;
+}
+function dirText(dir) { return dir ? '· ' + t(dir) : ''; }
+
+function openBadgeFromStatus(st) {
+  if (st === 'twenty_four_hour') return '<span class="tag t24h">24H</span>';
+  if (st === 'open')            return '<span class="tag topen">OPEN</span>';
+  if (st === 'closed')          return '<span class="tag tclosed">CLOSED</span>';
+  return '';
+}
+
+// Best-effort open/24h badge from data we already have (no fetch).
+function staticBadge(s) {
+  if (s.is_24h) return '<span class="tag t24h">24H</span>';
+  return openBadgeFromStatus(s.openStatus);
+}
+
+// Lazily upgrade the badge with live forecourt status (V-Power / Shell only).
+async function hydrateOpenStatus(s, elId) {
+  if (!s || !(s.source === 'geoapp-shell' || s.source === 'vpower') || !s.shellId) return;
+  const detail = await fetchVpowerDetail(s.shellId);
+  const el = document.getElementById(elId);
+  if (!el || !detail) return;
+  const badge = openBadgeFromStatus(detail.forecourt_open_status || detail.open_status);
+  if (badge) el.innerHTML = badge;
+}
+
+function altHtml(s, i) {
+  return `<div class="nc-alt">
+    <div class="nc-alt-info">
+      <div class="nc-alt-name">${s.name || '—'}</div>
+      <div class="nc-alt-sub">${s.dist != null ? s.dist.toFixed(1) + ' ' + t('km_away') : ''} ${dirText(s.dir)} <span id="nc-badge-alt-${i}">${staticBadge(s)}</span></div>
+    </div>
+    <a class="nc-alt-nav" href="${navUrl(s)}" target="_blank" rel="noopener">▶ ${t('navigate')}</a>
+  </div>`;
+}
+
+function renderNearest(stations) {
+  const panel = document.getElementById('nearest-panel');
+  if (!panel) return;
+  // Only when located AND a specific fuel is chosen (not BOTH / Full Map).
+  const show = userLat !== null && fuelMode !== 'both' && stations.length > 0;
+  if (!show) { panel.classList.remove('visible'); panel.innerHTML = ''; return; }
+  panel.classList.add('visible');
+  const top = stations[0];
+  const alts = stations.slice(1, 3);
+  const isV = top.source === 'geoapp-shell' || top.source === 'vpower';
+  panel.innerHTML = `
+    <div class="nearest-card ${isV ? 'vpower-card' : ''}">
+      <div class="nc-label">${t('nearest')}</div>
+      <div class="nc-name">${top.name || '—'}</div>
+      <div class="nc-addr">${addrOf(top)}</div>
+      <div class="nc-meta">
+        <span class="nc-dist">${top.dist != null ? top.dist.toFixed(1) + ' ' + t('km_away') : ''}</span>
+        ${dirChip(top.dir)}
+        <span id="nc-badge-top">${staticBadge(top)}</span>
+      </div>
+      <a class="nc-navigate" href="${navUrl(top)}" target="_blank" rel="noopener">▶ ${t('navigate')}</a>
+    </div>
+    <div class="nc-alts">${alts.map((s, i) => altHtml(s, i)).join('')}</div>`;
+  hydrateOpenStatus(top, 'nc-badge-top');
+  alts.forEach((s, i) => hydrateOpenStatus(s, 'nc-badge-alt-' + i));
 }
 
 // Compute open/closed status for V-Power stations
@@ -1150,7 +1498,7 @@ function fuelTags(s) {
 }
 
 function mapsUrl(s) {
-  return `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}`;
+  return navUrl(s);
 }
 
 // Lazy-fetch V-Power station detail (opening hours) from Geoapp
@@ -1310,6 +1658,8 @@ function initMap() {
 // ═══════════════════════════════════════════════════════
 initMap();
 applyI18n();
+buildFuelBar();
+buildLauncher();
 boot();
 </script>
 </body>

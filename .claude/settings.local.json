@@ -27,7 +27,8 @@
       "Bash(ruby -e 'c=File.read\\(\"_pages/octane.html\", encoding: \"UTF-8\"\\); s=c[/<script>\\(.*\\)<\\\\/script>/m,1]; puts \"{ #{s.count\\(\"{\"\\)} vs } #{s.count\\(\"}\"\\)}\"; puts \"\\( #{s.count\\(\"\\(\"\\)} vs \\) #{s.count\\(\"\\)\"\\)}\"; puts \"[ #{s.count\\(\"[\"\\)} vs ] #{s.count\\(\"]\"\\)}\"')",
       "Bash(ruby /tmp/regen.rb)",
       "Bash(echo \"EXIT: $?\")",
-      "Bash(ruby -rjson -e ' *)"
+      "Bash(ruby -rjson -e ' *)",
+      "Bash(awk '{print substr\\($0,1,200\\)}')"
     ]
   }
 }

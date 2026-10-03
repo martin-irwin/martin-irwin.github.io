@@ -1,0 +1,168 @@
+---
+layout: pure
+permalink: /minidisc/
+title: MiniDisc
+---
+<style>
+  .mdc h2 { font-size: 0.8rem; font-weight: 700; margin: 2.1rem 0 0.5rem; }
+  .mdc [hidden] { display: none !important; }
+  .mdc-controls { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; margin-bottom: 0.5rem; }
+  .mdc-controls .lbl { opacity: 0.55; width: 4.2em; }
+  .mdc-controls .brk { flex-basis: 100%; height: 0; }
+  .mdc button, .mdc input { font: inherit; letter-spacing: inherit; color: inherit; background: transparent; border: 1px dotted #000; border-radius: 0; padding: 1px 6px; }
+  .mdc button { cursor: pointer; }
+  .mdc button[aria-pressed="true"] { background: #000; color: #f2f2f2; border-style: solid; }
+  .mdc input { width: 11em; }
+  .mdc button:focus-visible, .mdc input:focus-visible, .mdc summary:focus-visible { outline: 1px solid #000; outline-offset: 2px; }
+  .mdc-count { opacity: 0.55; margin: 0.7rem 0 0; }
+  .mdc-row summary { display: flex; flex-wrap: wrap; gap: 0 1.2ch; cursor: pointer; list-style: none; padding: 2px 0; }
+  .mdc-row summary::-webkit-details-marker { display: none; }
+  .mdc-row summary:hover .m { border-bottom: 1px dotted #000; }
+  .mdc-row .y { width: 4ch; flex-shrink: 0; }
+  .mdc-row .m { flex: 1 1 14ch; }
+  .mdc-row .b { display: none; }
+  .mdc.by-year .mdc-row .b { display: inline; }
+  .mdc-row .t { opacity: 0.55; text-align: right; }
+  .mdc-row[open] summary .m { font-weight: 700; }
+  .mdc-detail { margin: 0.3rem 0 1rem; padding-left: calc(4ch + 1.2ch); }
+  .mdc-detail p { margin-bottom: 0.4rem; }
+  .mdc-detail .dim { opacity: 0.55; }
+  .mdc-detail img { margin: 0.7rem 0; }
+  .mdc ul { list-style: none; }
+  .mdc ul li { margin-bottom: 6px; }
+</style>
+
+<div class="mdc" id="mdc">
+{% assign all = site.data.minidisc %}
+{% assign units = 0 %}
+{% for d in all %}{% assign units = units | plus: d.qty %}{% endfor %}
+<p>{{ all.size }} models, {{ units }} units. Select a row for details.</p>
+
+<div class="mdc-controls" id="mdc-controls" hidden>
+  <span class="lbl">type</span>
+  <button type="button" data-k="type" data-v="recorder" aria-pressed="false">recorder</button>
+  <button type="button" data-k="type" data-v="player" aria-pressed="false">player</button>
+  <button type="button" data-k="type" data-v="deck" aria-pressed="false">deck</button>
+  <button type="button" data-k="type" data-v="system" aria-pressed="false">system</button>
+  <span class="brk"></span>
+  <span class="lbl">can</span>
+  <button type="button" data-k="feat" data-v="rec" aria-pressed="false">record</button>
+  <button type="button" data-k="feat" data-v="mdlp" aria-pressed="false">MDLP</button>
+  <button type="button" data-k="feat" data-v="netmd" aria-pressed="false">NetMD</button>
+  <button type="button" data-k="feat" data-v="himd" aria-pressed="false">Hi-MD</button>
+  <span class="brk"></span>
+  <span class="lbl">order</span>
+  <button type="button" data-k="sort" data-v="brand" aria-pressed="true">by brand</button>
+  <button type="button" data-k="sort" data-v="year" aria-pressed="false">by year</button>
+  <span class="brk"></span>
+  <span class="lbl">find</span>
+  <input type="search" id="mdc-q" aria-label="Find a model" autocomplete="off">
+</div>
+<p class="mdc-count" id="mdc-count" hidden></p>
+
+<section id="mdc-all" hidden></section>
+
+{% assign brands = all | map: "brand" | uniq %}
+{% for b in brands %}
+<section class="mdc-brand">
+<h2>{{ b }}</h2>
+{% assign items = all | where: "brand", b | sort: "released" %}
+{% for d in items %}
+<details class="mdc-row" data-type="{{ d.type }}" data-rel="{{ d.released }}" data-rec="{% if d.records %}1{% else %}0{% endif %}" data-mdlp="{% if d.mdlp %}1{% else %}0{% endif %}" data-netmd="{% if d.netmd %}1{% else %}0{% endif %}" data-himd="{% if d.himd %}1{% else %}0{% endif %}">
+<summary><span class="y">{% if d.year %}{{ d.year }}{% else %}----{% endif %}</span><span class="m"><span class="b">{{ d.brand }} </span>{{ d.model }}{% if d.qty > 1 %} ×{{ d.qty }}{% endif %}</span><span class="t">{{ d.type }}{% if d.mdlp %} · MDLP{% endif %}{% if d.netmd %} · NetMD{% endif %}{% if d.himd %} · Hi-MD{% endif %}</span></summary>
+<div class="mdc-detail">
+{% if d.photo %}<img src="{{ d.photo }}" alt="{{ d.brand }} {{ d.model }}">{% endif %}
+<p>{{ d.notes }}</p>
+<p class="dim">{% if d.year %}released {{ d.released }} · {% endif %}market: {{ d.market }}{% if d.colour %} · mine: {{ d.colour }}{% endif %}{% if d.qty > 1 %} ({{ d.qty }} units){% endif %}{% if d.listed_as %} · listed as {{ d.listed_as }}{% endif %}</p>
+{% if d.check %}<p class="dim">to confirm: {{ d.check }}</p>{% endif %}
+<p>{% if d.review %}<a href="{{ d.review }}">review</a> {% endif %}{% for s in d.sources %}<a href="{{ s }}" rel="noopener">source {{ forloop.index }}</a> {% endfor %}</p>
+</div>
+</details>
+{% endfor %}
+</section>
+{% endfor %}
+
+<h2>Guides</h2>
+<ul>
+  <li>
+    <a href="/es-9dvd/">Kenwood ES-9DVD English guide</a>
+    <span>(abridged from the Japanese manual)</span>
+  </li>
+</ul>
+
+<h2>Reviews</h2>
+<ul>
+  {% for post in site.posts %}
+    {% if post.tags contains "minidisc" and post.categories contains "review" %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span>({{ post.date | date: "%B %d, %Y" }})</span>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<p class="mdc-count">Data: <a href="/minidisc.json">minidisc.json</a></p>
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById('mdc');
+  var controls = document.getElementById('mdc-controls');
+  var count = document.getElementById('mdc-count');
+  var allBox = document.getElementById('mdc-all');
+  var q = document.getElementById('mdc-q');
+  var rows = Array.prototype.slice.call(root.querySelectorAll('.mdc-row'));
+  var sections = Array.prototype.slice.call(root.querySelectorAll('.mdc-brand'));
+  var home = rows.map(function (r) { return r.parentNode; });
+  var state = { type: '', feat: {}, sort: 'brand' };
+
+  function apply() {
+    var text = q.value.trim().toLowerCase(), shown = 0;
+    rows.forEach(function (r) {
+      var ok = (!state.type || r.dataset.type === state.type) &&
+        Object.keys(state.feat).every(function (f) { return r.dataset[f] === '1'; }) &&
+        (!text || r.textContent.toLowerCase().indexOf(text) > -1);
+      r.hidden = !ok;
+      if (ok) shown++;
+    });
+    sections.forEach(function (s) {
+      s.hidden = state.sort === 'year' || !s.querySelector('.mdc-row:not([hidden])');
+    });
+    count.textContent = shown === rows.length ? '' : shown + ' of ' + rows.length + ' models';
+    count.hidden = shown === rows.length;
+  }
+
+  function order() {
+    var byYear = state.sort === 'year';
+    root.classList.toggle('by-year', byYear);
+    allBox.hidden = !byYear;
+    if (byYear) {
+      rows.slice().sort(function (a, b) { return a.dataset.rel < b.dataset.rel ? -1 : a.dataset.rel > b.dataset.rel ? 1 : 0; })
+        .forEach(function (r) { allBox.appendChild(r); });
+    } else {
+      rows.forEach(function (r, i) { home[i].appendChild(r); });
+    }
+  }
+
+  controls.addEventListener('click', function (ev) {
+    var b = ev.target.closest('button');
+    if (!b) return;
+    var k = b.dataset.k, v = b.dataset.v;
+    if (k === 'type') {
+      state.type = state.type === v ? '' : v;
+      controls.querySelectorAll('[data-k="type"]').forEach(function (x) { x.setAttribute('aria-pressed', String(x.dataset.v === state.type)); });
+    } else if (k === 'feat') {
+      if (state.feat[v]) delete state.feat[v]; else state.feat[v] = true;
+      b.setAttribute('aria-pressed', String(!!state.feat[v]));
+    } else if (k === 'sort') {
+      state.sort = v;
+      controls.querySelectorAll('[data-k="sort"]').forEach(function (x) { x.setAttribute('aria-pressed', String(x.dataset.v === v)); });
+      order();
+    }
+    apply();
+  });
+  q.addEventListener('input', apply);
+  controls.hidden = false;
+})();
+</script>

@@ -1,0 +1,900 @@
+# MiniDisc collection. One entry per model; the /minidisc/ page and /minidisc.json are built from this file.
+#
+# type:      recorder | player | deck | system
+# records:   true if it can record to MD in any way
+# released:  "YYYY-MM" or "YYYY" (used for sorting; "9999" = unknown)
+# mdlp / netmd / himd: true | false | null (null = not confirmed)
+# colour, qty: this collection's unit(s)
+# listed_as: how the unit was first written down, when it differs from the model number
+# check:     anything still to confirm
+# photo:     path to an image, e.g. /assets/minidisc/mz-r55.jpg
+
+- model: MZ-R50
+  brand: Sony
+  type: recorder
+  records: true
+  released: 1997-10
+  year: 1997
+  mdlp: false
+  netmd: false
+  himd: false
+  market: not stated by sources
+  colour: null
+  qty: 1
+  notes: LIP-8 lithium-ion plus 2×AA sidecar; optical in; first LCD stick remote (RM-MZR50).
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/portable/mz-r50
+  - https://www.minidisc.org/part_Sony_MZ-R50.html
+  photo: null
+
+- model: MZ-R55
+  brand: Sony
+  type: recorder
+  records: true
+  released: 1998-10
+  year: 1998
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Japan first, US from early 1999
+  colour: null
+  qty: 1
+  notes: NiMH gumstick (NH-14WM) plus 2×AA sidecar; 40 s shock memory; backlit stick remote.
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/portable/mz-r55
+  - https://www.minidisc.org/part_Sony_MZ-R55.html
+  photo: null
+
+- model: MZ-R37
+  brand: Sony
+  type: recorder
+  records: true
+  released: 1999-02
+  year: 1999
+  mdlp: false
+  netmd: false
+  himd: false
+  market: US and Europe (per minidisc.org)
+  colour: null
+  qty: 1
+  notes: 2×AA; optical/line in and mic in; cost-reduced model.
+  check: Month is Feb 1999 on minidisc.wiki, Mar 1999 on minidisc.org; whether it was sold in Japan is disputed.
+  review: /review/2020/03/07/sony-mz-r37-review.html
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/portable/mz-r37
+  - https://www.minidisc.org/part_Sony_MZ-R37.html
+  photo: null
+
+- model: MDS-JB930
+  brand: Sony
+  type: deck
+  records: true
+  released: '1999'
+  year: 1999
+  mdlp: false
+  netmd: false
+  himd: false
+  market: not stated by sources
+  colour: null
+  qty: 1
+  notes: ATRAC DSP Type-R; optical and coaxial digital in/out; PS/2 keyboard port; pitch control.
+  listed_as: JB930
+  check: Month uncertain (Jun or Sep 1999).
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/deck/mds-jb930
+  - https://www.minidisc.org/part_Sony_MDS-JB930.html
+  photo: null
+
+- model: MZ-R70
+  brand: Sony
+  type: recorder
+  records: true
+  released: 1999-09
+  year: 1999
+  mdlp: false
+  netmd: false
+  himd: false
+  market: not stated by sources
+  colour: null
+  qty: 1
+  notes: Single AA; optical/line in and mic in; 40 s shock memory.
+  check: minidisc.wiki says Sep 1999, minidisc.org says Jan 2000.
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/portable/mz-r70
+  - https://www.minidisc.org/part_Sony_MZ-R70.html
+  photo: null
+
+- model: MZ-E60
+  brand: Sony
+  type: player
+  records: false
+  released: 2000-02
+  year: 2000
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Japan and US (MZ-E62 is the European version)
+  colour: null
+  qty: 1
+  notes: Single AA, no internal charging; non-backlit LCD remote (RM-MZ2N).
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/portable/mz-e60
+  - https://www.minidisc.org/part_Sony_MZ-E60.html
+  photo: null
+
+- model: MZ-E900
+  brand: Sony
+  type: player
+  records: false
+  released: 2000-09
+  year: 2000
+  mdlp: true
+  netmd: false
+  himd: false
+  market: not stated by sources
+  colour: null
+  qty: 1
+  notes: One of the first MDLP players; NiMH gumstick plus AA sidecar.
+  review: /review/2020/03/13/sony-mz-e900-review.html
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/portable/mz-e900
+  - https://www.minidisc.org/part_Sony_MZ-E900.html
+  photo: null
+
+- model: MZ-N1
+  brand: Sony
+  type: recorder
+  records: true
+  released: 2001-12
+  year: 2001
+  mdlp: true
+  netmd: true
+  himd: false
+  market: Japan and US at least
+  colour: null
+  qty: 1
+  notes: Sony's first NetMD portable; NiMH gumstick plus AA sidecar; USB cradle; magnesium case.
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/portable/mz-n1
+  - https://www.minidisc.org/part_Sony_MZ-N1.html
+  photo: null
+
+- model: MZ-N10
+  brand: Sony
+  type: recorder
+  records: true
+  released: 2002-11
+  year: 2002
+  mdlp: true
+  netmd: true
+  himd: false
+  market: Japan and Europe at least
+  colour: null
+  qty: 1
+  notes: 10th-anniversary model; built-in lithium-ion plus AA case; ATRAC Type-S; jog dial.
+  check: Month is Nov 2002 on minidisc.wiki, Sep 2002 on minidisc.org.
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/portable/mz-n10
+  - https://www.minidisc.org/part_Sony_MZ-N10.html
+  photo: null
+
+- model: MZ-E720
+  brand: Sony
+  type: player
+  records: false
+  released: 2003-10
+  year: 2003
+  mdlp: true
+  netmd: false
+  himd: false
+  market: not stated by sources
+  colour: null
+  qty: 1
+  notes: NiMH gumstick plus AA sidecar; HD Digital Amp; aluminium body.
+  check: Month is Oct 2003 on minidisc.wiki, Sep 2003 on minidisc.org.
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/portable/mz-e720
+  - https://www.minidisc.org/part_Sony_MZ-E720.html
+  photo: null
+
+- model: MZ-NH1
+  brand: Sony
+  type: recorder
+  records: true
+  released: 2004-07
+  year: 2004
+  mdlp: true
+  netmd: true
+  himd: true
+  market: worldwide
+  colour: null
+  qty: 1
+  notes: Top model of the first Hi-MD line; LIP-4WM lithium-ion; magnesium body; 3-line jog remote.
+  check: Month is Jul 2004 on minidisc.wiki, Apr 2004 on minidisc.org.
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/portable/mz-nh1
+  - https://www.minidisc.org/part_Sony_MZ-NH1.html
+  photo: null
+
+- model: LAM-Z05
+  brand: Sony
+  type: system
+  records: true
+  released: 2004-10
+  year: 2004
+  mdlp: true
+  netmd: true
+  himd: false
+  market: probably Japan only
+  colour: null
+  qty: 1
+  notes: Net MD desktop CD/MD system that doubles as USB PC speakers; no audio inputs, so discs are written by NetMD or CD dubbing.
+  listed_as: LAM Z05
+  check: MDLP is assumed from NetMD support, not stated by the source; Japan-only is likely but not stated.
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/bookshelf/lam-z05
+  photo: null
+
+- model: MZ-DH710
+  brand: Sony
+  type: recorder
+  records: true
+  released: 2005-04
+  year: 2005
+  mdlp: true
+  netmd: true
+  himd: true
+  market: not stated by sources
+  colour: null
+  qty: 1
+  notes: 'Download-only Hi-MD: records over USB from a PC, no line or optical inputs; AA battery.'
+  check: Single source (the MZ-RH710 page on minidisc.wiki).
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/portable/mz-rh710
+  photo: null
+
+- model: MZ-RH1
+  brand: Sony
+  type: recorder
+  records: true
+  released: 2006-04
+  year: 2006
+  mdlp: true
+  netmd: true
+  himd: true
+  market: not stated by sources
+  colour: null
+  qty: 1
+  notes: Sony's last portable MD recorder; LIP-4WM lithium-ion; OLED display; uploads standard-MD recordings to a PC over USB.
+  check: Month is Apr 2006 on minidisc.wiki, May 2006 on minidisc.org.
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/portable/mz-rh1
+  - https://www.minidisc.org/part_Sony_MZ-RH1.html
+  photo: null
+
+- model: MD-MS100
+  brand: Sharp
+  type: recorder
+  records: true
+  released: 1995-12
+  year: 1995
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Japan
+  colour: silver
+  qty: 1
+  notes: Slot-in loading; Li-ion AD-MS10BT; optical/line in.
+  listed_as: MD-MS100-S
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-ms100
+  - https://www.minidisc.org/part_Sharp_MD-MS100.html
+  photo: null
+
+- model: MD-ST60
+  brand: Sharp
+  type: player
+  records: false
+  released: 1996-11
+  year: 1996
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Japan
+  colour: blue
+  qty: 2
+  notes: 13.8 mm thin; Li-ion with charging dock plus 4×AA case; also sold as the Kenwood DMC-G5.
+  listed_as: MD-ST60-A
+  check: Month is Nov 1996 on minidisc.wiki, Dec 1996 on minidisc.org.
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-st60
+  - https://www.minidisc.org/part_Sharp_MD-ST60.html
+  photo: null
+
+- model: MD-ST521
+  brand: Sharp
+  type: player
+  records: false
+  released: 1998-08
+  year: 1998
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Japan
+  colour: pink
+  qty: 1
+  notes: Li-ion gumstick AD-T50BT plus AA; backlit remote; 40 s shock memory.
+  listed_as: MD-ST521-P
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-st521
+  - https://www.minidisc.org/part_Sharp_MD-ST521.html
+  photo: null
+
+- model: MD-MT831
+  brand: Sharp
+  type: recorder
+  records: true
+  released: 1999-08
+  year: 1999
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Japan
+  colour: blue
+  qty: 1
+  notes: Li-ion AD-T51BT plus AA; optical/line and mic in; the Kenwood DMC-L7R is a clone.
+  listed_as: MT-831A
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-mt831
+  - https://www.minidisc.org/part_Sharp_MD-MT831+MT832.html
+  photo: null
+
+- model: MD-ST531
+  brand: Sharp
+  type: player
+  records: false
+  released: 1999-09
+  year: 1999
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Japan
+  colour: blue
+  qty: 1
+  notes: Li-ion AD-T51BT with docking charger; 40 s anti-skip.
+  listed_as: MD-ST531-A
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-st531
+  - https://www.minidisc.org/part_Sharp_MD-ST531+ST631.html
+  photo: null
+
+- model: MD-ST55
+  brand: Sharp
+  type: player
+  records: false
+  released: 2000-02
+  year: 2000
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Japan
+  colour: red
+  qty: 1
+  notes: Billed as the world's smallest and thinnest player at launch; NiMH AD-N55BT plus AA; charge stand.
+  listed_as: MD-ST55-R
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-st55
+  - https://www.minidisc.org/part_Sharp_MD-ST55.html
+  photo: null
+
+- model: MD-ST77
+  brand: Sharp
+  type: player
+  records: false
+  released: 2000-12
+  year: 2000
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: blue, silver
+  qty: 2
+  notes: NiMH gumstick AD-N55BT plus AA case; LEDs show SP/LP2/LP4; backlit LCD remote.
+  listed_as: MD-ST77-A, MD-ST77-S
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-st77
+  - https://www.minidisc.org/part_Sharp_MD-ST77.html
+  photo: null
+
+- model: MD-ST70
+  brand: Sharp
+  type: player
+  records: false
+  released: 2001-02
+  year: 2001
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: silver
+  qty: 1
+  notes: NiMH plus AA; charge stand; X-BASS.
+  listed_as: MD-ST70-S
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-st70
+  - https://www.minidisc.org/part_Sharp_MD-ST70.html
+  photo: null
+
+- model: MD-MT80
+  brand: Sharp
+  type: recorder
+  records: true
+  released: 2001-03
+  year: 2001
+  mdlp: false
+  netmd: false
+  himd: false
+  market: export (MD-MT80H in the UK)
+  colour: null
+  qty: 1
+  notes: No MDLP despite the 2001 release; NiMH gumstick or 1×AA; optical/line and mic in.
+  check: Regional variant and colour not yet noted.
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-mt80w
+  - https://www.minidisc.org/part_Sharp_MD-MT80+MT90.html
+  photo: null
+
+- model: MD-DS8
+  brand: Sharp
+  type: player
+  records: false
+  released: 2002-09
+  year: 2002
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: grey
+  qty: 1
+  notes: Auvi; first portable MD player with a 1-bit digital amp; Dolby Headphone.
+  listed_as: MD-DS8-H
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-ds8
+  - https://www.minidisc.org/part_Sharp_MD-DS8.html
+  photo: null
+
+- model: MD-ST600
+  brand: Sharp
+  type: player
+  records: false
+  released: 2003-03
+  year: 2003
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: silver
+  qty: 1
+  notes: Flat-face design with acrylic panel; NiMH AD-N55BT; X-BASS.
+  listed_as: MD-ST600S
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-st600
+  photo: null
+
+- model: MD-DS70
+  brand: Sharp
+  type: player
+  records: false
+  released: 2003-09
+  year: 2003
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: Auvi; 1-bit digital amp; Dolby Headphone; top-open loading.
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-ds70
+  - https://corporate.jp.sharp/news/mdds70.html
+  photo: null
+
+- model: IM-DR580H
+  brand: Sharp
+  type: recorder
+  records: true
+  released: 2004-01
+  year: 2004
+  mdlp: true
+  netmd: true
+  himd: false
+  market: export (Europe); IM-DR80 in Japan
+  colour: silver
+  qty: 1
+  notes: 1-bit digital amp with 4-pole earphone plug; dock with optical/line in and USB.
+  listed_as: IM-DR580H(S)
+  check: Export release is Sep 2003 or Jan 2004 depending on the source.
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/im-dr80
+  - https://www.minidisc.org/part_Sharp_IM-DR580.html
+  photo: null
+
+- model: SJ-MJ30
+  brand: Panasonic
+  type: player
+  records: false
+  released: 1998-10
+  year: 1998
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: Slot-in loading; NiMH gumstick plus AA sidecar; EL-backlit remote.
+  check: Month is Oct 1998 on minidisc.wiki, Dec 1998 on minidisc.org.
+  sources:
+  - https://www.minidisc.wiki/equipment/panasonic/portable/sj-mj30
+  - https://www.minidisc.org/part_Panasonic_SJ-MJ30.html
+  photo: null
+
+- model: SJ-MJ33
+  brand: Panasonic
+  type: player
+  records: false
+  released: 2000-10
+  year: 2000
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Japan
+  colour: orange
+  qty: 1
+  notes: NiMH gumstick plus AA; 14 mm thick; cannot play LP2/LP4 discs.
+  listed_as: SJ-MJ33-D
+  check: Orange is inferred from Panasonic's -D colour code.
+  sources:
+  - https://www.minidisc.wiki/equipment/panasonic/portable/sj-mj33
+  - https://www.minidisc.org/part_Panasonic_SJ-MJ33.html
+  photo: null
+
+- model: SJ-MJ50
+  brand: Panasonic
+  type: player
+  records: false
+  released: 2001-12
+  year: 2001
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: Charging stand with stereo speakers; NiMH gumstick plus AA.
+  sources:
+  - https://www.minidisc.wiki/equipment/panasonic/portable/sj-mj50
+  photo: null
+
+- model: SC-SV1
+  brand: Panasonic
+  type: system
+  records: true
+  released: 2002-02
+  year: 2002
+  mdlp: true
+  netmd: true
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: CD/MD/tuner system with two speakers and a subwoofer; Panasonic's first NetMD product; SA-SV1 is the main unit.
+  listed_as: SA-SV1
+  check: The SA-SV1 main-unit name is stated only by minidisc.org.
+  sources:
+  - https://www.minidisc.org/part_Panasonic_SC-SV1.html
+  - https://panasonic.jp/compo/products/SC-SV1/spec.html
+  photo: null
+
+- model: SJ-MR230
+  brand: Panasonic
+  type: recorder
+  records: true
+  released: 2002-10
+  year: 2002
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: Optical/line and mic in; cradle with speakers and titling keypad; not NetMD.
+  sources:
+  - https://www.minidisc.org/part_Panasonic_SJ-MR230.html
+  photo: null
+
+- model: SJ-MJ97
+  brand: Panasonic
+  type: player
+  records: false
+  released: 2004-02
+  year: 2004
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: Duralumin lid, 50 g body; RP-BP30L lithium-ion; launch postponed from Nov 2003.
+  sources:
+  - https://www.minidisc.wiki/equipment/panasonic/portable/sj-mj97
+  photo: null
+
+- model: SJ-MJ99
+  brand: Panasonic
+  type: player
+  records: false
+  released: 2004-10
+  year: 2004
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: RP-BP30L lithium-ion; 11.5 mm thick, 55 g.
+  sources:
+  - https://www.minidisc.wiki/equipment/panasonic/portable/sj-mj99
+  photo: null
+
+- model: DMC-M7R
+  brand: Kenwood
+  type: recorder
+  records: true
+  released: 2000-11
+  year: 2000
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: Optical/line and mic in; NiMH gumstick plus AA; billed as the world's smallest MD recorder at launch.
+  sources:
+  - https://www.minidisc.wiki/equipment/kenwood/portable/dmc-m7r
+  - https://www.minidisc.org/part_Kenwood_DMC-M7R.html
+  photo: null
+
+- model: DMC-P55
+  brand: Kenwood
+  type: player
+  records: false
+  released: 2001-11
+  year: 2001
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: Charging stand with stereo speakers, alarm and sleep timer.
+  sources:
+  - https://www.minidisc.org/part_Kenwood_DMC-P55.html
+  photo: null
+
+- model: DMC-Q55
+  brand: Kenwood
+  type: player
+  records: false
+  released: 2002-10
+  year: 2002
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: D-Class digital amp; kanji LCD remote; NiMH gumstick plus AA.
+  sources:
+  - https://www.minidisc.org/part_Kenwood_DMC-Q55.html
+  photo: null
+
+- model: DMC-S55
+  brand: Kenwood
+  type: player
+  records: false
+  released: 2003-10
+  year: 2003
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: black
+  qty: 1
+  notes: '"Clear Digital" amp; charging base with stereo speakers.'
+  listed_as: DMC-S55-B
+  sources:
+  - https://www.minidisc.wiki/equipment/kenwood/portable/dmc-s55
+  photo: null
+
+- model: AM-F65
+  brand: Aiwa
+  type: recorder
+  records: true
+  released: 1998-12
+  year: 1998
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Europe only
+  colour: null
+  qty: 1
+  notes: 'Cut-down AM-F70: no display backlight, no LCD remote, no AA case; optical/line and mic in.'
+  sources:
+  - https://www.minidisc.wiki/equipment/aiwa/portable/am-f65
+  - https://www.minidisc.org/part_Aiwa_AM-F65+F70.html
+  photo: null
+
+- model: AM-F70
+  brand: Aiwa
+  type: recorder
+  records: true
+  released: 1998-12
+  year: 1998
+  mdlp: false
+  netmd: false
+  himd: false
+  market: worldwide
+  colour: null
+  qty: 1
+  notes: LIB-902 Li-ion plus 3×AA case; backlit LCD remote; optical/line and mic in.
+  sources:
+  - https://www.minidisc.wiki/equipment/aiwa/portable/am-f65
+  - https://www.minidisc.org/part_Aiwa_AM-F65+F70.html
+  photo: null
+
+- model: AM-HX30
+  brand: Aiwa
+  type: player
+  records: false
+  released: 1998-12
+  year: 1998
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: Internal rechargeable cell; backlit remote with title search.
+  listed_as: hx-30
+  sources:
+  - https://www.minidisc.wiki/equipment/aiwa/portable/am-hx30
+  - https://www.minidisc.org/part_Aiwa_AM-HX30.html
+  photo: null
+
+- model: AM-HX300
+  brand: Aiwa
+  type: player
+  records: false
+  released: 2001-11
+  year: 2001
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: LCD remote; charging stand; customisable front-panel insert; MD Group.
+  listed_as: hx-300
+  sources:
+  - https://www.minidisc.wiki/equipment/aiwa/portable/am-hx300
+  - https://www.minidisc.org/part_Aiwa_AM-HX300.html
+  photo: null
+
+- model: XM-PX5
+  brand: Victor
+  type: player
+  records: false
+  released: 1999-09
+  year: 1999
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: All-magnesium body, 63 g; aluminium stick remote; NiMH gumstick plus AA.
+  sources:
+  - https://www.minidisc.wiki/equipment/victor/portable/xm-px5
+  - https://www.minidisc.org/part_JVC_XM-PX5.html
+  photo: null
+
+- model: XM-PX70
+  brand: Victor
+  type: player
+  records: false
+  released: 2000-12
+  year: 2000
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: 57 g, billed as the world's lightest at launch; backlit remote; light-up charging stand.
+  sources:
+  - https://www.minidisc.wiki/equipment/victor/portable/xm-px70
+  - https://www.minidisc.org/part_JVC_XM-PX70.html
+  photo: null
+
+- model: XM-C32CY
+  brand: Victor
+  type: player
+  records: false
+  released: '2005'
+  year: 2005
+  mdlp: null
+  netmd: false
+  himd: false
+  market: Japan
+  colour: pink
+  qty: 1
+  notes: Sanrio Charmmy Kitty edition; playback only.
+  check: Year comes from one auction listing; MDLP, battery and base model are undocumented. The label and manual on the unit would settle them.
+  sources: []
+  photo: null
+
+- model: MD-P30
+  brand: Onkyo
+  type: player
+  records: false
+  released: 1999-10
+  year: 1999
+  mdlp: false
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: Li-ion plus AA sidecar; backlit jog remote; thought to be based on a Sharp unit.
+  listed_as: onkyo MD-P30
+  check: Month is Oct 1999 on minidisc.wiki, Aug 1999 (a guess) on minidisc.org; the Sharp origin is minidisc.org's 'thought to be'.
+  sources:
+  - https://www.minidisc.wiki/equipment/onkyo/portable/md-p30
+  - https://www.minidisc.org/part_Onkyo_MD-P30.html
+  photo: null
+
+- model: MD-105AX
+  brand: Onkyo
+  type: deck
+  records: true
+  released: 2000-11
+  year: 2000
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: INTEC 205-series deck, 205 mm wide; two optical inputs.
+  listed_as: 105ax
+  check: Date and MDLP support come from minidisc.wiki only.
+  sources:
+  - https://www.minidisc.wiki/equipment/onkyo/deck/md-105ax
+  photo: null
+
+- model: mini deck (model TBC)
+  brand: Denon
+  type: deck
+  records: true
+  released: '9999'
+  year: null
+  mdlp: null
+  netmd: false
+  himd: false
+  market: unknown
+  colour: null
+  qty: 1
+  notes: Model number to be read off the unit.
+  check: Model number not yet known.
+  sources: []
+  photo: null

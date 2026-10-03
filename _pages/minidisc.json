@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: /minidisc.json
+sitemap: false
+---
+{{ site.data.minidisc | jsonify }}

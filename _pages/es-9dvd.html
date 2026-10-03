@@ -1,0 +1,607 @@
+---
+layout: null
+permalink: /es-9dvd/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>ES-9DVD English Guide | 黒潮</title>
+<meta name="description" content="Unofficial abridged English guide to the Kenwood ES-9DVD compact hi-fi (DVD/CD, MiniDisc, tuner).">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16&family=IBM+Plex+Sans+Condensed:wght@600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+html{-webkit-text-size-adjust:100%}
+img{max-width:100%}
+[hidden]{display:none!important}
+/* Layout: sticky index column on the left, one reading column of reference sections on the right; stacks on phones. */
+:root{
+  --bg:#eceff1; --surface:#f8f9fa; --fg:#1a2126; --muted:#56636d; --rule:#cdd4d9;
+  --accent:#0b5f8a; --paper:#ffffff; --lcd-bg:#cddbc9; --lcd-fg:#1b2a20; --warn:#99390f; --warn-bg:#f7e6dc;
+  --body:"IBM Plex Sans",system-ui,"Hiragino Sans","Noto Sans JP",sans-serif;
+  --head:"IBM Plex Sans Condensed","IBM Plex Sans",system-ui,sans-serif;
+  --dot:"DotGothic16","IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#13171a; --surface:#1b2125; --fg:#e2e7eb; --muted:#97a3ac; --rule:#2d363c;
+  --accent:#6fc2ea; --paper:#dde1e4; --lcd-bg:#22302a; --lcd-fg:#b8e3c4; --warn:#f2a577; --warn-bg:#33231b; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#13171a; --surface:#1b2125; --fg:#e2e7eb; --muted:#97a3ac; --rule:#2d363c;
+  --accent:#6fc2ea; --paper:#dde1e4; --lcd-bg:#22302a; --lcd-fg:#b8e3c4; --warn:#f2a577; --warn-bg:#33231b; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 var(--body);padding-inline:16px;padding-block:24px 64px}
+.wrap{max-width:1080px;margin-inline:auto;display:grid;grid-template-columns:220px minmax(0,1fr);gap:40px}
+header.top{grid-column:1/-1;display:flex;flex-direction:column;gap:8px;border-bottom:2px solid var(--fg);padding-bottom:20px}
+.eyebrow{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+h1{font:600 clamp(30px,5vw,44px)/1.05 var(--head);margin:0;text-wrap:balance}
+header.top p{margin:0;max-width:68ch;color:var(--muted)}
+nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 16px);align-self:start;display:flex;flex-direction:column;gap:14px;font-size:14px}
+nav ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+nav a{color:var(--fg);text-decoration:none;display:block;padding:3px 0;border-bottom:1px solid transparent}
+nav a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+label[for="q"]{font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+#q{width:100%;font:inherit;font-size:14px;padding:7px 9px;background:var(--surface);color:var(--fg);border:1px solid var(--rule);border-radius:3px}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+main{display:flex;flex-direction:column;gap:44px;min-width:0}
+section{display:flex;flex-direction:column;gap:12px;scroll-margin-top:16px}
+h2{font:600 24px/1.15 var(--head);margin:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;text-wrap:balance}
+h3{font:600 15px/1.3 var(--body);margin:8px 0 0;color:var(--accent)}
+.pg{font:400 12px var(--body);color:var(--muted);letter-spacing:.04em}
+p,ul,ol{margin:0;max-width:70ch}
+ul,ol.steps{padding-left:20px;display:flex;flex-direction:column;gap:4px}
+kbd{font:500 .84em var(--body);border:1px solid var(--muted);border-radius:3px;padding:0 5px;white-space:nowrap;background:var(--surface)}
+.lcd{font:400 .9em var(--dot);background:var(--lcd-bg);color:var(--lcd-fg);padding:1px 6px;white-space:nowrap}
+.scroll{overflow-x:auto;min-width:0}
+table{border-collapse:collapse;width:100%;font-size:14.5px}
+th,td{text-align:left;vertical-align:top;padding:7px 12px 7px 0;border-bottom:1px solid var(--rule)}
+th{font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:500;border-bottom-color:var(--fg)}
+td:first-child{white-space:nowrap}
+.warn{background:var(--warn-bg);border-left:4px solid var(--warn);padding:14px 16px;display:flex;flex-direction:column;gap:8px}
+.warn strong{color:var(--warn)}
+.tn{font-size:14px;color:var(--muted);border:1px dashed var(--rule);padding:10px 12px;max-width:70ch}
+.tn b{color:var(--fg);font-weight:600}
+.path{font-size:14.5px}
+figure{margin:0;display:flex;flex-direction:column;gap:6px;min-width:0}
+figure img{display:block;max-width:100%;height:auto;background:var(--paper);border:1px solid var(--rule);padding:8px}
+figcaption{font-size:13px;line-height:1.45;color:var(--muted);max-width:70ch}
+.figs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;align-items:start}
+.keyed{display:grid;grid-template-columns:auto minmax(0,1fr);gap:20px;align-items:start}
+ol.legend{margin:0;padding-left:26px;font-size:14px;columns:2;column-gap:28px;max-width:none;display:block}
+ol.legend li{break-inside:avoid;padding-bottom:3px}
+footer{grid-column:2;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);padding-top:16px;max-width:70ch}
+@media (max-width:760px){
+  .wrap{grid-template-columns:minmax(0,1fr);gap:24px}
+  nav{position:static}
+  nav ol{flex-direction:row;flex-wrap:wrap;gap:4px 14px}
+  footer{grid-column:1}
+  .keyed{grid-template-columns:minmax(0,1fr)}
+  ol.legend{columns:1}
+  td:first-child{white-space:normal}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <span class="eyebrow">Kenwood · Compact Hi-Fi Component System · Japan-market model, 2003</span>
+  <h1>ES-9DVD English Guide</h1>
+  <p>An unofficial, abridged English version of the Japanese owner's manual (B60-5366-00). Key names are written as printed on the unit and remote. Diagrams are taken from the manual; page tags point to the original.</p>
+</header>
+
+<nav aria-label="Sections">
+  <div><label for="q">Filter sections</label><input id="q" type="search" placeholder="e.g. LP2, timer, O.T.E." autocomplete="off"></div>
+  <ol>
+    <li><a href="#before">Before you plug it in</a></li>
+    <li><a href="#connect">Connections</a></li>
+    <li><a href="#controls">Keys and display</a></li>
+    <li><a href="#basics">Basic operation</a></li>
+    <li><a href="#menu">The mode menu</a></li>
+    <li><a href="#radio">Radio</a></li>
+    <li><a href="#discs">DVD and CD playback</a></li>
+    <li><a href="#osd">On-screen display and picture</a></li>
+    <li><a href="#surround">V.F.S. surround</a></li>
+    <li><a href="#mdplay">MD playback</a></li>
+    <li><a href="#mdrec">MD recording</a></li>
+    <li><a href="#mdedit">MD editing</a></li>
+    <li><a href="#titles">MD titles</a></li>
+    <li><a href="#timers">Timers</a></li>
+    <li><a href="#setup">DVD set-up menu</a></li>
+    <li><a href="#messages">Messages and faults</a></li>
+    <li><a href="#specs">Specifications</a></li>
+    <li><a href="#omitted">What was left out</a></li>
+  </ol>
+</nav>
+
+<main>
+<p id="none" hidden>No section matches that filter.</p>
+
+<section id="before">
+  <h2>Before you plug it in <span class="pg">pp. 1, 6, 32, 108, 113</span></h2>
+  <div class="warn">
+    <p><strong>AC 100 V, 50/60 Hz only.</strong> The manual states this is a Japan-only model and must not be run on any other voltage (fire and shock risk).</p>
+    <p><strong>DVD: region 2 or ALL, NTSC only.</strong> Video CDs must also be NTSC. A disc in another TV system gives a broken picture.</p>
+  </div>
+  <p class="tn"><b>Not in the manual, for use in Europe:</b> on 230 V mains the unit needs a step-down transformer to 100 V; rated consumption is 70 W, so allow comfortable headroom above that. European DVDs are region 2 but PAL, so they fall outside what the manual supports. The FM tuner covers 76–90 MHz only, so of the European band (87.5–108 MHz) just the lowest 2.5 MHz is reachable.</p>
+  <ul>
+    <li>The disc slot is a slot loader. Insert discs at the centre of the slot with the <b>label side to the right</b>. 8 cm CDs must be centred or they will not be pulled in.</li>
+    <li><figure><img src="/assets/es-9dvd/discin.png" width="300" alt="Disc going into the slot on the right of the front panel"><figcaption>Disc loading (p. 34). The note reads: insert with the label side to the right.</figcaption></figure></li>
+    <li>Do not load transparent discs (the loader detects discs optically), shaped discs, cracked or warped discs, or discs with stuck-on labels or stabiliser rings. Printable CD-R/DVD-R label surfaces can stick and jam.</li>
+    <li>Discs and MDs cannot be inserted or ejected in standby. Do not force them.</li>
+    <li>Memory: the clock is lost the moment the plug is pulled. Presets, volume, tone, timer and display settings survive about one day unplugged.</li>
+    <li>Condensation after a move from cold to warm stops the unit working. Leave it a few hours.</li>
+    <li>Before transporting: remove the disc and MD, press <kbd>MD ▶/II</kbd>, then <kbd>DVD/CD ▶/II</kbd>, wait for the display to change, wait a few seconds more, then power off.</li>
+    <li>Never use lens cleaner discs or contact cleaner spray.</li>
+  </ul>
+  <h3>Microcomputer reset</h3>
+  <p>If keys stop responding, the display shows nonsense, or a disc will not eject (<span class="lcd">LOCKED</span>): unplug the mains lead, hold the power key on the unit, and plug it back in while holding. This returns everything to factory settings, including the parental password.</p>
+</section>
+
+<section id="connect">
+  <h2>Connections <span class="pg">pp. 10–16</span></h2>
+  <p>Make every connection with the mains lead unplugged.</p>
+  <figure><img src="/assets/es-9dvd/speakers.png" width="640" alt="Speaker wiring diagram with the rear panel"><figcaption>Speaker wiring and rear panel (p. 10). On the terminal block the upper rows are surround (サラウンド, blue-line cable) and the lower rows front (フロント, red-line cable), R in the left column and L in the right. 右側 = right speaker, 左側 = left speaker.</figcaption></figure>
+  <div class="scroll"><table>
+    <tr><th>Terminal</th><th>Use</th></tr>
+    <tr><td>Front speakers</td><td>Supplied cables with the red line. Never short + and −.</td></tr>
+    <tr><td>Surround speakers</td><td>Supplied cables with the blue line. They only produce sound while V.F.S. is on.</td></tr>
+    <tr><td>Subwoofer pre-out</td><td>For an active subwoofer (sold separately).</td></tr>
+    <tr><td>FM 75 Ω / AM / GND</td><td>Supplied indoor FM wire and AM loop. Remove the indoor FM wire if you fit an outdoor antenna.</td></tr>
+    <tr><td>Video out</td><td>Composite, supplied cable.</td></tr>
+    <tr><td>S1/S2 video out</td><td>S-video. Set the signal type under <i>S端子モード</i> in the set-up menu.</td></tr>
+    <tr><td>D1/D2 out</td><td>Japanese D-terminal (component, 525i/525p). Do not connect another video output at the same time. Switch with <kbd>PROGRESSIVE/INTERLACE</kbd> on the remote.</td></tr>
+    <tr><td>Digital out (optical)</td><td>DVD/CD source only. MD audio is not output.</td></tr>
+    <tr><td>AUX in / out</td><td>Analogue RCA, for a cassette deck or similar.</td></tr>
+    <tr><td>phones</td><td>Stereo mini jack. Mutes the speakers.</td></tr>
+  </table></div>
+  <div class="figs">
+  <figure><img src="/assets/es-9dvd/antenna.png" width="640" alt="Antenna connections"><figcaption>Antennas (p. 12). Top: assembling the AM loop stand. AM loop leads go to the two AM terminals (黒 black, 白 white); the FM wire to FM 75 Ω. Callout: twist the two conductors into one before connecting to GND.</figcaption></figure>
+  <figure><img src="/assets/es-9dvd/video.png" width="560" alt="Composite video connection"><figcaption>Composite video (p. 13): ビデオ出力 to the TV. S1/S2 and D1/D2 outputs sit above it.</figcaption></figure>
+  <figure><img src="/assets/es-9dvd/dterminal.png" width="560" alt="D-terminal connection"><figcaption>D-terminal (p. 14): D1/D2 出力 to the TV with a D-terminal cable.</figcaption></figure>
+  <figure><img src="/assets/es-9dvd/optical.png" width="560" alt="Optical digital connection"><figcaption>Optical out (p. 15): デジタル出力（光） to an AV receiver. Active for DVD, Video CD, MP3/WMA and audio CD only.</figcaption></figure>
+  <figure><img src="/assets/es-9dvd/aux.png" width="560" alt="AUX analogue connection"><figcaption>AUX (p. 16): 出力 = out, to the deck input; 入力 = in, from the deck output.</figcaption></figure>
+  </div>
+  <ul>
+    <li>Connect the video straight to the TV. Through a VCR, copy protection disturbs the picture.</li>
+    <li>Set <i>TV アスペクト</i> (4:3 or 16:9) to match the TV.</li>
+    <li>The unit downmixes Dolby Digital to two channels. It does <b>not</b> decode DTS: the <span class="lcd">DTS</span> indicator lights but the unit is silent, and the analogue outputs may carry noise. Use the optical output into an external DTS decoder.</li>
+    <li>Optical out to an AV receiver: leave the digital outputs on bitstream. To a digital recorder: set Dolby Digital and MPEG output to PCM.</li>
+  </ul>
+</section>
+
+<section id="controls">
+  <h2>Keys and display <span class="pg">pp. 17–20</span></h2>
+  <h3>Main unit</h3>
+  <div class="keyed">
+  <figure><img src="/assets/es-9dvd/front.png" width="300" alt="Front panel with numbered controls"><figcaption>Front panel (p. 17)</figcaption></figure>
+  <ol class="legend">
+    <li>standby/timer indicator</li><li>Power</li><li>Display</li><li><kbd>MD ⏏</kbd></li><li><kbd>MD ▶/II</kbd></li>
+    <li><kbd>TUNER FM/AM</kbd>, <kbd>AUX</kbd></li><li><kbd>set</kbd> / <kbd>demo</kbd></li><li><kbd>mode</kbd></li><li>MD slot</li><li>Remote sensor</li>
+    <li><kbd>rec</kbd></li><li><kbd>DVD/CD ⏏</kbd></li><li><kbd>DVD/CD ▶/II</kbd></li><li><kbd>STOP ■</kbd> / <kbd>tuning mode</kbd></li><li><kbd>multi control ⏮ ⏭</kbd></li>
+    <li><kbd>V.F.S.</kbd></li><li>volume knob</li><li>Disc slot</li><li>Disc slot light</li><li>phones jack</li>
+  </ol>
+  </div>
+  <p>Almost every setting on the unit uses the same three keys: <kbd>mode</kbd> to open the menu, <kbd>multi control ⏮ ⏭</kbd> to choose, <kbd>set</kbd> to confirm.</p>
+  <h3>Remote</h3>
+  <div class="keyed">
+  <figure><img src="/assets/es-9dvd/remote.png" width="250" alt="Remote control RC-M0309 with numbered keys"><figcaption>Remote RC-M0309 (p. 18)</figcaption></figure>
+  <ol class="legend">
+    <li><kbd>TIMER</kbd></li><li><kbd>SLEEP</kbd></li><li>Number and character keys</li><li><kbd>PROGRESSIVE/INTERLACE</kbd></li><li><kbd>DISPLAY</kbd> / <kbd>CHARAC.</kbd></li>
+    <li><kbd>TOP MENU</kbd> / <kbd>GROUP SEARCH</kbd> / <kbd>JPEG LIST</kbd></li><li><kbd>RETURN</kbd></li><li><kbd>DVD/CD ▶/II</kbd></li><li><kbd>MD ▶/II</kbd></li><li><kbd>REC</kbd></li>
+    <li><kbd>P.CALL ⏮ ⏭</kbd></li><li><kbd>SET UP</kbd></li><li><kbd>A↔B</kbd></li><li><kbd>V.F.S.</kbd></li><li><kbd>BYPASS</kbd></li>
+    <li><kbd>MUTE</kbd></li><li><kbd>POWER</kbd></li><li><kbd>TITLE INPUT</kbd></li><li><kbd>MD EDIT</kbd></li><li><kbd>P.MODE</kbd></li>
+    <li><kbd>CLEAR/DEL.</kbd></li><li><kbd>TIME</kbd> / <kbd>SPACE</kbd></li><li><kbd>SET</kbd></li><li><kbd>MENU</kbd> / <kbd>P.B.C.</kbd> / <kbd>DIRECTORY</kbd></li><li>Cursor keys</li>
+    <li><kbd>ENTER</kbd></li><li><kbd>ON SCREEN</kbd></li><li><kbd>AUX</kbd></li><li><kbd>TUNER/BAND</kbd></li><li><kbd>O.T.E.</kbd></li>
+    <li><kbd>STOP ■</kbd> / <kbd>AUTO/MONO</kbd></li><li><kbd>TUNING ◀◀ ▶▶</kbd></li><li><kbd>RANDOM</kbd></li><li><kbd>REPEAT</kbd></li><li><kbd>TONE</kbd></li>
+    <li><kbd>SOUND</kbd></li><li><kbd>VOLUME ▼ ▲</kbd></li>
+  </ol>
+  </div>
+  <div class="scroll"><table>
+    <tr><th>Key</th><th>Function</th></tr>
+    <tr><td><kbd>P.CALL ⏮ ⏭</kbd></td><td>Skip track / chapter / file; call radio presets; choose items while editing.</td></tr>
+    <tr><td><kbd>TUNING ◀◀ ▶▶</kbd></td><td>Fast search; tune the radio; move the cursor in title entry.</td></tr>
+    <tr><td>Number keys, <kbd>+10</kbd>, <kbd>+100</kbd></td><td>Direct selection. Track 23 is <kbd>+10</kbd> <kbd>+10</kbd> <kbd>3</kbd>; track 40 is <kbd>+10</kbd>×4 then <kbd>0</kbd>.</td></tr>
+    <tr><td><kbd>P.MODE</kbd></td><td>Programme and group play modes (while stopped).</td></tr>
+    <tr><td><kbd>RANDOM</kbd> <kbd>REPEAT</kbd> <kbd>A↔B</kbd></td><td>Play modes.</td></tr>
+    <tr><td><kbd>TIME</kbd> / <kbd>SPACE</kbd></td><td>Cycle the time display; space in title entry.</td></tr>
+    <tr><td><kbd>DISPLAY</kbd> / <kbd>CHARAC.</kbd></td><td>Cycle title, time, clock; character set in title entry.</td></tr>
+    <tr><td><kbd>TOP MENU</kbd> / <kbd>GROUP SEARCH</kbd> / <kbd>JPEG LIST</kbd></td><td>One key, function depends on the source.</td></tr>
+    <tr><td><kbd>MENU</kbd> / <kbd>P.B.C.</kbd> / <kbd>DIRECTORY</kbd></td><td>One key: DVD menu, Video CD playback control, folder browser.</td></tr>
+    <tr><td>Cursor keys, <kbd>ENTER</kbd>, <kbd>RETURN</kbd></td><td>Menus on the TV screen.</td></tr>
+    <tr><td><kbd>ON SCREEN</kbd> <kbd>SET UP</kbd></td><td>On-screen display bars; DVD set-up menu.</td></tr>
+    <tr><td><kbd>MD EDIT</kbd> <kbd>TITLE INPUT</kbd> <kbd>CLEAR/DEL.</kbd> <kbd>SET</kbd></td><td>MD editing and titling.</td></tr>
+    <tr><td><kbd>O.T.E.</kbd> <kbd>REC</kbd></td><td>One-touch disc-to-MD recording; record.</td></tr>
+    <tr><td><kbd>TONE</kbd> <kbd>SOUND</kbd> <kbd>BYPASS</kbd> <kbd>V.F.S.</kbd> <kbd>MUTE</kbd></td><td>Sound controls.</td></tr>
+    <tr><td><kbd>TIMER</kbd> <kbd>SLEEP</kbd></td><td>Timer on/off selection; sleep timer.</td></tr>
+    <tr><td><kbd>STOP ■</kbd> / <kbd>AUTO/MONO</kbd></td><td>Stop; radio auto or manual tuning.</td></tr>
+  </table></div>
+  <p>Remote range is about 6 m, 30° either side. Two AA cells. Leave about a second between key presses.</p>
+  <h3>Display indicators</h3>
+  <div class="keyed">
+  <figure><img src="/assets/es-9dvd/display.png" width="420" alt="Display panel with numbered indicators"><figcaption>Display (p. 20)</figcaption></figure>
+  <ol class="legend">
+    <li>Text area</li><li>Radio: AUTO, ST.</li><li>DTS</li><li>Timer</li><li>A.P.S.</li><li>Progressive</li><li>MD recording: HIGH, O.T.E., DIGITAL, MONO, LP2, LP4</li><li>Play mode: RANDOM, REPEAT, ONE, PGM</li>
+    <li>GROUP</li><li>Sound: EX.BASS, V.F.S., LOUD</li><li>MD loaded</li><li>Disc loaded</li><li>Dolby Digital</li><li>REC</li><li>MP3/WMA and JPEG (folder, note)</li><li>P.B.C.</li>
+  </ol>
+  </div>
+  <p><span class="lcd">AUTO</span> <span class="lcd">ST.</span> radio · <span class="lcd">HIGH</span> <span class="lcd">O.T.E.</span> <span class="lcd">DIGITAL</span> <span class="lcd">MONO</span> <span class="lcd">LP2</span> <span class="lcd">LP4</span> <span class="lcd">REC</span> MD recording · <span class="lcd">RANDOM</span> <span class="lcd">REPEAT</span> <span class="lcd">ONE</span> <span class="lcd">PGM</span> <span class="lcd">GROUP</span> play modes · <span class="lcd">EX.BASS</span> <span class="lcd">LOUD</span> <span class="lcd">V.F.S.</span> sound · <span class="lcd">A.P.S.</span> auto power save · <span class="lcd">P.B.C.</span> Video CD.</p>
+</section>
+
+<section id="basics">
+  <h2>Basic operation <span class="pg">pp. 21–26</span></h2>
+  <ul>
+    <li><b>Power:</b> the power key, or press any source key in standby (<kbd>DVD/CD ▶/II</kbd>, <kbd>MD ▶/II</kbd>, <kbd>TUNER</kbd>, <kbd>AUX</kbd>) and the unit switches on and starts that source.</li>
+    <li><b>Demo display:</b> appears after about 5 seconds idle with disc and MD stopped. Press <kbd>demo</kbd> during the demo to turn it off. It comes back after any power cut.</li>
+    <li><b>Volume:</b> 0–39, then MAX. <kbd>MUTE</kbd> toggles.</li>
+    <li><b>SOUND</b> (remote): cycles <span class="lcd">EX.BASS</span> (bass boost at any volume) → <span class="lcd">LOUDNESS</span> (bass and treble lift for low volume) → off.</li>
+    <li><b>TONE</b> (remote): <kbd>TONE</kbd>, adjust <span class="lcd">BASS</span> with <kbd>⏮ ⏭</kbd>, <kbd>TONE</kbd> again for <span class="lcd">TREBLE</span>, <kbd>TONE</kbd> to finish. Range −8 to +8. Disabled while V.F.S. is on.</li>
+    <li><b>BYPASS</b> (remote): sends the source past the SOUND, TONE and V.F.S. circuits.</li>
+    <li><b>External source:</b> <kbd>AUX</kbd>, then start the other device. Match its level under <span class="lcd">AUX INPUT</span> (−3 to +3); this also changes the MD recording level.</li>
+  </ul>
+  <h3>Setting the clock (unit only)</h3>
+  <ol class="steps">
+    <li><kbd>mode</kbd> → <span class="lcd">TIME ADJUST</span> → <kbd>set</kbd></li>
+    <li><span class="lcd">12 HOUR</span> or <span class="lcd">24 HOUR</span> → <kbd>set</kbd></li>
+    <li>Day of week → <kbd>set</kbd></li>
+    <li>Hour → <kbd>set</kbd>, minute → <kbd>set</kbd></li>
+  </ol>
+  <p>Timers do not work until the clock is set. In standby, <kbd>STOP ■</kbd> shows day and time for 5 seconds. Redo the clock after any power interruption.</p>
+</section>
+
+<section id="menu">
+  <h2>The mode menu <span class="pg">unit only</span></h2>
+  <p>Press <kbd>mode</kbd>, step through with <kbd>multi control ⏮ ⏭</kbd>, confirm with <kbd>set</kbd>. Some items appear only for the relevant source.</p>
+  <div class="scroll"><table>
+    <tr><th>Item</th><th>Options</th><th>Notes</th></tr>
+    <tr><td><span class="lcd">TIME ADJUST</span></td><td>12/24 h, day, time</td><td></td></tr>
+    <tr><td><span class="lcd">BALANCE</span></td><td>L ↔ R</td><td></td></tr>
+    <tr><td><span class="lcd">BACK LIGHT</span></td><td>HIGH / LOW</td><td>Display backlight</td></tr>
+    <tr><td><span class="lcd">CONTRAST</span></td><td>1–10</td><td></td></tr>
+    <tr><td><span class="lcd">SIDE LIGHT</span></td><td>ON / OFF</td><td>Disc slot illumination</td></tr>
+    <tr><td><span class="lcd">AUX INPUT</span></td><td>−3 to +3</td><td>With AUX selected</td></tr>
+    <tr><td><span class="lcd">ケンメイセッテイ</span></td><td>Prefecture list</td><td>Radio auto preset, tuner selected</td></tr>
+    <tr><td><span class="lcd">SURR. LEVEL</span></td><td>−10 to +10</td><td>With V.F.S. on</td></tr>
+    <tr><td><span class="lcd">REC MODE</span></td><td>STEREO* / LP2 / LP4 / MONO</td><td>For LP2/LP4 it then asks LP stamp ON* / OFF</td></tr>
+    <tr><td><span class="lcd">REC INPUT</span></td><td>CD → MD digital* / analog</td><td>CD loaded, source DVD/CD</td></tr>
+    <tr><td><span class="lcd">TRACK MARK</span></td><td>AUTO* / MANUAL</td><td>Analogue recording</td></tr>
+    <tr><td><span class="lcd">REC LEVEL</span></td><td>−∞, −11 to +12</td><td>Analogue recording level</td></tr>
+    <tr><td><span class="lcd">TEXT COPY</span></td><td>ON / OFF*</td><td>Copy CD-TEXT titles to the MD</td></tr>
+    <tr><td><span class="lcd">GROUP MAKE</span></td><td>ON* / OFF</td><td>Each O.T.E. whole-disc recording becomes one MD group</td></tr>
+    <tr><td><span class="lcd">AUTO MARK</span></td><td>5 min* / 10 min</td><td>Track mark interval when recording radio</td></tr>
+    <tr><td><span class="lcd">O.T.E. SPEED</span></td><td>HIGH / NORMAL, then MELODY ON / OFF</td><td>HIGH is 4× and audio CD only</td></tr>
+    <tr><td><span class="lcd">O.T.E. START</span></td><td></td><td>Starts one-touch recording</td></tr>
+    <tr><td><span class="lcd">TIMER SET</span></td><td>PROG.1 / PROG.2</td><td>See Timers</td></tr>
+    <tr><td><span class="lcd">A.P.S.</span></td><td>ON / OFF*</td><td>Standby after about 30 min idle. With tuner or AUX it only acts at volume 0.</td></tr>
+  </table></div>
+  <p class="pg">* factory setting</p>
+</section>
+
+<section id="radio">
+  <h2>Radio <span class="pg">pp. 27–30</span></h2>
+  <ul>
+    <li><b>Tune:</b> select the band with <kbd>TUNER FM/AM</kbd> (remote <kbd>TUNER/BAND</kbd>). <kbd>tuning mode</kbd> on the unit or <kbd>AUTO/MONO</kbd> on the remote switches between auto tuning (<span class="lcd">AUTO</span> lit, stereo, stops at each station) and manual (step by step, FM in mono). Then <kbd>⏮ ⏭</kbd> on the unit or <kbd>◀◀ ▶▶</kbd> on the remote. On the unit, press <kbd>⏮ ⏭</kbd> while <span class="lcd">AUTO</span> or <span class="lcd">MANUAL</span> is still showing.</li>
+    <li><b>Store a preset</b> (remote): tune the station, <kbd>ENTER</kbd>, number 1–40, <kbd>ENTER</kbd>.</li>
+    <li><b>Recall:</b> <kbd>⏮ ⏭</kbd> or the number keys.</li>
+    <li><b>Delete</b> (remote): recall the preset, <kbd>CLEAR/DEL.</kbd>, <kbd>ENTER</kbd>. Later presets move up one. Preset 40 cannot be deleted.</li>
+    <li><b>DISPLAY</b> cycles station name, frequency, clock.</li>
+  </ul>
+  <p class="tn"><b>Japan only:</b> the auto preset (<kbd>mode</kbd> → <span class="lcd">ケンメイセッテイ</span> → pick a prefecture → <kbd>set</kbd>) fills up to 40 presets and labels FM stations from a built-in list of Japanese broadcasters. It overwrites existing presets. Outside Japan use manual presets.</p>
+</section>
+
+<section id="discs">
+  <h2>DVD and CD playback <span class="pg">pp. 31–45, 53</span></h2>
+  <h3>What it plays</h3>
+  <div class="scroll"><table>
+    <tr><th>Plays</th><th>Does not play</th></tr>
+    <tr><td style="white-space:normal">DVD-Video (region 2/ALL, NTSC) · Video CD 1.1 and 2.0 · audio CD · finalised CD-R/RW with audio, MP3, WMA, JPEG or Video CD · finalised DVD-R/RW and DVD+R/RW in video mode</td><td>SACD · DVD-Audio · SVCD · DVD-RAM · DVD-RW in VR mode · unfinalised or packet-written discs · data discs. CDV, CD-G and CD-EXTRA play audio only.</td></tr>
+  </table></div>
+  <ul>
+    <li><b>MP3:</b> 32–320 kbps, 32/44.1/48 kHz. <b>WMA:</b> 48–192 kbps. <b>JPEG:</b> baseline only, up to 7680 × 7680; no progressive JPEG.</li>
+    <li>ISO 9660 level 1 or 2. At most 255 folders and 1743 files. Files need <code>.MP3</code>, <code>.WMA</code>, <code>.JPG</code> extensions. Prefix names with 01, 02… to fix the play order.</li>
+    <li>Tag display is ID3 v1.x, Latin letters and digits only. Copy-protected WMA shows <span class="lcd">PROTECTED</span> and is skipped.</li>
+  </ul>
+  <h3>Transport</h3>
+  <div class="scroll"><table>
+    <tr><th>Action</th><th>Keys</th></tr>
+    <tr><td>Play / pause</td><td><kbd>DVD/CD ▶/II</kbd></td></tr>
+    <tr><td>Stop</td><td><kbd>STOP ■</kbd>. For DVD, Video CD, MP3/WMA and JPEG the first press remembers the position (resume); the second press stops fully.</td></tr>
+    <tr><td>Skip</td><td><kbd>⏮ ⏭</kbd>. One press of <kbd>⏮</kbd> returns to the start of the current item.</td></tr>
+    <tr><td>Fast search</td><td><kbd>◀◀ ▶▶</kbd> during play (remote), five speeds.</td></tr>
+    <tr><td>Slow motion</td><td>Pause, then <kbd>◀◀ ▶▶</kbd>, five speeds, no sound. No reverse slow on Video CD.</td></tr>
+    <tr><td>Direct select</td><td>Number keys. On a DVD: titles while stopped, chapters while playing.</td></tr>
+    <tr><td>Browse folders</td><td><kbd>DIRECTORY</kbd>, cursor <kbd>▲ ▼</kbd>, <kbd>ENTER</kbd>.</td></tr>
+    <tr><td>Time display</td><td><kbd>TIME</kbd> cycles track elapsed, track remaining, disc elapsed, disc remaining.</td></tr>
+    <tr><td>Eject</td><td><kbd>DVD/CD ⏏</kbd> on the unit.</td></tr>
+  </table></div>
+  <h3>Play modes (remote)</h3>
+  <ul>
+    <li><b>Programme</b> (CD, Video CD): <kbd>STOP ■</kbd> → <kbd>P.MODE</kbd> until <span class="lcd">PGM</span> lights → track number → <kbd>SET</kbd> → repeat for up to 32 tracks → <kbd>DVD/CD ▶/II</kbd>. While stopped, <kbd>CLEAR/DEL.</kbd> removes the last entry and <kbd>P.MODE</kbd> clears everything. Eject or power-off also clears it.</li>
+    <li><b>Random:</b> <kbd>RANDOM</kbd> with <span class="lcd">PGM</span> off. <kbd>⏭</kbd> jumps to another track. Stops after one pass.</li>
+    <li><b>Repeat:</b> <kbd>REPEAT</kbd> cycles one (<span class="lcd">REPEAT ONE</span>; chapter on DVD) → all (title on DVD; folder, then whole disc, on MP3/JPEG) → off. Pressed during random play it repeats the random pass.</li>
+    <li><b>A–B repeat:</b> <kbd>A↔B</kbd> at the start point, again at the end point, again to cancel. Not available in programme or random play.</li>
+  </ul>
+  <h3>Menus</h3>
+  <ul>
+    <li><b>DVD:</b> <kbd>TOP MENU</kbd> or <kbd>MENU</kbd>, then cursor keys and <kbd>ENTER</kbd>, or a number key.</li>
+    <li><b>Video CD with playback control:</b> menus run automatically. To use programme, random, repeat or recording, turn it off first: <kbd>STOP ■</kbd> then <kbd>P.B.C.</kbd> (toggles). In menus <kbd>ENTER</kbd> selects, <kbd>RETURN</kbd> goes up a level, <kbd>⏮ ⏭</kbd> change page.</li>
+    <li><b>JPEG:</b> <kbd>JPEG LIST</kbd> shows thumbnails; pick with the cursor and <kbd>ENTER</kbd>. Slides advance every 10 seconds by default; during the show <kbd>◀◀ ▶▶</kbd> step the interval through roughly 5, 2, 1, 0.5 and 0.2 seconds (scale below), and cursor <kbd>◀ ▶</kbd> rotates by 90°. With MP3/WMA on the same disc the picture stays up while the music plays.</li>
+  </ul>
+  <figure><img src="/assets/es-9dvd/slide.png" width="248" alt="Slide interval scale in seconds"><figcaption>Slide interval guide in seconds (p. 38).</figcaption></figure>
+</section>
+
+<section id="osd">
+  <h2>On-screen display and picture <span class="pg">pp. 46–52</span></h2>
+  <p><kbd>ON SCREEN</kbd> shows a bar on the TV. Cursor <kbd>▲ ▼</kbd> switches between the MAIN, SOUND and VISUAL bars, <kbd>◀ ▶</kbd> picks an icon, <kbd>ENTER</kbd> opens its list. Not available while a DVD menu is showing.</p>
+  <div class="figs">
+  <figure><img src="/assets/es-9dvd/osdmain.png" width="600" alt="MAIN on-screen bar with numbered icons"><figcaption>MAIN bar for a DVD (p. 47): 1 title, 2 chapter, 3 time, 4 memory play (Play / Set), 5 repeat, 6 EXIT.</figcaption></figure>
+  <figure><img src="/assets/es-9dvd/osdsub.png" width="340" alt="SOUND bar with the V.F.S. list open"><figcaption>SOUND bar with the V.F.S. list open (p. 46).</figcaption></figure>
+  </div>
+  <div class="scroll"><table>
+    <tr><th>Bar</th><th>Icons</th></tr>
+    <tr><td>MAIN</td><td>Title, chapter (or track, folder, file) · time display, including <i>Time Search</i>: type the time as digits, 12 min 34 s is <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd> · memory play (<i>Set</i> stores a point in a numbered slot, <i>Play</i> jumps to it) · repeat (Off, Chapter/Track, Title/Disc, A–B) · EXIT</td></tr>
+    <tr><td>SOUND</td><td>Audio language or Video CD channel · V.F.S. mode · Cinema Voice (lifts dialogue on Dolby Digital multichannel discs)</td></tr>
+    <tr><td>VISUAL</td><td>Subtitle language · angle · picture adjustment · tag display on/off for MP3/WMA</td></tr>
+  </table></div>
+  <h3>Picture adjustment</h3>
+  <p>Separate settings for <i>Interlace</i> and <i>Progressive</i>. Use the TV's own controls first if it has them.</p>
+  <ul>
+    <li>Presets: Normal, Fine (sharper edges), Soft (less noise), Cinema.</li>
+    <li>User Mode 1 and 2: Contrast, Color, Sharpness (−7 to +7), Brightness (0 to +15). Progressive adds I/P conversion: AUTO (default), Film, Video.</li>
+    <li>Noise Reduction: Mosquito NR (On 2, On 1, Off), Block NR, 3D NR, Dot NR. 3D and Dot cannot both be on. Shared between interlace and progressive, as is GAMMA.</li>
+    <li>If a progressive picture looks wrong on a particular disc, switch to interlace with <kbd>PROGRESSIVE/INTERLACE</kbd>.</li>
+  </ul>
+</section>
+
+<section id="surround">
+  <h2>V.F.S. surround <span class="pg">pp. 54–55</span></h2>
+  <p><kbd>V.F.S.</kbd> cycles the modes. The surround speakers are silent in <span class="lcd">SURROUND OFF</span>.</p>
+  <div class="scroll"><table>
+    <tr><th>Mode</th><th>Meant for</th></tr>
+    <tr><td><span class="lcd">MUSIC</span></td><td>Music discs, CD included. Works with the surround speakers placed anywhere.</td></tr>
+    <tr><td><span class="lcd">CINEMA 1</span></td><td>5.1 DVD soundtracks, surround speakers placed beside the front pair.</td></tr>
+    <tr><td><span class="lcd">CINEMA 2</span></td><td>Older films without a 5.1 track; stronger effect when the speakers cannot be spread apart.</td></tr>
+    <tr><td><span class="lcd">CINEMA 3</span></td><td>Surround speakers set wide apart or behind the listener.</td></tr>
+  </table></div>
+  <div class="figs">
+  <figure><img src="/assets/es-9dvd/vfs1.png" width="280" alt="Speaker placement for CINEMA 1"><figcaption>CINEMA 1: surround speakers (サラウンド) right beside the fronts (フロント).</figcaption></figure>
+  <figure><img src="/assets/es-9dvd/vfs2.png" width="280" alt="Speaker placement for CINEMA 2"><figcaption>CINEMA 2: surround speakers stacked on the fronts.</figcaption></figure>
+  <figure><img src="/assets/es-9dvd/vfs3.png" width="280" alt="Speaker placement for CINEMA 3"><figcaption>CINEMA 3: surround speakers wide apart or behind (p. 54).</figcaption></figure>
+  </div>
+  <p>Surround level: <kbd>mode</kbd> → <span class="lcd">SURR. LEVEL</span> → <kbd>set</kbd> → −10 to +10 → <kbd>set</kbd>. Volume and balance also move the surround channels.</p>
+</section>
+
+<section id="mdplay">
+  <h2>MD playback <span class="pg">pp. 56–64</span></h2>
+  <ul>
+    <li>Insert the MD in the direction of its arrow, shutter edge up. <kbd>MD ▶/II</kbd> plays and pauses, <kbd>STOP ■</kbd> stops, <kbd>⏮ ⏭</kbd> skip, hold <kbd>◀◀ ▶▶</kbd> to search, number keys select (<kbd>+100</kbd> available), <kbd>MD ⏏</kbd> on the unit ejects.</li>
+    <li>MDLP is supported. <span class="lcd">LP2</span>, <span class="lcd">LP4</span> or <span class="lcd">MONO</span> shows the mode of the track playing; nothing lit means standard stereo.</li>
+    <li><kbd>TIME</kbd> cycles: track elapsed, track remaining, disc or group elapsed, total remaining, and recordable time left (marked <span class="lcd">R</span>).</li>
+    <li>An untitled disc shows dots; an empty one shows <span class="lcd">BLANK DISC</span>.</li>
+  </ul>
+  <figure><img src="/assets/es-9dvd/mdin.png" width="300" alt="MD going into the slot on the left of the front panel"><figcaption>MD loading (p. 56): push in the direction of the arrow with the shutter edge uppermost.</figcaption></figure>
+  <h3>Group play (remote, stopped)</h3>
+  <p class="path"><kbd>P.MODE</kbd> until <span class="lcd">GROUP</span> lights → <kbd>GROUP SEARCH</kbd> → cursor <kbd>▲ ▼</kbd> to pick the group → <kbd>ENTER</kbd> → <kbd>MD ▶/II</kbd>. To leave, press <kbd>P.MODE</kbd> twice while stopped.</p>
+  <h3>Programme, random, repeat</h3>
+  <p>Same keys as for CD: programme up to 32 tracks, <kbd>RANDOM</kbd>, <kbd>REPEAT</kbd> (one → all → off). In group mode, random and repeat stay inside the group. Unlike CD, <kbd>STOP ■</kbd> does not cancel repeat on MD.</p>
+</section>
+
+<section id="mdrec">
+  <h2>MD recording <span class="pg">pp. 65–75</span></h2>
+  <div class="scroll"><table>
+    <tr><th>Mode</th><th>On an 80-minute disc</th><th>Plays on non-MDLP machines</th></tr>
+    <tr><td><span class="lcd">STEREO</span></td><td>80 min</td><td>Yes</td></tr>
+    <tr><td><span class="lcd">MONO</span></td><td>160 min</td><td>Yes</td></tr>
+    <tr><td><span class="lcd">LP2</span></td><td>160 min, stereo</td><td>Silent</td></tr>
+    <tr><td><span class="lcd">LP4</span></td><td>320 min, stereo</td><td>Silent</td></tr>
+  </table></div>
+  <ul>
+    <li>Set the mode and other options in the mode menu first (<span class="lcd">REC MODE</span>, <span class="lcd">REC INPUT</span>, <span class="lcd">TRACK MARK</span>, <span class="lcd">REC LEVEL</span>, <span class="lcd">TEXT COPY</span>, <span class="lcd">GROUP MAKE</span>).</li>
+    <li>Only audio CD records digitally. DVD, Video CD, MP3 and WMA always record in analogue at normal speed.</li>
+    <li>SCMS allows one digital generation. If a CD refuses (<span class="lcd">SCMS</span>), set <span class="lcd">REC INPUT</span> to analog.</li>
+    <li>The LP stamp puts <span class="lcd">LP:</span> at the front of LP2/LP4 track titles so non-MDLP players show why the track is silent.</li>
+    <li>Auto track marks: from the CD's own track data in digital; at track changes in analogue; after about 2 seconds of silence from AUX; every 5 or 10 minutes from the radio. In MANUAL, press <kbd>MD EDIT</kbd> during recording to drop a mark.</li>
+    <li>Limits: 255 tracks and 99 groups per disc.</li>
+    <li>Never cut the power while <span class="lcd">WRITING</span> is showing. The recording or edit is lost.</li>
+    <li>The write-protect tab on the MD must be closed to record.</li>
+  </ul>
+  <figure><img src="/assets/es-9dvd/tab.png" width="320" alt="Underside of an MD showing the write-protect tab"><figcaption>Write-protect tab on the underside of the MD (p. 110): 開く open = recording blocked, ふさぐ closed = recordable.</figcaption></figure>
+  <h3>Basic recording (unit)</h3>
+  <ol class="steps">
+    <li>Insert a recordable MD.</li>
+    <li>Ready the source: load a disc and pause it with <kbd>DVD/CD ▶/II</kbd>, or tune a station, or press <kbd>AUX</kbd>.</li>
+    <li><kbd>rec</kbd>: <span class="lcd">REC</span> blinks (record-pause).</li>
+    <li><kbd>rec</kbd> again, then start the source.</li>
+  </ol>
+  <p><kbd>MD ▶/II</kbd> pauses and resumes. <kbd>STOP ■</kbd> stops both MD and disc.</p>
+  <h3>Synchro recording from a point on a CD</h3>
+  <p class="path">Pause the CD where you want to start → <kbd>rec</kbd> → <kbd>DVD/CD ▶/II</kbd>. Both start together and stop at the end of the CD.</p>
+  <h3>O.T.E. one-touch recording</h3>
+  <ol class="steps">
+    <li>Load the MD and the disc. Press <kbd>DVD/CD ▶/II</kbd> then <kbd>STOP ■</kbd>.</li>
+    <li><kbd>mode</kbd> → <span class="lcd">O.T.E. SPEED</span> → <kbd>set</kbd> → <span class="lcd">HIGH</span> (4×, audio CD with digital input only) or <span class="lcd">NORMAL</span> → <kbd>set</kbd> → <span class="lcd">MELODY</span> ON or OFF (chime when finished) → <kbd>set</kbd>.</li>
+    <li><kbd>mode</kbd> → <span class="lcd">O.T.E. START</span> → <kbd>set</kbd>.</li>
+  </ol>
+  <ul>
+    <li><b>Whole disc:</b> start from stop. <b>One track:</b> play that track first, then do step 3; it rewinds to the track start and records it. <b>A programme:</b> build the programme, leave it stopped, then step 3.</li>
+    <li>Shortcut: once the speed is set, the remote's <kbd>O.T.E.</kbd> key does step 3 in one press.</li>
+    <li><b>MP3/WMA folder:</b> with the disc stopped, <kbd>DIRECTORY</kbd>, choose the folder, then <kbd>O.T.E.</kbd>. Only files directly in that folder are recorded; JPEGs are skipped.</li>
+    <li>At 4× the speakers are silent. A track recorded at 4× cannot be recorded at 4× again for 74 minutes (<span class="lcd">Wait</span> with a countdown); record at normal speed instead.</li>
+    <li>DVD audio can only be recorded one track at a time, and some discs refuse.</li>
+  </ul>
+</section>
+
+<section id="mdedit">
+  <h2>MD editing <span class="pg">pp. 76–88</span></h2>
+  <p>Remote only, source set to MD. Leave group, programme and random modes first. The pattern is always:</p>
+  <p class="path"><kbd>MD EDIT</kbd> → <kbd>⏮ ⏭</kbd> to choose <span class="lcd">TRACK</span>, <span class="lcd">GROUP</span> or <span class="lcd">CANCEL</span> → <kbd>SET</kbd> → choose the operation → <kbd>SET</kbd> → choose tracks, <kbd>SET</kbd> after each → <kbd>ENTER</kbd> to execute.</p>
+  <p>The display shows <span class="lcd">EDIT NOW</span> then <span class="lcd">COMPLETE</span>, or <span class="lcd">CAN'T EDIT</span>. Edits are written to the disc when you eject it. Twenty seconds without a key press abandons the edit; <kbd>MD EDIT</kbd> also backs out.</p>
+  <div class="scroll"><table>
+    <tr><th>Operation</th><th>When</th><th>Steps after choosing it</th></tr>
+    <tr><td><span class="lcd">MOVE</span></td><td>Stopped or playing</td><td>Track to move → <kbd>SET</kbd> → destination number → <kbd>SET</kbd> → <kbd>ENTER</kbd>. During play it acts on the current track.</td></tr>
+    <tr><td><span class="lcd">DIVIDE</span></td><td>Playing only</td><td>Press <kbd>MD EDIT</kbd> at the split point → <span class="lcd">DIVIDE</span> → <kbd>SET</kbd> → <kbd>SET</kbd>. About 3 seconds from the point loops; nudge it with <kbd>⏮ ⏭</kbd> (−31 to +31) → <kbd>SET</kbd> → <kbd>ENTER</kbd>.</td></tr>
+    <tr><td><span class="lcd">COMBINE</span></td><td>Playing only</td><td>While one of the two tracks plays: choose the track to join → <kbd>SET</kbd> → <kbd>ENTER</kbd>. Tracks in different recording modes, or NetMD check-outs, cannot be joined.</td></tr>
+    <tr><td><span class="lcd">ERASE</span></td><td>Stopped or playing</td><td>Stopped: choose <span class="lcd">ALL ERASE</span> or a track number → <kbd>SET</kbd> → <kbd>ENTER</kbd>. Playing: erases the current track.</td></tr>
+    <tr><td>Group <span class="lcd">START</span></td><td>Stopped</td><td>First track → <kbd>SET</kbd> → last track → <kbd>SET</kbd> → <kbd>ENTER</kbd>. Tracks must be consecutive and not already in a group.</td></tr>
+    <tr><td>Group <span class="lcd">EDIT</span></td><td>Stopped</td><td>Choose the group → <kbd>SET</kbd> → new first track → <kbd>SET</kbd> → new last track → <kbd>SET</kbd> → <kbd>ENTER</kbd>.</td></tr>
+    <tr><td>Group <span class="lcd">CANCEL</span></td><td>Stopped</td><td>Choose a group or <span class="lcd">CANCEL ALL</span> → <kbd>SET</kbd> → <kbd>ENTER</kbd>. Tracks are kept; only the grouping goes.</td></tr>
+  </table></div>
+  <h3>Undo</h3>
+  <p><kbd>MD EDIT</kbd> → <span class="lcd">CANCEL</span> → <kbd>SET</kbd> → <kbd>ENTER</kbd> restores the disc to how it was when inserted. This is no longer possible once the disc has been ejected or anything new has been recorded.</p>
+  <p>Erasing every track in a group removes the group. A moved or divided track takes the group of its neighbours. Groups made here can display as stray digits in the disc title on players without group support.</p>
+</section>
+
+<section id="titles">
+  <h2>MD titles <span class="pg">pp. 89–92</span></h2>
+  <ol class="steps">
+    <li><kbd>TITLE INPUT</kbd> (not in programme or random mode).</li>
+    <li><kbd>⏮ ⏭</kbd> to choose <span class="lcd">DISC</span> or a track (<span class="lcd">T001</span>…) → <kbd>SET</kbd>.</li>
+    <li>Enter the text, then <kbd>ENTER</kbd> to store it. Repeat from step 2 for more.</li>
+    <li><kbd>TITLE INPUT</kbd> to finish, then eject to write the disc.</li>
+  </ol>
+  <p>For a group title, enter group play mode and select the group first; the list then starts with <span class="lcd">G01</span>.</p>
+  <ul>
+    <li><kbd>CHARAC.</kbd> cycles the character set: letters and symbols, digits and symbols, half-width katakana.</li>
+    <li>Number keys are multi-tap: <kbd>2</kbd> gives A, B, C, a, b, c. <kbd>+10</kbd> and <kbd>+100</kbd> hold the symbols. <kbd>SET</kbd> confirms each character.</li>
+    <li><kbd>◀◀ ▶▶</kbd> move the cursor, <kbd>CLEAR/DEL.</kbd> deletes, <kbd>SPACE</kbd> inserts a space.</li>
+    <li>Limits: 80 characters per track, 1792 per disc (fewer with katakana).</li>
+    <li>Avoid <code>/</code>, <code>-</code> and <code>;</code> in disc titles on grouped discs; group data is stored in the same field.</li>
+  </ul>
+  <figure><img src="/assets/es-9dvd/chars.png" width="680" alt="Character chart for title entry"><figcaption>Character chart (p. 92). Rows are the remote keys; columns are the three sets chosen with CHARAC.: letters, digits, katakana. The last two rows are the symbols on +10 and +100.</figcaption></figure>
+</section>
+
+<section id="timers">
+  <h2>Timers <span class="pg">pp. 93–98</span></h2>
+  <p><b>Sleep</b> (remote): <kbd>SLEEP</kbd> steps 10, 20 … 90 minutes, then off. One press later shows the time left.</p>
+  <h3>PROG.1 and PROG.2 (unit)</h3>
+  <p>Set the clock first. Load the disc or MD the timer will use.</p>
+  <ol class="steps">
+    <li><kbd>mode</kbd> → <span class="lcd">TIMER SET</span> → <kbd>set</kbd> → <span class="lcd">PROG.1</span> or <span class="lcd">PROG.2</span> → <kbd>set</kbd> → <span class="lcd">ON</span> → <kbd>set</kbd>.</li>
+    <li>Days: <span class="lcd">Everyday</span>, a single weekday (then <span class="lcd">ONETIME</span> or <span class="lcd">EVERY WEEK</span>), <span class="lcd">Mon-Friday</span>, <span class="lcd">Tue-Saturday</span>, or <span class="lcd">Sat,Sunday</span>.</li>
+    <li>On time, then off time (hour, then minute).</li>
+    <li>Type: <span class="lcd">PLAY</span>, <span class="lcd">AI PLAY</span> (volume fades up to the set level) or <span class="lcd">REC</span>.</li>
+    <li>Volume. For an unattended recording set it to 0.</li>
+    <li>Source: <span class="lcd">TUNER</span> (then the preset number), <span class="lcd">DVD/CD</span>, <span class="lcd">MD</span>, <span class="lcd">AUX</span>. For <span class="lcd">REC</span> only tuner or AUX, followed by the recording mode.</li>
+    <li>Switch to standby. The standby/timer lamp turns green.</li>
+  </ol>
+  <ul>
+    <li>Keep the two programmes at least a minute apart. Start a radio recording about a minute early to avoid clipping the opening.</li>
+    <li>Remote <kbd>TIMER</kbd> cycles which programmes are armed: 1, 2, both, none. Settings are kept when disarmed.</li>
+    <li>Lamp blinking green means the power was interrupted: reset the clock and re-arm.</li>
+  </ul>
+</section>
+
+<section id="setup">
+  <h2>DVD set-up menu <span class="pg">pp. 99–107</span></h2>
+  <p>Source DVD/CD, stopped. <kbd>SET UP</kbd> → cursor <kbd>▲ ▼</kbd> to MAIN, SOUND or VISUAL → <kbd>ENTER</kbd> → item → <kbd>ENTER</kbd> → value → <kbd>ENTER</kbd>. <kbd>RETURN</kbd> backs out.</p>
+  <p>The menus arrive in Japanese. To switch them to English: <kbd>SET UP</kbd> → VISUAL → <i>プレーヤーメニュー言語</i> (first item) → <i>英語</i>.</p>
+  <div class="scroll"><table>
+    <tr><th>Page</th><th>Item</th><th>Options (default in bold)</th></tr>
+    <tr><td>MAIN</td><td>視聴制限 Parental level</td><td><b>8 no limit</b>, 7–1, 0 block all. Setting a level asks for a 4-digit code. Also <i>暗証番号変更</i> change code, <i>一時解除</i> temporary release.</td></tr>
+    <tr><td>MAIN</td><td>TV アスペクト</td><td><b>4:3</b>, 16:9</td></tr>
+    <tr><td>MAIN</td><td>TV モード</td><td><b>Letterbox</b>, Pan &amp; Scan (for a 4:3 TV)</td></tr>
+    <tr><td>MAIN</td><td>OSD 位置 position</td><td><b>Normal</b> (top), Cinema (lower)</td></tr>
+    <tr><td>MAIN</td><td>オンスクリーンメッセージ</td><td><b>On</b>, Off</td></tr>
+    <tr><td>MAIN</td><td>IPB 表示</td><td>On, <b>Off</b> (shows the MPEG frame type when paused)</td></tr>
+    <tr><td>SOUND</td><td>PCM ダウンサンプリング変換</td><td><b>On</b> (96 kHz output converted to 48 kHz/16 bit), Off</td></tr>
+    <tr><td>SOUND</td><td>Digital out: DOLBY DIGITAL</td><td><b>Bitstream</b>, PCM</td></tr>
+    <tr><td>SOUND</td><td>Digital out: DTS</td><td><b>Bitstream</b>, Off</td></tr>
+    <tr><td>SOUND</td><td>Digital out: MPEG</td><td><b>Bitstream</b>, PCM</td></tr>
+    <tr><td>SOUND</td><td>サーチ音声 search audio</td><td><b>On</b>, Off</td></tr>
+    <tr><td>SOUND</td><td>ダイナミックレンジコントロール</td><td>Wide, <b>Normal</b>, Midnight (Dolby Digital only)</td></tr>
+    <tr><td>VISUAL</td><td>プレーヤーメニュー言語 player menus</td><td>English, French, Spanish, German, Italian, <b>Japanese</b>, Chinese (simplified, traditional)</td></tr>
+    <tr><td>VISUAL</td><td>ディスクメニュー言語 disc menus</td><td>English, <b>Japanese</b>, other by code</td></tr>
+    <tr><td>VISUAL</td><td>音声言語 audio</td><td>Original, English, <b>Japanese</b>, other by code</td></tr>
+    <tr><td>VISUAL</td><td>字幕言語 subtitles</td><td><b>Auto</b> (subtitles only when the audio is not in the chosen language), English, Japanese, other by code</td></tr>
+    <tr><td>VISUAL</td><td>スチルモード still mode</td><td><b>Auto</b>, Frame (sharper, may shimmer), Field (steady, coarser)</td></tr>
+    <tr><td>VISUAL</td><td>S端子モード</td><td><b>Normal</b>, S1, S2</td></tr>
+  </table></div>
+  <p>Language codes for "other": English 6978 · German 6869 · French 7082 · Italian 7384 · Spanish 6983 · Japanese 7465.</p>
+  <p>If the digital output feeds anything that is not a matching decoder, use PCM or Off. Bitstream into the wrong device produces loud noise that can damage speakers.</p>
+</section>
+
+<section id="messages">
+  <h2>Messages and faults <span class="pg">pp. 113–117</span></h2>
+  <div class="scroll"><table>
+    <tr><th>Display</th><th>Meaning and action</th></tr>
+    <tr><td><span class="lcd">BLANK DISC</span></td><td>Nothing recorded on the MD.</td></tr>
+    <tr><td><span class="lcd">NO TRACKS</span></td><td>The MD has a disc title but no tracks.</td></tr>
+    <tr><td><span class="lcd">READING</span></td><td>Reading the disc's table of contents. Takes longer on a brand-new MD or one with many groups.</td></tr>
+    <tr><td><span class="lcd">MD WRITING</span></td><td>Saving recording or edit data. Do not cut the power.</td></tr>
+    <tr><td><span class="lcd">DISC FULL</span></td><td>No space left, or the track limit is reached.</td></tr>
+    <tr><td><span class="lcd">PROTECTED</span></td><td>MD write-protect tab is open, or the track is a NetMD check-out. On a data disc: copy-protected WMA.</td></tr>
+    <tr><td><span class="lcd">CAN'T EDIT</span></td><td>Track too short, programme or random mode active, or a pre-recorded MD.</td></tr>
+    <tr><td><span class="lcd">UTOC ERROR</span></td><td>The MD's index is damaged. Run <span class="lcd">ALL ERASE</span>; if that fails, replace the disc.</td></tr>
+    <tr><td><span class="lcd">SCMS</span></td><td>Source forbids a digital copy. Record in analogue.</td></tr>
+    <tr><td><span class="lcd">Wait</span></td><td>Same track already recorded at 4× within the last 74 minutes.</td></tr>
+    <tr><td><span class="lcd">BUFFER OVER</span></td><td>More than 200 tracks recorded at high speed within 74 minutes.</td></tr>
+    <tr><td><span class="lcd">PGM FULL</span></td><td>Programme already holds 32 tracks.</td></tr>
+    <tr><td><span class="lcd">TEXT FULL</span> / <span class="lcd">TITLE FULL</span></td><td>CD-TEXT too large to show / MD title character limit reached.</td></tr>
+    <tr><td><span class="lcd">NO PLAY</span></td><td>Wrong region code, unreadable disc, or unsupported format.</td></tr>
+    <tr><td><span class="lcd">LOCKED</span></td><td>Disc will not eject. Do the microcomputer reset.</td></tr>
+    <tr><td>Blinking <span class="lcd">?</span></td><td>Asking you to confirm a setting or edit.</td></tr>
+  </table></div>
+  <h3>Common faults</h3>
+  <ul>
+    <li><b>standby/timer lamp blinks red, no sound:</b> the speaker leads are shorted. Power off and reconnect. If it persists, stop using the unit and have it serviced.</li>
+    <li><b>Lamp blinks green, or the clock is frozen and blinking:</b> power was interrupted. Set the clock again.</li>
+    <li><b>No sound:</b> check volume, <kbd>MUTE</kbd>, and whether headphones are plugged in.</li>
+    <li><b>No picture:</b> TV input, cables, and that the disc's TV system matches the TV.</li>
+    <li><b>Prohibition icon on screen:</b> the disc does not allow that operation at that point.</li>
+    <li><b>Forgot the parental code:</b> do the microcomputer reset.</li>
+    <li><b>AUX recording has wrong track numbers:</b> adjust <span class="lcd">AUX INPUT</span>, or set <span class="lcd">TRACK MARK</span> to MANUAL.</li>
+    <li><b>MD quirks that are normal:</b> free time does not grow after erasing short tracks; elapsed plus remaining does not add up exactly; brief dropouts when searching across edited tracks; some edited tracks cannot be combined.</li>
+  </ul>
+</section>
+
+<section id="specs">
+  <h2>Specifications <span class="pg">back cover</span></h2>
+  <div class="scroll"><table>
+    <tr><th>Item</th><th>Value</th></tr>
+    <tr><td>Power supply</td><td>AC 100 V, 50/60 Hz</td></tr>
+    <tr><td>Rated consumption</td><td>70 W; standby 0.14 W or less</td></tr>
+    <tr><td>Amplifier output</td><td>Front 18 W + 18 W, surround 6 W + 6 W (JEITA, 6 Ω)</td></tr>
+    <tr><td>Speaker terminals</td><td>6–16 Ω</td></tr>
+    <tr><td>Subwoofer pre-out</td><td>2 V / 750 Ω</td></tr>
+    <tr><td>AUX</td><td>Out 200 mV / 200 Ω; in 200 mV / 22 kΩ</td></tr>
+    <tr><td>FM tuner</td><td>76–90 MHz, 75 Ω unbalanced</td></tr>
+    <tr><td>AM tuner</td><td>531–1,629 kHz</td></tr>
+    <tr><td>MD</td><td>ATRAC / ATRAC3</td></tr>
+    <tr><td>Video</td><td>NTSC. Composite 1 Vp-p (75 Ω); S-video; component via D-terminal</td></tr>
+    <tr><td>Optical out</td><td>−21 to −15 dBm, 660 nm</td></tr>
+    <tr><td>Main unit (RMD-ES9DVD)</td><td>115 × 210 × 343 mm (W × H × D), 5.7 kg</td></tr>
+    <tr><td>Front speakers (LS-ES9)</td><td>2-way bass reflex, 80 mm woofer, 25 mm tweeter, 6 Ω, 20 W max; 115 × 210 × 245 mm, 1.9 kg each; magnetically shielded</td></tr>
+    <tr><td>Surround speakers</td><td>Full-range, sealed, 6 Ω, magnetically shielded</td></tr>
+  </table></div>
+</section>
+
+<section id="omitted">
+  <h2>What was left out</h2>
+  <ul>
+    <li>The general safety pages (pp. 5–9) beyond the points listed at the top.</li>
+    <li>The prefecture-by-prefecture FM station name list (p. 28) and the full disc language code table (p. 107).</li>
+    <li>The glossary, licence notices and Japanese recording-levy notice (pp. 109–112).</li>
+    <li>Step-by-step key illustrations, the set-up menu screenshots and the timer flow charts; the text here covers the same steps.</li>
+    <li>Warranty terms and the Japanese service network (pp. 118–119).</li>
+  </ul>
+</section>
+</main>
+
+<footer>Translated and condensed from Kenwood manual B60-5366-00 for personal use; diagrams are cropped from the same manual. Key symbols were checked against the front-panel and remote drawings.</footer>
+</div>
+
+<script>
+(function(){
+  var q=document.getElementById('q'),none=document.getElementById('none');
+  var secs=[].slice.call(document.querySelectorAll('main section'));
+  q.addEventListener('input',function(){
+    var t=q.value.trim().toLowerCase(),n=0;
+    secs.forEach(function(s){var hit=!t||s.textContent.toLowerCase().indexOf(t)>-1;s.hidden=!hit;if(hit)n++;});
+    none.hidden=n>0;
+  });
+})();
+</script>
+</body>
+</html>

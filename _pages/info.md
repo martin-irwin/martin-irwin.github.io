@@ -27,6 +27,7 @@ Website up for {{ years }} years.
     <a href="{{ '/portfolio/' | relative_url }}" class="v-link" style="display: table;">> Portfolio</a>
     <a href="{{ '/code/' | relative_url }}" class="v-link" style="display: table; margin-top: 0.5rem;">> Code</a>
     <a href="{{ '/reviews/' | relative_url }}" class="v-link" style="display: table; margin-top: 0.5rem;">> Reviews</a>
+    <a href="{{ '/minidisc/' | relative_url }}" class="v-link" style="display: table; margin-top: 0.5rem;">> MiniDisc</a>
     <a href="{{ '/potd/' | relative_url }}" class="v-link" style="display: table; margin-top: 0.5rem;">> POTD</a>
     <a href="{{ '/search/' | relative_url }}" class="v-link" style="display: table; margin-top: 0.5rem;">> Search</a>
   </div>

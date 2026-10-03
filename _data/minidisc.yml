@@ -7,6 +7,7 @@
 # colour, qty: this collection's unit(s)
 # listed_as: how the unit was first written down, when it differs from the model number
 # check:     anything still to confirm
+# review / guide: site paths to a write-up of this model
 # photo:     path to an image, e.g. /assets/minidisc/mz-r55.jpg
 
 - model: MZ-R50
@@ -714,6 +715,25 @@
   listed_as: DMC-S55-B
   sources:
   - https://www.minidisc.wiki/equipment/kenwood/portable/dmc-s55
+  photo: null
+
+- model: ES-9DVD
+  brand: Kenwood
+  type: system
+  records: true
+  released: '2003'
+  year: 2003
+  mdlp: true
+  netmd: false
+  himd: false
+  market: Japan
+  colour: null
+  qty: 1
+  notes: Compact hi-fi with DVD/CD player, MD recorder and FM/AM tuner; 4× CD-to-MD dubbing; 18 W + 18 W.
+  check: Year is taken from the manual's print code (0306), not a release announcement.
+  guide: /es-9dvd/
+  sources:
+  - https://manuals.jvckenwood.com/download/files/B60-5366-00.pdf
   photo: null
 
 - model: AM-F65

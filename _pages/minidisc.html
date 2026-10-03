@@ -75,7 +75,7 @@ title: MiniDisc
 <p>{{ d.notes }}</p>
 <p class="dim">{% if d.year %}released {{ d.released }} · {% endif %}market: {{ d.market }}{% if d.colour %} · mine: {{ d.colour }}{% endif %}{% if d.qty > 1 %} ({{ d.qty }} units){% endif %}{% if d.listed_as %} · listed as {{ d.listed_as }}{% endif %}</p>
 {% if d.check %}<p class="dim">to confirm: {{ d.check }}</p>{% endif %}
-<p>{% if d.review %}<a href="{{ d.review }}">review</a> {% endif %}{% for s in d.sources %}<a href="{{ s }}" rel="noopener">source {{ forloop.index }}</a> {% endfor %}</p>
+<p>{% if d.review %}<a href="{{ d.review }}">review</a> {% endif %}{% if d.guide %}<a href="{{ d.guide }}">guide</a> {% endif %}{% for s in d.sources %}<a href="{{ s }}" rel="noopener">source {{ forloop.index }}</a> {% endfor %}</p>
 </div>
 </details>
 {% endfor %}

@@ -37,8 +37,9 @@ header:
 <div class="mdc" id="mdc">
 {% assign all = site.data.minidisc %}
 {% assign units = 0 %}
-{% for d in all %}{% assign units = units | plus: d.qty %}{% endfor %}
-<p>{{ all.size }} models, {{ units }} units. Select a row for details.</p>
+{% assign sold = 0 %}
+{% for d in all %}{% if d.status == "sold" %}{% assign sold = sold | plus: 1 %}{% else %}{% assign units = units | plus: d.qty %}{% endif %}{% endfor %}
+<p>{{ all.size }} models: {{ units }} units in the collection, {{ sold }} since sold. Select a row for details.</p>
 
 <div class="mdc-controls" id="mdc-controls" hidden>
   <span class="lbl">type</span>
@@ -52,6 +53,10 @@ header:
   <button type="button" data-k="feat" data-v="mdlp" aria-pressed="false">MDLP</button>
   <button type="button" data-k="feat" data-v="netmd" aria-pressed="false">NetMD</button>
   <button type="button" data-k="feat" data-v="himd" aria-pressed="false">Hi-MD</button>
+  <span class="brk"></span>
+  <span class="lbl">have</span>
+  <button type="button" data-k="own" data-v="owned" aria-pressed="false">owned</button>
+  <button type="button" data-k="own" data-v="sold" aria-pressed="false">sold</button>
   <span class="brk"></span>
   <span class="lbl">order</span>
   <button type="button" data-k="sort" data-v="brand" aria-pressed="true">by brand</button>
@@ -70,12 +75,12 @@ header:
 <h2>{{ b }}</h2>
 {% assign items = all | where: "brand", b | sort: "released" %}
 {% for d in items %}
-<details class="mdc-row" data-type="{{ d.type }}" data-rel="{{ d.released }}" data-rec="{% if d.records %}1{% else %}0{% endif %}" data-mdlp="{% if d.mdlp %}1{% else %}0{% endif %}" data-netmd="{% if d.netmd %}1{% else %}0{% endif %}" data-himd="{% if d.himd %}1{% else %}0{% endif %}">
-<summary><span class="y">{% if d.year %}{{ d.year }}{% else %}----{% endif %}</span><span class="m"><span class="b">{{ d.brand }} </span>{{ d.model }}{% if d.qty > 1 %} ×{{ d.qty }}{% endif %}</span><span class="t">{{ d.type }}{% if d.mdlp %} · MDLP{% endif %}{% if d.netmd %} · NetMD{% endif %}{% if d.himd %} · Hi-MD{% endif %}</span></summary>
+<details class="mdc-row" data-type="{{ d.type }}" data-own="{{ d.status }}" data-rel="{{ d.released }}" data-rec="{% if d.records %}1{% else %}0{% endif %}" data-mdlp="{% if d.mdlp %}1{% else %}0{% endif %}" data-netmd="{% if d.netmd %}1{% else %}0{% endif %}" data-himd="{% if d.himd %}1{% else %}0{% endif %}">
+<summary><span class="y">{% if d.year %}{{ d.year }}{% else %}----{% endif %}</span><span class="m"><span class="b">{{ d.brand }} </span>{{ d.model }}{% if d.qty > 1 %} ×{{ d.qty }}{% endif %}</span><span class="t">{{ d.type }}{% if d.mdlp %} · MDLP{% endif %}{% if d.netmd %} · NetMD{% endif %}{% if d.himd %} · Hi-MD{% endif %}{% if d.status == "sold" %} · sold{% endif %}</span></summary>
 <div class="mdc-detail">
 {% if d.photo %}<img src="{{ d.photo }}" alt="{{ d.brand }} {{ d.model }}">{% endif %}
 <p>{{ d.notes }}</p>
-<p class="dim">{% if d.year %}released {{ d.released }} · {% endif %}market: {{ d.market }}{% if d.colour %} · mine: {{ d.colour }}{% endif %}{% if d.qty > 1 %} ({{ d.qty }} units){% endif %}{% if d.listed_as %} · listed as {{ d.listed_as }}{% endif %}</p>
+<p class="dim">{% if d.year %}released {{ d.released }} · {% endif %}market: {{ d.market }}{% if d.status == "sold" %} · sold{% endif %}{% if d.colour %} · mine: {{ d.colour }}{% endif %}{% if d.qty > 1 %} ({{ d.qty }} units){% endif %}{% if d.listed_as %} · listed as {{ d.listed_as }}{% endif %}</p>
 {% if d.check %}<p class="dim">to confirm: {{ d.check }}</p>{% endif %}
 <p>{% if d.review %}<a href="{{ d.review }}">review</a> {% endif %}{% if d.guide %}<a href="{{ d.guide }}">guide</a> {% endif %}{% for s in d.sources %}<a href="{{ s }}" rel="noopener">source {{ forloop.index }}</a> {% endfor %}</p>
 </div>
@@ -83,6 +88,8 @@ header:
 {% endfor %}
 </section>
 {% endfor %}
+
+<img src="/assets/minidisc/decks.jpg" alt="Sony MDS-JB930 and Yamaha MDX-595 MiniDisc decks">
 
 <h2>Guides</h2>
 <ul>
@@ -104,6 +111,8 @@ header:
   {% endfor %}
 </ul>
 
+<img src="/assets/minidisc/disc.jpg" alt="A 74-minute recordable MiniDisc, Color Collection">
+
 <p class="mdc-count">Data: <a href="/minidisc.json">minidisc.json</a></p>
 </div>
 
@@ -117,12 +126,13 @@ header:
   var rows = Array.prototype.slice.call(root.querySelectorAll('.mdc-row'));
   var sections = Array.prototype.slice.call(root.querySelectorAll('.mdc-brand'));
   var home = rows.map(function (r) { return r.parentNode; });
-  var state = { type: '', feat: {}, sort: 'brand' };
+  var state = { type: '', own: '', feat: {}, sort: 'brand' };
 
   function apply() {
     var text = q.value.trim().toLowerCase(), shown = 0;
     rows.forEach(function (r) {
       var ok = (!state.type || r.dataset.type === state.type) &&
+        (!state.own || r.dataset.own === state.own) &&
         Object.keys(state.feat).every(function (f) { return r.dataset[f] === '1'; }) &&
         (!text || r.textContent.toLowerCase().indexOf(text) > -1);
       r.hidden = !ok;
@@ -151,9 +161,9 @@ header:
     var b = ev.target.closest('button');
     if (!b) return;
     var k = b.dataset.k, v = b.dataset.v;
-    if (k === 'type') {
-      state.type = state.type === v ? '' : v;
-      controls.querySelectorAll('[data-k="type"]').forEach(function (x) { x.setAttribute('aria-pressed', String(x.dataset.v === state.type)); });
+    if (k === 'type' || k === 'own') {
+      state[k] = state[k] === v ? '' : v;
+      controls.querySelectorAll('[data-k="' + k + '"]').forEach(function (x) { x.setAttribute('aria-pressed', String(x.dataset.v === state[k])); });
     } else if (k === 'feat') {
       if (state.feat[v]) delete state.feat[v]; else state.feat[v] = true;
       b.setAttribute('aria-pressed', String(!!state.feat[v]));

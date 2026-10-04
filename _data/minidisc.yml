@@ -4,6 +4,7 @@
 # records:   true if it can record to MD in any way
 # released:  "YYYY-MM" or "YYYY" (used for sorting; "9999" = unknown)
 # mdlp / netmd / himd: true | false | null (null = not confirmed)
+# status:    owned | sold
 # colour, qty: this collection's unit(s)
 # listed_as: how the unit was first written down, when it differs from the model number
 # check:     anything still to confirm
@@ -19,6 +20,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: not stated by sources
   colour: null
   qty: 1
@@ -37,6 +39,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan first, US from early 1999
   colour: null
   qty: 1
@@ -55,6 +58,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: US and Europe (per minidisc.org)
   colour: null
   qty: 1
@@ -75,6 +79,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: not stated by sources
   colour: null
   qty: 1
@@ -95,6 +100,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: not stated by sources
   colour: null
   qty: 1
@@ -114,6 +120,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan and US (MZ-E62 is the European version)
   colour: null
   qty: 1
@@ -132,6 +139,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: not stated by sources
   colour: null
   qty: 1
@@ -151,6 +159,7 @@
   mdlp: true
   netmd: true
   himd: false
+  status: owned
   market: Japan and US at least
   colour: null
   qty: 1
@@ -169,6 +178,7 @@
   mdlp: true
   netmd: true
   himd: false
+  status: owned
   market: Japan and Europe at least
   colour: null
   qty: 1
@@ -188,6 +198,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: not stated by sources
   colour: null
   qty: 1
@@ -207,6 +218,7 @@
   mdlp: true
   netmd: true
   himd: true
+  status: owned
   market: worldwide
   colour: null
   qty: 1
@@ -226,6 +238,7 @@
   mdlp: true
   netmd: true
   himd: false
+  status: owned
   market: probably Japan only
   colour: null
   qty: 1
@@ -245,6 +258,7 @@
   mdlp: true
   netmd: true
   himd: true
+  status: owned
   market: not stated by sources
   colour: null
   qty: 1
@@ -263,6 +277,7 @@
   mdlp: true
   netmd: true
   himd: true
+  status: owned
   market: not stated by sources
   colour: null
   qty: 1
@@ -271,6 +286,107 @@
   sources:
   - https://www.minidisc.wiki/equipment/sony/portable/mz-rh1
   - https://www.minidisc.org/part_Sony_MZ-RH1.html
+  photo: null
+
+- model: MDS-JA3ES
+  brand: Sony
+  type: deck
+  records: true
+  released: '1995'
+  year: 1995
+  mdlp: false
+  netmd: false
+  himd: false
+  status: sold
+  market: worldwide (Japan and North America at least)
+  colour: null
+  qty: 1
+  notes: ES-series deck; ATRAC 3.5, 20-bit; line, optical, coaxial and two mic inputs; 6 s time-machine recording.
+  listed_as: JA-3AS
+  check: Listed as JA-3AS; no model of that name exists, so this is taken to be the MDS-JA3ES. Release month uncertain.
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/deck/mds-ja3es
+  - https://www.minidisc.org/part_Sony_MDS-JA3ES.html
+  photo: null
+
+- model: MZ-N710
+  brand: Sony
+  type: recorder
+  records: true
+  released: 2003-03
+  year: 2003
+  mdlp: true
+  netmd: true
+  himd: false
+  status: sold
+  market: export (UK, Europe, Australia)
+  colour: null
+  qty: 1
+  notes: ATRAC Type-S; NiMH gumstick plus AA sidecar; line/optical and mic in; USB.
+  check: Sources disagree on which regions it was sold in.
+  sources:
+  - https://www.minidisc.wiki/equipment/sony/portable/mz-n710
+  - https://www.minidisc.org/part_Sony_MZ-N710.html
+  photo: null
+
+- model: MD-MT15
+  brand: Sharp
+  type: recorder
+  records: true
+  released: 1999-06
+  year: 1999
+  mdlp: false
+  netmd: false
+  himd: false
+  status: sold
+  market: export (Europe)
+  colour: null
+  qty: 1
+  notes: Runs on AA cells; no remote supplied; mic and optical/line in.
+  check: Regional suffix (H, W, C) not noted.
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-mt15
+  - https://www.minidisc.org/part_Sharp_MD-MT15+MT16+MT20.html
+  photo: null
+
+- model: SD-CX1
+  brand: Sharp
+  type: system
+  records: true
+  released: 2000-11
+  year: 2000
+  mdlp: true
+  netmd: false
+  himd: false
+  status: sold
+  market: Japan; UK as SD-CX1H from 2001
+  colour: null
+  qty: 1
+  notes: Auvi CD/MD/tuner system with a 1-bit digital amp, 20 W + 20 W; two-way speakers; 2× CD-to-MD dubbing.
+  check: Whether this was the Japan SD-CX1 or the UK SD-CX1H is not noted.
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/bookshelf/sd-cx1
+  - https://www.minidisc.org/part_Sharp_SD-CX1.html
+  photo: /assets/minidisc/sd-cx1.jpg
+
+- model: MD-MT190
+  brand: Sharp
+  type: recorder
+  records: true
+  released: 2002-01
+  year: 2002
+  mdlp: true
+  netmd: false
+  himd: false
+  status: sold
+  market: export (Europe, Singapore)
+  colour: null
+  qty: 1
+  notes: NiMH AD-N55BT plus optional AA; mic input; non-LCD remote; no NetMD.
+  check: Regional suffix not noted.
+  sources:
+  - https://www.minidisc.wiki/equipment/sharp/portable/md-mt170
+  - https://www.minidisc.org/part_Sharp_MD-MT170+MT180+MT190+MT200.html
   photo: null
 
 - model: MD-MS100
@@ -282,6 +398,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: silver
   qty: 1
@@ -301,6 +418,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: blue
   qty: 2
@@ -321,6 +439,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: pink
   qty: 1
@@ -340,6 +459,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: blue
   qty: 1
@@ -359,6 +479,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: blue
   qty: 1
@@ -378,6 +499,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: red
   qty: 1
@@ -397,6 +519,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: blue, silver
   qty: 2
@@ -416,6 +539,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: silver
   qty: 1
@@ -435,6 +559,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: export (MD-MT80H in the UK)
   colour: null
   qty: 1
@@ -454,6 +579,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: grey
   qty: 1
@@ -473,6 +599,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: silver
   qty: 1
@@ -491,6 +618,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -509,6 +637,7 @@
   mdlp: true
   netmd: true
   himd: false
+  status: owned
   market: export (Europe); IM-DR80 in Japan
   colour: silver
   qty: 1
@@ -529,6 +658,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -548,6 +678,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: orange
   qty: 1
@@ -568,6 +699,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -585,6 +717,7 @@
   mdlp: true
   netmd: true
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -605,6 +738,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -622,6 +756,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -639,12 +774,31 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
   notes: RP-BP30L lithium-ion; 11.5 mm thick, 55 g.
   sources:
   - https://www.minidisc.wiki/equipment/panasonic/portable/sj-mj99
+  photo: null
+
+- model: SJ-MR100
+  brand: Panasonic
+  type: recorder
+  records: true
+  released: 1999-06
+  year: 1999
+  mdlp: false
+  netmd: false
+  himd: false
+  status: sold
+  market: Japan
+  colour: null
+  qty: 1
+  notes: NiMH gumstick plus AA case; line/optical and mic in; 40 s shock memory; billed as the smallest and lightest MD recorder at launch.
+  sources:
+  - https://www.minidisc.wiki/equipment/panasonic/portable/sj-mr100
   photo: null
 
 - model: DMC-M7R
@@ -656,6 +810,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -674,6 +829,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -691,6 +847,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -708,6 +865,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: black
   qty: 1
@@ -726,6 +884,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -745,6 +904,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Europe only
   colour: null
   qty: 1
@@ -763,6 +923,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: worldwide
   colour: null
   qty: 1
@@ -781,6 +942,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -800,6 +962,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -819,6 +982,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan and US at least (sold as Victor and JVC)
   colour: silver
   qty: 1
@@ -837,6 +1001,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -855,6 +1020,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -873,6 +1039,7 @@
   mdlp: null
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: pink
   qty: 1
@@ -890,6 +1057,7 @@
   mdlp: false
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -910,6 +1078,7 @@
   mdlp: true
   netmd: false
   himd: false
+  status: owned
   market: Japan
   colour: null
   qty: 1
@@ -929,10 +1098,31 @@
   mdlp: null
   netmd: false
   himd: false
+  status: owned
   market: unknown
   colour: null
   qty: 1
   notes: Model number to be read off the unit.
   check: Model number not yet known.
   sources: []
+  photo: null
+
+- model: MDX-595
+  brand: Yamaha
+  type: deck
+  records: true
+  released: 1998-06
+  year: 1998
+  mdlp: false
+  netmd: false
+  himd: false
+  status: sold
+  market: worldwide
+  colour: null
+  qty: 1
+  notes: Natural Sound deck; two optical inputs, one optical output; 20-bit delta-sigma converters; 4 s time-machine recording.
+  check: Year is 1998 on minidisc.wiki, 1999 on Japanese sources.
+  sources:
+  - https://www.minidisc.wiki/equipment/yamaha/deck/mdx-595
+  - https://www.minidisc.org/part_Yamaha_MDX-595+793.html
   photo: null

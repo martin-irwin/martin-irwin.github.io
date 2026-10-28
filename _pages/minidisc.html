@@ -11,15 +11,15 @@ header:
   .mdc-controls { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; margin-bottom: 0.5rem; }
   .mdc-controls .lbl { opacity: 0.55; width: 4.2em; }
   .mdc-controls .brk { flex-basis: 100%; height: 0; }
-  .mdc button, .mdc input { font: inherit; letter-spacing: inherit; color: inherit; background: transparent; border: 1px dotted #000; border-radius: 0; padding: 1px 6px; }
+  .mdc button, .mdc input { font: inherit; letter-spacing: inherit; color: inherit; background: transparent; border: 1px dotted var(--ink, #000); border-radius: 0; padding: 1px 6px; }
   .mdc button { cursor: pointer; }
-  .mdc button[aria-pressed="true"] { background: #000; color: #f2f2f2; border-style: solid; }
+  .mdc button[aria-pressed="true"] { background: var(--ink, #000); color: var(--paper, #f2f2f2); border-style: solid; }
   .mdc input { width: 11em; }
-  .mdc button:focus-visible, .mdc input:focus-visible, .mdc summary:focus-visible { outline: 1px solid #000; outline-offset: 2px; }
+  .mdc button:focus-visible, .mdc input:focus-visible, .mdc summary:focus-visible { outline: 1px solid var(--ink, #000); outline-offset: 2px; }
   .mdc-count { opacity: 0.55; margin: 0.7rem 0 0; }
   .mdc-row summary { display: flex; flex-wrap: wrap; gap: 0 1.2ch; cursor: pointer; list-style: none; padding: 2px 0; }
   .mdc-row summary::-webkit-details-marker { display: none; }
-  .mdc-row summary:hover .m { border-bottom: 1px dotted #000; }
+  .mdc-row summary:hover .m { border-bottom: 1px dotted var(--ink, #000); }
   .mdc-row .y { width: 4ch; flex-shrink: 0; }
   .mdc-row .m { flex: 1 1 14ch; }
   .mdc-row .b { display: none; }

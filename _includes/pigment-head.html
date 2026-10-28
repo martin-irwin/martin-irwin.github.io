@@ -1,0 +1,26 @@
+<script>
+  /* Pigment, after terminus.events: set before the first paint so the page never flashes the default.
+     Each pigment is [accent that reads on a light page, fill, text on the fill]. */
+  (function () {
+    var P = { ultra: ["#1B2CC1", "#1B2CC1", "#FFFFFF"], sage: ["#4F8F63", "#A3D1B3", "#0A1A10"], orange: ["#C2410C", "#F47B30", "#1F0D02"], rose: ["#B23A5B", "#E9B8C4", "#2A0F17"], ochre: ["#8A6400", "#E3B23C", "#231A03"], graphite: ["#1C1C1F", "#1C1C1F", "#FFFFFF"], petrol: ["#0E4F5C", "#0E4F5C", "#FFFFFF"], oxblood: ["#6B1626", "#6B1626", "#FFFFFF"] };
+    window.PIGMENTS = P;
+    var p = null;
+    try { p = localStorage.getItem("k-pigment"); } catch (e) {}
+    if (!P[p]) p = "graphite";
+    var c = P[p], r = document.documentElement;
+    r.dataset.pigment = p;
+    r.style.setProperty("--pigment", c[0]); r.style.setProperty("--n-bg", c[1]); r.style.setProperty("--n-fg", c[2]);
+
+    /* Look: "mono" (the default) or "01". The grotesk is only fetched once someone picks 01. */
+    window.lookFont = function () {
+      if (document.getElementById("look-font")) return;
+      var l = document.createElement("link");
+      l.id = "look-font"; l.rel = "stylesheet";
+      l.href = "https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;700&display=swap";
+      document.head.appendChild(l);
+    };
+    var look = null;
+    try { look = localStorage.getItem("k-look"); } catch (e) {}
+    if (look === "01") { r.dataset.look = "01"; window.lookFont(); }
+  })();
+</script>

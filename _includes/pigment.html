@@ -50,7 +50,7 @@
     }
     function pigment(p) {
       var c = window.PIGMENTS[p];
-      r.dataset.pigment = p;
+      r.dataset.pigment = p; r.dataset.flood = '';
       r.style.setProperty('--pigment', c[0]); r.style.setProperty('--n-bg', c[1]); r.style.setProperty('--n-fg', c[2]);
       try { localStorage.setItem('k-pigment', p); } catch (e) {}
     }

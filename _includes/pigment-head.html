@@ -6,8 +6,10 @@
     window.PIGMENTS = P;
     var p = null;
     try { p = localStorage.getItem("k-pigment"); } catch (e) {}
-    if (!P[p]) p = "graphite";
-    var c = P[p], r = document.documentElement;
+    var r = document.documentElement;
+    /* style 01 only floods once a pigment has been picked; until then it is the original light page */
+    if (P[p]) r.dataset.flood = ""; else p = "graphite";
+    var c = P[p];
     r.dataset.pigment = p;
     r.style.setProperty("--pigment", c[0]); r.style.setProperty("--n-bg", c[1]); r.style.setProperty("--n-fg", c[2]);
 

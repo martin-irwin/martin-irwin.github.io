@@ -47,6 +47,16 @@
     .v-link { margin-top: 2rem; display: inline-block; font-size: 0.8rem; }
     .enjoy { margin-top: 3.4rem; padding-top: 1.4rem; border-top: 1px dotted var(--ink); font-size: 0.75rem; color: #666; }
 
+    /* Style 01 with a picked pigment: the pigment floods the page; accents fall back to the text colour,
+       since the accent would vanish into a fill of the same colour. */
+    html[data-flood]:not([data-look="02"]) { --ink: var(--n-fg); --paper: var(--n-bg); }
+    html[data-flood]:not([data-look="02"]) a { border-bottom-color: currentColor; }
+    html[data-flood]:not([data-look="02"]) a:hover { color: inherit; opacity: 0.7; }
+    html[data-flood]:not([data-look="02"]) .dash,
+    html[data-flood]:not([data-look="02"]) .entry-number { color: inherit; opacity: 0.6; }
+    html[data-flood]:not([data-look="02"]) .enjoy { color: inherit; opacity: 0.7; }
+    html[data-flood]:not([data-look="02"]) ::selection { background: var(--ink); color: var(--paper); }
+
     /* Style "02", after 37signals.com/01: the pigment floods the page, a large grotesk, numbered
        headings with the text hung under the title, and an index of numbers whose titles show on hover. */
     html[data-look="02"] { --ink: var(--n-fg); --paper: var(--n-bg); --gut: 4.4ch; }

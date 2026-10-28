@@ -28,6 +28,10 @@
   .pig [data-p="oxblood"] { background: #6B1626; }
   .pig [data-p="graphite"], .pig [data-p="petrol"], .pig [data-p="oxblood"] { box-shadow: inset 0 0 0 1px rgba(255,255,255,.4); }
   @media (prefers-reduced-motion: reduce) { .pig, .pig-row, .pig-row > span, .pig button { transition: none; } }
+  /* a new pigment or style flows in as a circle from the swatch that was picked, as the day flows in on terminus.events */
+  ::view-transition-old(root), ::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
+  ::view-transition-new(root) { animation: pig-flow 1s cubic-bezier(.2,.7,.2,1); }
+  @keyframes pig-flow { from { clip-path: circle(0 at var(--fx, 100%) var(--fy, 100%)); } to { clip-path: circle(160% at var(--fx, 100%) var(--fy, 100%)); } }
 </style>
 
 <div class="pig">
@@ -58,13 +62,26 @@
       if (s === '02') { window.lookFont(); r.dataset.look = '02'; } else { delete r.dataset.look; }
       try { localStorage.setItem('k-style', s); } catch (e) {}
     }
+    function flow(b, change) {
+      if (!document.startViewTransition || matchMedia('(prefers-reduced-motion: reduce)').matches) { change(); return; }
+      var o = b.getBoundingClientRect();
+      r.style.setProperty('--fx', (o.left + o.width / 2) + 'px'); r.style.setProperty('--fy', (o.top + o.height / 2) + 'px');
+      document.startViewTransition(function () {
+        change();
+        /* give the 02 grotesk a moment to arrive so the new page isn't captured in the fallback font */
+        if (r.dataset.look === '02' && document.fonts) return Promise.race([document.fonts.load('700 1em "Schibsted Grotesk"'), new Promise(function (ok) { setTimeout(ok, 400); })]);
+      });
+    }
     /* a tap on the current choice opens the switcher where there is no hover; a pick closes it */
     box.querySelectorAll('button').forEach(function (b) {
       b.addEventListener('click', function () {
         var was = b.classList.contains('on');
-        if (b.dataset.p) pigment(b.dataset.p); else style(b.dataset.s);
-        mark();
-        box.classList.toggle('open', was && !box.classList.contains('open'));
+        if (was) { box.classList.toggle('open'); return; }
+        flow(b, function () {
+          if (b.dataset.p) pigment(b.dataset.p); else style(b.dataset.s);
+          mark();
+          box.classList.remove('open');
+        });
       });
     });
     document.addEventListener('click', function (e) { if (!e.target.closest('.pig')) box.classList.remove('open'); });

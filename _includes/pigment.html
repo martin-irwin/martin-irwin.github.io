@@ -1,17 +1,23 @@
 <style>
-  /* Pigment switcher: one dot for the current pigment, the full row on hover, focus or a tap. */
-  .pig { font-family: "JetBrains Mono", monospace; position: fixed; right: calc(14px + env(safe-area-inset-right, 0px)); bottom: calc(14px + env(safe-area-inset-bottom, 0px)); z-index: 50; display: flex; gap: 0; align-items: center; background: rgba(0,0,0,.55); padding: 6px; border-radius: 999px; font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: #fff; transition: padding .32s ease, gap .32s ease; }
-  .pig > span { max-width: 0; overflow: hidden; white-space: nowrap; opacity: 0; transition: max-width .32s ease, opacity .25s ease, margin .32s ease; }
-  .pig:hover, .pig:focus-within, .pig.open { gap: 6px; padding: 6px 8px; }
-  .pig:hover > span, .pig:focus-within > span, .pig.open > span { max-width: 80px; opacity: 1; margin: 0 2px 0 4px; }
-  .pig button { position: relative; flex: none; width: 18px; height: 18px; border-radius: 50%; border: 2px solid transparent; cursor: pointer; padding: 0; transition: transform .18s ease, width .32s ease, margin .32s ease, opacity .25s ease; }
+  /* Style and pigment switcher: collapsed it shows only the current style and pigment;
+     hover, focus or a tap opens both rows with their labels. */
+  .pig { font-family: "JetBrains Mono", monospace; position: fixed; right: calc(14px + env(safe-area-inset-right, 0px)); bottom: calc(14px + env(safe-area-inset-bottom, 0px)); z-index: 50; display: flex; flex-direction: column; align-items: flex-end; gap: 6px; background: rgba(0,0,0,.55); padding: 6px; border-radius: 15px; font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: #fff; transition: padding .32s ease; }
+  .pig-row { display: flex; align-items: center; gap: 0; transition: gap .32s ease; }
+  .pig-row > span { max-width: 0; overflow: hidden; white-space: nowrap; opacity: 0; transition: max-width .32s ease, opacity .25s ease, margin .32s ease; }
+  .pig:hover, .pig:focus-within, .pig.open { padding: 6px 8px; }
+  .pig:hover .pig-row, .pig:focus-within .pig-row, .pig.open .pig-row { gap: 6px; }
+  .pig:hover .pig-row > span, .pig:focus-within .pig-row > span, .pig.open .pig-row > span { max-width: 80px; opacity: 1; margin: 0 2px 0 4px; }
+  .pig button { position: relative; flex: none; height: 18px; padding: 0; cursor: pointer; transition: transform .18s ease, width .32s ease, padding .32s ease, opacity .25s ease; }
   .pig button::after { content: ''; position: absolute; inset: -13px -3px; }
-  .pig button[data-p]:not(.on) { width: 0; border-width: 0; opacity: 0; pointer-events: none; }
-  .pig:hover button[data-p], .pig:focus-within button[data-p], .pig.open button[data-p] { width: 18px; border-width: 2px; opacity: 1; pointer-events: auto; }
-  .pig button:hover { transform: scale(1.15); }
-  .pig button.on { border-color: #fff; }
-  .pig .look { flex: none; width: auto; cursor: pointer; height: 18px; padding: 0 6px; margin-right: 2px; border: 1px solid rgba(255,255,255,.5); border-radius: 999px; background: transparent; color: #fff; font: inherit; letter-spacing: inherit; opacity: 1; pointer-events: auto; }
-  .pig .look[aria-pressed="true"] { background: #fff; color: #000; border-color: #fff; }
+  .pig button:not(.on) { width: 0; padding: 0; border-width: 0; opacity: 0; pointer-events: none; }
+  .pig:hover button, .pig:focus-within button, .pig.open button { opacity: 1; pointer-events: auto; }
+  .pig [data-p] { width: 18px; border-radius: 50%; border: 2px solid transparent; }
+  .pig:hover [data-p], .pig:focus-within [data-p], .pig.open [data-p] { width: 18px; border-width: 2px; }
+  .pig [data-p]:hover { transform: scale(1.15); }
+  .pig [data-p].on { border-color: #fff; }
+  .pig [data-s] { width: auto; padding: 0 6px; border: 1px solid rgba(255,255,255,.5); border-radius: 999px; background: transparent; color: #fff; font: inherit; letter-spacing: inherit; }
+  .pig:hover [data-s], .pig:focus-within [data-s], .pig.open [data-s] { width: auto; padding: 0 6px; border-width: 1px; }
+  .pig [data-s].on { background: #fff; color: #000; border-color: #fff; }
   .pig [data-p="ultra"] { background: #1B2CC1; }
   .pig [data-p="sage"] { background: #A3D1B3; }
   .pig [data-p="orange"] { background: #F47B30; }
@@ -21,49 +27,47 @@
   .pig [data-p="petrol"] { background: #0E4F5C; }
   .pig [data-p="oxblood"] { background: #6B1626; }
   .pig [data-p="graphite"], .pig [data-p="petrol"], .pig [data-p="oxblood"] { box-shadow: inset 0 0 0 1px rgba(255,255,255,.4); }
-  @media (prefers-reduced-motion: reduce) { .pig, .pig > span, .pig button { transition: none; } }
+  @media (prefers-reduced-motion: reduce) { .pig, .pig-row, .pig-row > span, .pig button { transition: none; } }
 </style>
 
-<div class="pig"><button class="look" type="button" aria-pressed="false" title="Switch to the 01 look">01</button><span>Pigment</span><button data-p="ultra" aria-label="Ultramarine" title="Ultramarine"></button><button data-p="sage" aria-label="Sage" title="Sage"></button><button data-p="orange" aria-label="Orange" title="Orange"></button><button data-p="rose" aria-label="Rose" title="Rose"></button><button data-p="ochre" aria-label="Ochre" title="Ochre"></button><button data-p="graphite" aria-label="Graphite" title="Graphite"></button><button data-p="petrol" aria-label="Petrol" title="Petrol"></button><button data-p="oxblood" aria-label="Oxblood" title="Oxblood"></button></div>
+<div class="pig">
+  <div class="pig-row"><span>Style</span><button data-s="01" type="button" title="Mono">01</button><button data-s="02" type="button" title="Signal">02</button></div>
+  <div class="pig-row"><span>Pigment</span><button data-p="ultra" aria-label="Ultramarine" title="Ultramarine"></button><button data-p="sage" aria-label="Sage" title="Sage"></button><button data-p="orange" aria-label="Orange" title="Orange"></button><button data-p="rose" aria-label="Rose" title="Rose"></button><button data-p="ochre" aria-label="Ochre" title="Ochre"></button><button data-p="graphite" aria-label="Graphite" title="Graphite"></button><button data-p="petrol" aria-label="Petrol" title="Petrol"></button><button data-p="oxblood" aria-label="Oxblood" title="Oxblood"></button></div>
+</div>
 
 <script>
   (function () {
-    var row = document.querySelector('.pig'), r = document.documentElement;
+    var box = document.querySelector('.pig'), r = document.documentElement;
     function mark() {
-      row.querySelectorAll('button[data-p]').forEach(function (b) {
+      box.querySelectorAll('[data-p]').forEach(function (b) {
         var on = b.dataset.p === r.dataset.pigment;
         b.classList.toggle('on', on); b.setAttribute('aria-pressed', on);
       });
+      box.querySelectorAll('[data-s]').forEach(function (b) {
+        var on = b.dataset.s === (r.dataset.look || '01');
+        b.classList.toggle('on', on); b.setAttribute('aria-pressed', on);
+      });
     }
-    function set(p) {
+    function pigment(p) {
       var c = window.PIGMENTS[p];
       r.dataset.pigment = p;
       r.style.setProperty('--pigment', c[0]); r.style.setProperty('--n-bg', c[1]); r.style.setProperty('--n-fg', c[2]);
       try { localStorage.setItem('k-pigment', p); } catch (e) {}
-      mark();
     }
-    /* a tap on the chosen pigment opens the row where there is no hover; a pick closes it */
-    row.querySelectorAll('button[data-p]').forEach(function (b) {
+    function style(s) {
+      if (s === '02') { window.lookFont(); r.dataset.look = '02'; } else { delete r.dataset.look; }
+      try { localStorage.setItem('k-style', s); } catch (e) {}
+    }
+    /* a tap on the current choice opens the switcher where there is no hover; a pick closes it */
+    box.querySelectorAll('button').forEach(function (b) {
       b.addEventListener('click', function () {
         var was = b.classList.contains('on');
-        set(b.dataset.p);
-        row.classList.toggle('open', was && !row.classList.contains('open'));
+        if (b.dataset.p) pigment(b.dataset.p); else style(b.dataset.s);
+        mark();
+        box.classList.toggle('open', was && !box.classList.contains('open'));
       });
     });
-    var look = row.querySelector('.look');
-    function markLook() {
-      var on = r.dataset.look === '01';
-      look.setAttribute('aria-pressed', on);
-      look.title = on ? 'Back to the mono look' : 'Switch to the 01 look';
-    }
-    look.addEventListener('click', function () {
-      var on = r.dataset.look !== '01';
-      if (on) { window.lookFont(); r.dataset.look = '01'; } else { delete r.dataset.look; }
-      try { localStorage.setItem('k-look', on ? '01' : 'mono'); } catch (e) {}
-      markLook();
-    });
-    markLook();
-    document.addEventListener('click', function (e) { if (!e.target.closest('.pig')) row.classList.remove('open'); });
+    document.addEventListener('click', function (e) { if (!e.target.closest('.pig')) box.classList.remove('open'); });
     mark();
   })();
 </script>

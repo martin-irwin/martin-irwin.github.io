@@ -11,7 +11,7 @@
     r.dataset.pigment = p;
     r.style.setProperty("--pigment", c[0]); r.style.setProperty("--n-bg", c[1]); r.style.setProperty("--n-fg", c[2]);
 
-    /* Look: "mono" (the default) or "01". The grotesk is only fetched once someone picks 01. */
+    /* Style: "01" mono (the default) or "02" after 37signals. The grotesk is only fetched once someone picks 02. */
     window.lookFont = function () {
       if (document.getElementById("look-font")) return;
       var l = document.createElement("link");
@@ -19,8 +19,12 @@
       l.href = "https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;700&display=swap";
       document.head.appendChild(l);
     };
-    var look = null;
-    try { look = localStorage.getItem("k-look"); } catch (e) {}
-    if (look === "01") { r.dataset.look = "01"; window.lookFont(); }
+    var style = null;
+    try {
+      style = localStorage.getItem("k-style");
+      /* before the switcher had two styles, "k-look" = "01" meant today's 02 */
+      if (!style && localStorage.getItem("k-look") === "01") { style = "02"; localStorage.setItem("k-style", "02"); }
+    } catch (e) {}
+    if (style === "02") { r.dataset.look = "02"; window.lookFont(); }
   })();
 </script>

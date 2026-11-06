@@ -102,6 +102,24 @@ header.top { padding-block: 44px 18px; display: grid; gap: 10px; }
 .maps:active { transform: scale(.96); }
 .maps:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .maps svg { width: 20px; height: 20px; flex: none; }
+/* RotatingText (port of React Bits <RotatingText/>) */
+.tonight { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-family: var(--f-display); font-weight: 600; font-size: clamp(1.25rem, 4.8vw, 1.6rem); margin: 0; }
+.rot {
+  display: inline-flex; overflow: hidden; position: relative;
+  padding: 2px 12px 4px; border-radius: 10px; border: 0; cursor: pointer;
+  font: inherit; font-weight: 800; background: var(--accent); color: var(--surface);
+  transition: width .35s cubic-bezier(.2,.7,.2,1);
+  -webkit-tap-highlight-color: transparent;
+}
+.rot:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+.rot .ch { display: inline-block; white-space: pre; }
+.rot .ch.in { animation: chIn .45s cubic-bezier(.2,.9,.3,1.2) backwards; }
+.rot .ch.out { animation: chOut .3s ease-in forwards; }
+@keyframes chIn { from { transform: translateY(110%); } }
+@keyframes chOut { to { transform: translateY(-120%); } }
+.tonight .hint { font-family: var(--f-body); font-weight: 500; font-size: 13px; color: var(--muted); }
+/* ClickSpark (port of React Bits <ClickSpark/>) */
+#sparks { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 20; }
 .eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 h1 {
   font-family: var(--f-display); font-weight: 800; font-size: clamp(2.2rem, 8vw, 3.4rem);
@@ -197,11 +215,13 @@ footer { color: var(--muted); font-size: 13px; padding-block: 0 32px; }
 <style>body{margin:0} [hidden]{display:none!important} img{max-width:100%} :root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
 </head>
 <body>
+<canvas id="sparks" aria-hidden="true"></canvas>
 <div class="hero"><canvas id="aurora" aria-hidden="true"></canvas>
 <header class="wrap top">
   <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Freiruum%2C%20Aabachstrasse%2016%2C%206300%20Zug" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Open Freiruum in Google Maps</a>
   <span class="eyebrow">Freiruum · Aabachstrasse 16, Zug</span>
   <h1 id="title">What can I eat here?</h1>
+  <p class="tonight">Maybe <button class="rot" id="rot" type="button" aria-live="polite" title="Show these stalls">momos</button> <span class="hint">tap it</span></p>
   <ul class="rules" aria-label="Diet rules">
     <li class="no">No milk</li><li class="no">No egg</li><li class="no">No beef</li>
     <li class="yes">Chicken, pork &amp; fish OK</li>
@@ -520,6 +540,75 @@ float I=0.6*h;float a=smoothstep(0.2-uBlend*0.5,0.2+uBlend*0.5,I);vec3 c=I*rc;gl
   function loop(t){ if (!visible || document.hidden) { raf = 0; return; } draw(t); raf = requestAnimationFrame(loop); }
   document.addEventListener("visibilitychange", () => { if (!document.hidden && visible && !raf) raf = requestAnimationFrame(loop); });
   raf = requestAnimationFrame(loop);
+})();
+
+/* RotatingText: cycle real dishes; tapping one filters to its mood */
+(function(){
+  const ROT = [["momos","Asian"],["poké","Bowls & salads"],["pizza","Pizza & pasta"],["mezze","Mezze & Greek"],["curry","Asian"],["tacos","Mexican"],["sushi","Asian"],["dosa","Indian"],["salad","Bowls & salads"]];
+  const el = document.getElementById("rot");
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let i = 0, timer = 0;
+  function set(word, animate){
+    if (!animate || still) { el.textContent = word; return; }
+    const old = [...el.querySelectorAll(".ch")];
+    const w0 = el.offsetWidth;
+    el.textContent = word; const w1 = el.offsetWidth;
+    el.innerHTML = "";
+    el.style.width = w0 + "px";
+    old.forEach((c,k) => { c.className = "ch out"; c.style.animationDelay = (k*18)+"ms"; c.style.position = "absolute"; });
+    const holder = document.createElement("span"); holder.style.cssText = "position:absolute;inset:2px 12px 4px;display:inline-flex";
+    old.forEach(c => { c.style.position = ""; holder.appendChild(c); });
+    el.appendChild(holder);
+    [...word].forEach((ch,k) => { const s = document.createElement("span"); s.className = "ch in"; s.textContent = ch; s.style.animationDelay = (120 + k*28)+"ms"; el.appendChild(s); });
+    requestAnimationFrame(() => { el.style.width = w1 + "px"; });
+    setTimeout(() => { holder.remove(); el.style.width = ""; }, 700 + word.length*28);
+  }
+  el.innerHTML = [...ROT[0][0]].map(c => `<span class="ch">${esc(c)}</span>`).join("");
+  function next(){ i = (i + 1) % ROT.length; set(ROT[i][0], true); }
+  function start(){ clearInterval(timer); timer = setInterval(next, 2400); }
+  start();
+  document.addEventListener("visibilitychange", () => document.hidden ? clearInterval(timer) : start());
+  el.addEventListener("click", () => {
+    const mood = ROT[i][1];
+    state.mood = mood; save();
+    document.querySelectorAll("#moods .chip").forEach(c => c.setAttribute("aria-pressed", c.textContent === mood));
+    document.getElementById("pick").hidden = true;
+    render();
+    document.querySelector(".rail").scrollIntoView({ behavior: still ? "auto" : "smooth" });
+    start();
+  });
+})();
+
+/* ClickSpark: little bursts on taps */
+(function(){
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const cv = document.getElementById("sparks"), ctx = cv.getContext("2d");
+  if (!ctx) return;
+  let sparks = [], raf = 0;
+  function fit(){ const d = Math.min(devicePixelRatio || 1, 2); cv.width = innerWidth*d; cv.height = innerHeight*d; ctx.setTransform(d,0,0,d,0,0); }
+  fit(); addEventListener("resize", fit);
+  function color(){ const st = getComputedStyle(document.documentElement); return [st.getPropertyValue("--au3").trim() || "#F2B544", st.getPropertyValue("--accent").trim() || "#1E5A88"]; }
+  document.addEventListener("pointerdown", e => {
+    if (!e.target.closest(".chip, .surprise, .rot, .maps, .copy")) return;
+    const [a,b] = color(), t = performance.now();
+    for (let k = 0; k < 9; k++) sparks.push({ x:e.clientX, y:e.clientY, ang: k/9*Math.PI*2 + Math.random()*.3, t, c: k%2 ? a : b });
+    if (!raf) raf = requestAnimationFrame(draw);
+  });
+  function draw(now){
+    ctx.clearRect(0,0,innerWidth,innerHeight);
+    sparks = sparks.filter(s => {
+      const p = (now - s.t) / 420; if (p >= 1) return false;
+      const e = 1 - Math.pow(1-p, 3), r = 6 + e*26, len = 9*(1-p);
+      ctx.strokeStyle = s.c; ctx.lineWidth = 2.2; ctx.lineCap = "round"; ctx.globalAlpha = 1 - p;
+      ctx.beginPath();
+      ctx.moveTo(s.x + Math.cos(s.ang)*r, s.y + Math.sin(s.ang)*r);
+      ctx.lineTo(s.x + Math.cos(s.ang)*(r+len), s.y + Math.sin(s.ang)*(r+len));
+      ctx.stroke(); return true;
+    });
+    ctx.globalAlpha = 1;
+    raf = sparks.length ? requestAnimationFrame(draw) : 0;
+    if (!raf) ctx.clearRect(0,0,innerWidth,innerHeight);
+  }
 })();
 </script>
 </body>

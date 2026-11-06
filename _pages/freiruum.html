@@ -1,0 +1,526 @@
+---
+layout: null
+permalink: /freiruum/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="description" content="Freiruum Zug food stalls, filtered for a no-milk, no-egg, no-beef diet.">
+<meta name="robots" content="noindex,nofollow">
+<title>Freiruum Food Picker</title>
+<meta name="theme-color" content="#EDF1EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111715" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one phone-first column — header, sticky filter rail, stall cards like counter tickets, phrasebook at the end */
+:root {
+  --bg: #EDF1EC;
+  --surface: #FBFCF9;
+  --ink: #1B2A25;
+  --muted: #5A6A64;
+  --line: #D2DAD3;
+  --accent: #1E5A88;
+  --accent-soft: #DCE7F1;
+  --safe: #2A7547;
+  --safe-soft: #DDEFE3;
+  --ask: #9C5D08;
+  --ask-soft: #F6E8D2;
+  --skip: #983A3A;
+  --skip-soft: #F3DEDC;
+  --aurora-op: .55;
+  --au1: #4A9BE0; --au2: #6CCF9A; --au3: #F2B544;
+  --f-display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
+  --f-body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111715; --surface: #1A221F; --ink: #E5ECE7; --muted: #98A7A0; --line: #2C3833;
+    --accent: #86B6DE; --accent-soft: #1D2E3C;
+    --safe: #72C595; --safe-soft: #17301F; --ask: #E4A94F; --ask-soft: #33260F; --skip: #E28F8F; --skip-soft: #361C1C;
+    --aurora-op: .9; --au1: #2F7FD0; --au2: #3FB27A; --au3: #E8A23A;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111715; --surface: #1A221F; --ink: #E5ECE7; --muted: #98A7A0; --line: #2C3833;
+  --accent: #86B6DE; --accent-soft: #1D2E3C;
+  --safe: #72C595; --safe-soft: #17301F; --ask: #E4A94F; --ask-soft: #33260F; --skip: #E28F8F; --skip-soft: #361C1C;
+  --aurora-op: .9; --au1: #2F7FD0; --au2: #3FB27A; --au3: #E8A23A;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--f-body); font-size: 16px; line-height: 1.5;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap {
+  max-width: 760px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+/* hero with Aurora (port of React Bits <Aurora/>) */
+.hero { position: relative; isolation: isolate; overflow: hidden; }
+.hero canvas {
+  position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1;
+  opacity: var(--aurora-op);
+  -webkit-mask-image: linear-gradient(to bottom, #000 45%, transparent);
+          mask-image: linear-gradient(to bottom, #000 45%, transparent);
+}
+header.top { padding-block: 44px 18px; display: grid; gap: 10px; }
+/* BlurText (port of React Bits <BlurText/>) */
+.blur-word { display: inline-block; white-space: pre; }
+@media (prefers-reduced-motion: no-preference) {
+  .blur-word { animation: blurIn .7s cubic-bezier(.2,.7,.2,1) backwards; }
+  @keyframes blurIn { from { filter: blur(10px); opacity: .15; transform: translateY(-14px); } }
+}
+/* ShinyText (port of React Bits <ShinyText/>) */
+.shiny {
+  background: linear-gradient(110deg, var(--surface) 40%, color-mix(in srgb, var(--surface) 40%, var(--accent)) 50%, var(--surface) 60%) 0 0 / 250% 100%;
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .shiny { animation: shine 3.2s linear infinite; }
+  @keyframes shine { from { background-position: 100% 0; } to { background-position: -150% 0; } }
+}
+.chip:active, .surprise:active { transform: scale(.96); }
+.chip, .surprise { transition: transform .12s ease, background-color .15s ease; -webkit-tap-highlight-color: transparent; }
+.maps {
+  justify-self: start; display: inline-flex; align-items: center; gap: 8px;
+  font-weight: 700; font-size: 16px; text-decoration: none;
+  padding: 12px 18px; border-radius: 999px;
+  background: var(--ink); color: var(--bg);
+  box-shadow: 0 6px 20px color-mix(in srgb, var(--ink) 25%, transparent);
+  -webkit-tap-highlight-color: transparent; transition: transform .12s ease;
+}
+.maps:active { transform: scale(.96); }
+.maps:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.maps svg { width: 20px; height: 20px; flex: none; }
+.eyebrow { font-family: var(--f-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+h1 {
+  font-family: var(--f-display); font-weight: 800; font-size: clamp(2.2rem, 8vw, 3.4rem);
+  line-height: 1; margin: 0; letter-spacing: -.02em; text-wrap: balance;
+}
+.rules { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 0; padding: 0; list-style: none; }
+.rules li { font-weight: 600; font-size: 14px; padding: 4px 10px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--surface); }
+.rules li.no { color: var(--skip); border-color: color-mix(in srgb, var(--skip) 35%, transparent); }
+.rules li.yes { color: var(--safe); border-color: color-mix(in srgb, var(--safe) 35%, transparent); }
+.meta { color: var(--muted); font-size: 14px; margin: 0; }
+
+/* filter rail */
+.rail {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--line);
+  padding-block: 10px;
+}
+.rail .wrap { display: grid; gap: 8px; }
+.row { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
+.row::-webkit-scrollbar { display: none; }
+.row-label { font-family: var(--f-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); align-self: center; flex: none; width: 54px; }
+.chip {
+  flex: none; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer;
+  padding: 6px 12px; border-radius: 999px; border: 1.5px solid var(--line);
+  background: var(--surface); color: var(--ink);
+}
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.surprise {
+  font: inherit; font-weight: 700; font-size: 15px; cursor: pointer;
+  padding: 9px 16px; border-radius: 12px; border: 0;
+  background: var(--accent); color: var(--surface);
+}
+.toggle { display: inline-flex; gap: 6px; align-items: center; font-size: 14px; color: var(--muted); cursor: pointer; }
+.count { margin-left: auto; font-family: var(--f-mono); font-size: 12px; color: var(--muted); }
+
+/* surprise result */
+.pick {
+  margin-top: 16px; padding: 16px; border-radius: 16px;
+  background: var(--accent-soft); border: 1.5px solid color-mix(in srgb, var(--accent) 40%, transparent);
+  display: grid; gap: 4px;
+}
+.pick .eyebrow { color: var(--accent); }
+.pick strong { font-family: var(--f-display); font-size: 1.4rem; line-height: 1.15; }
+
+/* stall cards */
+main { padding-block: 16px 24px; display: grid; gap: 14px; }
+.stall { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+.stall-head { padding: 14px 16px 12px; display: flex; gap: 12px; align-items: flex-start; justify-content: space-between; }
+.stall-head h2 { font-family: var(--f-display); font-weight: 800; font-size: 1.35rem; margin: 0; line-height: 1.1; }
+.cuisine { font-size: 14px; color: var(--muted); margin: 2px 0 0; }
+.verdict { flex: none; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 4px 9px; border-radius: 999px; }
+.v-safe { color: var(--safe); background: var(--safe-soft); }
+.v-ask { color: var(--ask); background: var(--ask-soft); }
+.v-skip { color: var(--skip); background: var(--skip-soft); }
+.perf { border: 0; border-top: 2px dashed var(--line); margin: 0 16px; }
+.stall-body { padding: 12px 16px 16px; display: grid; gap: 12px; }
+.sec-label { font-family: var(--f-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 4px; }
+.dishes { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.dish { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; }
+.dish-name { font-weight: 600; min-width: 0; }
+.dish-price { font-family: var(--f-mono); font-size: 14px; font-variant-numeric: tabular-nums; color: var(--muted); }
+.dish-note { grid-column: 1 / -1; font-size: 14px; color: var(--muted); }
+.tags { display: inline-flex; gap: 4px; margin-left: 6px; vertical-align: 2px; }
+.tag { font-size: 11px; font-weight: 600; padding: 1px 6px; border-radius: 6px; background: var(--bg); color: var(--muted); }
+.ask-list, .avoid-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.ask-list li { font-size: 15px; }
+.ask-list .de { font-weight: 600; }
+.ask-list .en { display: block; font-size: 13px; color: var(--muted); }
+.avoid-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.avoid-list li { font-size: 13px; padding: 2px 8px; border-radius: 6px; background: var(--skip-soft); color: var(--skip); }
+.src { font-size: 13px; color: var(--muted); margin: 0; }
+.src a { color: var(--accent); }
+.empty { text-align: center; color: var(--muted); padding: 32px 0; }
+
+/* phrasebook */
+.phrases { padding-block: 8px 40px; display: grid; gap: 12px; }
+.phrases h2 { font-family: var(--f-display); font-weight: 800; font-size: 1.6rem; margin: 0; }
+.phrase { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; align-items: center; padding: 12px 14px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); }
+.phrase .de { font-weight: 600; min-width: 0; }
+.phrase .en { grid-column: 1; font-size: 14px; color: var(--muted); }
+.copy { grid-row: 1 / span 2; grid-column: 2; font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; padding: 6px 10px; border-radius: 8px; border: 1.5px solid var(--line); background: var(--bg); color: var(--ink); }
+.note { font-size: 14px; color: var(--muted); max-width: 62ch; }
+footer { color: var(--muted); font-size: 13px; padding-block: 0 32px; }
+@media (prefers-reduced-motion: no-preference) {
+  .pick { animation: pop .25s ease-out; }
+  @keyframes pop { from { transform: scale(.97); } to { transform: scale(1); } }
+}
+</style>
+<style>body{margin:0} [hidden]{display:none!important} img{max-width:100%} :root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+</head>
+<body>
+<div class="hero"><canvas id="aurora" aria-hidden="true"></canvas>
+<header class="wrap top">
+  <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Freiruum%2C%20Aabachstrasse%2016%2C%206300%20Zug" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg>Open Freiruum in Google Maps</a>
+  <span class="eyebrow">Freiruum · Aabachstrasse 16, Zug</span>
+  <h1 id="title">What can I eat here?</h1>
+  <ul class="rules" aria-label="Diet rules">
+    <li class="no">No milk</li><li class="no">No egg</li><li class="no">No beef</li>
+    <li class="yes">Chicken, pork &amp; fish OK</li>
+  </ul>
+  <p class="meta">Food stalls open Saturday 11:30–21:30. Menus checked 6 Nov 2026. No stall publishes allergens, so confirm at the counter.</p>
+</header></div>
+
+<nav class="rail" aria-label="Filters">
+  <div class="wrap">
+    <div class="row" id="moods" role="group" aria-label="Mood"><span class="row-label">Mood</span></div>
+    <div class="row" id="proteins" role="group" aria-label="Protein"><span class="row-label">Protein</span></div>
+    <div class="actions">
+      <button class="surprise" id="surprise" type="button"><span class="shiny">Surprise me</span></button>
+      <label class="toggle"><input type="checkbox" id="showSkip"> Show stalls to skip</label>
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap"><div id="pick" hidden></div></div>
+<main class="wrap" id="list"></main>
+
+<section class="wrap phrases" aria-labelledby="ph">
+  <h2 id="ph">At the counter</h2>
+  <div id="phraseList" style="display:grid;gap:8px"></div>
+  <p class="note">"Laktosefrei" (lactose-free) is not the same as milk-free. Lactose-free products still contain milk protein, so ask about milk itself.</p>
+</section>
+
+<footer class="wrap">Compiled from the stalls' Freiruum pages and their own menus. Where a stall's Freiruum menu isn't online, prices come from its other branches and may differ.</footer>
+
+<script>
+const MOODS = ["All","Bowls & salads","Asian","Pizza & pasta","Mezze & Greek","Indian","Mexican","Burgers & fried","Sweet"];
+const PROTEINS = ["Any","Vegan","Chicken","Pork","Fish"];
+
+const STALLS = [
+  { name:"Lieblingssalat", cuisine:"Salad bowls, baked potatoes", verdict:"safe", moods:["Bowls & salads"],
+    dishes:[
+      {n:"Avobete bowl", p:"17.90", t:["Vegan"], note:"Avocado, cucumber, carrot, chickpeas, beetroot, red cabbage"},
+      {n:"Protein45 bowl", p:"20.90", t:["Vegan"], note:"Planted pulled, mushroom, spinach, chickpeas"},
+      {n:"Cosmo bowl", p:"22.90", t:["Vegan"], note:"Broccoli, courgette, mushroom, Asian-style tofu"},
+      {n:"Mexicano bowl", p:"19.90", t:["Vegan"], note:"Guacamole, kidney beans, corn, jalapeños"}],
+    ask:[["Ist die Knoblauchsauce ohne Ei?","Is the garlic sauce egg-free?"]],
+    avoid:["\"Sour Cream\" sauce"], src:"https://www.just-eat.ch/en/menu/lieblingssalat-salate-reis-quinoa-bowls-ofenkartoffeln-new" },
+
+  { name:"Paia Poké", cuisine:"Build-your-own poké bowls", verdict:"safe", moods:["Bowls & salads","Asian"],
+    dishes:[
+      {n:"Salmon or tuna bowl", p:"", t:["Fish"], note:"Jasmine rice, yuzu ginger or black sesame sauce, avocado, edamame, mango, wakame"},
+      {n:"Tofu or \"carrot salmon\" bowl", p:"", t:["Vegan"], note:"Any base. Vegan sauces: teriyaki, black sesame, sesame wasabi, mango chili, yuzu ginger"}],
+    ask:[["Ist im frittierten Tofu Ei oder Milch?","Is there egg or milk in the fried tofu?"]],
+    avoid:["Spicy mayo","Pulled beef"], src:"https://www.paiapoke.ch/_files/ugd/9c681f_5733df96e15c43c083442e536339ac07.pdf" },
+
+  { name:"Tenz", cuisine:"Tibetan momos & salads", verdict:"safe", moods:["Asian"],
+    dishes:[
+      {n:"Classic Vegan momos", p:"", t:["Vegan"], note:"Mushroom & chickpea. Dough is just flour and water"},
+      {n:"Classic Chicken momos", p:"", t:["Chicken"], note:"Swiss chicken"},
+      {n:"Kangra or Son Labu salad", p:"", t:["Vegan"], note:"Cucumber & peanut, or pickled radish"},
+      {n:"Thenthuk Vegan soup", p:"", t:["Vegan"]}],
+    ask:[["Ist in der Poulet-Füllung Ei oder Milch?","Is there egg or milk in the chicken filling?"],
+         ["Welche Saucen sind ohne Joghurt und Mayo?","Which sauces have no yoghurt or mayo?"]],
+    avoid:["Fleisch (beef)","Vegi (paneer)","Spinat-Ricotta","Shapaley","Tsepaley"], src:"https://www.tenz.ch/products/food/momo/" },
+
+  { name:"Woody Pizza", cuisine:"Wood-fired pizza", verdict:"safe", moods:["Pizza & pasta"],
+    dishes:[
+      {n:"Vegana", p:"19.50", t:["Vegan"], note:"No cheese. Courgette, aubergine, peppers, mushrooms. Add ham if you like"},
+      {n:"Prosciutto & Funghi, senza mozzarella", p:"21.50", t:["Pork"]},
+      {n:"Tonno, senza mozzarella", p:"21.00", t:["Fish"], note:"Tuna, onion"}],
+    ask:[["Ist der Teig ohne Milch und Butter?","Is the dough made without milk and butter?"],
+         ["Ist die Salami nur Schwein?","Is the salami pork only? (for the Diavola)"]],
+    avoid:["Quattro Formaggi","Della Settimana","Margherita"], src:"https://www.woodypizza.ch/angebot-freiruum/" },
+
+  { name:"Lekkeray", cuisine:"Middle Eastern mezze", verdict:"ask", moods:["Mezze & Greek"],
+    dishes:[
+      {n:"Vegan mezze plate", p:"18.00", t:["Vegan"], note:"Pick hummus, baba ganoush, muhammara, grilled veg, vine leaves"},
+      {n:"Pulled chicken mezze plate", p:"23.00", t:["Chicken"]},
+      {n:"Kmäsch pita, falafel or chicken", p:"13–15.50", t:["Vegan","Chicken"], note:"Choose a non-dairy paste"}],
+    ask:[["Ist Ei in den Falafeln?","Is there egg in the falafel?"],
+         ["Ist das Poulet in Joghurt mariniert?","Is the chicken marinated in yoghurt?"],
+         ["Ist das Pita ohne Milch und Ei?","Is the pita made without milk and egg?"]],
+    avoid:["Feta","Labneh","Tzatziki","Tartines","Cakes"], src:"https://eatery.lekkeray.ch/wp-content/uploads/2022/05/Lekkeray_Eatery_Menue.pdf", srcNote:"Prices from their 2022 Eatery menu" },
+
+  { name:"Chao Naa", cuisine:"Thai", verdict:"ask", moods:["Asian"],
+    dishes:[
+      {n:"Coconut curry with rice", p:"", t:["Chicken","Vegan"], note:"Curries rotate. Chicken or vegetable"},
+      {n:"Pad Thai, ohne Ei", p:"", t:["Chicken","Vegan"], note:"Only if they can make it without egg"}],
+    ask:[["Ist das Curry nur mit Kokosmilch, ohne Rahm oder Butter?","Is the curry coconut milk only, no cream or butter?"],
+         ["Pad Thai bitte ohne Ei.","Pad Thai without egg, please."]],
+    avoid:["Egg garnish","Battered toppings"], src:"https://www.freiruum.ch/food-staende/chao-naa" },
+
+  { name:"Nana T Nana", cuisine:"Ramen & noodle soups", verdict:"ask", moods:["Asian"],
+    dishes:[
+      {n:"Sakura Ramen", p:"", t:["Fish"], note:"Coconut curry soup, soba, Asian veg, tiger prawns"},
+      {n:"Build your own", p:"", t:["Chicken","Fish","Vegan"], note:"Udon or soba, chicken / prawn / tofu, miso or coconut curry broth, no egg"}],
+    ask:[["Sind die Soba-Nudeln ohne Ei?","Are the soba noodles egg-free?"],
+         ["Ist Butter oder Milch in der Brühe?","Is there butter or milk in the broth?"]],
+    avoid:["Kakashi (beef broth, egg)","Ramen noodles","Poached egg","House broth"], src:"https://eatnana.ch/ramen-bar" },
+
+  { name:"Nana T Sushi", cuisine:"Sushi", verdict:"ask", moods:["Asian"],
+    dishes:[
+      {n:"Salmon or tuna nigiri & sashimi", p:"", t:["Fish"]},
+      {n:"Cucumber or avocado maki", p:"", t:["Vegan"]},
+      {n:"Vegan daily plate", p:"", t:["Vegan"]}],
+    ask:[["Ist Mayo oder Frischkäse auf den Rollen?","Is there mayo or cream cheese on the rolls?"]],
+    avoid:["Philadelphia rolls","Tamago","Tempura / crunchy","Spicy mayo","Milk bubble tea"], src:"https://www.freiruum.ch/food-staende/nana-sushi-bar" },
+
+  { name:"2 Amici", cuisine:"Italian pasta", verdict:"ask", moods:["Pizza & pasta"],
+    dishes:[
+      {n:"mr. napoli", p:"19.00", t:["Vegan"], note:"Campanelle, slow-cooked tomato sugo, basil. No parmesan"},
+      {n:"mrs. diavola", p:"21.00", t:["Vegan"], note:"Mezzi rigatoni, spicy tomato sauce. No parmesan"}],
+    ask:[["Ohne Parmesan, bitte. Ist Butter in der Sauce?","No parmesan, please. Is there butter in the sauce?"],
+         ["Ist die Pasta ohne Ei?","Is the pasta egg-free?"]],
+    avoid:["Carbonara","#pestolove","Sexy tartufo","Ragù bolognese","Tiramisù"], src:"https://www.dueamici.ch/menus" },
+
+  { name:"Taste of Mykonos", cuisine:"Greek", verdict:"ask", moods:["Mezze & Greek"],
+    dishes:[
+      {n:"Chicken gyros pita, ohne Tzatziki", p:"~15.50", t:["Chicken"]},
+      {n:"Pork cutlet pita, ohne Tzatziki", p:"~15.50", t:["Pork"]},
+      {n:"Dolmadakia", p:"~17.00", t:["Vegan"], note:"Stuffed vine leaves"},
+      {n:"Melitzanosalata", p:"~12.00", t:["Vegan"], note:"Smoked aubergine dip"}],
+    ask:[["Ist das Fleisch in Joghurt mariniert?","Is the meat marinated in yoghurt?"],
+         ["Ist das Pita mit Butter bestrichen?","Is the pita brushed with butter?"]],
+    avoid:["Tzatziki","Feta","Moussaka","Bifteki","Halloumi"], src:"https://www.freiruum.ch/food-staende/taste-of-mykonos", srcNote:"Prices from their other branches" },
+
+  { name:"Golden India", cuisine:"South Indian & street food", verdict:"ask", moods:["Indian"],
+    dishes:[
+      {n:"Idli with sambar", p:"", t:["Vegan"], note:"Steamed rice-lentil cakes, lentil stew"},
+      {n:"Pani puri or bhel puri", p:"", t:["Vegan"]},
+      {n:"Dosa, cooked with oil", p:"", t:["Vegan"]}],
+    ask:[["Ist Ghee im Sambar oder Dal?","Is there ghee in the sambar or dal?"],
+         ["Dosa bitte mit Öl, ohne Ghee.","Dosa with oil, no ghee, please."]],
+    avoid:["Paneer","Naan","Raita","Papdi chaat (yoghurt)"], src:"https://www.freiruum.ch/food-staende/golden-india", srcNote:"Menu changes weekly" },
+
+  { name:"Taco Factory", cuisine:"Mexican", verdict:"ask", moods:["Mexican"],
+    dishes:[
+      {n:"Pulled pork taco", p:"", t:["Pork"], note:"Corn tortilla, no sour cream, no cheese"},
+      {n:"Vegan taco or burrito", p:"", t:["Vegan"]}],
+    ask:[["Ist die Salsa Verde ohne Rahm oder Mayo?","Is the salsa verde free of cream and mayo?"],
+         ["Ist irgendwo Rindfleisch drin?","Is there beef in any of the fillings?"]],
+    avoid:["Sour cream","Cheese","Quesadillas"], src:"https://www.freiruum.ch/food-staende/tacofactory" },
+
+  { name:"Chicken Club", cuisine:"Fried chicken", verdict:"skip", moods:["Burgers & fried"],
+    dishes:[{n:"Plain fries only", p:"", t:["Vegan"], note:"The chicken is marinated and double-breaded, almost certainly with milk or egg"}],
+    ask:[], avoid:["Chicken","Coleslaw","Herb-butter corn","Caesar salad"], src:"https://www.freiruum.ch/food-staende/chicken-club" },
+
+  { name:"Kolins Kitchen", cuisine:"Burgers", verdict:"skip", moods:["Burgers & fried"],
+    dishes:[{n:"Vegan Lover, only if the bun is egg- and milk-free", p:"", t:["Vegan"], note:"House buns are brioche"}],
+    ask:[["Ist das Brot ohne Ei und Milch?","Is the bun made without egg and milk?"]],
+    avoid:["Kolins Classic (beef)","Sauce Andaluz"], src:"https://www.freiruum.ch/food-staende/kolins-kitchen" },
+
+  { name:"Les Maurice", cuisine:"Crêpes", verdict:"skip", moods:["Sweet"],
+    dishes:[{n:"Nothing safe", p:"", t:[], note:"Crêpe batter uses milk and egg; fillings are mostly chocolate or cheese"}],
+    ask:[["Haben Sie einen veganen Teig?","Do you have a vegan batter?"]],
+    avoid:["All crêpes","Ice cream"], src:"https://www.freiruum.ch/food-staende/les-maurice" }
+];
+
+const PHRASES = [
+  ["Ist da Milch, Butter, Rahm, Käse oder Ei drin?","Is there milk, butter, cream, cheese or egg in it?"],
+  ["Ohne Käse / ohne Ei / ohne Joghurt, bitte.","Without cheese / egg / yoghurt, please."],
+  ["Ist das Fleisch in Joghurt mariniert?","Is the meat marinated in yoghurt?"],
+  ["Ist das Brot / der Teig ohne Milch und Ei?","Is the bread / dough made without milk and egg?"],
+  ["Ist da Rindfleisch drin?","Is there beef in it?"]
+];
+
+const state = { mood:"All", protein:"Any", showSkip:false };
+try { const s = JSON.parse(localStorage.getItem("fr-filters")||"{}"); Object.assign(state, s); } catch(e) {}
+function save(){ try { localStorage.setItem("fr-filters", JSON.stringify(state)); } catch(e) {} }
+
+const VLABEL = { safe:"Safe", ask:"Ask first", skip:"Skip" };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function chips(id, list, key){
+  const el = document.getElementById(id);
+  list.forEach(v => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.textContent = v;
+    b.setAttribute("aria-pressed", state[key] === v);
+    b.addEventListener("click", () => {
+      state[key] = v; save();
+      el.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", c.textContent === v));
+      document.getElementById("pick").hidden = true;
+      render();
+    });
+    el.appendChild(b);
+  });
+}
+
+function matches(st){
+  if (!state.showSkip && st.verdict === "skip") return false;
+  if (state.mood !== "All" && !st.moods.includes(state.mood)) return false;
+  return true;
+}
+function dishOk(d){ return state.protein === "Any" || d.t.includes(state.protein); }
+
+function render(){
+  const list = document.getElementById("list");
+  const order = { safe:0, ask:1, skip:2 };
+  const shown = STALLS.filter(matches)
+    .map(st => ({ st, dishes: st.dishes.filter(dishOk) }))
+    .filter(x => x.dishes.length)
+    .sort((a,b) => order[a.st.verdict] - order[b.st.verdict]);
+  document.getElementById("count").textContent = shown.length + (shown.length === 1 ? " stall" : " stalls");
+  if (!shown.length) {
+    list.innerHTML = '<p class="empty">Nothing matches that combination. Try another mood or protein.</p>';
+    return;
+  }
+  list.innerHTML = shown.map(({st, dishes}) => `
+    <article class="stall">
+      <div class="stall-head">
+        <div><h2>${esc(st.name)}</h2><p class="cuisine">${esc(st.cuisine)}</p></div>
+        <span class="verdict v-${st.verdict}">${VLABEL[st.verdict]}</span>
+      </div>
+      <hr class="perf">
+      <div class="stall-body">
+        <div>
+          <p class="sec-label">${st.verdict === "skip" ? "Only option" : "Order"}</p>
+          <ul class="dishes">${dishes.map(d => `
+            <li class="dish">
+              <span class="dish-name">${esc(d.n)}${d.t.length ? `<span class="tags">${d.t.map(t=>`<span class="tag">${t}</span>`).join("")}</span>` : ""}</span>
+              <span class="dish-price">${d.p ? "CHF " + esc(d.p) : ""}</span>
+              ${d.note ? `<span class="dish-note">${esc(d.note)}</span>` : ""}
+            </li>`).join("")}</ul>
+        </div>
+        ${st.ask.length ? `<div><p class="sec-label">Ask</p><ul class="ask-list">${st.ask.map(([de,en]) => `<li><span class="de">${esc(de)}</span><span class="en">${esc(en)}</span></li>`).join("")}</ul></div>` : ""}
+        ${st.avoid.length ? `<div><p class="sec-label">Avoid</p><ul class="avoid-list">${st.avoid.map(a => `<li>${esc(a)}</li>`).join("")}</ul></div>` : ""}
+        <p class="src"><a href="${esc(st.src)}" target="_blank" rel="noopener">Menu source</a>${st.srcNote ? " · " + esc(st.srcNote) : ""}</p>
+      </div>
+    </article>`).join("");
+}
+
+document.getElementById("surprise").addEventListener("click", () => {
+  const pool = [];
+  STALLS.filter(st => st.verdict !== "skip" && (state.mood === "All" || st.moods.includes(state.mood)))
+    .forEach(st => st.dishes.filter(dishOk).forEach(d => pool.push({ st, d })));
+  const box = document.getElementById("pick");
+  box.hidden = false;
+  if (!pool.length) { box.className = "pick"; box.innerHTML = '<span class="eyebrow">Surprise me</span><span>No safe dish matches these filters.</span>'; return; }
+  const { st, d } = pool[Math.floor(Math.random() * pool.length)];
+  box.className = "pick";
+  box.innerHTML = `<span class="eyebrow">Tonight: ${esc(st.name)} · ${VLABEL[st.verdict]}</span>
+    <strong>${esc(d.n)}</strong>
+    ${d.note ? `<span>${esc(d.note)}</span>` : ""}
+    ${st.ask[0] ? `<span class="meta">Ask: ${esc(st.ask[0][0])} (${esc(st.ask[0][1])})</span>` : ""}`;
+});
+
+const skipBox = document.getElementById("showSkip");
+skipBox.checked = state.showSkip;
+skipBox.addEventListener("change", () => { state.showSkip = skipBox.checked; save(); render(); });
+
+document.getElementById("phraseList").innerHTML = PHRASES.map(([de,en],i) => `
+  <div class="phrase"><span class="de" id="ph${i}">${esc(de)}</span><span class="en">${esc(en)}</span>
+  <button class="copy" type="button" data-i="${i}">Copy</button></div>`).join("");
+document.getElementById("phraseList").addEventListener("click", async e => {
+  const b = e.target.closest(".copy"); if (!b) return;
+  const el = document.getElementById("ph" + b.dataset.i);
+  try { await navigator.clipboard.writeText(el.textContent); b.textContent = "Copied"; }
+  catch(err) { const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = "Selected"; }
+  setTimeout(() => b.textContent = "Copy", 1500);
+});
+
+chips("moods", MOODS, "mood");
+chips("proteins", PROTEINS, "protein");
+render();
+
+/* BlurText: split title into words with staggered delays */
+(function(){
+  const h = document.getElementById("title");
+  const words = h.textContent.split(" ");
+  h.setAttribute("aria-label", h.textContent);
+  h.innerHTML = words.map((w,i) => `<span class="blur-word" aria-hidden="true" style="animation-delay:${i*110}ms">${esc(w)}${i < words.length-1 ? " " : ""}</span>`).join("");
+})();
+
+/* Aurora: WebGL port of React Bits <Aurora/> (MIT + Commons Clause, reactbits.dev) */
+(function(){
+  const cv = document.getElementById("aurora");
+  const gl = cv.getContext("webgl", { premultipliedAlpha: true, alpha: true, antialias: false });
+  if (!gl) { cv.hidden = true; return; }
+  const vs = "attribute vec2 p;void main(){gl_Position=vec4(p,0.,1.);}";
+  const fs = `precision highp float;
+uniform float uTime;uniform float uAmp;uniform float uBlend;uniform vec2 uRes;uniform vec3 uC0;uniform vec3 uC1;uniform vec3 uC2;
+vec3 permute(vec3 x){return mod(((x*34.0)+1.0)*x,289.0);}
+float snoise(vec2 v){const vec4 C=vec4(0.211324865405187,0.366025403784439,-0.577350269189626,0.024390243902439);
+vec2 i=floor(v+dot(v,C.yy));vec2 x0=v-i+dot(i,C.xx);vec2 i1=(x0.x>x0.y)?vec2(1.0,0.0):vec2(0.0,1.0);
+vec4 x12=x0.xyxy+C.xxzz;x12.xy-=i1;i=mod(i,289.0);
+vec3 p=permute(permute(i.y+vec3(0.0,i1.y,1.0))+i.x+vec3(0.0,i1.x,1.0));
+vec3 m=max(0.5-vec3(dot(x0,x0),dot(x12.xy,x12.xy),dot(x12.zw,x12.zw)),0.0);m=m*m;m=m*m;
+vec3 x=2.0*fract(p*C.www)-1.0;vec3 h=abs(x)-0.5;vec3 ox=floor(x+0.5);vec3 a0=x-ox;
+m*=1.79284291400159-0.85373472095314*(a0*a0+h*h);
+vec3 g;g.x=a0.x*x0.x+h.x*x0.y;g.yz=a0.yz*x12.xz+h.yz*x12.yw;return 130.0*dot(m,g);}
+vec3 ramp(float f){return f<0.5?mix(uC0,uC1,f*2.0):mix(uC1,uC2,(f-0.5)*2.0);}
+void main(){vec2 uv=gl_FragCoord.xy/uRes;vec3 rc=ramp(uv.x);
+float h=snoise(vec2(uv.x*2.0+uTime*0.1,uTime*0.25))*0.5*uAmp;h=exp(h);h=(uv.y*2.0-h+0.2);
+float I=0.6*h;float a=smoothstep(0.2-uBlend*0.5,0.2+uBlend*0.5,I);vec3 c=I*rc;gl_FragColor=vec4(c*a,a);}`;
+  function sh(t,src){const s=gl.createShader(t);gl.shaderSource(s,src);gl.compileShader(s);return s;}
+  const pr = gl.createProgram();
+  gl.attachShader(pr, sh(gl.VERTEX_SHADER, vs)); gl.attachShader(pr, sh(gl.FRAGMENT_SHADER, fs));
+  gl.linkProgram(pr);
+  if (!gl.getProgramParameter(pr, gl.LINK_STATUS)) { cv.hidden = true; return; }
+  gl.useProgram(pr);
+  const b = gl.createBuffer(); gl.bindBuffer(gl.ARRAY_BUFFER, b);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1,3,-1,-1,3]), gl.STATIC_DRAW);
+  const loc = gl.getAttribLocation(pr, "p"); gl.enableVertexAttribArray(loc); gl.vertexAttribPointer(loc, 2, gl.FLOAT, false, 0, 0);
+  gl.enable(gl.BLEND); gl.blendFunc(gl.ONE, gl.ONE_MINUS_SRC_ALPHA); gl.clearColor(0,0,0,0);
+  const U = n => gl.getUniformLocation(pr, n);
+  const uT=U("uTime"), uR=U("uRes"), cs=[U("uC0"),U("uC1"),U("uC2")];
+  gl.uniform1f(U("uAmp"), 1.0); gl.uniform1f(U("uBlend"), 0.55);
+  function hex(h){h=h.trim().replace("#","");return [0,2,4].map(i=>parseInt(h.slice(i,i+2),16)/255);}
+  function colors(){const st=getComputedStyle(document.documentElement);["--au1","--au2","--au3"].forEach((v,i)=>{try{gl.uniform3fv(cs[i],hex(st.getPropertyValue(v)));}catch(e){}});}
+  function size(){const d=Math.min(window.devicePixelRatio||1,1.5);const w=Math.max(1,Math.round(cv.clientWidth*d)),h=Math.max(1,Math.round(cv.clientHeight*d));if(cv.width!==w||cv.height!==h){cv.width=w;cv.height=h;}gl.viewport(0,0,w,h);gl.uniform2f(uR,w,h);}
+  function draw(t){size();gl.clear(gl.COLOR_BUFFER_BIT);gl.uniform1f(uT,t*0.001*0.6);gl.drawArrays(gl.TRIANGLES,0,3);}
+  colors();
+  const mq = matchMedia("(prefers-color-scheme: dark)"); try { mq.addEventListener("change", ()=>{colors();draw(performance.now());}); } catch(e) {}
+  new MutationObserver(()=>{colors();draw(performance.now());}).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (still) { draw(4000); addEventListener("resize", ()=>draw(4000)); return; }
+  let visible = true, raf = 0;
+  new IntersectionObserver(es => { visible = es[0].isIntersecting; if (visible && !raf) loop(performance.now()); }).observe(cv);
+  function loop(t){ if (!visible || document.hidden) { raf = 0; return; } draw(t); raf = requestAnimationFrame(loop); }
+  document.addEventListener("visibilitychange", () => { if (!document.hidden && visible && !raf) raf = requestAnimationFrame(loop); });
+  raf = requestAnimationFrame(loop);
+})();
+</script>
+</body>
+</html>
